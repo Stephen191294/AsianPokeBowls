@@ -1,0 +1,156 @@
+@import "./variables";
+
+.sect1-home {
+  //box-shadow: 0 0 1px 0 $black100;
+  .sect1-img {
+    position: relative;
+    width: 100%;
+    height: 810px;
+    img {
+      width: 100%;
+    }
+  }
+  .sect1-box-container {
+    position: absolute;
+    top: 240px;
+    //left: 132px;
+    border: none;
+    border-radius: 4px;
+    z-index: 1;
+    .box {
+      background-color: $white100;
+      padding: 48px 36px;
+      width: 442px;
+      height: 413px;
+
+      .sect1-btn-container {
+        margin-top: 80px;
+      }
+    }
+    h1 {
+      font-family: $catamaran;
+      font-weight: 400;
+      font-size: 48px;
+      width: 370px;
+      line-height: 68px;
+      color: $black100;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    button {
+      background-color: $orange100;
+      color: $white100;
+      width: 219px;
+      height: 52px;
+      padding: 12px, 64px;
+      border-radius: 26px;
+      border: none;
+    }
+  }
+  .sect1-text-container {
+    margin-top: 72px;
+    text-align: center;
+    h2 {
+      font-family: $catamaran;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 68px;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+
+.sect2-home {
+  height: 683px;
+  padding-top: 48px;
+  background-color: $lightgrey200;
+  .sect2-header {
+    text-align: center;
+    font-family: $catamaran;
+  }
+  .container {
+    .box {
+      .image-container {
+        width: 219px;
+        height: 219px;
+        img {
+          width: 100%;
+        }
+      }
+      button {
+        background-color: $orange200;
+        color: $orange100;
+        width: 94px;
+        height: 36px;
+        border-radius: 18px;
+        border: none;
+      }
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+    }
+  }
+  .sect2-btn-container {
+    text-align: center;
+    button {
+      width: 219px;
+      height: 52px;
+      margin-top: 48px;
+      border-radius: 26px;
+      border: 1px solid $black100;
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+
+.sect3-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 48px 132px;
+  height: 616px;
+  width: 100%;
+  
+  h5 {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 68px;
+    color: $black100;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .icon{
+    margin-top: 114px;
+  }
+
+  .name {
+    width: 182px;
+    height: 36px;
+    margin-top: 20px;
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: $black100;
+  }
+}

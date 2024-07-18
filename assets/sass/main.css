@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+.navbar {
+  height: 80px;
+}
+.navbar a {
+  font-family: "Nunito Sans", sans-serif;
+  color: #424955;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.navbar .logo-container {
+  display: flex;
+  flex-direction: row;
+}
+.navbar .logo-container p {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+.navbar .btn {
+  font-family: "Nunito Sans", sans-serif;
+  color: #171A1f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 125px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  top: 18px;
+}
+.navbar .btn1 {
+  background-color: #171A1f;
+  color: #FFFFFF;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 126px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  top: 18px;
+  left: 1182px;
+}
+
+.sect1-home .sect1-img {
+  position: relative;
+  width: 100%;
+  height: 810px;
+}
+.sect1-home .sect1-img img {
+  width: 100%;
+}
+.sect1-home .sect1-box-container {
+  position: absolute;
+  top: 240px;
+  border: none;
+  border-radius: 4px;
+  z-index: 1;
+}
+.sect1-home .sect1-box-container .box {
+  background-color: #FFFFFF;
+  padding: 48px 36px;
+  width: 442px;
+  height: 413px;
+}
+.sect1-home .sect1-box-container .box .sect1-btn-container {
+  margin-top: 80px;
+}
+.sect1-home .sect1-box-container h1 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  width: 370px;
+  line-height: 68px;
+  color: #171A1f;
+}
+.sect1-home .sect1-box-container p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sect1-home .sect1-box-container button {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 219px;
+  height: 52px;
+  padding: 12px, 64px;
+  border-radius: 26px;
+  border: none;
+}
+.sect1-home .sect1-text-container {
+  margin-top: 72px;
+  text-align: center;
+}
+.sect1-home .sect1-text-container h2 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+}
+.sect1-home .sect1-text-container p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.sect2-home {
+  height: 683px;
+  padding-top: 48px;
+  background-color: #FAFAFB;
+}
+.sect2-home .sect2-header {
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+}
+.sect2-home .container .box .image-container {
+  width: 219px;
+  height: 219px;
+}
+.sect2-home .container .box .image-container img {
+  width: 100%;
+}
+.sect2-home .container .box button {
+  background-color: #FFF3F0;
+  color: #F96540;
+  width: 94px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+}
+.sect2-home .container .box p {
+  width: 235px;
+  height: 60px;
+  font-size: 12px;
+}
+.sect2-home .sect2-btn-container {
+  text-align: center;
+}
+.sect2-home .sect2-btn-container button {
+  width: 219px;
+  height: 52px;
+  margin-top: 48px;
+  border-radius: 26px;
+  border: 1px solid #171A1f;
+  color: #171A1f;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.sect3-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 48px 132px;
+  height: 616px;
+  width: 100%;
+}
+.sect3-home h5 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+  color: #171A1f;
+}
+.sect3-home p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.sect3-home .icon {
+  margin-top: 114px;
+}
+.sect3-home .name {
+  width: 182px;
+  height: 36px;
+  margin-top: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #171A1f;
+}/*# sourceMappingURL=main.css.map */

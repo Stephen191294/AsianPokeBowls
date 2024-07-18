@@ -1,0 +1,52 @@
+@import "./variables";
+
+.navbar {
+  height: 80px;
+  //padding-left: 139px;
+  //padding-right: 132px;
+  a {
+    font-family: $nunito;
+    color: $grey100;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+
+    p {
+      font-family: $catamaran;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 28px;
+      margin-top: 20px;
+    }
+  }
+  .btn {
+    font-family: $nunito;
+    color: $black100;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 125px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    top: 18px;
+  }
+  .btn1 {
+    background-color: $black100;
+    color: $white100;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 126px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    top: 18px;
+    left: 1182px;
+  }
+}
