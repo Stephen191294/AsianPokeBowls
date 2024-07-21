@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 .navbar {
   height: 80px;
 }
@@ -50,6 +52,10 @@
   border: none;
   top: 18px;
   left: 1182px;
+}
+
+body {
+  margin-bottom: 300px;
 }
 
 .sect1-home .sect1-img {
@@ -125,12 +131,20 @@
   text-align: center;
   font-family: "Catamaran", sans-serif;
 }
+.sect2-home .container .box {
+  background-color: #FFFFFF;
+  padding: 10px;
+  border: 1px solid black;
+  width: 267px;
+  border-radius: 8px;
+}
 .sect2-home .container .box .image-container {
   width: 219px;
   height: 219px;
 }
 .sect2-home .container .box .image-container img {
   width: 100%;
+  margin-left: 10px;
 }
 .sect2-home .container .box button {
   background-color: #FFF3F0;
@@ -144,6 +158,13 @@
   width: 235px;
   height: 60px;
   font-size: 12px;
+}
+.sect2-home .container .box h4 {
+  white-space: nowrap;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
 }
 .sect2-home .sect2-btn-container {
   text-align: center;
@@ -165,9 +186,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 48px 132px;
-  height: 616px;
-  width: 100%;
+  margin-top: 72px;
+  padding-top: 48px;
+  margin-right: 132px;
+  margin-left: 132px;
 }
 .sect3-home h5 {
   font-family: "Catamaran", sans-serif;
@@ -201,4 +223,65 @@
 }
 .sect3-home .img-container img {
   width: 100%;
+}
+
+.sect4-home {
+  width: 100%;
+}
+.sect4-home .container {
+  position: relative;
+  width: 100%;
+  height: 314px;
+}
+.sect4-home .container .box {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #171A1f;
+  border-radius: 8px;
+  padding: 48px 70px 48px 70px;
+  overflow: hidden;
+}
+.sect4-home .container .box h6 {
+  color: #FFFFFF;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+}
+.sect4-home .container .box p {
+  color: #FFFFFF;
+}
+.sect4-home .container .box button {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 244px;
+  height: 52px;
+  border-radius: 26px;
+  border: none;
+}
+.sect4-home .container .box .img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 334px;
+  height: 334px;
+  border-radius: 167px;
+}
+.sect4-home .container .box .img-container .img-1 {
+  margin-right: 20px;
+  margin-top: 70px;
+  width: 100%;
+}
+.sect4-home .container .box .img-container .img-2 {
+  width: 174px;
+  height: 174px;
+}
+
+@media (max-width: 576px) {
+  .sect3-home {
+    margin-top: 1100px;
+  }
 }/*# sourceMappingURL=main.css.map */

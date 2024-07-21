@@ -1,5 +1,8 @@
 @import "./variables";
 
+body{
+  margin-bottom: 300px;
+}
 .sect1-home {
   //box-shadow: 0 0 1px 0 $black100;
   .sect1-img {
@@ -79,11 +82,18 @@
   }
   .container {
     .box {
+      background-color: $white100;
+      padding: 10px;
+      border: 1px solid black;
+      width: 267px;
+      border-radius: 8px;
+      //height: 292px;
       .image-container {
         width: 219px;
         height: 219px;
         img {
           width: 100%;
+          margin-left: 10px;
         }
       }
       button {
@@ -98,6 +108,13 @@
         width: 235px;
         height: 60px;
         font-size: 12px;
+      }
+      h4{
+        white-space: nowrap;
+        font-family: $catamaran;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 28px;
       }
     }
   }
@@ -122,9 +139,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 48px 132px;
-  height: 616px;
-  width: 100%;
+  margin-top: 72px;
+  padding-top: 48px;
+  margin-right: 132px;
+  margin-left: 132px;
+  //height: 616px;
+  //width: 1440px;
   
   h5 {
     font-family: $catamaran;
@@ -159,6 +179,65 @@
     img{
       width: 100%;
       
+    }
+  }
+}
+
+.sect4-home{
+  width: 100%;
+  .container{
+    position: relative;
+    width: 100%;
+    height: 314px;
+    .box{
+      margin-top: 72px;
+     // margin-left: 132px;
+     // margin-right: 132px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+      width: 100%;
+      background-color: $black100;
+      border-radius: 8px;
+      padding: 48px 70px 48px 70px;
+      overflow: hidden;
+      h6{
+        color: $white100;
+        font-family: $catamaran;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 68px;
+      }
+      p{
+        color: $white100;
+      }
+      button{
+        background-color: $orange100;
+        color: $white100;
+        width: 244px;
+        height: 52px;
+        border-radius: 26px;
+        border: none;
+      }
+      .img-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 334px;
+        height: 334px;
+        border-radius: 167px;
+        .img-1{
+          margin-right: 20px;
+          margin-top: 70px;
+          width: 100%;
+          
+        }
+        .img-2{
+          width: 174px;
+          height: 174px;
+          
+        }
+      }
     }
   }
 }
