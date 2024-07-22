@@ -1,6 +1,5 @@
 @import "./variables";
 
-
 .sect1-home {
   //box-shadow: 0 0 1px 0 $black100;
   .sect1-img {
@@ -82,7 +81,6 @@
     .box {
       background-color: $white100;
       padding: 10px;
-      border: 1px solid black;
       width: 267px;
       border-radius: 8px;
       //height: 292px;
@@ -225,8 +223,8 @@
         height: 334px;
         border-radius: 167px;
         .img-1 {
-         height: 334px;
-         width: 334px;
+          height: 334px;
+          width: 334px;
           margin-top: 70px;
           right: 500px;
           width: 100%;
@@ -236,15 +234,13 @@
           width: 174px;
           height: 174px;
           left: 1100px;
-          
         }
       }
     }
   }
 }
 
-
-.sect5-home{
+.sect5-home {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -254,43 +250,40 @@
   border-radius: 4px;
   background-color: $lightgrey200;
   border: 1px solid black;
-  .container{
-    .box{
+  .container {
+    .box {
       width: 238px;
-      img{
+      img {
         width: 238px;
         height: 238px;
         border-radius: 8px;
-        
       }
     }
   }
-  .sect5-text-container{
-margin-top: 160px;
-margin-left: 132px;
-    h6{
+  .sect5-text-container {
+    margin-top: 160px;
+    margin-left: 132px;
+    h6 {
       font-family: $catamaran;
       font-size: 48px;
       line-height: 68px;
       font-weight: 500;
       color: $black100;
     }
-    p{
+    p {
       font-family: $nunito;
       font-weight: 400;
       font-size: 18px;
       line-height: 28px;
       color: $black100;
     }
-    .icon-container{
-      margin-top: 52px ;
-      img{
+    .icon-container {
+      margin-top: 52px;
+      img {
         margin-right: 24px;
         width: 44px;
         height: 44px;
       }
     }
   }
-  
- 
 }

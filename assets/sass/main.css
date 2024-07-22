@@ -132,7 +132,6 @@
 .sect2-home .container .box {
   background-color: #FFFFFF;
   padding: 10px;
-  border: 1px solid black;
   width: 267px;
   border-radius: 8px;
 }
@@ -370,6 +369,11 @@ footer .link-container {
 }
 footer .link-container .link {
   color: white;
+  margin-right: 32px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 footer .btn-container {
   margin-top: 67px;
