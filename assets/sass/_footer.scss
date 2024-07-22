@@ -1,0 +1,47 @@
+@import "./variables";
+
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $black100;
+  height: 323px;
+  
+  p{
+    color: $white100;
+  }
+  .icon-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .link-container{
+    display: flex;
+    flex-direction: row;
+    .link{
+      color: white;
+    }
+  }
+
+  .btn-container{
+    margin-top: 67px;
+    .btn1{
+      width: 125px;
+      height: 44px;
+      border: 1px solid $orange100;
+      border-radius: 22px;
+      color: $orange100;
+      background-color: $black100;
+    }
+    .btn2{
+      width: 126px;
+      height: 44px;
+      border-radius: 22px;
+      border: none;
+      color: $white100;
+      background-color: $orange100;
+    }
+  }
+ 
+
+}
