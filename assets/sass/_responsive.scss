@@ -17,10 +17,8 @@
       .box {
         margin-top: 72px;
         margin-bottom: 95px;
-        // margin-left: 132px;
-        // margin-right: 132px;
         display: flex;
-        height: 360px;
+        height: 370px;
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
@@ -59,7 +57,7 @@
           .img-1 {
             height: 100%;
             width: 100%;
-            margin-top: 82px;
+            margin-top: 100px;
             margin-right: 204px;
             margin-bottom: 202px;
 
@@ -73,6 +71,8 @@
       }
     }
   }
+
+  
 }
 
 .sect5-home {
@@ -273,3 +273,7 @@
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
 }
+
+
+
+

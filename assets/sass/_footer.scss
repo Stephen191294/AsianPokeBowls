@@ -1,46 +1,17 @@
 @import "./variables";
 
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  height: 312px;
   background-color: $black100;
-  height: 323px;
-  padding-left: 148px;
-  padding-right: 134px;
-  p {
+  padding: 50px 132px 79px 136px;
+  h6 {
+    font-family: $catamaran;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
     color: $white100;
-    margin-top: 33px;
   }
-  .icon-container {
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    h6 {
-      margin-top: 35px;
-      font-family: $catamaran;
-      font-weight: 800;
-      font-size: 32px;
-      line-height: 48px;
-      color: $white100;
-    }
-  }
-  .link-container {
-    display: flex;
-    flex-direction: row;
-    margin-top: 45px;
-    .link {
-      color: $white200;
-      margin-right: 32px;
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
-    }
-  }
-
   .btn-container {
-    margin-top: 67px;
     .btn1 {
       width: 125px;
       height: 44px;
@@ -60,146 +31,6 @@ footer {
     }
   }
   .social {
-    img {
-      margin-right: 16px;
-    }
+    text-align: right;
   }
 }
-
-/*@media (max-width: 576px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    //justify-content: space-between;
-    background-color: $black100;
-    height: 200px;
-    padding-left: 148px;
-    padding-right: 134px;
-    p {
-      color: $white100;
-      margin-top: 33px;
-    }
-    .icon-container {
-      display: flex;
-      flex-direction: row;
-      margin-top: 40px;
-      h6 {
-        margin-top: 35px;
-        font-family: $catamaran;
-        font-weight: 800;
-        font-size: 32px;
-        line-height: 48px;
-        color: $white100;
-      }
-    }
-    .link-container {
-      display: flex;
-      flex-direction: column;
-      margin-top: 45px;
-      .link {
-        color: $white200;
-        margin-right: 32px;
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-      }
-    }
-
-    .btn-container {
-      margin-top: 67px;
-      .btn1 {
-        width: 125px;
-        height: 44px;
-        border: 1px solid $orange100;
-        border-radius: 22px;
-        margin-right: 10px;
-        color: $orange100;
-        background-color: $black100;
-      }
-      .btn2 {
-        width: 126px;
-        height: 44px;
-        border-radius: 22px;
-        border: none;
-        color: $white100;
-        background-color: $orange100;
-      }
-    }
-    .social {
-      img {
-        margin-right: 16px;
-      }
-    }
-    
-  }
-}
-
-@media (max-width: 768px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    //justify-content: space-between;
-    background-color: $black100;
-    height: 1000px;
-    padding-left: 148px;
-    padding-right: 134px;
-    p {
-      color: $white100;
-      margin-top: 0;
-    }
-    .icon-container {
-      display: flex;
-      flex-direction: row;
-      margin-top: 40px;
-      h6 {
-        margin-top: 35px;
-        font-family: $catamaran;
-        font-weight: 800;
-        font-size: 32px;
-        line-height: 48px;
-        color: $white100;
-      }
-    }
-    .link-container {
-      display: flex;
-      flex-direction: column;
-      margin-top: 45px;
-      .link {
-        color: $white200;
-        margin-right: 32px;
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-      }
-    }
-
-    .btn-container {
-      margin-bottom: 300px;
-      .btn1 {
-        width: 125px;
-        height: 44px;
-        border: 1px solid $orange100;
-        border-radius: 22px;
-        margin-right: 10px;
-        color: $orange100;
-        background-color: $black100;
-      }
-      .btn2 {
-        width: 126px;
-        height: 44px;
-        border-radius: 22px;
-        border: none;
-        color: $white100;
-        background-color: $orange100;
-      }
-    }
-    .social {
-      img {
-        margin-right: 16px;
-      }
-    }
-  }
-}
-*/
