@@ -1,0 +1,22 @@
+// Define Bootstrap breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// Mixin for responding to breakpoints
+@mixin respond-to($breakpoint) {
+  $value: map-get($grid-breakpoints, $breakpoint);
+  @if $value {
+    @media (min-width: $value) {
+      @content;
+    }
+  } @else {
+    @warn "No value found for breakpoint: #{$breakpoint}";
+  }
+}
+
