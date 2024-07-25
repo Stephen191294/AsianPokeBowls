@@ -114,3 +114,16 @@ footer {
     }
   }
 }
+
+
+.sect1-box-container-about {
+  @include respond-to(sm) {
+    left:0 !important
+  }
+}
+
+.sect1-box-container-about {
+  @include respond-to(md) {
+    left: 351px !important;
+  }
+}

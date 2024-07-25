@@ -437,6 +437,18 @@
   }
 }
 
+@media (min-width: 576px) {
+  .sect1-box-container-about {
+    left: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .sect1-box-container-about {
+    left: 351px !important;
+  }
+}
+
 footer {
   height: 312px;
   background-color: #171A1f;
@@ -470,9 +482,58 @@ footer .social {
   text-align: right;
 }
 
-.sect1-about .container-fluid {
+.sect1-about .sect1-img-about {
+  position: relative;
   width: 100%;
+  height: 450px;
 }
-.sect1-about .container-fluid img {
+.sect1-about .sect1-img-about img {
   width: 100%;
+  height: 100%;
+}
+.sect1-about .sect1-box-container-about {
+  position: absolute;
+  top: 234px;
+  left: 351px;
+  width: 738px;
+  height: 532px;
+  border: none;
+  z-index: 1;
+}
+.sect1-about .sect1-box-container-about .box-about {
+  background-color: #FFFFFF;
+  padding: 36px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 1px 0 #171A1f;
+  border-radius: 8px;
+}
+.sect1-about .sect1-box-container-about h1 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+  color: #171A1f;
+}
+.sect1-about .sect1-box-container-about h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #171A1f;
+}
+.sect1-about .sect1-box-container-about p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sect1-about .sect1-box-container-about button {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 219px;
+  height: 52px;
+  padding: 12px, 64px;
+  border-radius: 26px;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
