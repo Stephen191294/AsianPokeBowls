@@ -1,7 +1,8 @@
 @import "./variables";
 
-
-
+* {
+  box-sizing: border-box;
+}
 
 .sect1-about {
   //box-shadow: 0 0 1px 0 $black100;
@@ -20,32 +21,30 @@
     left: 351px;
     width: 738px;
     height: 532px;
-     border: none;
-     z-index: 1;
+    border: none;
+    z-index: 1;
     .box-about {
       background-color: $white100;
-      padding:  36px;
+      padding: 36px;
       width: 100%;
       height: 100%;
       box-shadow: 0 0 1px 0 $black100;
       border-radius: 8px;
       .sect1-btn-container-about {
-       // margin-top: 80px;
+        // margin-top: 80px;
       }
     }
     h1 {
       font-family: $catamaran;
       font-weight: 400;
       font-size: 48px;
-     // width: 370px;
       line-height: 68px;
       color: $black100;
     }
-    h2{
+    h2 {
       font-family: $nunito;
       font-weight: 700;
       font-size: 24px;
-      //width: 370px;
       line-height: 36px;
       color: $black100;
     }
@@ -65,14 +64,65 @@
       border: none;
     }
   }
- 
 }
 
+.sect2-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 300px;
+  height: 678px;
 
+  background-color: $lightgrey200;
+  .sect2-text-container-about {
+    margin-top: 192px;
+    padding-left: 132px;
+    h3 {
+      font-family: $catamaran;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 68px;
+      color: $black100;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: $black100;
+    }
+  }
 
-
-
-
-
-
-
+  .half-oval-container {
+    position: relative;
+    width: 678px; /* Width of the container */
+    height: 678px; /* Height of the container */
+    overflow: hidden; /* Hide overflow */
+    .half-oval {
+      width: 100%; /* Twice the width of the container */
+      height: 100%; /* Same height as the container */
+      border: 5px solid $yellow100;
+      border-radius: 50%; /* Makes the shape oval */
+      position: absolute;
+      right: -200px; /* Shift the oval to the left to show only the left half */
+    }
+  }
+  .boxes {
+    position: absolute;
+    z-index: 1;
+    .box1 {
+      position: absolute;
+      left: 575px;
+      top: -103px;
+    }
+    .box2 {
+      position: absolute;
+      top: 108px;
+    }
+    .box3 {
+      position: absolute;
+      top: 575px;
+      left: 575px;
+    }
+  }
+}

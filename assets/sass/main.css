@@ -449,6 +449,60 @@
   }
 }
 
+@media (min-width: 576px) {
+  .sect2-about .box1 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .sect2-about .box1 {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  .sect2-about .box3 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .sect2-about .box3 {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  .sect2-about .half-oval {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .sect2-about .half-oval {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  .sect2-about {
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 0 !important;
+    margin-bottom: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sect2-about {
+    display: flex;
+    flex-direction: row !important;
+    margin-top: 300px !important;
+    margin-bottom: 0 !important;
+  }
+}
+
 footer {
   height: 312px;
   background-color: #171A1f;
@@ -480,6 +534,10 @@ footer .btn-container .btn2 {
 }
 footer .social {
   text-align: right;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .sect1-about .sect1-img-about {
@@ -536,4 +594,63 @@ footer .social {
   padding: 12px, 64px;
   border-radius: 26px;
   border: none;
+}
+
+.sect2-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 300px;
+  height: 678px;
+  background-color: #FAFAFB;
+}
+.sect2-about .sect2-text-container-about {
+  margin-top: 192px;
+  padding-left: 132px;
+}
+.sect2-about .sect2-text-container-about h3 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+  color: #171A1f;
+}
+.sect2-about .sect2-text-container-about p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #171A1f;
+}
+.sect2-about .half-oval-container {
+  position: relative;
+  width: 678px; /* Width of the container */
+  height: 678px; /* Height of the container */
+  overflow: hidden; /* Hide overflow */
+}
+.sect2-about .half-oval-container .half-oval {
+  width: 100%; /* Twice the width of the container */
+  height: 100%; /* Same height as the container */
+  border: 5px solid #FCDD80;
+  border-radius: 50%; /* Makes the shape oval */
+  position: absolute;
+  right: -200px; /* Shift the oval to the left to show only the left half */
+}
+.sect2-about .boxes {
+  position: absolute;
+  z-index: 1;
+}
+.sect2-about .boxes .box1 {
+  position: absolute;
+  left: 575px;
+  top: -103px;
+}
+.sect2-about .boxes .box2 {
+  position: absolute;
+  top: 108px;
+}
+.sect2-about .boxes .box3 {
+  position: absolute;
+  top: 575px;
+  left: 575px;
 }/*# sourceMappingURL=main.css.map */

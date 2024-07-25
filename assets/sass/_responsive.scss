@@ -115,15 +115,80 @@ footer {
   }
 }
 
-
 .sect1-box-container-about {
   @include respond-to(sm) {
-    left:0 !important
+    left: 0 !important;
   }
 }
 
 .sect1-box-container-about {
   @include respond-to(md) {
     left: 351px !important;
+  }
+}
+
+.sect2-about {
+  .box1 {
+    @include respond-to(sm) {
+      display: none;
+    }
+  }
+}
+
+.sect2-about {
+  .box1 {
+    @include respond-to(md) {
+      display: block;
+    }
+  }
+}
+
+.sect2-about {
+  .box3 {
+    @include respond-to(sm) {
+      display: none;
+    }
+  }
+}
+
+.sect2-about {
+  .box3 {
+    @include respond-to(md) {
+      display: block;
+    }
+  }
+}
+
+.sect2-about {
+  .half-oval {
+    @include respond-to(sm) {
+      display: none;
+    }
+  }
+}
+
+.sect2-about {
+  .half-oval {
+    @include respond-to(md) {
+      display: block;
+    }
+  }
+}
+
+.sect2-about {
+  @include respond-to(sm) {
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 0 !important;
+    margin-bottom: 300px;
+  }
+}
+
+.sect2-about {
+  @include respond-to(md) {
+    display: flex;
+    flex-direction: row !important;
+    margin-top: 300px !important;
+    margin-bottom: 0 !important;
   }
 }
