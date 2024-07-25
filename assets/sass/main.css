@@ -10,6 +10,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 .navbar {
   height: 80px;
 }
@@ -653,4 +655,24 @@ footer .social {
   position: absolute;
   top: 575px;
   left: 575px;
+}
+
+.sect1-menu .sect1-img-menu {
+  position: relative;
+  width: 100%;
+  height: 379px;
+}
+.sect1-menu .sect1-img-menu img {
+  width: 100%;
+  height: 100%;
+}
+
+.sect2-meu {
+  height: 683px;
+  padding-top: 48px;
+  background-color: #FAFAFB;
+}
+.sect2-meu .sect2-header-meu {
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
 }/*# sourceMappingURL=main.css.map */
