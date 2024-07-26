@@ -512,7 +512,13 @@ body {
 
 @media (min-width: 576px) {
   .sect2-menu {
-    margin-bottom: 1700px;
+    margin-bottom: 2800px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .sect2-menu {
+    margin-bottom: 400px !important;
   }
 }
 
@@ -778,10 +784,55 @@ footer .social {
   color: #FFFFFF;
   width: 219px;
   height: 52px;
+  margin-top: 60px;
+  margin-bottom: 96px;
   border-radius: 26px;
   border: none;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+}
+
+.sect3-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 72px;
+  padding-top: 48px;
+  margin-right: 132px;
+  margin-left: 132px;
+}
+.sect3-menu h5 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+  color: #171A1f;
+}
+.sect3-menu p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.sect3-menu .icon {
+  margin-top: 114px;
+}
+.sect3-menu .name {
+  width: 182px;
+  height: 36px;
+  margin-top: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #171A1f;
+}
+.sect3-menu .img-container {
+  width: 520px;
+  height: 520px;
+}
+.sect3-menu .img-container img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

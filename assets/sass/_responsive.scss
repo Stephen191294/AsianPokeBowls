@@ -13,6 +13,8 @@ body{
   }
 }
 
+
+
 .sect3-home {
   @include respond-to(md) {
     margin-top: 0px;
@@ -202,6 +204,19 @@ footer {
 
 .sect2-menu{
   @include respond-to(sm) {
-   margin-bottom: 1700px;
+    margin-bottom: 2800px !important;
+  }
+}
+
+.sect2-menu{
+  @include respond-to(md) {
+    margin-bottom: 400px !important;
+  }
+}
+
+
+.sect3-menu{
+  @include respond-to(sm) {
+  //  margin-top: 0 !important;
   }
 }

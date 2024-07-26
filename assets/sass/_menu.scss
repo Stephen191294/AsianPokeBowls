@@ -129,11 +129,62 @@
     color: $white100;
     width: 219px;
     height: 52px;
+    margin-top: 60px;
+    margin-bottom: 96px;
     border-radius: 26px;
     border: none;
     font-family: $nunito;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+  }
+}
+
+
+
+.sect3-menu  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 72px;
+  padding-top: 48px;
+  margin-right: 132px;
+  margin-left: 132px;
+  //height: 616px;
+  //width: 1440px;
+
+  h5 {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 68px;
+    color: $black100;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .icon {
+    margin-top: 114px;
+  }
+
+  .name {
+    width: 182px;
+    height: 36px;
+    margin-top: 20px;
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: $black100;
+  }
+  .img-container {
+    width: 520px;
+    height: 520px;
+    img {
+      width: 100%;
+    }
   }
 }
