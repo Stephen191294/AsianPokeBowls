@@ -1,8 +1,7 @@
 @import "./variables";
 @import "./mixins";
 
-
-body{
+body {
   margin: 0;
   padding: 0;
 }
@@ -12,8 +11,6 @@ body{
     margin-top: 1100px;
   }
 }
-
-
 
 .sect3-home {
   @include respond-to(md) {
@@ -201,22 +198,20 @@ footer {
   }
 }
 
-
-.sect2-menu{
+.sect2-menu {
   @include respond-to(sm) {
     margin-bottom: 2800px !important;
   }
 }
 
-.sect2-menu{
+.sect2-menu {
   @include respond-to(md) {
     margin-bottom: 400px !important;
   }
 }
 
-
-.sect3-menu{
+.sect3-menu {
   @include respond-to(sm) {
-  //  margin-top: 0 !important;
+    //  margin-top: 0 !important;
   }
 }

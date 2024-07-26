@@ -76,17 +76,13 @@
   }
 }
 
-
-
-
-
 .section-ingredients-menu {
   padding-left: 132px;
   padding-right: 161px;
   padding-bottom: 96px;
 
   .sect2-header-ingredients-menu {
-    h3{
+    h3 {
       font-family: $catamaran;
     }
   }
@@ -104,8 +100,6 @@
         align-items: center;
         img {
           width: 100%;
-          
-          
         }
       }
 
@@ -115,7 +109,6 @@
         font-size: 12px;
       }
       h4 {
-        
         white-space: nowrap;
         font-family: $catamaran;
         font-weight: 700;
@@ -140,9 +133,7 @@
   }
 }
 
-
-
-.sect3-menu  {
+.sect3-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
