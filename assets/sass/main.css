@@ -347,6 +347,11 @@
   height: 44px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 576px) {
   .sect3-home {
     margin-top: 1100px;
@@ -502,6 +507,12 @@
     flex-direction: row !important;
     margin-top: 300px !important;
     margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .sect2-menu {
+    margin-bottom: 1700px;
   }
 }
 
@@ -667,12 +678,110 @@ footer .social {
   height: 100%;
 }
 
-.sect2-meu {
+.sect2-menu {
   height: 683px;
-  padding-top: 48px;
+  padding: 72px 156px 84px 148px;
+  margin-bottom: 400px;
   background-color: #FAFAFB;
 }
-.sect2-meu .sect2-header-meu {
+.sect2-menu .sect2-header-menu {
   text-align: center;
   font-family: "Catamaran", sans-serif;
+}
+.sect2-menu .container-menu .box-menu {
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 267px;
+  border-radius: 8px;
+}
+.sect2-menu .container-menu .box-menu .image-container-menu {
+  width: 219px;
+  height: 219px;
+}
+.sect2-menu .container-menu .box-menu .image-container-menu img {
+  width: 100%;
+  margin-left: 10px;
+}
+.sect2-menu .container-menu .box-menu button {
+  background-color: #FFF3F0;
+  color: #F96540;
+  width: 94px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+}
+.sect2-menu .container-menu .box-menu p {
+  width: 235px;
+  height: 60px;
+  font-size: 12px;
+}
+.sect2-menu .container-menu .box-menu h4 {
+  white-space: nowrap;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sect2-menu .sect2-btn-container-menu {
+  text-align: center;
+}
+.sect2-menu .sect2-btn-container-menu button {
+  width: 219px;
+  height: 52px;
+  margin-top: 48px;
+  border-radius: 26px;
+  border: 1px solid #171A1f;
+  color: #171A1f;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.section-ingredients-menu {
+  padding-left: 132px;
+  padding-right: 161px;
+  padding-bottom: 96px;
+}
+.section-ingredients-menu .sect2-header-ingredients-menu h3 {
+  font-family: "Catamaran", sans-serif;
+}
+.section-ingredients-menu .container-menu {
+  margin-bottom: 36px;
+}
+.section-ingredients-menu .container-menu .box-menu {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+.section-ingredients-menu .container-menu .box-menu .image-container-menu {
+  width: 206px;
+  height: 206px;
+  align-items: center;
+}
+.section-ingredients-menu .container-menu .box-menu .image-container-menu img {
+  width: 100%;
+}
+.section-ingredients-menu .container-menu .box-menu p {
+  width: 235px;
+  height: 60px;
+  font-size: 12px;
+}
+.section-ingredients-menu .container-menu .box-menu h4 {
+  white-space: nowrap;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.section-ingredients-menu button {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 219px;
+  height: 52px;
+  border-radius: 26px;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,5 @@
 @import "./variables";
 
-
 .sect1-menu {
   //box-shadow: 0 0 1px 0 $black100;
   .sect1-img-menu {
@@ -12,16 +11,129 @@
       height: 100%;
     }
   }
- 
 }
 
-.sect2-meu {
+.sect2-menu {
   height: 683px;
-  padding-top: 48px;
+  padding: 72px 156px 84px 148px;
+  margin-bottom: 400px;
   background-color: $lightgrey200;
-  .sect2-header-meu {
+  .sect2-header-menu {
     text-align: center;
     font-family: $catamaran;
   }
-  
+  .container-menu {
+    .box-menu {
+      background-color: $white100;
+      padding: 10px;
+      width: 267px;
+      border-radius: 8px;
+      //height: 292px;
+      .image-container-menu {
+        width: 219px;
+        height: 219px;
+        img {
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+      button {
+        background-color: $orange200;
+        color: $orange100;
+        width: 94px;
+        height: 36px;
+        border-radius: 18px;
+        border: none;
+      }
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+      h4 {
+        white-space: nowrap;
+        font-family: $catamaran;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+  .sect2-btn-container-menu {
+    text-align: center;
+    button {
+      width: 219px;
+      height: 52px;
+      margin-top: 48px;
+      border-radius: 26px;
+      border: 1px solid $black100;
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+
+
+
+
+
+.section-ingredients-menu {
+  padding-left: 132px;
+  padding-right: 161px;
+  padding-bottom: 96px;
+
+  .sect2-header-ingredients-menu {
+    h3{
+      font-family: $catamaran;
+    }
+  }
+  .container-menu {
+    margin-bottom: 36px;
+    .box-menu {
+      background-color: $white100;
+      // padding: 10px;
+      // width: 267px;
+      border-radius: 8px;
+      //height: 292px;
+      .image-container-menu {
+        width: 206px;
+        height: 206px;
+        align-items: center;
+        img {
+          width: 100%;
+          
+          
+        }
+      }
+
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+      h4 {
+        
+        white-space: nowrap;
+        font-family: $catamaran;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+  button {
+    background-color: $orange100;
+    color: $white100;
+    width: 219px;
+    height: 52px;
+    border-radius: 26px;
+    border: none;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
 }

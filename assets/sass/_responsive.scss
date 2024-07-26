@@ -1,6 +1,12 @@
 @import "./variables";
 @import "./mixins";
 
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .sect3-home {
   @include respond-to(sm) {
     margin-top: 1100px;
@@ -190,5 +196,12 @@ footer {
     flex-direction: row !important;
     margin-top: 300px !important;
     margin-bottom: 0 !important;
+  }
+}
+
+
+.sect2-menu{
+  @include respond-to(sm) {
+   margin-bottom: 1700px;
   }
 }
