@@ -1,1 +1,64 @@
 @import "./variables";
+
+.sect1-location{
+h1{
+  font-size: 48px;
+  font-family: $catamaran;
+  font-weight: 400;
+  line-height: 68px;
+  color: $black100;
+  margin-top: 48px;
+}
+}
+
+.location-hours-container{
+  width: 100%;
+  height: 1294px;
+  h2{
+    font-size: 16px;
+    font-family: $nunito;
+    font-weight: 700;
+    line-height: 26px;
+    color: $black100;
+  }
+  p{
+    font-size: 16px;
+    font-family: $nunito;
+    font-weight: 700;
+    line-height: 26px;
+    color: $grey300;
+  }
+  .btn-container{
+    .btn1{
+      width: 130px;
+      height: 36px;
+      border-radius: 18px;
+      background-color: $white100;
+      color: $orange100;
+      border: 1px solid $orange100;
+      font-size: 14px;
+      font-family: $nunito;
+      font-weight: 400;
+      line-height: 22px;
+    }
+    .btn2{
+      width: 130px;
+      height: 36px;
+      border-radius: 18px;
+      background-color: $white100;
+      color: $darkgreen100;
+      border: 1px solid $darkgreen100;
+      font-size: 14px;
+      font-family: $nunito;
+      font-weight: 400;
+      line-height: 22px
+    }
+  }
+  .box-inner-container{
+    height: 321px;
+    width: 368px;
+    padding: 16px 16px 24px 16px;
+   // border: 1px solid black;
+    
+  }
+}
