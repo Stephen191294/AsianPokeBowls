@@ -1,7 +1,15 @@
 @import "./variables";
 
 .sect1-menu {
-  //box-shadow: 0 0 1px 0 $black100;
+  background-color: $lightgrey200;
+  margin-bottom: 0;
+  height: 500px;
+  h1{
+    font-family: $catamaran;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 74px;
+  }
   .sect1-img-menu {
     position: relative;
     width: 100%;
@@ -17,6 +25,7 @@
   height: 683px;
   padding: 72px 156px 84px 148px;
   margin-bottom: 400px;
+  margin-top: 0;
   background-color: $lightgrey200;
   .sect2-header-menu {
     text-align: center;
@@ -50,7 +59,7 @@
         height: 60px;
         font-size: 12px;
       }
-      h4 {
+      h2 {
         white-space: nowrap;
         font-family: $catamaran;
         font-weight: 700;

@@ -524,6 +524,18 @@ body {
   }
 }
 
+@media (min-width: 576px) {
+  .location-hours-container {
+    margin-bottom: 2000px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .location-hours-container {
+    margin-bottom: 0 !important;
+  }
+}
+
 footer {
   height: 312px;
   background-color: #171A1f;
@@ -676,6 +688,17 @@ footer .social {
   left: 575px;
 }
 
+.sect1-menu {
+  background-color: #FAFAFB;
+  margin-bottom: 0;
+  height: 500px;
+}
+.sect1-menu h1 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 74px;
+}
 .sect1-menu .sect1-img-menu {
   position: relative;
   width: 100%;
@@ -690,6 +713,7 @@ footer .social {
   height: 683px;
   padding: 72px 156px 84px 148px;
   margin-bottom: 400px;
+  margin-top: 0;
   background-color: #FAFAFB;
 }
 .sect2-menu .sect2-header-menu {
@@ -723,7 +747,7 @@ footer .social {
   height: 60px;
   font-size: 12px;
 }
-.sect2-menu .container-menu .box-menu h4 {
+.sect2-menu .container-menu .box-menu h2 {
   white-space: nowrap;
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
@@ -894,4 +918,8 @@ footer .social {
   height: 321px;
   width: 368px;
   padding: 16px 16px 24px 16px;
+}
+.location-hours-container .icon {
+  width: 24px;
+  height: 24px;
 }/*# sourceMappingURL=main.css.map */

@@ -215,3 +215,15 @@ footer {
     //  margin-top: 0 !important;
   }
 }
+
+.location-hours-container {
+  @include respond-to(sm) {
+    margin-bottom: 2000px !important;
+  }
+}
+
+.location-hours-container {
+  @include respond-to(md) {
+    margin-bottom: 0 !important;
+  }
+}
