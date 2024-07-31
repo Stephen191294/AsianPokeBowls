@@ -14,6 +14,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 .navbar {
   height: 80px;
 }
@@ -922,4 +924,91 @@ footer .social {
 .location-hours-container .icon {
   width: 24px;
   height: 24px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*
+.sect1-giftcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  height: 967px;
+  border-radius: 4px;
+  background-color: $lightgrey200;
+
+  .box-container-1 {
+    .box-1 {
+      width: 280;
+      height: 102px;
+      border-radius: 8px;
+      border: 1px solid $orange100;
+    }
+    .box-2 {
+      width: 280px;
+      height: 102px;
+      border-radius: 8px;
+      border: 1px solid $lightgrey100;
+    }
+  }
+  .container {
+    padding: 0;
+    .custom-negative-margin {
+      margin-top: -50px;
+    }
+    .custom-negative-margin-1 {
+      margin-top: -100px;
+    }
+    .box {
+      width: 238px;
+      height: 238;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+      }
+    }
+  }
+  .sect1-text-container {
+    margin-top: 160px;
+    margin-left: 132px;
+    h1 {
+      font-family: $catamaran;
+      font-size: 48px;
+      line-height: 68px;
+      font-weight: 500;
+      color: $black100;
+    }
+    h2 {
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: $black100;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: $black100;
+    }
+
+    .promo {
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 26px;
+      color: $blue10028px;
+    }
+  }
+  .icon-container {
+    margin-top: 52px;
+    img {
+      margin-right: 24px;
+      width: 44px;
+      height: 44px;
+    }
+  }
+
+}*//*# sourceMappingURL=main.css.map */
