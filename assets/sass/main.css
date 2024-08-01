@@ -538,6 +538,30 @@ body {
   }
 }
 
+@media (min-width: 576px) {
+  .container-giftcard-boxes {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-giftcard-boxes {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  .section-1-giftcard {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-1-giftcard {
+    width: 1636px;
+  }
+}
+
 footer {
   height: 312px;
   background-color: #171A1f;
@@ -926,89 +950,201 @@ footer .social {
   height: 24px;
 }
 
-/*
-.sect1-giftcard {
+.section-1-giftcard {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  overflow: hidden;
-  width: 100%;
-  height: 967px;
+  margin-right: -117px;
+}
+
+.checkout-container {
+  padding-bottom: 76px;
+  padding-left: 132px;
+  padding-top: 71px;
+}
+.checkout-container h1 {
+  font-family: "Catamaran", sans-serif;
+  font-size: 48px;
+  line-height: 68px;
+  font-weight: 500;
+  color: #171A1f;
+}
+.checkout-container h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #171A1f;
+}
+.checkout-container p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #171A1f;
+}
+.checkout-container .box-container-1 {
+  width: 600px;
+}
+.checkout-container .box-container-1 .box-1 {
+  width: 280px;
+  height: 102px;
+  border-radius: 8px;
+  border: 1px solid #F96540;
+  padding: 20px 16px 45px 16px;
+}
+.checkout-container .box-container-1 .box-1 img {
+  width: 36px;
+  height: 36px;
+}
+.checkout-container .box-container-1 .box-1 p {
+  font-size: 12px;
+}
+.checkout-container .box-container-1 .box-1 .text-1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #171A1f;
+  margin-bottom: 0;
+}
+.checkout-container .box-container-1 .box-1 .text-2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #171A1f;
+}
+.checkout-container .box-container-1 .box-2 {
+  width: 280px;
+  height: 102px;
+  border-radius: 8px;
+  border: 1px solid #BCC1CA;
+  padding: 20px 16px 45px 16px;
+}
+.checkout-container .box-container-1 .box-2 img {
+  width: 36px;
+  height: 36px;
+}
+.checkout-container .box-container-1 .box-2 p {
+  font-size: 12px;
+}
+.checkout-container .box-container-1 .box-2 .text-1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #171A1f;
+  margin-bottom: 0;
+}
+.checkout-container .box-container-1 .box-2 .text-2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #171A1f;
+}
+.checkout-container .promo {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #379AE6;
+}
+
+.icon-container {
+  margin-top: 52px;
+}
+.icon-container img {
+  margin-right: 24px;
+  width: 44px;
+  height: 44px;
+}
+
+.input-container {
+  width: 385px;
+  border-radius: 4px 4px 4px 4px;
+}
+.input-container .btn5 {
+  padding: 7px 16px 5px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #FCDD80;
+  color: #765903;
+  cursor: pointer;
+}
+.input-container .btn6 {
+  padding: 7px 16px 5px 16px;
+  border: 1px solid #FCDD80;
+  color: #765903;
+  cursor: pointer;
+}
+.input-container .btn7 {
+  padding: 7px 16px 5px 16px;
+  border: 1px solid #FCDD80;
+  color: #765903;
+  cursor: pointer;
+}
+.input-container .btn8 {
+  padding: 7px 16px 5px 16px;
+  border: 1px solid #FCDD80;
+  color: #765903;
+  cursor: pointer;
+}
+.input-container .btn9 {
+  padding: 7px 16px 5px 16px;
+  border: 1px solid #FCDD80;
+  border-radius: 0 4px 4px 0;
+  color: #765903;
+  cursor: pointer;
+}
+.input-container .btn5:hover {
+  background-color: #FCDD80;
+}
+.input-container .btn6:hover {
+  background-color: #FCDD80;
+}
+.input-container .btn7:hover {
+  background-color: #FCDD80;
+}
+.input-container .btn8:hover {
+  background-color: #FCDD80;
+}
+.input-container .btn9:hover {
+  background-color: #FCDD80;
+}
+
+.details-input {
+  width: 395px;
+  height: 35px;
   border-radius: 4px;
-  background-color: $lightgrey200;
+  border: 1px solid #171A1f;
+  padding: 7px 12px 6px 12px;
+}
 
-  .box-container-1 {
-    .box-1 {
-      width: 280;
-      height: 102px;
-      border-radius: 8px;
-      border: 1px solid $orange100;
-    }
-    .box-2 {
-      width: 280px;
-      height: 102px;
-      border-radius: 8px;
-      border: 1px solid $lightgrey100;
-    }
-  }
-  .container {
-    padding: 0;
-    .custom-negative-margin {
-      margin-top: -50px;
-    }
-    .custom-negative-margin-1 {
-      margin-top: -100px;
-    }
-    .box {
-      width: 238px;
-      height: 238;
-      img {
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-      }
-    }
-  }
-  .sect1-text-container {
-    margin-top: 160px;
-    margin-left: 132px;
-    h1 {
-      font-family: $catamaran;
-      font-size: 48px;
-      line-height: 68px;
-      font-weight: 500;
-      color: $black100;
-    }
-    h2 {
-      font-family: $nunito;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 30px;
-      color: $black100;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-      color: $black100;
-    }
+textarea {
+  width: 395px;
+  height: 94px;
+  border-radius: 4px;
+  border: 1px solid #171A1f;
+  padding: 7px 17px 7px 12px;
+}
 
-    .promo {
-      font-family: $nunito;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 26px;
-      color: $blue10028px;
-    }
-  }
-  .icon-container {
-    margin-top: 52px;
-    img {
-      margin-right: 24px;
-      width: 44px;
-      height: 44px;
-    }
-  }
+.form-check-input {
+  background-color: #1DD75B;
+  border: 1px solid #1DD75B;
+  width: 40px;
+  height: 24px;
+}
 
-}*//*# sourceMappingURL=main.css.map */
+button {
+  background-color: #F96540;
+  width: 396px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  color: #FFFFFF;
+}
+
+.container-giftcard-boxes {
+  overflow: hidden;
+}/*# sourceMappingURL=main.css.map */

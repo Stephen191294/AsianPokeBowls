@@ -1,86 +1,226 @@
 @import "./variables";
 
-.sect1-giftcard {
+
+
+
+.section-1-giftcard{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  overflow: hidden;
-  width: 100%;
-  height: 967px;
-  border-radius: 4px;
-  background-color: $lightgrey200;
+  margin-right: -117px;
+}
 
-  .box-container-1 {
+
+.checkout-container{
+  padding-bottom: 76px;
+  padding-left: 132px;
+  padding-top: 71px;
+  h1 {
+    font-family: $catamaran;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 500;
+    color: $black100;
+  }
+  h2 {
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: $black100;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $black100;
+  }
+  .box-container-1{
+    width: 600px;
+
     .box-1 {
-      width: 280;
+      width: 280px;
       height: 102px;
       border-radius: 8px;
       border: 1px solid $orange100;
+      padding: 20px 16px 45px 16px;
+      img {
+        width: 36px;
+        height: 36px;
+      }
+      p {
+        font-size: 12px;
+      }
+      .text-1{
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: $black100;
+        margin-bottom: 0;
+      }
+      .text-2{
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: $black100;
+      }
     }
+
     .box-2 {
       width: 280px;
       height: 102px;
       border-radius: 8px;
       border: 1px solid $lightgrey100;
-    }
-  }
-  .container {
-    padding: 0;
-    .custom-negative-margin {
-      margin-top: -50px;
-    }
-    .custom-negative-margin-1 {
-      margin-top: -100px;
-    }
-    .box {
-      width: 238px;
-      height: 238;
+      padding: 20px 16px 45px 16px;
       img {
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
+        width: 36px;
+        height: 36px;
+      }
+      p {
+        font-size: 12px;
+      }
+      .text-1{
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: $black100;
+        margin-bottom: 0;
+      }
+      .text-2{
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: $black100;
       }
     }
-  }
-  .sect1-text-container {
-    margin-top: 160px;
-    margin-left: 132px;
-    h1 {
-      font-family: $catamaran;
-      font-size: 48px;
-      line-height: 68px;
-      font-weight: 500;
-      color: $black100;
-    }
-    h2 {
-      font-family: $nunito;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 30px;
-      color: $black100;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-      color: $black100;
-    }
 
-    .promo {
-      font-family: $nunito;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 26px;
-      color: $blue10028px;
-    }
+    
   }
-  .icon-container {
-    margin-top: 52px;
-    img {
-      margin-right: 24px;
-      width: 44px;
-      height: 44px;
-    }
+  .promo {
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: $blue100;
   }
 }
+.icon-container {
+  margin-top: 52px;
+
+  img {
+    margin-right: 24px;
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.input-container {
+  width: 385px;
+  border-radius: 4px 4px 4px 4px;
+  .btn5 {
+    padding: 7px 16px 5px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid $yellow100;
+    color: $darkgreen100;
+    cursor: pointer;
+  }
+  .btn6 {
+    // background-color: $yellow100;
+     padding: 7px 16px 5px 16px;
+     border: 1px solid $yellow100;
+     color: $darkgreen100;
+     cursor: pointer;
+   }
+   .btn7 {
+    // background-color: $yellow100;
+     padding: 7px 16px 5px 16px;
+     border: 1px solid $yellow100;
+     color: $darkgreen100;
+     cursor: pointer;
+   }
+   .btn8 {
+    // background-color: $yellow100;
+     padding: 7px 16px 5px 16px;
+     border: 1px solid $yellow100;
+     color: $darkgreen100;
+     cursor: pointer;
+   }
+   .btn9 {
+    // background-color: $yellow100;
+     padding: 7px 16px 5px 16px;
+     border: 1px solid $yellow100;
+     border-radius: 0 4px 4px 0;
+     color: $darkgreen100;
+     cursor: pointer;
+   }
+   .btn5:hover{
+    background-color: $yellow100;
+   }
+   .btn6:hover{
+    background-color: $yellow100;
+   }
+   .btn7:hover{
+    background-color: $yellow100;
+   }
+   .btn8:hover{
+    background-color: $yellow100;
+   }
+   .btn9:hover{
+    background-color: $yellow100;
+   }
+}
+.details-input {
+  width: 395px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid $black100;
+  padding: 7px 12px 6px 12px;
+}
+textarea {
+  width: 395px;
+  height: 94px;
+  border-radius: 4px;
+  border: 1px solid $black100;
+  padding: 7px 17px 7px 12px;
+}
+
+.form-check-input {
+  background-color: $lightgreen;
+  border: 1px solid $lightgreen;
+  width: 40px;
+  height: 24px;
+}
+button {
+  background-color: $orange100;
+  width: 396px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  color: $white100;
+}
+
+
+.container-giftcard-boxes{
+  
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
