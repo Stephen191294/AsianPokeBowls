@@ -66,6 +66,10 @@
   left: 1182px;
 }
 
+.navbar-toggler {
+  width: 55px;
+}
+
 .sect1-home .sect1-img {
   position: relative;
   width: 100%;
@@ -1138,7 +1142,7 @@ textarea {
   height: 24px;
 }
 
-button {
+.checkout-btn {
   background-color: #F96540;
   width: 396px;
   height: 44px;
