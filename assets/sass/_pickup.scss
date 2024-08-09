@@ -1,1 +1,130 @@
 @import "./variables";
+
+
+
+
+.icon-nav-text{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+  font-family: $catamaran;
+}
+
+.input-group{
+  width: 491px;
+  height: 35px;
+ // border-radius: 0 18px 18px 0;
+  .input-group-text{
+   height: 40px;
+   cursor: pointer;
+  // border-radius: 18px 0 0 18px;
+  }
+
+}
+
+.box-delivery {
+  width: 92px;
+  height: 42px;
+  border: 1px solid $yellow100;
+  color: $darkgreen100;
+  font-family: $nunito;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 9px 16px 7px 16px;
+  cursor: pointer;
+}
+.box-pickup {
+  width: 92px;
+  height: 42px;
+  border: 1px solid $yellow100;
+  color: $darkgreen100;
+  font-family: $nunito;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 9px 16px 7px 16px;
+  cursor: pointer;
+}
+
+.box-delivery:hover {
+  background-color: $yellow100;
+}
+
+.box-pickup:hover {
+  background-color: $yellow100;
+}
+
+
+
+
+
+.box-locations {
+  width: 492px;
+  height: 563px;
+  border-radius: 8px;
+  margin-bottom: 44px;
+  border: 1px solid #ddd;
+  overflow: auto;
+ 
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4 {
+    width: 456px;
+    height: 136px;
+    border-radius: 8px;
+    background-color: $white100;
+    //border: 1px solid black;
+    box-shadow: 0 0 1px 0;
+    padding: 16px 16px 16px 21px;
+    .box-button {
+      width: 200px;
+      height: 36px;
+      border: 1px solid $orange100;
+      border-radius: 18px;
+      background-color: $white100;
+      color: $orange100;
+     
+    }
+  }
+
+  .box-1:hover,
+  .box-2:hover,
+  .box-3:hover,
+  .box-4:hover {
+    width: 456px;
+    height: 136px;
+    border-radius: 8px;
+    background-color: $orange100;
+    //border: 1px solid black;
+    box-shadow: 0 0 1px 0;
+    padding: 16px 16px 16px 21px;
+    p {
+      color: $white100;
+    }
+
+    .box-button {
+      width: 200px;
+      height: 36px;
+      border: 1px solid $orange100;
+      border-radius: 18px;
+      background-color: $white100;
+      color: $orange100;
+      .box-image {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+
+
+.container-map{
+  width: 552px;
+  height: 736px;
+  border-radius: 8px;
+  margin-top: 72px;
+  margin-right: 132px ;
+}
+

@@ -601,10 +601,6 @@ footer .social {
   text-align: right;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .sect1-about .sect1-img-about {
   position: relative;
   width: 100%;
@@ -895,13 +891,20 @@ footer .social {
   width: 100%;
 }
 
-.sect1-location h1 {
+.sect-1-location h1 {
   font-size: 48px;
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
   line-height: 68px;
   color: #171A1f;
   margin-top: 48px;
+}
+
+.sect-1-img-menu {
+  width: 100%;
+}
+.sect-1-img-menu img {
+  width: 100%;
 }
 
 .location-hours-container {
@@ -1153,4 +1156,128 @@ textarea {
 
 .container-giftcard-boxes {
   overflow: hidden;
+}
+
+.icon-nav-text {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+  font-family: "Catamaran", sans-serif;
+}
+
+.input-group {
+  width: 491px;
+  height: 35px;
+}
+.input-group .input-group-text {
+  height: 40px;
+  cursor: pointer;
+}
+
+.box-delivery {
+  width: 92px;
+  height: 42px;
+  border: 1px solid #FCDD80;
+  color: #765903;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 9px 16px 7px 16px;
+  cursor: pointer;
+}
+
+.box-pickup {
+  width: 92px;
+  height: 42px;
+  border: 1px solid #FCDD80;
+  color: #765903;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 9px 16px 7px 16px;
+  cursor: pointer;
+}
+
+.box-delivery:hover {
+  background-color: #FCDD80;
+}
+
+.box-pickup:hover {
+  background-color: #FCDD80;
+}
+
+.box-locations {
+  width: 492px;
+  height: 563px;
+  border-radius: 8px;
+  margin-bottom: 44px;
+  border: 1px solid #ddd;
+  overflow: auto;
+}
+.box-locations .box-1,
+.box-locations .box-2,
+.box-locations .box-3,
+.box-locations .box-4 {
+  width: 456px;
+  height: 136px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 1px 0;
+  padding: 16px 16px 16px 21px;
+}
+.box-locations .box-1 .box-button,
+.box-locations .box-2 .box-button,
+.box-locations .box-3 .box-button,
+.box-locations .box-4 .box-button {
+  width: 200px;
+  height: 36px;
+  border: 1px solid #F96540;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+  color: #F96540;
+}
+.box-locations .box-1:hover,
+.box-locations .box-2:hover,
+.box-locations .box-3:hover,
+.box-locations .box-4:hover {
+  width: 456px;
+  height: 136px;
+  border-radius: 8px;
+  background-color: #F96540;
+  box-shadow: 0 0 1px 0;
+  padding: 16px 16px 16px 21px;
+}
+.box-locations .box-1:hover p,
+.box-locations .box-2:hover p,
+.box-locations .box-3:hover p,
+.box-locations .box-4:hover p {
+  color: #FFFFFF;
+}
+.box-locations .box-1:hover .box-button,
+.box-locations .box-2:hover .box-button,
+.box-locations .box-3:hover .box-button,
+.box-locations .box-4:hover .box-button {
+  width: 200px;
+  height: 36px;
+  border: 1px solid #F96540;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+  color: #F96540;
+}
+.box-locations .box-1:hover .box-button .box-image,
+.box-locations .box-2:hover .box-button .box-image,
+.box-locations .box-3:hover .box-button .box-image,
+.box-locations .box-4:hover .box-button .box-image {
+  width: 24px;
+  height: 24px;
+}
+
+.container-map {
+  width: 552px;
+  height: 736px;
+  border-radius: 8px;
+  margin-top: 72px;
+  margin-right: 132px;
 }/*# sourceMappingURL=main.css.map */
