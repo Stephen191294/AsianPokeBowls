@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
 document.addEventListener('DOMContentLoaded', () => {
   const hoverBox = document.querySelector('.box-3');
   const icon = document.getElementById('icon-3');
