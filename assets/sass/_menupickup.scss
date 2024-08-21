@@ -1,12 +1,7 @@
-
 @import "./variables";
 
-
-
-
-
-.sect-1-menu-pickup{
-  h1{
+.sect-1-menu-pickup {
+  h1 {
     font-family: $catamaran;
     font-weight: 400;
     font-size: 32px;
@@ -14,7 +9,57 @@
     color: $black100;
   }
   width: 100%;
-  img{
+  img {
     width: 100%;
+  }
+}
+
+.sect2-menu-pickup {
+  //width: 100%;
+ // height: 100px;
+  padding: 72px 156px 84px 148px;
+  margin-bottom: 400px;
+  margin-top: 0;
+  background-color: $lightgrey200;
+  .sect2-header-menu-pickup {
+    text-align: center;
+    font-family: $catamaran;
+  }
+  .container-menu-pickup {
+    .box-menu-pickup {
+      background-color: $white100;
+      padding: 10px;
+      width: 267px;
+      border-radius: 8px;
+      //height: 292px;
+      .image-container-menu-pickup {
+        width: 219px;
+        height: 219px;
+        img {
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+      button {
+        background-color: $orange200;
+        color: $orange100;
+        width: 94px;
+        height: 36px;
+        border-radius: 18px;
+        border: none;
+      }
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+      h2 {
+        white-space: nowrap;
+        font-family: $catamaran;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
   }
 }

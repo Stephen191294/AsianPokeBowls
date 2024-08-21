@@ -21,27 +21,53 @@
   <body id="fadeElement">
     <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
       <div class="container">
-        <div class="d-flex">
-          <div class="logo-container">
-            <a class="navbar-brand" href="#">
-              <img
-                src="../assets/images/Image 20.png"
-                alt="logo"
-                class="img-fluid"
-              />
-            </a>
-            <p>POKE NOW.</p>
-          </div>
+        <div class="logo-container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../assets/images/Image 20.png"
+              alt="logo"
+              class="img-fluid"
+            />
+          </a>
+          <p>POKE NOW.</p>
         </div>
 
-        <div class="d-flex">
-          <button style="white-space: nowrap" class="btn">
-            Sign in / Sign up
-          </button>
-          <button style="padding: 16px 38px 30px 42px" class="btn1 d-flex ms-3">
-            <img src="../assets/images/Cart.png" alt="cart" />
-            <p>0</p>
-          </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse item-links"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our story </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Gift card</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-3 items-btns">
+            <!--place inline styles in SCSS file-->
+            <button style="white-space: nowrap;" class="btn">Sign in / Sign up</button>
+            <button class="btn1">
+              <img src="../assets/images/Cart.png" alt="cart">
+            </button>
+          </div>
         </div>
       </div>
     </nav>

@@ -83,8 +83,8 @@
 }
 .sect1-home .sect1-box-container {
   position: absolute;
-  top: 199px;
-  left: 132px;
+  top: 279px;
+  left: 10px;
   width: 442px;
   height: 413px;
   border: none;
@@ -1296,4 +1296,49 @@ textarea {
 }
 .sect-1-menu-pickup img {
   width: 100%;
+}
+
+.sect2-menu-pickup {
+  padding: 72px 156px 84px 148px;
+  margin-bottom: 400px;
+  margin-top: 0;
+  background-color: #FAFAFB;
+}
+.sect2-menu-pickup .sect2-header-menu-pickup {
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup {
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 267px;
+  border-radius: 8px;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup .image-container-menu-pickup {
+  width: 219px;
+  height: 219px;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup .image-container-menu-pickup img {
+  width: 100%;
+  margin-left: 10px;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup button {
+  background-color: #FFF3F0;
+  color: #F96540;
+  width: 94px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup p {
+  width: 235px;
+  height: 60px;
+  font-size: 12px;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup h2 {
+  white-space: nowrap;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
 }/*# sourceMappingURL=main.css.map */
