@@ -63,9 +63,15 @@
           </ul>
           <div class="d-flex align-items-center gap-3 items-btns">
             <!--place inline styles in SCSS file-->
-            <button style="white-space: nowrap;" class="btn">Sign in / Sign up</button>
-            <button class="btn1">
-              <img src="../assets/images/Cart.png" alt="cart">
+            <button style="white-space: nowrap" class="btn">
+              Sign in / Sign up
+            </button>
+            <button
+              style="padding-left: 40px; padding-top: 10px"
+              class="btn1 d-flex"
+            >
+              <img src="../assets/images/Cart.png" alt="cart" />
+              0
             </button>
           </div>
         </div>
@@ -95,16 +101,26 @@
           <div style="width: 24px; height: 24px">
             <img class="me-5" src="../assets/images/Clock 1.png" alt="clock" />
           </div>
-          <p>
-            Monday - Saturday 10:30 AM - 9:00 PM/ Sunday - 12:00 PM - 9:00 PM
+          <p class="times">
+            Monday - Saturday 10:30 AM - 9:00 PM / Sunday - 12:00 PM - 9:00 PM
           </p>
+          <div class="container-fluid-menu-pickup ">
+            <div class="row no-gap">
+                <div class="col-6 box-1">
+                    Delivery
+                </div>
+                <div class="col-6 box-2">
+                    Pickup
+                </div>
+            </div>
+        </div>
         </div>
       </div>
     </section>
 
     <section class="sect2-menu-pickup">
       <div class="container-menu-pickup">
-        <p>Menu</p>
+        <p class="menu-txt">Menu</p>
         <div class="row">
           <div class="col-md-3">
             <div class="box-menu-pickup">
@@ -114,8 +130,8 @@
               <h2>Build Your Own Poke Bowl</h2>
               <p>Extra proteins for an additional charge.</p>
               <div class="d-flex">
-                <p>$20</p>
-                <button>Add to Cart</button>
+                <p class="price">$20</p>
+                <button>Add to cart</button>
               </div>
             </div>
           </div>
@@ -133,7 +149,10 @@
                 Spicy Salmon &bull; Spicy Tuna &bull; Green Onion &bull; Cabbage
                 &bull; Cucumber &bull; Carrot &bull; Jalapeno &bull; Ginger
               </p>
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$10</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
 
@@ -150,7 +169,10 @@
                 Spicy Salmon &bull; Spicy Tuna &bull; Green Onion &bull; Cabbage
                 &bull; Cucumber &bull; Carrot &bull; Jalapeno &bull; Ginger
               </p>
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$18</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
@@ -166,12 +188,17 @@
                 Tuna &bull; Ground Spicy &bull; Avocado &bull; Carrot &bull;
                 Cucumber &bull; Edamame &bull; Watermelon &bull; Radish
               </p>
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$12</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-menu-pickup">
+
+
+      <div class="container-menu-pickup mt-5">
         <div class="row">
           <div class="col-md-3">
             <div class="box-menu-pickup">
@@ -183,7 +210,10 @@
                 Tuna* &bull; Shrimp &bull; Carrot &bull; Mango &bull;Jalapeno
                 &bull; Cucumber &bull; Chili Flakes &bull; Sesame Seeds
               </p>
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$20</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
@@ -196,7 +226,10 @@
                 Tuna* &bull; Salmon &bull; Shrimp &bull; Seaweed &bull; Salad
                 &bull; Jalapeno &bull; Sweet Onion &bull; Edamame • Cucumber
               </p>
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$16</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
@@ -209,7 +242,10 @@
                 Tofu &bull; Avocado &bull; Carrot &bull; Cabbage &bull; Edamame
                 &bull; Watermelon Radish &bull; Red Onion &bull; Ginger
               </p>
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$20</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
@@ -223,14 +259,18 @@
                 &bull; Ginger &bull; House Sauce mixed with light sriracha
                 &bull; Furikake &bull; Lemon
               </p>
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$15</p>
+                <button>Add to cart</button>
+              </div>
+              >
             </div>
           </div>
         </div>
       </div>
 
       <div class="container-menu-pickup">
-        <p>Drink</p>
+        <p class="menu-txt">Drink</p>
         <div class="row">
           <div class="col-md-3">
             <div class="box-menu-pickup">
@@ -238,8 +278,10 @@
                 <img src="../assets/images/Image 132.png" alt="drink" />
               </div>
               <h4>Coca Cola</h4>
-
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$2</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
@@ -249,7 +291,10 @@
               </div>
               <h4>Water</h4>
 
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$2</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
@@ -259,7 +304,10 @@
               </div>
               <h4>Sweet Tea</h4>
 
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$2</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
@@ -268,8 +316,10 @@
                 <img src="../assets/images/Image 135.png" alt="drink" />
               </div>
               <h4>Lemonade</h4>
-
-              <button>Add to Cart</button>
+              <div class="d-flex">
+                <p class="price">$2</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
         </div>

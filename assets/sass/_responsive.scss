@@ -258,3 +258,20 @@ footer {
     
   }
 }
+
+.container-fluid-menu-pickup{
+  @include respond-to(sm) {
+    margin-left: 20px;
+    
+    
+  }
+}
+
+
+.container-fluid-menu-pickup{
+  @include respond-to(md) {
+    margin-left: 550px;
+    
+    
+  }
+}
