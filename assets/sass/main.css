@@ -1399,4 +1399,56 @@ textarea {
   font-size: 18px;
   line-height: 28px;
   color: #171A1f;
+}
+
+.section-1-order-summary {
+  padding-right: 123px;
+  padding-left: 130px;
+  box-shadow: 0 0 1px 0;
+}
+.section-1-order-summary .summary-container {
+  width: 796px;
+  height: 282px;
+  margin-top: 36px;
+  box-shadow: 0 0 1px 0;
+}
+.section-1-order-summary .summary-container .summary-box {
+  border: 1px solid #000000;
+  border-left: none;
+  border-right: none;
+}
+
+h1 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #171A1f;
+}
+
+.bowl-img {
+  width: 62px;
+  height: 62px;
+}
+
+.pen {
+  width: 20px;
+  height: 20px;
+}
+
+.trash {
+  width: 20px;
+  height: 20px;
+}
+
+.payment-container {
+  box-shadow: 0 3px 6px 0 #120f28;
+  width: 348px;
+  height: 571px;
+  margin-top: 36px;
+}
+
+.section-2-order-summary {
+  padding-left: 156px;
+  padding-right: 156px;
 }/*# sourceMappingURL=main.css.map */
