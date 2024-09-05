@@ -1,0 +1,108 @@
+@import "./variables";
+
+.section-1-purchase-info {
+  h1 {
+    font-family: $catamaran;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 48px;
+    color: $black100;
+  }
+  p {
+    color: $grey400;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.section-2-purchase-info {
+  margin-bottom: 100px;
+  .purchase-info {
+    width: 560px;
+    .left-txt {
+      display: inline-block;
+      p {
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $grey400;
+      }
+    }
+    .right-txt {
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .right-txt-1 {
+      color: $black100;
+      font-family: $catamaran;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .right-txt-2 {
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    
+  }
+
+  h2 {
+    color: $black100;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+  }
+  h3 {
+    color: #323842;
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+  }
+  .purchased-item {
+    display: inline-block;
+  }
+  .order-line {
+    width: 560px;
+  }
+  .order-line-img {
+    width: 94px;
+    height: 94px;
+  }
+  .order-line-txt-1 {
+    text-align: left;
+  }
+  .order-line-txt-2 {
+    text-align: left;
+  }
+  .back-home {
+    background-color: $orange100;
+    border: none;
+    width: 130px;
+    height: 44px;
+    color: $white100;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 22px;
+  }
+  .line{
+    border: 1px solid #DEE1E6;
+    height: 1px;
+    width: 512px;
+
+  }
+}

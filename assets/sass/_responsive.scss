@@ -216,8 +216,6 @@ footer {
   }
 }
 
-
-
 .location-hours-container {
   @include respond-to(sm) {
     margin-bottom: 2000px !important;
@@ -230,48 +228,54 @@ footer {
   }
 }
 
-
-.container-giftcard-boxes{
+.container-giftcard-boxes {
   @include respond-to(sm) {
     display: none;
-    
   }
 }
 
-.container-giftcard-boxes{
+.container-giftcard-boxes {
   @include respond-to(md) {
     display: block;
   }
 }
 
-
-.section-1-giftcard{
+.section-1-giftcard {
   @include respond-to(sm) {
     width: 100%;
-    
   }
 }
 
-.section-1-giftcard{
+.section-1-giftcard {
   @include respond-to(md) {
     width: 1636px;
-    
   }
 }
 
-.container-fluid-menu-pickup{
+.container-fluid-menu-pickup {
   @include respond-to(sm) {
     margin-left: 20px;
-    
-    
   }
 }
 
-
-.container-fluid-menu-pickup{
+.container-fluid-menu-pickup {
   @include respond-to(md) {
     margin-left: 550px;
-    
-    
+  }
+}
+
+.section-2-purchase-info {
+  .line {
+    @include respond-to(sm) {
+      margin-left: 27px;
+    }
+  }
+}
+
+.section-2-purchase-info {
+  .line {
+    @include respond-to(md) {
+      margin-left: 27%;
+    }
   }
 }
