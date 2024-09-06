@@ -1657,8 +1657,44 @@ textarea {
   width: 512px;
 }
 
-.build-bowl-body {
-  filter: blur(10px);
+.build-bowl-box {
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 816px;
+  height: 684px;
+  z-index: 1;
+  margin-top: 40px;
+  margin-left: 25%;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 0 0 2 0;
+  padding-left: 36px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+.build-bowl-box .build-bowl-add-cart {
+  background-color: #97DB32;
+  color: #354F0E;
+  border: none;
+  width: 145px;
+  height: 44px;
+  border-radius: 22px;
+}
+.build-bowl-box .list-group {
+  height: 343px;
+}
+.build-bowl-box .list-group-item {
+  border: none;
+}
+.build-bowl-box .form-check-input {
+  background-color: #F96540;
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+.build-bowl-box .btn {
+  background-color: #F96540;
+  border: none;
 }
 
 .sect-1-menu-pickup {

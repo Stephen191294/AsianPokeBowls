@@ -1,8 +1,55 @@
 @import "./variables";
 
 .build-bowl-body{
-  filter: blur(10px);
+ // filter: blur(10px);
 }
+
+.build-bowl-box{
+  position: absolute;
+  background-color: $white100;
+  width: 816px;
+  height: 684px;
+  z-index: 1;
+  margin-top: 40px;
+  margin-left: 25%;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 0 0 2 0;
+  padding-left: 36px;
+  padding-top: 30px;
+  padding-right: 30px;
+  .build-bowl-add-cart{
+  background-color: $lightgreen100;
+  color: $darkgreen200;
+  border: none;
+  width: 145px;
+  height: 44px;
+  border-radius: 22px;
+  }
+  .list-group{
+    height: 343px;
+  }
+  .list-group-item{
+    border: none;
+  }
+  .form-check-input{
+    background-color: $orange100;
+    border: none;
+    width: 20px;
+    height: 20px;
+  }
+  .btn{
+    background-color: $orange100;
+    border: none;
+  }
+
+}
+
+
+
+
+
+
 
 
 .sect-1-menu-pickup {
@@ -12,6 +59,7 @@
     font-size: 32px;
     line-height: 48px;
     color: $black100;
+   
   }
   width: 100%;
   img {
@@ -19,7 +67,7 @@
   }
 
   .container-fluid-menu-pickup {
-  
+    
     .box-1 {
       border: 1px solid $yellow100;
       width: 77px;
