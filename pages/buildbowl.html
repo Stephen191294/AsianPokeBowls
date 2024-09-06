@@ -1,13 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="">
-  <title>Document</title>
-</head>
-<body>
-  
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="../assets/sass/main.css" />
+
+    <title>Build bowl</title>
+  </head>
+  <body class="build-bowl-body" id="fadeElement">
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+      <div class="container">
+        <div class="logo-container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../assets/images/Image 20.png"
+              alt="logo"
+              class="img-fluid"
+            />
+          </a>
+          <p>POKE NOW.</p>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse item-links"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our story </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Gift card</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-3 items-btns">
+            <!--place inline styles in SCSS file-->
+            <button style="white-space: nowrap" class="btn">
+              Sign in / Sign up
+            </button>
+            <button
+              style="padding-left: 40px; padding-top: 10px"
+              class="btn1 d-flex"
+            >
+              <img src="../assets/images/Cart.png" alt="cart" />
+              0
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+<div class="build-bowl-box"></div>
+    <section class="sect-1-menu-pickup">
+      <div class="sect-1-img-menu-pickup">
+        <img src="../assets/images/Image 123.png" alt="bowl" />
+      </div>
+      <div class="container mt-5">
+        <h1>PokeBar Harbor Islands</h1>
+        <div class="d-flex">
+          <div style="width: 24px; height: 24px">
+            <img
+              class="me-2"
+              src="../assets/images/Love heart pin 11.png"
+              alt="pin"
+            />
+          </div>
+
+          <p>
+            15 State Street, Suite 1100, Boston <span>Change Location</span>
+          </p>
+        </div>
+        <div class="d-flex">
+          <div style="width: 24px; height: 24px">
+            <img class="me-5" src="../assets/images/Clock 1.png" alt="clock" />
+          </div>
+          <p class="times">
+            Monday - Saturday 10:30 AM - 9:00 PM / Sunday - 12:00 PM - 9:00 PM
+          </p>
+          <div class="container-fluid-menu-pickup">
+            <div class="row no-gap">
+              <div class="col-6 box-1">Delivery</div>
+              <div class="col-6 box-2">Pickup</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sect2-menu-pickup">
+      <div class="container-menu-pickup">
+        <p class="menu-txt">Menu</p>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img src="../assets/images/Image 124.png" alt="bowl" />
+              </div>
+              <h2>Build Your Own Poke Bowl</h2>
+              <p>Extra proteins for an additional charge.</p>
+              <div class="d-flex">
+                <p class="price">$20</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img
+                  src="../assets/images/image3-removebg-preview.png"
+                  alt="bowl"
+                />
+              </div>
+              <h2>Volcano Bowl</h2>
+              <p>
+                Spicy Salmon &bull; Spicy Tuna &bull; Green Onion &bull; Cabbage
+                &bull; Cucumber &bull; Carrot &bull; Jalapeno &bull; Ginger
+              </p>
+              <div class="d-flex">
+                <p class="price">$10</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img
+                  src="../assets/images/image3-removebg-preview.png"
+                  alt="bowl"
+                />
+              </div>
+              <h2>Volcano Bowl</h2>
+              <p>
+                Spicy Salmon &bull; Spicy Tuna &bull; Green Onion &bull; Cabbage
+                &bull; Cucumber &bull; Carrot &bull; Jalapeno &bull; Ginger
+              </p>
+              <div class="d-flex">
+                <p class="price">$18</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img
+                  src="../assets/images/image4-removebg-preview.png"
+                  alt="bowl"
+                />
+              </div>
+              <h2>Tuna lover's Bowl</h2>
+              <p>
+                Tuna &bull; Ground Spicy &bull; Avocado &bull; Carrot &bull;
+                Cucumber &bull; Edamame &bull; Watermelon &bull; Radish
+              </p>
+              <div class="d-flex">
+                <p class="price">$12</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-menu-pickup mt-5">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img src="../assets/images/Image 47.png" alt="bowl" />
+              </div>
+              <h4>Dynamite Bowl</h4>
+              <p>
+                Tuna* &bull; Shrimp &bull; Carrot &bull; Mango &bull;Jalapeno
+                &bull; Cucumber &bull; Chili Flakes &bull; Sesame Seeds
+              </p>
+              <div class="d-flex">
+                <p class="price">$20</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img src="../assets/images/Image 48 (1).png" alt="bowl" />
+              </div>
+              <h4>Add to Cart</h4>
+              <p>
+                Tuna* &bull; Salmon &bull; Shrimp &bull; Seaweed &bull; Salad
+                &bull; Jalapeno &bull; Sweet Onion &bull; Edamame • Cucumber
+              </p>
+              <div class="d-flex">
+                <p class="price">$16</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img src="../assets/images/Image 49 (1).png" alt="bowl" />
+              </div>
+              <h4>Aloha Vegan Bowl</h4>
+              <p>
+                Tofu &bull; Avocado &bull; Carrot &bull; Cabbage &bull; Edamame
+                &bull; Watermelon Radish &bull; Red Onion &bull; Ginger
+              </p>
+              <div class="d-flex">
+                <p class="price">$20</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img src="../assets/images/Image 50 (1).png" alt="bowl" />
+              </div>
+              <h4>Salmon Bowl</h4>
+              <p>
+                Spicy Salmon* &bull; Green Onion &bull; Avocado &bull; Cucumber
+                &bull; Ginger &bull; House Sauce mixed with light sriracha
+                &bull; Furikake &bull; Lemon
+              </p>
+              <div class="d-flex">
+                <p class="price">$15</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-menu-pickup">
+        <p class="menu-txt">Drink</p>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img src="../assets/images/Image 132.png" alt="drink" />
+              </div>
+              <h4>Coca Cola</h4>
+              <div class="d-flex">
+                <p class="price">$2</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img src="../assets/images/Image 133.png" alt="drink" />
+              </div>
+              <h4>Water</h4>
+
+              <div class="d-flex">
+                <p class="price">$2</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img src="../assets/images/Image 134.png" alt="drink" />
+              </div>
+              <h4>Sweet Tea</h4>
+
+              <div class="d-flex">
+                <p class="price">$2</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box-menu-pickup">
+              <div class="image-container-menu-pickup">
+                <img src="../assets/images/Image 135.png" alt="drink" />
+              </div>
+              <h4>Lemonade</h4>
+              <div class="d-flex">
+                <p class="price">$2</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container-fluid d-flex justify-content-between">
+        <div>
+          <div class="d-flex">
+            <div>
+              <img src="../assets/images/Image 22 (1).png" alt="logo" />
+            </div>
+            <div>
+              <h6 class="mt-4">POKE NOW.</h6>
+            </div>
+          </div>
+          <div class="d-flex mt-4">
+            <div class="text-white me-2">Menu</div>
+            <div class="text-white me-2">Our Story</div>
+            <div class="text-white me-2">Location</div>
+            <div class="text-white me-2">Gift Card</div>
+          </div>
+          <p class="text-white mt-4">
+            &copy; 2022 Brand, Inc. &bull; Privacy &bull; Terms &bull; Sitemap
+          </p>
+        </div>
+        <div>
+          <div class="btn-container">
+            <button class="btn1">Order Online</button>
+            <button class="btn2">Book a Table</button>
+          </div>
+          <p class="text-white mt-4">
+            848 King Street, Mesa, AZ 85201, Boston, USA.
+          </p>
+
+          <div class="social">
+            <p class="text-white">info@pokebar.com</p>
+            <img
+              class="me-2"
+              src="../assets/images/Twitter 1 (1).png"
+              alt="icon"
+            />
+            <img
+              class="me-2"
+              src="../assets/images/Facebook 1 (1).png"
+              alt="icon"
+            />
+            <img
+              class="me-2"
+              src="../assets/images/LinkedIn 1 (1).png"
+              alt="icon"
+            />
+            <img
+              class="me-2"
+              src="../assets/images/YouTube 1 (1).png"
+              alt="icon"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -24,6 +24,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 .navbar {
   height: 80px;
 }
@@ -1650,7 +1652,114 @@ textarea {
   border-radius: 22px;
 }
 .section-2-purchase-info .line {
-  border: 1px solid #DEE1E6;
+  border: 1px solid #dee1e6;
   height: 1px;
   width: 512px;
+}
+
+.build-bowl-body {
+  filter: blur(10px);
+}
+
+.sect-1-menu-pickup {
+  width: 100%;
+}
+.sect-1-menu-pickup h1 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #171A1f;
+}
+.sect-1-menu-pickup img {
+  width: 100%;
+}
+.sect-1-menu-pickup .container-fluid-menu-pickup .box-1 {
+  border: 1px solid #FCDD80;
+  width: 77px;
+  height: 34px;
+  border-radius: 4px 0 0 4px;
+  padding: 7px 12px 5px 12px;
+  color: #765903;
+  cursor: pointer;
+}
+.sect-1-menu-pickup .container-fluid-menu-pickup .box-1 .box-1:hover {
+  background-color: #FCDD80;
+}
+.sect-1-menu-pickup .container-fluid-menu-pickup .box-2 {
+  border: 1px solid #FCDD80;
+  width: 77px;
+  height: 34px;
+  border-radius: 0 4px 4px 0;
+  padding: 7px 12px 5px 12px;
+  color: #765903;
+  cursor: pointer;
+}
+.sect-1-menu-pickup .container-fluid-menu-pickup .box-1:hover {
+  background-color: #FCDD80;
+}
+.sect-1-menu-pickup .container-fluid-menu-pickup .box-2:hover {
+  background-color: #FCDD80;
+}
+.sect-1-menu-pickup .times {
+  white-space: nowrap;
+}
+
+.sect2-menu-pickup {
+  padding: 72px 156px 84px 148px;
+  margin-top: 0;
+  background-color: #FAFAFB;
+}
+.sect2-menu-pickup .sect2-header-menu-pickup {
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup {
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 267px;
+  border-radius: 8px;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup .image-container-menu-pickup {
+  width: 219px;
+  height: 219px;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup .image-container-menu-pickup img {
+  width: 100%;
+  margin-left: 10px;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup button {
+  background-color: #FFF3F0;
+  color: #F96540;
+  width: 94px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+  white-space: nowrap;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup p {
+  width: 235px;
+  height: 60px;
+  font-size: 12px;
+}
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup h2 {
+  white-space: nowrap;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sect2-menu-pickup .menu-txt {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #171A1f;
+}
+.sect2-menu-pickup .price {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #171A1f;
 }/*# sourceMappingURL=main.css.map */
