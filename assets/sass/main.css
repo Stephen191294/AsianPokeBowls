@@ -1807,16 +1807,13 @@ textarea {
 .login-box {
   position: absolute;
   background-color: #FFFFFF;
-  width: 816px;
-  height: 684px;
+  width: 1139px;
+  height: 624px;
   z-index: 1;
   margin-top: 40px;
-  margin-left: 25%;
+  margin-left: 15%;
   border-radius: 8px;
   box-shadow: 0 0 4px 0;
-  padding-left: 36px;
-  padding-top: 30px;
-  padding-right: 30px;
 }
 .login-box .build-bowl-add-cart {
   background-color: #97DB32;
