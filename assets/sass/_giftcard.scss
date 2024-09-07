@@ -43,8 +43,9 @@
       width: 280px;
       height: 102px;
       border-radius: 8px;
-      border: 1px solid $orange100;
+      border: 1px solid $lightgrey100;;
       padding: 20px 16px 45px 16px;
+      cursor: pointer;
       img {
         width: 36px;
         height: 36px;
@@ -69,12 +70,44 @@
       }
     }
 
+    .box-1:hover {
+      width: 280px;
+      height: 102px;
+      border-radius: 8px;
+      border: 1px solid $orange100;
+      padding: 20px 16px 45px 16px;
+      cursor: pointer;
+      img {
+        width: 36px;
+        height: 36px;
+      }
+      p {
+        font-size: 12px;
+      }
+      .text-1{
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: $orange100;
+        margin-bottom: 0;
+      }
+      .text-2{
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: $orange100;
+      }
+    }
+
     .box-2 {
       width: 280px;
       height: 102px;
       border-radius: 8px;
       border: 1px solid $lightgrey100;
       padding: 20px 16px 45px 16px;
+      cursor: pointer;
       img {
         width: 36px;
         height: 36px;
@@ -96,6 +129,37 @@
         font-size: 12px;
         line-height: 20px;
         color: $black100;
+      }
+    }
+
+    .box-2:hover {
+      width: 280px;
+      height: 102px;
+      border-radius: 8px;
+      border: 1px solid $orange100;
+      padding: 20px 16px 45px 16px;
+      img {
+        width: 36px;
+        height: 36px;
+        color: $orange100;
+      }
+      p {
+        font-size: 12px;
+      }
+      .text-1{
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: $orange100;
+        margin-bottom: 0;
+      }
+      .text-2{
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: $orange100;
       }
     }
 

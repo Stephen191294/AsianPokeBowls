@@ -21,6 +21,10 @@ footer {
       color: $orange100;
       background-color: $black100;
     }
+    .btn1:hover{
+      background-color: $orange100;
+      color: $black100;
+    }
     .btn2 {
       width: 126px;
       height: 44px;
@@ -29,8 +33,19 @@ footer {
       color: $white100;
       background-color: $orange100;
     }
+    .btn2:hover{
+      background-color: $white100;
+      color: $orange100;
+    }
   }
   .social {
     text-align: right;
+  }
+  .footer-link{
+    text-decoration: none;
+    color: $white100;
+  }
+  .footer-link:hover{
+    color: $orange100;
   }
 }

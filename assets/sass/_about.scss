@@ -57,6 +57,11 @@
       border-radius: 26px;
       border: none;
     }
+    button:hover{
+      background-color: $white100;
+      color: $orange100;
+      border: 1px solid $orange100;
+    }
   }
 }
 

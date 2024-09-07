@@ -1,7 +1,7 @@
 @import "./variables";
 
 .sect1-home {
-  //box-shadow: 0 0 1px 0 $black100;
+  
   .sect1-img {
     position: relative;
     width: 100%;
@@ -54,6 +54,11 @@
       border-radius: 26px;
       border: none;
     }
+    button:hover{
+      color: $orange100;
+      background-color: $white100;
+      border: 1px solid $orange100;
+    }
   }
   .sect1-text-container {
     margin-top: 72px;
@@ -104,6 +109,10 @@
         border-radius: 18px;
         border: none;
       }
+      button:hover{
+        color: $orange200;
+        background-color: $orange100 ;
+      }
       p {
         width: 235px;
         height: 60px;
@@ -131,6 +140,10 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 28px;
+    }
+    button:hover{
+      background-color: $black100;
+      color: $white100;
     }
   }
 }
@@ -218,6 +231,11 @@
         height: 52px;
         border-radius: 26px;
         border: none;
+      }
+      button:hover{
+        border: 1px solid $orange100;
+        color: $orange100;
+        background-color: $white100;
       }
       .img-container {
         display: flex;

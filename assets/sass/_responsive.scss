@@ -279,3 +279,19 @@ footer {
     }
   }
 }
+
+.login-box {
+  .box-1 {
+    @include respond-to(sm) {
+      display: none;
+    }
+  }
+}
+
+.login-box {
+  .box-1 {
+    @include respond-to(md) {
+      display: inline-block;
+    }
+  }
+}

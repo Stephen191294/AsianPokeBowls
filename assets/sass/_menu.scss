@@ -54,6 +54,10 @@
         border-radius: 18px;
         border: none;
       }
+      button:hover{
+        color: $orange200;
+        background-color: $orange100;
+      }
       p {
         width: 235px;
         height: 60px;
@@ -81,6 +85,10 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 28px;
+    }
+    button:hover{
+      background-color: $black100;
+      color: $white100;
     }
   }
 }
@@ -139,6 +147,11 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+  }
+  button:hover{
+    color: $orange100;
+    background-color: $white100;
+    border: 1px solid $orange100;
   }
 }
 
