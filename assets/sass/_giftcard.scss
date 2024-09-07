@@ -267,6 +267,11 @@ textarea {
   border: none;
   color: $white100;
 }
+.checkout-btn:hover{
+  background-color: $white100;
+  color: $orange100;
+  border: 1px solid $orange100;
+}
 
 
 .container-giftcard-boxes{

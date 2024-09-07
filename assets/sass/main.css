@@ -1334,6 +1334,12 @@ textarea {
   color: #FFFFFF;
 }
 
+.checkout-btn:hover {
+  background-color: #FFFFFF;
+  color: #F96540;
+  border: 1px solid #F96540;
+}
+
 .container-giftcard-boxes {
   overflow: hidden;
 }
