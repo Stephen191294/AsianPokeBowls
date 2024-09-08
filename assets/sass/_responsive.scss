@@ -295,3 +295,80 @@ footer {
     }
   }
 }
+
+.login-box .box-2 input{
+  @include respond-to(sm) {
+    width: 500px;
+  }
+}
+
+.login-box .box-2 input{
+  @include respond-to(md) {
+    width: 581px;
+  }
+}
+
+.login-box .box-2 .button-1{
+  @include respond-to(sm) {
+    width: 500px;
+  }
+}
+
+.login-box .box-2 .button-2{
+  @include respond-to(sm) {
+    width: 500px;
+  }
+}
+
+.login-box .box-2 .button-3{
+  @include respond-to(sm) {
+    width: 500px;
+  }
+}
+
+.login-box .box-2 .button-4{
+  @include respond-to(sm) {
+    width: 500px;
+  }
+}
+
+
+.login-box .box-2 .button-1{
+  @include respond-to(md) {
+    width: 581px;
+  }
+}
+
+.login-box .box-2 .button-2{
+  @include respond-to(md) {
+    width: 581px;
+  }
+}
+.login-box .box-2 .button-3{
+  @include respond-to(md) {
+    width: 581px;
+  }
+}
+.login-box .box-2 .button-4{
+  @include respond-to(md) {
+    width: 581px;
+  }
+}
+
+.login-box .box-2 .line-container{
+  @include respond-to(sm) {
+    
+  }
+}
+
+.login-box .box-2  .box-2-txt{
+  @include respond-to(sm) {
+    display: none;
+  }
+}
+
+.login-box .box-2  .box-2-txt{
+  @include respond-to(md) {
+    display: inline-block;
+  }
+}

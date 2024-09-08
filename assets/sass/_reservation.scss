@@ -1,0 +1,371 @@
+@import "./variables";
+
+.reservation-box {
+  position: absolute;
+  background-color: $white100;
+  width: 1139px;
+  height: 624px;
+  z-index: 1;
+  margin-top: 40px;
+  margin-left: 15%;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0;
+  padding: 0;
+  .box-1 {
+    width: 501px;
+    height: 625px;
+    padding: 48px 49px 81px 48px;
+    input{
+      width: 541px;
+      height: 43px;
+      border-radius: 4px;
+    }
+    select{
+      width: 258px;
+      height: 43px;
+      border-radius: 4px;
+      color: #9095A0;
+    
+    }
+    .btn{
+      background-color: $orange100;
+      color: $white100;
+      width: 542px;
+      height: 44px;
+      border-radius: 22px;
+    }
+  }
+  .box-2 {
+    width: 501px;
+    height: 624px;
+    margin: 0;
+    padding: 0;
+    img{
+    margin-left: 30px;
+    }
+  }
+}
+
+.sect1-reservation {
+  filter: blur(10px);
+  .sect1-img {
+    position: relative;
+    width: 100%;
+    height: 810px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .sect1-box-container {
+    position: absolute;
+    top: 279px;
+    left: 10px;
+    width: 442px;
+    height: 413px;
+    border: none;
+
+    z-index: 1;
+    .box {
+      background-color: $white100;
+      padding: 48px 36px;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 0 1px 0 $black100;
+      border-radius: 4px;
+      .sect1-btn-container {
+        margin-top: 80px;
+      }
+    }
+    h1 {
+      font-family: $catamaran;
+      font-weight: 400;
+      font-size: 48px;
+      width: 370px;
+      line-height: 68px;
+      color: $black100;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    button {
+      background-color: $orange100;
+      color: $white100;
+      width: 219px;
+      height: 52px;
+      padding: 12px, 64px;
+      border-radius: 26px;
+      border: none;
+    }
+    button:hover {
+      color: $orange100;
+      background-color: $white100;
+      border: 1px solid $orange100;
+    }
+  }
+  .sect1-text-container {
+    margin-top: 72px;
+    text-align: center;
+    h2 {
+      font-family: $catamaran;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 68px;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+
+.sect2-reservation {
+  filter: blur(10px);
+  height: 683px;
+  padding-top: 48px;
+  background-color: $lightgrey200;
+  .sect2-header {
+    text-align: center;
+    font-family: $catamaran;
+  }
+  .container {
+    .box {
+      background-color: $white100;
+      padding: 10px;
+      width: 267px;
+      border-radius: 8px;
+      //height: 292px;
+      .image-container {
+        width: 219px;
+        height: 219px;
+        img {
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+      button {
+        background-color: $orange200;
+        color: $orange100;
+        width: 94px;
+        height: 36px;
+        border-radius: 18px;
+        border: none;
+      }
+      button:hover {
+        color: $orange200;
+        background-color: $orange100;
+      }
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+      h4 {
+        white-space: nowrap;
+        font-family: $catamaran;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+  .sect2-btn-container {
+    text-align: center;
+    button {
+      width: 219px;
+      height: 52px;
+      margin-top: 48px;
+      border-radius: 26px;
+      border: 1px solid $black100;
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    button:hover {
+      background-color: $black100;
+      color: $white100;
+    }
+  }
+}
+
+.sect3-reservation {
+  filter: blur(10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 72px;
+  padding-top: 48px;
+  margin-right: 132px;
+  margin-left: 132px;
+  //height: 616px;
+  //width: 1440px;
+
+  h5 {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 68px;
+    color: $black100;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .icon {
+    margin-top: 114px;
+  }
+
+  .name {
+    width: 182px;
+    height: 36px;
+    margin-top: 20px;
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: $black100;
+  }
+  .img-container {
+    width: 520px;
+    height: 520px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.sect4-reservation {
+  filter: blur(10px);
+  width: 100%;
+  .container {
+    position: relative;
+    width: 100%;
+    .box {
+      margin-top: 72px;
+      margin-bottom: 95px;
+      // margin-left: 132px;
+      // margin-right: 132px;
+      display: flex;
+      height: 314px;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      background-color: $black100;
+      border-radius: 8px;
+      padding: 48px 70px 48px 70px;
+      overflow: hidden;
+      h6 {
+        color: $white100;
+        font-family: $catamaran;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 68px;
+      }
+      p {
+        color: $white100;
+      }
+      button {
+        background-color: $orange100;
+        color: $white100;
+        width: 244px;
+        height: 52px;
+        border-radius: 26px;
+        border: none;
+      }
+      button:hover {
+        border: 1px solid $orange100;
+        color: $orange100;
+        background-color: $white100;
+      }
+      .img-container {
+        display: flex;
+        flex-direction: row;
+        .img1-container {
+          height: 200px;
+          width: 300px;
+          border-radius: 167px;
+          margin-top: -16px;
+        }
+
+        .img-1 {
+          height: 100%;
+          width: 100%;
+          margin-top: 82px;
+          margin-right: 204px;
+          margin-bottom: 202px;
+
+          width: 100%;
+        }
+        .img-2 {
+          width: 174px;
+          height: 174px;
+        }
+      }
+    }
+  }
+}
+
+.sect5-reservation {
+  filter: blur(10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  height: 616px;
+  border-radius: 4px;
+  background-color: $lightgrey200;
+  .container {
+    padding: 0;
+    .custom-negative-margin {
+      margin-top: -50px;
+    }
+    .custom-negative-margin-1 {
+      margin-top: -100px;
+    }
+    .box {
+      width: 238px;
+      height: 238;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+      }
+    }
+  }
+  .sect5-text-container {
+    margin-top: 160px;
+    margin-left: 132px;
+    h6 {
+      font-family: $catamaran;
+      font-size: 48px;
+      line-height: 68px;
+      font-weight: 500;
+      color: $black100;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: $black100;
+    }
+    .icon-container {
+      margin-top: 52px;
+      img {
+        margin-right: 24px;
+        width: 44px;
+        height: 44px;
+      }
+    }
+  }
+}

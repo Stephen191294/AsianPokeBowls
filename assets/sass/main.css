@@ -28,6 +28,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 .navbar {
   height: 80px;
 }
@@ -641,6 +643,78 @@ body {
 
 @media (min-width: 768px) {
   .login-box .box-1 {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 576px) {
+  .login-box .box-2 input {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-box .box-2 input {
+    width: 581px;
+  }
+}
+
+@media (min-width: 576px) {
+  .login-box .box-2 .button-1 {
+    width: 500px;
+  }
+}
+
+@media (min-width: 576px) {
+  .login-box .box-2 .button-2 {
+    width: 500px;
+  }
+}
+
+@media (min-width: 576px) {
+  .login-box .box-2 .button-3 {
+    width: 500px;
+  }
+}
+
+@media (min-width: 576px) {
+  .login-box .box-2 .button-4 {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-box .box-2 .button-1 {
+    width: 581px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-box .box-2 .button-2 {
+    width: 581px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-box .box-2 .button-3 {
+    width: 581px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-box .box-2 .button-4 {
+    width: 581px;
+  }
+}
+
+@media (min-width: 576px) {
+  .login-box .box-2 .box-2-txt {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-box .box-2 .box-2-txt {
     display: inline-block;
   }
 }
@@ -1991,7 +2065,6 @@ textarea {
   color: #171A1f;
 }
 .login-box .box-2 input {
-  width: 581px;
   height: 45px;
   border-radius: 23px;
   background-color: #f3f4f6;
@@ -2001,15 +2074,18 @@ textarea {
 .login-box .box-2 .button-1 {
   background-color: #F96540;
   color: #FFFFFF;
-  width: 582px;
   height: 44px;
   border-radius: 22px;
   border: none;
 }
+.login-box .box-2 .button-1:hover {
+  background-color: #FFFFFF;
+  color: #F96540;
+  border: 1px solid #F96540;
+}
 .login-box .box-2 .button-2 {
   background-color: #F1F4FE;
   color: #FFFFFF;
-  width: 582px;
   height: 44px;
   border-radius: 22px;
   border: none;
@@ -2019,10 +2095,12 @@ textarea {
   line-height: 26px;
   color: #EA4336;
 }
+.login-box .box-2 .button-2:hover {
+  border: 1px solid #EA4336;
+}
 .login-box .box-2 .button-3 {
   background-color: #F1F4FE;
   color: #FFFFFF;
-  width: 582px;
   height: 44px;
   border-radius: 22px;
   border: none;
@@ -2032,10 +2110,12 @@ textarea {
   line-height: 26px;
   color: #3F5893;
 }
+.login-box .box-2 .button-3:hover {
+  border: 1px solid #3F5893;
+}
 .login-box .box-2 .button-4 {
   background-color: #F1F4FE;
   color: #FFFFFF;
-  width: 582px;
   height: 44px;
   border-radius: 22px;
   border: none;
@@ -2044,6 +2124,9 @@ textarea {
   font-size: 16px;
   line-height: 26px;
   color: #000000;
+}
+.login-box .box-2 .button-4:hover {
+  border: 1px solid #000000;
 }
 .login-box .box-2 .line-1 {
   width: 282px;
@@ -2182,4 +2265,361 @@ textarea {
   font-size: 18px;
   line-height: 28px;
   color: #171A1f;
+}
+
+.reservation-box {
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 1139px;
+  height: 624px;
+  z-index: 1;
+  margin-top: 40px;
+  margin-left: 15%;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0;
+  padding: 0;
+}
+.reservation-box .box-1 {
+  width: 501px;
+  height: 625px;
+  padding: 48px 49px 81px 48px;
+}
+.reservation-box .box-1 input {
+  width: 541px;
+  height: 43px;
+  border-radius: 4px;
+}
+.reservation-box .box-1 select {
+  width: 258px;
+  height: 43px;
+  border-radius: 4px;
+  color: #9095A0;
+}
+.reservation-box .box-1 .btn {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 542px;
+  height: 44px;
+  border-radius: 22px;
+}
+.reservation-box .box-2 {
+  width: 501px;
+  height: 624px;
+  margin: 0;
+  padding: 0;
+}
+.reservation-box .box-2 img {
+  margin-left: 30px;
+}
+
+.sect1-reservation {
+  filter: blur(10px);
+}
+.sect1-reservation .sect1-img {
+  position: relative;
+  width: 100%;
+  height: 810px;
+}
+.sect1-reservation .sect1-img img {
+  width: 100%;
+  height: 100%;
+}
+.sect1-reservation .sect1-box-container {
+  position: absolute;
+  top: 279px;
+  left: 10px;
+  width: 442px;
+  height: 413px;
+  border: none;
+  z-index: 1;
+}
+.sect1-reservation .sect1-box-container .box {
+  background-color: #FFFFFF;
+  padding: 48px 36px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 1px 0 #171A1f;
+  border-radius: 4px;
+}
+.sect1-reservation .sect1-box-container .box .sect1-btn-container {
+  margin-top: 80px;
+}
+.sect1-reservation .sect1-box-container h1 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  width: 370px;
+  line-height: 68px;
+  color: #171A1f;
+}
+.sect1-reservation .sect1-box-container p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sect1-reservation .sect1-box-container button {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 219px;
+  height: 52px;
+  padding: 12px, 64px;
+  border-radius: 26px;
+  border: none;
+}
+.sect1-reservation .sect1-box-container button:hover {
+  color: #F96540;
+  background-color: #FFFFFF;
+  border: 1px solid #F96540;
+}
+.sect1-reservation .sect1-text-container {
+  margin-top: 72px;
+  text-align: center;
+}
+.sect1-reservation .sect1-text-container h2 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+}
+.sect1-reservation .sect1-text-container p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.sect2-reservation {
+  filter: blur(10px);
+  height: 683px;
+  padding-top: 48px;
+  background-color: #FAFAFB;
+}
+.sect2-reservation .sect2-header {
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+}
+.sect2-reservation .container .box {
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 267px;
+  border-radius: 8px;
+}
+.sect2-reservation .container .box .image-container {
+  width: 219px;
+  height: 219px;
+}
+.sect2-reservation .container .box .image-container img {
+  width: 100%;
+  margin-left: 10px;
+}
+.sect2-reservation .container .box button {
+  background-color: #FFF3F0;
+  color: #F96540;
+  width: 94px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+}
+.sect2-reservation .container .box button:hover {
+  color: #FFF3F0;
+  background-color: #F96540;
+}
+.sect2-reservation .container .box p {
+  width: 235px;
+  height: 60px;
+  font-size: 12px;
+}
+.sect2-reservation .container .box h4 {
+  white-space: nowrap;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sect2-reservation .sect2-btn-container {
+  text-align: center;
+}
+.sect2-reservation .sect2-btn-container button {
+  width: 219px;
+  height: 52px;
+  margin-top: 48px;
+  border-radius: 26px;
+  border: 1px solid #171A1f;
+  color: #171A1f;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sect2-reservation .sect2-btn-container button:hover {
+  background-color: #171A1f;
+  color: #FFFFFF;
+}
+
+.sect3-reservation {
+  filter: blur(10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 72px;
+  padding-top: 48px;
+  margin-right: 132px;
+  margin-left: 132px;
+}
+.sect3-reservation h5 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+  color: #171A1f;
+}
+.sect3-reservation p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.sect3-reservation .icon {
+  margin-top: 114px;
+}
+.sect3-reservation .name {
+  width: 182px;
+  height: 36px;
+  margin-top: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #171A1f;
+}
+.sect3-reservation .img-container {
+  width: 520px;
+  height: 520px;
+}
+.sect3-reservation .img-container img {
+  width: 100%;
+}
+
+.sect4-reservation {
+  filter: blur(10px);
+  width: 100%;
+}
+.sect4-reservation .container {
+  position: relative;
+  width: 100%;
+}
+.sect4-reservation .container .box {
+  margin-top: 72px;
+  margin-bottom: 95px;
+  display: flex;
+  height: 314px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #171A1f;
+  border-radius: 8px;
+  padding: 48px 70px 48px 70px;
+  overflow: hidden;
+}
+.sect4-reservation .container .box h6 {
+  color: #FFFFFF;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+}
+.sect4-reservation .container .box p {
+  color: #FFFFFF;
+}
+.sect4-reservation .container .box button {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 244px;
+  height: 52px;
+  border-radius: 26px;
+  border: none;
+}
+.sect4-reservation .container .box button:hover {
+  border: 1px solid #F96540;
+  color: #F96540;
+  background-color: #FFFFFF;
+}
+.sect4-reservation .container .box .img-container {
+  display: flex;
+  flex-direction: row;
+}
+.sect4-reservation .container .box .img-container .img1-container {
+  height: 200px;
+  width: 300px;
+  border-radius: 167px;
+  margin-top: -16px;
+}
+.sect4-reservation .container .box .img-container .img-1 {
+  height: 100%;
+  width: 100%;
+  margin-top: 82px;
+  margin-right: 204px;
+  margin-bottom: 202px;
+  width: 100%;
+}
+.sect4-reservation .container .box .img-container .img-2 {
+  width: 174px;
+  height: 174px;
+}
+
+.sect5-reservation {
+  filter: blur(10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  height: 616px;
+  border-radius: 4px;
+  background-color: #FAFAFB;
+}
+.sect5-reservation .container {
+  padding: 0;
+}
+.sect5-reservation .container .custom-negative-margin {
+  margin-top: -50px;
+}
+.sect5-reservation .container .custom-negative-margin-1 {
+  margin-top: -100px;
+}
+.sect5-reservation .container .box {
+  width: 238px;
+  height: 238;
+}
+.sect5-reservation .container .box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.sect5-reservation .sect5-text-container {
+  margin-top: 160px;
+  margin-left: 132px;
+}
+.sect5-reservation .sect5-text-container h6 {
+  font-family: "Catamaran", sans-serif;
+  font-size: 48px;
+  line-height: 68px;
+  font-weight: 500;
+  color: #171A1f;
+}
+.sect5-reservation .sect5-text-container p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #171A1f;
+}
+.sect5-reservation .sect5-text-container .icon-container {
+  margin-top: 52px;
+}
+.sect5-reservation .sect5-text-container .icon-container img {
+  margin-right: 24px;
+  width: 44px;
+  height: 44px;
 }/*# sourceMappingURL=main.css.map */
