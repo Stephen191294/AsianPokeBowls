@@ -1,47 +1,76 @@
 @import "./variables";
 
-.reservation-box {
-  position: absolute;
-  background-color: $white100;
-  width: 1139px;
-  height: 624px;
-  z-index: 1;
-  margin-top: 40px;
-  margin-left: 15%;
-  border-radius: 8px;
-  box-shadow: 0 0 4px 0;
-  padding: 0;
+.reservation {
   .box-1 {
-    width: 501px;
-    height: 625px;
-    padding: 48px 49px 81px 48px;
-    input{
+    position: absolute;
+    background-color: $white100;
+    // width: 1139px;
+    height: 624px;
+    z-index: 1;
+    top: 200px;
+    //left: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0;
+    overflow: hidden;
+
+    input {
       width: 541px;
       height: 43px;
       border-radius: 4px;
+      padding-left: 16px;
     }
-    select{
+    .time {
+      width: 258px;
+      height: 43px;
+    }
+    .date {
+      width: 258px;
+      height: 43px;
+    }
+    select {
       width: 258px;
       height: 43px;
       border-radius: 4px;
-      color: #9095A0;
-    
+      color: #bcc1ca;
+      padding-left: 16px;
     }
-    .btn{
+
+    .reservation-txt {
+      font-family: $catamaran;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      color: $black100;
+    }
+    label {
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 26px;
+      color: #424955;
+    }
+    p {
+      width: 542px;
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #323842;
+    }
+    .btn {
       background-color: $orange100;
       color: $white100;
       width: 542px;
       height: 44px;
       border-radius: 22px;
     }
-  }
-  .box-2 {
-    width: 501px;
-    height: 624px;
-    margin: 0;
-    padding: 0;
-    img{
-    margin-left: 30px;
+    .btn:hover {
+      background-color: $white100;
+      color: $orange100;
+      border: 1px solid $orange100;
+      width: 542px;
+      height: 44px;
+      border-radius: 22px;
     }
   }
 }

@@ -372,3 +372,45 @@ footer {
     display: inline-block;
   }
 }
+
+
+.reservation .box-1{
+  @include respond-to(sm) {
+    img{
+      display: none;
+    }
+  }
+}
+
+.reservation .box-1{
+  @include respond-to(md) {
+    img{
+      display: inline-block;
+    }
+  }
+}
+
+.reservation .box-1{
+  @include respond-to(sm) {
+    width: 650px;
+  }
+}
+
+.reservation .box-1{
+  @include respond-to(md) {
+    width: 1139px;
+  }
+}
+
+.reservation .box-1{
+  @include respond-to(sm) {
+    left: 50px;
+  }
+}
+
+.reservation .box-1{
+  @include respond-to(md) {
+    left: 200px;
+  }
+}
+

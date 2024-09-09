@@ -719,6 +719,42 @@ body {
   }
 }
 
+@media (min-width: 576px) {
+  .reservation .box-1 img {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .reservation .box-1 img {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 576px) {
+  .reservation .box-1 {
+    width: 650px;
+  }
+}
+
+@media (min-width: 768px) {
+  .reservation .box-1 {
+    width: 1139px;
+  }
+}
+
+@media (min-width: 576px) {
+  .reservation .box-1 {
+    left: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .reservation .box-1 {
+    left: 200px;
+  }
+}
+
 footer {
   height: 312px;
   background-color: #171A1f;
@@ -2126,7 +2162,7 @@ textarea {
   color: #000000;
 }
 .login-box .box-2 .button-4:hover {
-  border: 1px solid #000000;
+  border: 1px solid black;
 }
 .login-box .box-2 .line-1 {
   width: 282px;
@@ -2267,49 +2303,73 @@ textarea {
   color: #171A1f;
 }
 
-.reservation-box {
+.reservation .box-1 {
   position: absolute;
   background-color: #FFFFFF;
-  width: 1139px;
   height: 624px;
   z-index: 1;
-  margin-top: 40px;
-  margin-left: 15%;
+  top: 200px;
   border-radius: 8px;
   box-shadow: 0 0 4px 0;
-  padding: 0;
+  overflow: hidden;
 }
-.reservation-box .box-1 {
-  width: 501px;
-  height: 625px;
-  padding: 48px 49px 81px 48px;
-}
-.reservation-box .box-1 input {
+.reservation .box-1 input {
   width: 541px;
   height: 43px;
   border-radius: 4px;
+  padding-left: 16px;
 }
-.reservation-box .box-1 select {
+.reservation .box-1 .time {
+  width: 258px;
+  height: 43px;
+}
+.reservation .box-1 .date {
+  width: 258px;
+  height: 43px;
+}
+.reservation .box-1 select {
   width: 258px;
   height: 43px;
   border-radius: 4px;
-  color: #9095A0;
+  color: #bcc1ca;
+  padding-left: 16px;
 }
-.reservation-box .box-1 .btn {
+.reservation .box-1 .reservation-txt {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #171A1f;
+}
+.reservation .box-1 label {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #424955;
+}
+.reservation .box-1 p {
+  width: 542px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #323842;
+}
+.reservation .box-1 .btn {
   background-color: #F96540;
   color: #FFFFFF;
   width: 542px;
   height: 44px;
   border-radius: 22px;
 }
-.reservation-box .box-2 {
-  width: 501px;
-  height: 624px;
-  margin: 0;
-  padding: 0;
-}
-.reservation-box .box-2 img {
-  margin-left: 30px;
+.reservation .box-1 .btn:hover {
+  background-color: #FFFFFF;
+  color: #F96540;
+  border: 1px solid #F96540;
+  width: 542px;
+  height: 44px;
+  border-radius: 22px;
 }
 
 .sect1-reservation {
