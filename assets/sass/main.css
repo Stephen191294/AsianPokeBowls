@@ -90,6 +90,21 @@
   left: 1195px;
   text-decoration: none;
 }
+.navbar .cart {
+  background-color: #171A1f;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 40px;
+  color: #FFFFFF;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 126px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+}
 
 .navbar-toggler {
   width: 55px;
@@ -755,6 +770,19 @@ body {
   }
 }
 
+@media (min-width: 576px) {
+  .build-bowl-box {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .build-bowl-box {
+    margin-left: 25%;
+    width: 816px;
+  }
+}
+
 footer {
   height: 312px;
   background-color: #171A1f;
@@ -801,6 +829,9 @@ footer .footer-link {
 }
 footer .footer-link:hover {
   color: #F96540;
+}
+footer a {
+  text-decoration: none;
 }
 
 .sect1-about .sect1-img-about {
@@ -854,7 +885,7 @@ footer .footer-link:hover {
   color: #FFFFFF;
   width: 219px;
   height: 52px;
-  padding: 12px, 64px;
+  padding: 12px 64px;
   border-radius: 26px;
   border: none;
 }
@@ -1654,6 +1685,10 @@ textarea {
   border: none;
   white-space: nowrap;
 }
+.sect2-menu-pickup .container-menu-pickup .box-menu-pickup button:hover {
+  background-color: #F96540;
+  color: #FFF3F0;
+}
 .sect2-menu-pickup .container-menu-pickup .box-menu-pickup p {
   width: 235px;
   height: 60px;
@@ -1921,14 +1956,16 @@ textarea {
   width: 512px;
 }
 
+.build-bowl-body {
+  margin-bottom: 500px;
+}
+
 .build-bowl-box {
   position: absolute;
   background-color: #FFFFFF;
-  width: 816px;
   height: 684px;
   z-index: 1;
   margin-top: 40px;
-  margin-left: 25%;
   border-radius: 8px;
   box-shadow: 0 0 4px 0;
   padding-left: 36px;
@@ -1942,6 +1979,10 @@ textarea {
   width: 145px;
   height: 44px;
   border-radius: 22px;
+}
+.build-bowl-box .build-bowl-add-cart:hover {
+  background-color: #354F0E;
+  color: #97DB32;
 }
 .build-bowl-box .list-group {
   height: 343px;
@@ -2064,6 +2105,10 @@ textarea {
   font-size: 18px;
   line-height: 28px;
   color: #171A1f;
+}
+
+.login-body {
+  margin-bottom: 200px;
 }
 
 .login-box {

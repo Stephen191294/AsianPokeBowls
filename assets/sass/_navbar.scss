@@ -11,7 +11,7 @@
     font-size: 16px;
     line-height: 26px;
   }
-  .nav-link:hover{
+  .nav-link:hover {
     color: $orange100;
   }
   .logo-container {
@@ -27,9 +27,8 @@
       margin-top: 20px;
       cursor: pointer;
       text-decoration: none;
-      
     }
-    .index:hover{
+    .index:hover {
       color: $orange100;
     }
   }
@@ -45,7 +44,7 @@
     border: none;
     top: 18px;
   }
-  .btn:hover{
+  .btn:hover {
     color: $orange100;
   }
   .btn-1 {
@@ -63,8 +62,23 @@
     left: 1195px;
     text-decoration: none;
   }
+  .cart {
+    background-color: $black100;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 40px;
+    color: $white100;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 126px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+  }
 }
 
-.navbar-toggler{
+.navbar-toggler {
   width: 55px;
 }

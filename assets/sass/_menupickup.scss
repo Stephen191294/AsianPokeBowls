@@ -85,6 +85,10 @@
         border: none;
         white-space: nowrap;
       }
+      button:hover{
+        background-color: $orange100;
+        color: $orange200;
+      }
       p {
         width: 235px;
         height: 60px;
