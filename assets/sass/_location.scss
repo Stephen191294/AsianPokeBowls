@@ -1,6 +1,7 @@
 @import "./variables";
 
 .sect-1-location {
+  
   h1 {
     font-size: 48px;
     font-family: $catamaran;
@@ -78,5 +79,9 @@
   .icon {
     width: 24px;
     height: 24px;
+  
+  }
+  a{
+    text-decoration: none;
   }
 }

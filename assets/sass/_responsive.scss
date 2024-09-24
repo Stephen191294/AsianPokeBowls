@@ -61,7 +61,7 @@ body {
 .sect5-home {
   .sect5-text-container {
     @include respond-to(sm) {
-      margin-top: -10px;
+      margin-top: 40px;
     }
   }
 }

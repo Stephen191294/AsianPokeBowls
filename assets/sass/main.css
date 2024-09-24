@@ -464,7 +464,7 @@ body {
 
 @media (min-width: 576px) {
   .sect5-home .sect5-text-container {
-    margin-top: -10px;
+    margin-top: 40px;
   }
 }
 
@@ -1216,6 +1216,9 @@ footer a {
 .location-hours-container .icon {
   width: 24px;
   height: 24px;
+}
+.location-hours-container a {
+  text-decoration: none;
 }
 
 .section-1-giftcard {
