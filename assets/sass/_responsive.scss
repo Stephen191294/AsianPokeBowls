@@ -6,13 +6,10 @@ body {
   padding: 0;
 }
 
-
-
-
 .sect3-home {
   @include respond-to(xs) {
     margin-top: 1100px;
-    .sect3-img-home{
+    .sect3-img-home {
       display: none;
     }
   }
@@ -21,7 +18,7 @@ body {
 .sect3-home {
   @include respond-to(sm) {
     margin-top: 1100px;
-    .sect3-img-home{
+    .sect3-img-home {
       display: block;
     }
   }
@@ -30,7 +27,7 @@ body {
 .sect3-home {
   @include respond-to(md) {
     margin-top: 0px;
-    .sect3-img-home{
+    .sect3-img-home {
       display: block;
     }
   }
@@ -39,46 +36,38 @@ body {
 .sect4-home {
   .box {
     @include respond-to(xs) {
-      height: 370px !important;
-      img{
-        display:none;
+      height: 470px !important;
+      width: 100%;
+      img {
+        display: none;
+      }
+      .sect4-content{
+        width: 100%;
+        button{
+          width: 100%;
+        }
       }
     }
-  }
-}
-
-
-.sect4-home {
-  .box {
     @include respond-to(sm) {
       height: 370px !important;
-      img{
-        display:block;
+      img {
+        display: block;
       }
     }
-  }
-}
-
-.sect4-home {
-  .box {
     @include respond-to(md) {
       height: 314px !important;
-      img{
-        display:block;
+      img {
+        display: block;
       }
     }
   }
-}
 
-.sect4-home {
   .img-1 {
     @include respond-to(sm) {
       margin-top: 138px !important;
     }
   }
 }
-
-
 
 
 .sect5-home {
@@ -96,29 +85,26 @@ body {
 
   .sect5-text-container {
     @include respond-to(xs) {
-        margin-top: 0;
-        margin-right: 30px;
-        .icon-container{
-          display: none;
-        }
-        
+      margin-top: 0;
+      margin-right: 30px;
+      .icon-container {
+        display: none;
+      }
     }
     @include respond-to(sm) {
       margin-top: 40px;
       .img-1 {
         display: none !important;
-        .icon-container{
+        .icon-container {
           display: block;
         }
-        
       }
     }
     @include respond-to(md) {
       margin-top: 160px;
-      .icon-container{
+      .icon-container {
         display: block;
       }
-      
     }
   }
 }
@@ -128,32 +114,50 @@ footer {
     @include respond-to(xs) {
       display: flex;
       flex-direction: column;
-      padding-right: 50px ;
-      .footer-link{
-        white-space: nowrap;
-
+      padding-right: 0px;
+      .footer-link {
+       // white-space: nowrap;
       }
-      P{
-        white-space: nowrap;
+      P {
+       // white-space: nowrap;
       }
-      h6{
-        white-space: nowrap;
-      }
-      .btn-container{
+      h6 {
         white-space: nowrap;
       }
+      .btn-container {
+       // white-space: nowrap;
+       
+      }
+      
     }
     @include respond-to(sm) {
       display: flex;
       flex-direction: column;
+      .footer-icon{
+        display: flex;
+      }
+      .footer-link-div{
+        display: flex;
+      }
     }
     @include respond-to(md) {
       display: flex;
       flex-direction: row;
+      .footer-icon{
+        display: flex;
+      }
+      .footer-link-div{
+        display: flex;
+      }
     }
   }
 
   .social {
+    @include respond-to(xs) {
+      text-align: left !important;
+      display: inline-block;
+      
+    }
     @include respond-to(sm) {
       text-align: left !important;
     }
@@ -165,7 +169,8 @@ footer {
 
 .footer {
   @include respond-to(xs) {
-    height: 700px;
+    height: 1000px;
+    width: 100%;
   }
   @include respond-to(sm) {
     height: 500px;
@@ -176,14 +181,27 @@ footer {
 }
 
 .sect1-box-container-about {
+  @include respond-to(xs) {
+    left: 0 !important;
+  }
   @include respond-to(sm) {
     left: 0 !important;
   }
-}
-
-.sect1-box-container-about {
   @include respond-to(md) {
     left: 351px !important;
+  }
+}
+
+.sect1-box-container {
+  @include respond-to(xs) {
+    width: 100%;
+  // overflow: hidden;
+  }
+  @include respond-to(sm) {
+    width: 442px;
+  }
+  @include respond-to(md) {
+    width: 442px;
   }
 }
 
@@ -476,5 +494,17 @@ footer {
   @include respond-to(md) {
     margin-left: 25%;
     width: 816px;
+  }
+}
+
+.navbar {
+  @include respond-to(xs) {
+    width: 100%;
+  }
+  @include respond-to(sm) {
+    width: 100%;
+  }
+  @include respond-to(md) {
+    width: 100%;
   }
 }
