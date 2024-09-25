@@ -419,6 +419,12 @@ body {
 }
 
 @media (min-width: 0) {
+  .sect1-text-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 0) {
   .sect3-home {
     margin-top: 1100px;
   }
@@ -689,6 +695,12 @@ body {
 @media (min-width: 768px) {
   .sect2-menu {
     margin-bottom: 400px !important;
+  }
+}
+
+@media (min-width: 0) {
+  .section-ingredients-menu {
+    margin-top: 2590px;
   }
 }
 

@@ -6,6 +6,12 @@ body {
   padding: 0;
 }
 
+.sect1-text-container{
+  @include respond-to(xs) {
+    width: 100%;
+  }
+}
+
 .sect3-home {
   @include respond-to(xs) {
     margin-top: 1100px;
@@ -286,6 +292,12 @@ footer {
 .sect3-menu {
   @include respond-to(sm) {
     //  margin-top: 0 !important;
+  }
+}
+
+.section-ingredients-menu{
+  @include respond-to(xs) {
+    margin-top: 2590px;
   }
 }
 
