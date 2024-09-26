@@ -6,7 +6,7 @@
   .sect1-img-about {
     position: relative;
     width: 100%;
-    height: 450px;
+   // height: 450px;
     img {
       width: 100%;
       height: 100%;
@@ -16,7 +16,7 @@
     position: absolute;
     top: 234px;
     left: 351px;
-    width: 738px;
+   // width: 738px;
     height: 532px;
     border: none;
     z-index: 1;
@@ -75,7 +75,7 @@
   background-color: $lightgrey200;
   .sect2-text-container-about {
     margin-top: 192px;
-    padding-left: 132px;
+  //  padding-left: 132px;
     h3 {
       font-family: $catamaran;
       font-weight: 400;

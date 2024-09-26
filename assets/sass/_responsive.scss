@@ -121,18 +121,10 @@ footer {
       display: flex;
       flex-direction: column;
       padding-right: 0px;
-      .footer-link {
-       // white-space: nowrap;
-      }
-      P {
-       // white-space: nowrap;
-      }
+     
+     
       h6 {
         white-space: nowrap;
-      }
-      .btn-container {
-       // white-space: nowrap;
-       
       }
       
     }
@@ -145,6 +137,10 @@ footer {
       .footer-link-div{
         display: flex;
       }
+      .btn-container {
+       
+       margin-left: 60px;
+      }
     }
     @include respond-to(md) {
       display: flex;
@@ -155,13 +151,17 @@ footer {
       .footer-link-div{
         display: flex;
       }
+      .btn-container {
+       
+       margin-left: 60px;
+      }
     }
   }
 
   .social {
     @include respond-to(xs) {
       text-align: left !important;
-      display: inline-block;
+     // display: inline-block;
       
     }
     @include respond-to(sm) {
@@ -211,13 +211,55 @@ footer {
   }
 }
 
+.sect1-box-container-about{
+  @include respond-to(xs) {
+    width: 100%;
+  }
+  @include respond-to(sm) {
+    width: 738px;
+  }
+  @include respond-to(md) {
+    width: 738px;
+  }
+}
+
 .sect2-about {
-  .box1 {
-    @include respond-to(sm) {
+  .boxes  {
+    @include respond-to(xs) {
       display: none;
+    }
+    @include respond-to(sm) {
+      display: block;
+    }
+    @include respond-to(md) {
+      display: block;
+    }
+  }
+  .half-oval-container{
+    @include respond-to(xs) {
+      display: none;
+    }
+    @include respond-to(sm) {
+      display: block;
+    }
+    @include respond-to(md) {
+      display: block;
     }
   }
 }
+.sect2-text-container-about{
+  @include respond-to(xs) {
+    padding-left: 0;
+    width: 100%;
+  }
+  @include respond-to(sm) {
+    padding-left: 132px;
+  }
+  @include respond-to(md) {
+    padding-left: 132px;
+  }
+}
+
 
 .sect2-about {
   .box1 {
@@ -281,13 +323,12 @@ footer {
   @include respond-to(sm) {
     margin-bottom: 2800px !important;
   }
-}
-
-.sect2-menu {
   @include respond-to(md) {
     margin-bottom: 400px !important;
   }
 }
+
+
 
 .sect3-menu {
   @include respond-to(sm) {
@@ -298,6 +339,25 @@ footer {
 .section-ingredients-menu{
   @include respond-to(xs) {
     margin-top: 2590px;
+   // margin-right: 50%;
+    
+  }
+  @include respond-to(sm) {
+    margin-top: 0;
+   
+  }
+  @include respond-to(md) {
+    margin-top: 0;
+   
+    
+  }
+}
+
+.container-menu{
+  @include respond-to(xs) {
+    
+    
+    
   }
 }
 
