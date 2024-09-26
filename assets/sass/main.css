@@ -842,15 +842,22 @@ body {
   }
 }
 
+@media (min-width: 0) {
+  .login-box .box-1 {
+    display: none;
+    margin-left: 0;
+  }
+}
 @media (min-width: 576px) {
   .login-box .box-1 {
     display: none;
+    width: 1139px;
   }
 }
-
 @media (min-width: 768px) {
   .login-box .box-1 {
     display: inline-block;
+    width: 1400px;
   }
 }
 
@@ -928,52 +935,27 @@ body {
 
 @media (min-width: 0) {
   .reservation .box-1 {
+    left: 10px;
     width: 100%;
   }
 }
-@media (min-width: 0) and (min-width: 576px) {
-  .reservation .box-1 {
-    width: 100%;
-  }
-}
-
-@media (min-width: 0) {
-  .reservation .box-1 img {
-    display: none;
-  }
-}
-@media (min-width: 0) and (min-width: 576px) {
-  .reservation .box-1 img {
-    display: inline-block;
-  }
-}
-@media (min-width: 0) and (min-width: 576px) and (min-width: 768px) {
-  .reservation .box-1 img {
-    display: inline-block;
-  }
-}
-
 @media (min-width: 576px) {
   .reservation .box-1 {
+    left: 50px;
+    width: 650px;
+  }
+}
+@media (min-width: 768px) {
+  .reservation .box-1 {
+    left: 450px;
     width: 650px;
   }
 }
 
-@media (min-width: 768px) {
-  .reservation .box-1 {
-    width: 1139px;
-  }
-}
-
-@media (min-width: 576px) {
-  .reservation .box-1 {
-    left: 50px;
-  }
-}
-
-@media (min-width: 768px) {
-  .reservation .box-1 {
-    left: 200px;
+@media (min-width: 0) {
+  .reservation input, .reservation select {
+    width: 100%;
+    white-space: wrap;
   }
 }
 
@@ -2424,11 +2406,10 @@ textarea {
 .login-box {
   position: absolute;
   background-color: #FFFFFF;
-  width: 1139px;
   height: 624px;
   z-index: 1;
   margin-top: 40px;
-  margin-left: 15%;
+  margin-left: 100px;
   border-radius: 8px;
   box-shadow: 0 0 4px 0;
   padding: 0;
@@ -2666,7 +2647,6 @@ textarea {
   top: 200px;
   border-radius: 8px;
   box-shadow: 0 0 4px 0;
-  overflow: hidden;
 }
 .reservation .box-1 input {
   width: 541px;

@@ -124,7 +124,7 @@ footer {
       h6 {
         white-space: nowrap;
       }
-      .footer-link{
+      .footer-link {
         display: inline-block;
       }
     }
@@ -405,16 +405,19 @@ footer {
 
 .login-box {
   .box-1 {
+    @include respond-to(xs) {
+      display: none;
+      margin-left: 0;
+    }
     @include respond-to(sm) {
       display: none;
+      width: 1139px;
+      //margin-left: 200px;
     }
-  }
-}
-
-.login-box {
-  .box-1 {
     @include respond-to(md) {
       display: inline-block;
+      width: 1400px;
+      // margin-left: 200px;
     }
   }
 }
@@ -494,56 +497,38 @@ footer {
   }
 }
 
-.reservation .box-1 {
-  @include respond-to(xs) {
-    width: 100%;
-    @include respond-to(sm) {
+.reservation {
+  .box-1  {
+    @include respond-to(xs) {
+      left: 10px;
       width: 100%;
-    }
-  }
-}
-
-.reservation .box-1 {
-  @include respond-to(xs) {
-    img {
-      display: none;
+     
     }
     @include respond-to(sm) {
-      img {
-        display: inline-block;
-      }
-      @include respond-to(md) {
-        img {
-          display: inline-block;
-        }
-      }
+      left: 50px;
+      width: 650px;
+    }
+
+    @include respond-to(md) {
+      left: 450px;
+      width: 650px;
     }
   }
 }
 
-.reservation .box-1 {
-  @include respond-to(sm) {
-    width: 650px;
+.reservation{
+  input, select{
+    @include respond-to(xs) {
+    
+      width: 100%;
+      white-space: wrap;
+     
+    }
+
   }
 }
 
-.reservation .box-1 {
-  @include respond-to(md) {
-    width: 1139px;
-  }
-}
 
-.reservation .box-1 {
-  @include respond-to(sm) {
-    left: 50px;
-  }
-}
-
-.reservation .box-1 {
-  @include respond-to(md) {
-    left: 200px;
-  }
-}
 
 .build-bowl-box {
   @include respond-to(sm) {
@@ -570,7 +555,7 @@ footer {
   }
 }
 
-.location-hours-container{
+.location-hours-container {
   @include respond-to(xs) {
     width: 100%;
     //margin-top: 500px;
@@ -583,11 +568,10 @@ footer {
   }
 }
 
-.sect-2-location{
+.sect-2-location {
   @include respond-to(xs) {
     width: 100%;
-   margin-top: 2080px;
-    
+    margin-top: 2080px;
   }
   @include respond-to(sm) {
     width: 100%;
@@ -598,4 +582,3 @@ footer {
     margin-top: 0;
   }
 }
-
