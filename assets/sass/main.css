@@ -749,6 +749,22 @@ body {
   }
 }
 
+@media (min-width: 0) {
+  .sect1-menu h1 {
+    margin-top: 0;
+  }
+}
+@media (min-width: 576px) {
+  .sect1-menu h1 {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .sect1-menu h1 {
+    margin-top: 100px;
+  }
+}
+
 @media (min-width: 576px) {
   .sect2-menu {
     margin-bottom: 2800px !important;
@@ -1155,7 +1171,6 @@ footer a {
 .sect1-menu {
   background-color: #FAFAFB;
   margin-bottom: 0;
-  height: 500px;
 }
 .sect1-menu h1 {
   font-family: "Catamaran", sans-serif;
@@ -1170,7 +1185,7 @@ footer a {
 }
 .sect1-menu .sect1-img-menu img {
   width: 100%;
-  height: 100%;
+  margin-bottom: 40px;
 }
 
 .sect2-menu {

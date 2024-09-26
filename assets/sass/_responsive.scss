@@ -319,6 +319,25 @@ footer {
   }
 }
 
+.sect1-menu{
+  @include respond-to(xs) {
+    h1{
+  margin-top: 0;
+ 
+    }
+  }
+  @include respond-to(sm) {
+    h1{
+      margin-top: 100px;
+        }
+  }
+  @include respond-to(md) {
+    h1{
+      margin-top: 100px;
+        }
+  }
+}
+
 .sect2-menu {
   @include respond-to(sm) {
     margin-bottom: 2800px !important;
