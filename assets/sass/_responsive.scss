@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-.sect1-text-container{
+.sect1-text-container {
   @include respond-to(xs) {
     width: 100%;
   }
@@ -47,9 +47,9 @@ body {
       img {
         display: none;
       }
-      .sect4-content{
+      .sect4-content {
         width: 100%;
-        button{
+        button {
           width: 100%;
         }
       }
@@ -74,7 +74,6 @@ body {
     }
   }
 }
-
 
 .sect5-home {
   .img-1 {
@@ -121,39 +120,38 @@ footer {
       display: flex;
       flex-direction: column;
       padding-right: 0px;
-     
-     
+
       h6 {
         white-space: nowrap;
       }
-      
+      .footer-link{
+        display: inline-block;
+      }
     }
     @include respond-to(sm) {
       display: flex;
       flex-direction: column;
-      .footer-icon{
+      .footer-icon {
         display: flex;
       }
-      .footer-link-div{
+      .footer-link-div {
         display: flex;
       }
       .btn-container {
-       
-       margin-left: 60px;
+        margin-left: 60px;
       }
     }
     @include respond-to(md) {
       display: flex;
       flex-direction: row;
-      .footer-icon{
+      .footer-icon {
         display: flex;
       }
-      .footer-link-div{
+      .footer-link-div {
         display: flex;
       }
       .btn-container {
-       
-       margin-left: 60px;
+        margin-left: 60px;
       }
     }
   }
@@ -161,8 +159,7 @@ footer {
   .social {
     @include respond-to(xs) {
       text-align: left !important;
-     // display: inline-block;
-      
+      // display: inline-block;
     }
     @include respond-to(sm) {
       text-align: left !important;
@@ -175,7 +172,7 @@ footer {
 
 .footer {
   @include respond-to(xs) {
-    height: 1000px;
+    height: 800px;
     width: 100%;
   }
   @include respond-to(sm) {
@@ -189,19 +186,24 @@ footer {
 .sect1-box-container-about {
   @include respond-to(xs) {
     left: 0 !important;
+    width: 100%;
+    top: 40px;
   }
   @include respond-to(sm) {
     left: 0 !important;
+    width: 100%;
+    top: 234px;
   }
   @include respond-to(md) {
     left: 351px !important;
+    top: 234px;
   }
 }
 
 .sect1-box-container {
   @include respond-to(xs) {
     width: 100%;
-  // overflow: hidden;
+    // overflow: hidden;
   }
   @include respond-to(sm) {
     width: 442px;
@@ -210,8 +212,7 @@ footer {
     width: 442px;
   }
 }
-
-.sect1-box-container-about{
+.sect1-box-container-about {
   @include respond-to(xs) {
     width: 100%;
   }
@@ -224,7 +225,30 @@ footer {
 }
 
 .sect2-about {
-  .boxes  {
+  .boxes,
+  .half-oval-container {
+    @include respond-to(xs) {
+      display: none;
+      width: 100%;
+    }
+    @include respond-to(sm) {
+      display: block;
+    }
+    @include respond-to(md) {
+      display: block;
+    }
+  }
+
+  .box1,
+  .box3,
+  .half-oval {
+    @include respond-to(md) {
+      display: block;
+    }
+  }
+
+  .box3,
+  .half-oval {
     @include respond-to(xs) {
       display: none;
     }
@@ -235,19 +259,23 @@ footer {
       display: block;
     }
   }
-  .half-oval-container{
-    @include respond-to(xs) {
-      display: none;
-    }
-    @include respond-to(sm) {
-      display: block;
-    }
-    @include respond-to(md) {
-      display: block;
-    }
+
+  @include respond-to(sm) {
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 0 !important;
+    margin-bottom: 300px;
+  }
+
+  @include respond-to(md) {
+    display: flex;
+    flex-direction: row !important;
+    margin-top: 300px !important;
+    margin-bottom: 0 !important;
   }
 }
-.sect2-text-container-about{
+
+.sect2-text-container-about {
   @include respond-to(xs) {
     padding-left: 0;
     width: 100%;
@@ -260,81 +288,21 @@ footer {
   }
 }
 
-
-.sect2-about {
-  .box1 {
-    @include respond-to(md) {
-      display: block;
-    }
-  }
-}
-
-.sect2-about {
-  .box3 {
-    @include respond-to(sm) {
-      display: none;
-    }
-  }
-}
-
-.sect2-about {
-  .box3 {
-    @include respond-to(md) {
-      display: block;
-    }
-  }
-}
-
-.sect2-about {
-  .half-oval {
-    @include respond-to(sm) {
-      display: none;
-    }
-  }
-}
-
-.sect2-about {
-  .half-oval {
-    @include respond-to(md) {
-      display: block;
-    }
-  }
-}
-
-.sect2-about {
-  @include respond-to(sm) {
-    display: flex;
-    flex-direction: column !important;
-    margin-top: 0 !important;
-    margin-bottom: 300px;
-  }
-}
-
-.sect2-about {
-  @include respond-to(md) {
-    display: flex;
-    flex-direction: row !important;
-    margin-top: 300px !important;
-    margin-bottom: 0 !important;
-  }
-}
-
-.sect1-menu{
+.sect1-menu {
   @include respond-to(xs) {
-    h1{
-  margin-top: 0;
- 
+    h1 {
+      margin-top: 0;
     }
   }
   @include respond-to(sm) {
-    h1{
+    h1 {
       margin-top: 100px;
-        }
+    }
   }
   @include respond-to(md) {
-    h1{
+    h1 {
       margin-top: 100px;
-        }
+    }
   }
 }
 
@@ -347,36 +315,27 @@ footer {
   }
 }
 
-
-
 .sect3-menu {
   @include respond-to(sm) {
     //  margin-top: 0 !important;
   }
 }
 
-.section-ingredients-menu{
+.section-ingredients-menu {
   @include respond-to(xs) {
     margin-top: 2590px;
-   // margin-right: 50%;
-    
+    // margin-right: 50%;
   }
   @include respond-to(sm) {
     margin-top: 0;
-   
   }
   @include respond-to(md) {
     margin-top: 0;
-   
-    
   }
 }
 
-.container-menu{
+.container-menu {
   @include respond-to(xs) {
-    
-    
-    
   }
 }
 
@@ -536,17 +495,28 @@ footer {
 }
 
 .reservation .box-1 {
-  @include respond-to(sm) {
-    img {
-      display: none;
+  @include respond-to(xs) {
+    width: 100%;
+    @include respond-to(sm) {
+      width: 100%;
     }
   }
 }
 
 .reservation .box-1 {
-  @include respond-to(md) {
+  @include respond-to(xs) {
     img {
-      display: inline-block;
+      display: none;
+    }
+    @include respond-to(sm) {
+      img {
+        display: inline-block;
+      }
+      @include respond-to(md) {
+        img {
+          display: inline-block;
+        }
+      }
     }
   }
 }
