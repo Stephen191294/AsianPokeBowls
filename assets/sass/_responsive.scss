@@ -172,7 +172,7 @@ footer {
 
 .footer {
   @include respond-to(xs) {
-    height: 800px;
+    height: 900px;
     width: 100%;
   }
   @include respond-to(sm) {
@@ -569,3 +569,33 @@ footer {
     width: 100%;
   }
 }
+
+.location-hours-container{
+  @include respond-to(xs) {
+    width: 100%;
+    //margin-top: 500px;
+  }
+  @include respond-to(sm) {
+    width: 100%;
+  }
+  @include respond-to(md) {
+    width: 100%;
+  }
+}
+
+.sect-2-location{
+  @include respond-to(xs) {
+    width: 100%;
+   margin-top: 2080px;
+    
+  }
+  @include respond-to(sm) {
+    width: 100%;
+    margin-top: 0;
+  }
+  @include respond-to(md) {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
