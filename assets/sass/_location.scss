@@ -1,7 +1,6 @@
 @import "./variables";
 
 .sect-1-location {
-  
   h1 {
     font-size: 48px;
     font-family: $catamaran;
@@ -49,7 +48,7 @@
       font-weight: 400;
       line-height: 22px;
     }
-    .btn1:hover{
+    .btn1:hover {
       color: $white100;
       background-color: $orange100;
     }
@@ -65,7 +64,7 @@
       font-weight: 400;
       line-height: 22px;
     }
-    .btn2:hover{
+    .btn2:hover {
       background-color: $darkgreen100;
       color: $white100;
     }
@@ -79,14 +78,13 @@
   .icon {
     width: 24px;
     height: 24px;
-  
   }
-  a{
+  a {
     text-decoration: none;
   }
 }
 
-.sect-2-location{
+.sect-2-location {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -114,8 +112,9 @@
     }
   }
   .sect-2-text-container {
-    margin-top: 160px;
+    // margin-top: 160px;
     margin-left: 132px;
+    // background-color: aquamarine;
     h6 {
       font-family: $catamaran;
       font-size: 48px;
@@ -140,4 +139,3 @@
     }
   }
 }
-

@@ -294,15 +294,13 @@ footer {
     background-color: aqua;
   }
   @include respond-to(sm) {
-   height: 179px;
+    height: 179px;
   }
   @include respond-to(md) {
-   height: 179px;
-   margin-bottom: 300px;
-   
+    height: 179px;
+    margin-bottom: 300px;
   }
 }
-
 
 .sect2-menu {
   @include respond-to(xs) {
@@ -313,12 +311,12 @@ footer {
   }
   @include respond-to(sm) {
     h1 {
-     // margin-top: 100px;
+      // margin-top: 100px;
     }
   }
   @include respond-to(md) {
     h1 {
-    //  margin-top: 100px;
+      //  margin-top: 100px;
     }
   }
 }
@@ -532,8 +530,6 @@ footer {
   }
 }
 
-
-
 .build-bowl-box {
   @include respond-to(xs) {
     height: 940px;
@@ -544,18 +540,17 @@ footer {
   }
   @include respond-to(md) {
     margin-left: 30%;
-    height:  684px;
+    height: 684px;
   }
 }
 
-.build-bowl-box .build-box-number{
+.build-bowl-box .build-box-number {
   @include respond-to(xs) {
     margin-top: 30px;
   }
 }
 
-
-.build-bowl-box  .btn{
+.build-bowl-box .btn {
   @include respond-to(xs) {
     margin-top: 120px;
   }
@@ -577,7 +572,6 @@ footer {
   @include respond-to(md) {
     margin-top: 0;
   }
-
 }
 
 .navbar {
@@ -617,5 +611,18 @@ footer {
   @include respond-to(md) {
     width: 100%;
     margin-top: 0;
+  }
+}
+
+.sect-2-location .sect-2-text-container {
+  @include respond-to(xs) {
+    margin-top: 90px;
+    margin-right: 30px;
+  }
+  @include respond-to(sm) {
+    margin-top: 160px;
+  }
+  @include respond-to(md) {
+    margin-top: 160px;
   }
 }
