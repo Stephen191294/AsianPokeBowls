@@ -289,32 +289,36 @@ footer {
 }
 .sect1-img-menu {
   @include respond-to(xs) {
-    height: 179px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: aqua;
   }
   @include respond-to(sm) {
-   height: 400px;
+   height: 179px;
   }
   @include respond-to(md) {
-   height: 30px;
-   margin-bottom: 290px;
+   height: 179px;
+   margin-bottom: 300px;
+   
   }
 }
 
 
-.sect1-menu {
+.sect2-menu {
   @include respond-to(xs) {
     h1 {
       margin-top: 0;
+      white-space: nowrap;
     }
   }
   @include respond-to(sm) {
     h1 {
-      margin-top: 100px;
+     // margin-top: 100px;
     }
   }
   @include respond-to(md) {
     h1 {
-      margin-top: 100px;
+    //  margin-top: 100px;
     }
   }
 }
