@@ -498,11 +498,10 @@ footer {
 }
 
 .reservation {
-  .box-1  {
+  .box-1 {
     @include respond-to(xs) {
       left: 10px;
       width: 100%;
-     
     }
     @include respond-to(sm) {
       left: 50px;
@@ -516,31 +515,52 @@ footer {
   }
 }
 
-.reservation{
-  input, select{
-    @include respond-to(xs) {
-    
-      width: 100%;
-      white-space: wrap;
-     
-    }
-
-  }
-}
-
 
 
 .build-bowl-box {
+  @include respond-to(xs) {
+    height: 940px;
+  }
   @include respond-to(sm) {
     margin-left: 10%;
+    height: 484 px;
+  }
+  @include respond-to(md) {
+    margin-left: 30%;
+    height:  684px;
   }
 }
 
-.build-bowl-box {
-  @include respond-to(md) {
-    margin-left: 25%;
-    width: 816px;
+.build-bowl-box .build-box-number{
+  @include respond-to(xs) {
+    margin-top: 30px;
   }
+}
+
+
+.build-bowl-box  .btn{
+  @include respond-to(xs) {
+    margin-top: 120px;
+  }
+  @include respond-to(sm) {
+    margin-top: 0;
+  }
+  @include respond-to(md) {
+    margin-top: 0;
+  }
+}
+
+.build-bowl-box .build-bowl-add-cart {
+  @include respond-to(xs) {
+    margin-top: 120px;
+  }
+  @include respond-to(sm) {
+    margin-top: 0;
+  }
+  @include respond-to(md) {
+    margin-top: 0;
+  }
+
 }
 
 .navbar {

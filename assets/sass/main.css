@@ -953,22 +953,58 @@ body {
 }
 
 @media (min-width: 0) {
-  .reservation input, .reservation select {
-    width: 100%;
-    white-space: wrap;
+  .build-bowl-box {
+    height: 940px;
   }
 }
-
 @media (min-width: 576px) {
   .build-bowl-box {
     margin-left: 10%;
+    height: 484 px;
+  }
+}
+@media (min-width: 768px) {
+  .build-bowl-box {
+    margin-left: 30%;
+    height: 684px;
   }
 }
 
+@media (min-width: 0) {
+  .build-bowl-box .build-box-number {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 0) {
+  .build-bowl-box .btn {
+    margin-top: 120px;
+  }
+}
+@media (min-width: 576px) {
+  .build-bowl-box .btn {
+    margin-top: 0;
+  }
+}
 @media (min-width: 768px) {
-  .build-bowl-box {
-    margin-left: 25%;
-    width: 816px;
+  .build-bowl-box .btn {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 0) {
+  .build-bowl-box .build-bowl-add-cart {
+    margin-top: 120px;
+  }
+}
+@media (min-width: 576px) {
+  .build-bowl-box .build-bowl-add-cart {
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .build-bowl-box .build-bowl-add-cart {
+    margin-top: 0;
   }
 }
 
@@ -2255,7 +2291,6 @@ textarea {
 .build-bowl-box {
   position: absolute;
   background-color: #FFFFFF;
-  height: 684px;
   z-index: 1;
   margin-top: 40px;
   border-radius: 8px;
@@ -2647,6 +2682,7 @@ textarea {
   top: 200px;
   border-radius: 8px;
   box-shadow: 0 0 4px 0;
+  overflow: hidden;
 }
 .reservation .box-1 input {
   width: 541px;
