@@ -287,6 +287,19 @@ footer {
     padding-left: 132px;
   }
 }
+.sect1-img-menu {
+  @include respond-to(xs) {
+    height: 179px;
+  }
+  @include respond-to(sm) {
+   height: 400px;
+  }
+  @include respond-to(md) {
+   height: 30px;
+   margin-bottom: 290px;
+  }
+}
+
 
 .sect1-menu {
   @include respond-to(xs) {
