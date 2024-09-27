@@ -113,11 +113,11 @@
 .sect1-home .sect1-img {
   position: relative;
   width: 100%;
-  height: 810px;
+  height: auto;
 }
 .sect1-home .sect1-img img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .sect1-home .sect1-box-container {
   position: absolute;
@@ -131,7 +131,7 @@
   background-color: #FFFFFF;
   padding: 48px 36px;
   width: 100%;
-  height: 100%;
+  height: auto;
   box-shadow: 0 0 1px 0 #171A1f;
   border-radius: 4px;
 }
@@ -141,10 +141,12 @@
 .sect1-home .sect1-box-container h1 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 3rem;
   width: 370px;
   line-height: 68px;
   color: #171A1f;
+  width: 100%;
+  height: auto;
 }
 .sect1-home .sect1-box-container p {
   font-family: "Nunito Sans", sans-serif;
@@ -155,9 +157,7 @@
 .sect1-home .sect1-box-container button {
   background-color: #F96540;
   color: #FFFFFF;
-  width: 219px;
-  height: 52px;
-  padding: 12px, 64px;
+  padding: 12px 64px;
   border-radius: 26px;
   border: none;
 }
@@ -167,7 +167,6 @@
   border: 1px solid #F96540;
 }
 .sect1-home .sect1-text-container {
-  margin-top: 72px;
   text-align: center;
 }
 .sect1-home .sect1-text-container h2 {
@@ -175,12 +174,16 @@
   font-weight: 400;
   font-size: 48px;
   line-height: 68px;
+  width: 100%;
+  height: auto;
 }
 .sect1-home .sect1-text-container p {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  width: 100%;
+  height: auto;
 }
 
 .sect2-home {
@@ -204,6 +207,7 @@
 }
 .sect2-home .container .box .image-container img {
   width: 100%;
+  height: auto;
   margin-left: 10px;
 }
 .sect2-home .container .box button {
@@ -229,6 +233,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
+  width: 100%;
+  height: auto;
 }
 .sect2-home .sect2-btn-container {
   text-align: center;
@@ -290,6 +296,7 @@
 }
 .sect3-home .img-container img {
   width: 100%;
+  height: auto;
 }
 
 .sect4-home {
@@ -298,6 +305,7 @@
 .sect4-home .container {
   position: relative;
   width: 100%;
+  height: auto;
 }
 .sect4-home .container .box {
   margin-top: 72px;
@@ -419,8 +427,58 @@ body {
 }
 
 @media (min-width: 0) {
+  .sect1-box-container {
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+  }
+  .sect1-box-container button {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 576px) {
+  .sect1-box-container {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  .sect1-box-container button {
+    width: 219px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .sect1-box-container {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  .sect1-box-container button {
+    width: 219px;
+    height: 52px;
+  }
+}
+
+@media (min-width: 0) {
   .sect1-text-container {
     width: 100%;
+    height: auto;
+    margin-top: 500px;
+  }
+}
+@media (min-width: 576px) {
+  .sect1-text-container {
+    width: 100%;
+    height: auto;
+    margin-top: 72px;
+  }
+}
+@media (min-width: 768px) {
+  .sect1-text-container {
+    width: 100%;
+    height: auto;
+    margin-top: 72px;
   }
 }
 
@@ -796,7 +854,6 @@ body {
     margin-bottom: 2000px !important;
   }
 }
-
 @media (min-width: 768px) {
   .location-hours-container {
     margin-bottom: 0 !important;
@@ -808,19 +865,22 @@ body {
     display: none;
   }
 }
-
 @media (min-width: 768px) {
   .container-giftcard-boxes {
     display: block;
   }
 }
 
+@media (min-width: 0) {
+  .section-1-giftcard {
+    width: 100%;
+  }
+}
 @media (min-width: 576px) {
   .section-1-giftcard {
     width: 100%;
   }
 }
-
 @media (min-width: 768px) {
   .section-1-giftcard {
     width: 1636px;
@@ -1584,7 +1644,6 @@ footer a {
 .checkout-container h1 {
   font-family: "Catamaran", sans-serif;
   font-size: 48px;
-  line-height: 68px;
   font-weight: 500;
   color: #171A1f;
 }
