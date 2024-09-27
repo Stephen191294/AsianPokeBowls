@@ -464,7 +464,7 @@ body {
   .sect1-text-container {
     width: 100%;
     height: auto;
-    margin-top: 500px;
+    margin-top: 300px;
   }
 }
 @media (min-width: 576px) {
@@ -594,30 +594,18 @@ body {
 }
 @media (min-width: 0) {
   .sect5-home .sect5-text-container {
-    margin-top: 0;
+    margin-top: 90px;
     margin-right: 30px;
-  }
-  .sect5-home .sect5-text-container .icon-container {
-    display: none;
   }
 }
 @media (min-width: 576px) {
   .sect5-home .sect5-text-container {
-    margin-top: 40px;
-  }
-  .sect5-home .sect5-text-container .img-1 {
-    display: none !important;
-  }
-  .sect5-home .sect5-text-container .img-1 .icon-container {
-    display: block;
+    margin-top: 160px;
   }
 }
 @media (min-width: 768px) {
   .sect5-home .sect5-text-container {
     margin-top: 160px;
-  }
-  .sect5-home .sect5-text-container .icon-container {
-    display: block;
   }
 }
 
@@ -1160,18 +1148,18 @@ body {
 }
 
 @media (min-width: 0) {
-  .sect-2-location .sect-2-text-container {
+  .sect-2-text-container {
     margin-top: 90px;
     margin-right: 30px;
   }
 }
 @media (min-width: 576px) {
-  .sect-2-location .sect-2-text-container {
+  .sect-2-text-container {
     margin-top: 160px;
   }
 }
 @media (min-width: 768px) {
-  .sect-2-location .sect-2-text-container {
+  .sect-2-text-container {
     margin-top: 160px;
   }
 }
@@ -1635,6 +1623,7 @@ footer a {
   border-radius: 8px;
 }
 .sect-2-location .sect-2-text-container {
+  margin-top: 160px;
   margin-left: 132px;
 }
 .sect-2-location .sect-2-text-container h6 {
