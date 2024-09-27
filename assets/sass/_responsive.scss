@@ -6,35 +6,32 @@ body {
   padding: 0;
 }
 
-
-
-.sect1-box-container{
+.sect1-box-container {
   @include respond-to(xs) {
     width: 100%;
     height: auto;
     overflow: scroll;
-    button{
+    button {
       width: 100%;
-    height: auto;
+      height: auto;
     }
   }
   @include respond-to(sm) {
     width: 100%;
     height: auto;
     overflow: visible;
-    button{
+    button {
       width: 219px;
-    height: 52px;
-
+      height: 52px;
     }
   }
   @include respond-to(md) {
     width: 100%;
     height: auto;
     overflow: visible;
-    button{
-       width: 219px;
-    height: 52px;
+    button {
+      width: 219px;
+      height: 52px;
     }
   }
 }
@@ -48,7 +45,7 @@ body {
   @include respond-to(sm) {
     width: 100%;
     height: auto;
-    margin-top: 72px;
+    margin-top: 300px;
   }
   @include respond-to(md) {
     width: 100%;
@@ -57,29 +54,37 @@ body {
   }
 }
 
+.sect2-home {
+  @include respond-to(xs) {
+    width: 100%;
+    height: auto;
+  }
+  @include respond-to(sm) {
+    height: 683px;
+  }
+  @include respond-to(md) {
+    height: 683px;
+  }
+}
+
 .sect3-home {
   @include respond-to(xs) {
-    margin-top: 1100px;
+    margin-top: 100px;
+    text-align: center;
     .sect3-img-home {
       display: none;
     }
-  }
-}
-
-.sect3-home {
-  @include respond-to(sm) {
-    margin-top: 1100px;
-    .sect3-img-home {
-      display: block;
-    }
-  }
-}
-
-.sect3-home {
-  @include respond-to(md) {
-    margin-top: 0px;
-    .sect3-img-home {
-      display: block;
+    @include respond-to(sm) {
+      margin-top: 1100px;
+      .sect3-img-home {
+        display: block;
+      }
+      @include respond-to(md) {
+        margin-top: 0px;
+        .sect3-img-home {
+          display: block;
+        }
+      }
     }
   }
 }
@@ -87,28 +92,47 @@ body {
 .sect4-home {
   .box {
     @include respond-to(xs) {
-      height: 470px !important;
+      height: auto !important;
       width: 100%;
       img {
         display: none;
       }
       .sect4-content {
         width: 100%;
+        height: auto;
         button {
-          width: 100%;
+        //  width: 100%;
+         // height: auto;
         }
       }
     }
     @include respond-to(sm) {
       height: 370px !important;
+      width: 100%;
       img {
         display: block;
+      }
+      .sect4-content {
+        width: 100%;
+        height: auto;
+        button {
+          width: 244px;
+          height: 52px;
+        }
       }
     }
     @include respond-to(md) {
       height: 314px !important;
       img {
         display: block;
+      }
+      .sect4-content {
+        width: 100%;
+        height: auto;
+        button {
+          width: 244px;
+          height: 52px;
+        }
       }
     }
   }
@@ -217,7 +241,7 @@ footer {
 
 .footer {
   @include respond-to(xs) {
-    height: 900px;
+    height: auto;
     width: 100%;
   }
   @include respond-to(sm) {
@@ -408,9 +432,6 @@ footer {
   }
 }
 
-
-
-
 .container-giftcard-boxes {
   @include respond-to(sm) {
     display: none;
@@ -419,9 +440,6 @@ footer {
     display: block;
   }
 }
-
-
-
 
 .section-1-giftcard {
   @include respond-to(xs) {
@@ -434,8 +452,6 @@ footer {
     width: 1636px;
   }
 }
-
-
 
 .container-fluid-menu-pickup {
   @include respond-to(sm) {

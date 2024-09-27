@@ -32,6 +32,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 .navbar {
   height: 80px;
+  width: 100%;
 }
 .navbar .nav-link {
   font-family: "Nunito Sans", sans-serif;
@@ -104,10 +105,6 @@
   height: 44px;
   border-radius: 22px;
   border: none;
-}
-
-.navbar-toggler {
-  width: 55px;
 }
 
 .sect1-home .sect1-img {
@@ -187,7 +184,6 @@
 }
 
 .sect2-home {
-  height: 683px;
   padding-top: 48px;
   background-color: #FAFAFB;
 }
@@ -301,6 +297,7 @@
 
 .sect4-home {
   width: 100%;
+  height: auto;
 }
 .sect4-home .container {
   position: relative;
@@ -324,11 +321,14 @@
   color: #FFFFFF;
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 68px;
+  width: 100%;
+  height: auto;
 }
 .sect4-home .container .box p {
   color: #FFFFFF;
+  font-size: 1rem;
 }
 .sect4-home .container .box button {
   background-color: #F96540;
@@ -354,7 +354,7 @@
   margin-top: -16px;
 }
 .sect4-home .container .box .img-container .img-1 {
-  height: 100%;
+  height: auto;
   width: 100%;
   margin-top: 82px;
   margin-right: 204px;
@@ -471,7 +471,7 @@ body {
   .sect1-text-container {
     width: 100%;
     height: auto;
-    margin-top: 72px;
+    margin-top: 300px;
   }
 }
 @media (min-width: 768px) {
@@ -483,15 +483,32 @@ body {
 }
 
 @media (min-width: 0) {
+  .sect2-home {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 576px) {
+  .sect2-home {
+    height: 683px;
+  }
+}
+@media (min-width: 768px) {
+  .sect2-home {
+    height: 683px;
+  }
+}
+
+@media (min-width: 0) {
   .sect3-home {
-    margin-top: 1100px;
+    margin-top: 100px;
+    text-align: center;
   }
   .sect3-home .sect3-img-home {
     display: none;
   }
 }
-
-@media (min-width: 576px) {
+@media (min-width: 0) and (min-width: 576px) {
   .sect3-home {
     margin-top: 1100px;
   }
@@ -499,8 +516,7 @@ body {
     display: block;
   }
 }
-
-@media (min-width: 768px) {
+@media (min-width: 0) and (min-width: 576px) and (min-width: 768px) {
   .sect3-home {
     margin-top: 0px;
   }
@@ -511,7 +527,7 @@ body {
 
 @media (min-width: 0) {
   .sect4-home .box {
-    height: 470px !important;
+    height: auto !important;
     width: 100%;
   }
   .sect4-home .box img {
@@ -519,17 +535,24 @@ body {
   }
   .sect4-home .box .sect4-content {
     width: 100%;
-  }
-  .sect4-home .box .sect4-content button {
-    width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 576px) {
   .sect4-home .box {
     height: 370px !important;
+    width: 100%;
   }
   .sect4-home .box img {
     display: block;
+  }
+  .sect4-home .box .sect4-content {
+    width: 100%;
+    height: auto;
+  }
+  .sect4-home .box .sect4-content button {
+    width: 244px;
+    height: 52px;
   }
 }
 @media (min-width: 768px) {
@@ -538,6 +561,14 @@ body {
   }
   .sect4-home .box img {
     display: block;
+  }
+  .sect4-home .box .sect4-content {
+    width: 100%;
+    height: auto;
+  }
+  .sect4-home .box .sect4-content button {
+    width: 244px;
+    height: 52px;
   }
 }
 @media (min-width: 576px) {
@@ -651,7 +682,7 @@ body {
 
 @media (min-width: 0) {
   .footer {
-    height: 900px;
+    height: auto;
     width: 100%;
   }
 }

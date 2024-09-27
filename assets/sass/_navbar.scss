@@ -2,8 +2,7 @@
 
 .navbar {
   height: 80px;
-  //padding-left: 139px;
-  //padding-right: 132px;
+  width: 100%;
   .nav-link {
     font-family: $nunito;
     color: $grey100;
@@ -79,6 +78,4 @@
   }
 }
 
-.navbar-toggler {
-  width: 55px;
-}
+
