@@ -135,7 +135,25 @@ margin-top: 550px;
 
 
 
+.sect-6-home{
+  @include respond-to(xs) {
+h6{
+font-size: 28px;
+}
 
+
+  }
+  @include respond-to(sm) {
+    h6{
+      font-size: 48px;
+      }
+  }
+  @include respond-to(md) {
+    h6{
+      font-size: 48px;
+      }
+  }
+}
 
 
 

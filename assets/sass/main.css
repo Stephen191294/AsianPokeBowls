@@ -782,6 +782,22 @@
 }
 
 @media (min-width: 0) {
+  .sect-6-home h6 {
+    font-size: 28px;
+  }
+}
+@media (min-width: 576px) {
+  .sect-6-home h6 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 768px) {
+  .sect-6-home h6 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 0) {
   .sect1-box-container {
     width: 100%;
     height: auto;
