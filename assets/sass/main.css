@@ -321,6 +321,9 @@
   height: 238px;
   border-radius: 8px;
 }
+.sect-5-home .icon-container {
+  text-align: left;
+}
 .sect-5-home .icon {
   cursor: pointer;
 }
@@ -828,14 +831,16 @@
 }
 @media (min-width: 576px) {
   .sect-5-home {
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
   .sect-5-home h6 {
     font-size: 48px;
+    text-align: left;
   }
   .sect-5-home p {
     font-size: 18px;
     white-space: nowrap;
+    text-align: left;
   }
 }
 @media (min-width: 768px) {
@@ -844,10 +849,12 @@
   }
   .sect-5-home h6 {
     font-size: 48px;
+    text-align: left;
   }
   .sect-5-home p {
     font-size: 18px;
     white-space: nowrap;
+    text-align: left;
   }
 }
 

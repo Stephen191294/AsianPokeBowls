@@ -166,25 +166,29 @@
     }
   }
   @include respond-to(sm) {
-    margin-bottom: 0;
+    margin-bottom: 30px;
     h6 {
       font-size: 48px;
+      text-align: left;
     }
     p{
       
       font-size: 18px;
       white-space: nowrap;
+      text-align: left;
     }
   }
   @include respond-to(md) {
     margin-bottom: 0;
     h6 {
       font-size: 48px;
+      text-align: left;
     }
     p{
       
       font-size: 18px;
       white-space: nowrap;
+      text-align: left;
     }
   }
 }
