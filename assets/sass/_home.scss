@@ -28,7 +28,7 @@
     font-weight: 400;
    // font-size: 18px;
     line-height: 28px;
-    margin-top: 80px;
+   // margin-top: 80px;
     white-space: nowrap;
   }
   button {
@@ -234,10 +234,10 @@
   p{
     font-family: $nunito;
     font-weight: 400;
-    font-size: 18px;
+   // font-size: 18px;
     line-height: 28px;
     color: $black100;
-    white-space: nowrap;
+   // white-space: nowrap;
   }
   img{
     width: 238px;
@@ -246,6 +246,9 @@
   }
   .icon{
     cursor: pointer;
+  }
+  .sect-5-home-txt{
+    margin-top: 160px;
   }
 }
 

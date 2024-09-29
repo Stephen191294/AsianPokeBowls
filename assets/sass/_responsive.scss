@@ -4,7 +4,7 @@
 #box-1 {
   @include respond-to(xs) {
     left: 0;
-    top: 199px;
+    top: 240px;
     width: 100%;
     height: auto;
     h1 {
@@ -12,6 +12,7 @@
     }
     p {
       font-size: 16px;
+      margin-top: 0;
     }
   }
   @include respond-to(sm) {
@@ -24,6 +25,7 @@
     }
     p {
       font-size: 18px;
+      margin-top: 80px;
     }
   }
   @include respond-to(md) {
@@ -35,6 +37,7 @@
   }
   p {
     font-size: 18px;
+    margin-top: 80px;
   }
 }
 
@@ -43,7 +46,7 @@
     width: 100%;
     height: auto;
     div {
-      margin-top: 400px;
+      margin-top: 450px;
     }
     h2 {
       font-size: 28px;
@@ -78,10 +81,31 @@
 
 .sect-2-home {
   @include respond-to(xs) {
+    h3{
+    
+      white-space: wrap;
+    }
+    .explor-btn{
+      margin-top: 30px;
+    }
   }
   @include respond-to(sm) {
+    h3{
+    
+      white-space: nowrap;
+    }
+    .explor-btn{
+      margin-top: 0;
+    }
   }
   @include respond-to(md) {
+    h3{
+    
+      white-space: nowrap;
+    }
+    .explor-btn{
+      margin-top: 0;
+    }
   }
 }
 
@@ -126,21 +150,68 @@
 //media query not changing font size
 .sect-5-home {
   @include respond-to(xs) {
+    margin-bottom: 30px;
     h6 {
       font-size: 28px;
     }
+    p{
+      font-size: 16px ;
+      width: 100%;
+      white-space: wrap;
+      text-align: center;
+    }
+    .sect-5-home-txt{
+      text-align: center;
+      white-space: wrap;
+    }
   }
   @include respond-to(sm) {
+    margin-bottom: 0;
     h6 {
       font-size: 48px;
+    }
+    p{
+      
+      font-size: 18px;
+      white-space: nowrap;
     }
   }
   @include respond-to(md) {
+    margin-bottom: 0;
     h6 {
       font-size: 48px;
     }
+    p{
+      
+      font-size: 18px;
+      white-space: nowrap;
+    }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
