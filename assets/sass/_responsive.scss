@@ -111,6 +111,7 @@
 
 .sect-3-home {
   @include respond-to(xs) {
+    margin-top: 350px;
     h4 {
       font-size: 28px;
     }
@@ -119,6 +120,7 @@
     }
   }
   @include respond-to(sm) {
+    margin-top: 350px;
     h4 {
       font-size: 48px;
     }
@@ -127,6 +129,7 @@
     }
   }
   @include respond-to(md) {
+    margin-top: 48px;
     h4 {
       font-size: 48px;
     }

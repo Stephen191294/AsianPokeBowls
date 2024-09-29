@@ -149,6 +149,9 @@
   border: 1px solid #F96540;
 }
 
+.sect-1-home {
+  padding-bottom: 72px;
+}
 .sect-1-home h2 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
@@ -162,10 +165,9 @@
 }
 
 .sect-2-home {
-  margin-top: 48px;
   background-color: #FAFAFB;
+  height: 683px;
   padding-top: 48px;
-  padding-bottom: 60px;
 }
 .sect-2-home .first-header {
   font-size: 48px;
@@ -173,12 +175,13 @@
   font-weight: 400;
   line-height: 68px;
 }
-.sect-2-home h3 {
+.sect-2-home .header {
   font-size: 18px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   white-space: nowrap;
   text-align: left;
+  margin-top: 128px;
 }
 .sect-2-home P {
   font-family: "Nunito Sans", sans-serif;
@@ -190,6 +193,9 @@
 .sect-2-home img {
   width: 219px;
   height: 219px;
+  left: 24px;
+  top: -115px;
+  z-index: 2;
 }
 .sect-2-home .text-box {
   border-radius: 8px;
@@ -222,9 +228,25 @@
   background-color: #171A1f;
   color: #FFFFFF;
 }
+.sect-2-home .text-box-div {
+  width: 267px;
+  height: 292px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+}
+.sect-2-home .btn-div {
+  margin-top: 19px;
+  text-align: left;
+}
+.sect-2-home .bowls-div {
+  margin-top: 140px;
+}
 
 .sect-3-home {
-  margin-top: 48px;
   height: 616px;
 }
 .sect-3-home h4 {
@@ -771,6 +793,9 @@
 }
 
 @media (min-width: 0) {
+  .sect-3-home {
+    margin-top: 350px;
+  }
   .sect-3-home h4 {
     font-size: 28px;
   }
@@ -779,6 +804,9 @@
   }
 }
 @media (min-width: 576px) {
+  .sect-3-home {
+    margin-top: 350px;
+  }
   .sect-3-home h4 {
     font-size: 48px;
   }
@@ -787,6 +815,9 @@
   }
 }
 @media (min-width: 768px) {
+  .sect-3-home {
+    margin-top: 48px;
+  }
   .sect-3-home h4 {
     font-size: 48px;
   }
