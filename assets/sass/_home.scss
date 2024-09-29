@@ -1,6 +1,258 @@
 @import "./variables";
 
-.sect1-home {
+
+
+
+#box-1{
+  background-color: $white100;
+ // width: 442px;
+ // height: 413px;
+  border-radius: 4px;
+ // left: 132px ;
+ // top: 199px;
+  box-shadow: 0 0 1px 0 $black100;
+  padding: 48px 36px;
+  h1{
+    color: $black100;
+    font-family: $catamaran;
+      font-weight: 400;
+     // font-size: 48px;
+      width: 370px;
+      height: 136px;
+      line-height: 68px;
+      color: $black100;
+      text-align: left;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+   // font-size: 18px;
+    line-height: 28px;
+    margin-top: 80px;
+    white-space: nowrap;
+  }
+  button {
+    background-color: $orange100;
+    color: $white100;
+     width: 219px;
+     height: 52px;
+    padding: 12px 64px;
+    border-radius: 26px;
+    border: none;
+  }
+  button:hover {
+    color: $orange100;
+    background-color: $white100;
+    border: 1px solid $orange100;
+  }
+}
+
+.sect-1-home{
+  h2 {
+    font-family: $catamaran;
+    font-weight: 400;
+   // font-size: 48px;
+    line-height: 68px;
+    height: auto;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+   // font-size: 18px;
+    line-height: 28px;
+    
+  }
+  
+}
+
+.sect-2-home{
+  margin-top: 48px;
+  background-color: $lightgrey200;
+  padding-top: 48px;
+  padding-bottom: 60px;
+  .first-header{
+    font-size: 48px;
+    font-family: $catamaran;
+    font-weight: 400;
+    line-height: 68px;
+  }
+  h3{
+    font-size: 18px;
+    font-family: $nunito;
+    font-weight: 700;
+    //line-height: 28;
+    white-space: nowrap;
+    text-align: left;
+  }
+  P{
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+  }
+  img{
+    width: 219px;
+    height: 219px;
+  
+  }
+  .text-box{
+   // background-color: aquamarine;
+   // height: 292px;
+    border-radius: 8px;
+  //  padding: 125px 16px 24px 16px;
+  
+  }
+  .order-btn {
+    background-color: $orange200;
+    color: $orange100;
+    width: 94px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+  
+  }
+  .order-btn:hover {
+    color: $orange200;
+    background-color: $orange100;
+  }
+  .explor-btn{
+    width: 219px;
+      height: 52px;
+      border-radius: 26px;
+      border: 1px solid $black100;
+      background-color: $white100;
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+     
+  }
+  .explor-btn:hover{
+    background-color: $black100;
+    color: $white100;
+  }
+  
+}
+
+
+
+
+.sect-3-home{
+  margin-top: 48px;
+  height: 616px;
+   h4{
+   // font-size: 48px;
+    font-family: $catamaran;
+    font-weight: 400;
+    line-height: 68px;
+    color:$black100;
+   }
+   p{
+    margin-top: 24px;
+   // font-size: 24px;
+    font-family: $nunito;
+    font-weight: 400;
+    line-height: 36px;
+    color:$black100;
+   }
+   .name{
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+   }
+   .img-div{
+    margin-left: 194px;
+   }
+}
+
+
+.sect-4-home{
+ // margin-top: 72px;
+  margin-bottom: 72px;
+  .box{
+    background-color: $black100;
+    border-radius: 8px;
+  }
+  
+  h5{
+    font-size: 48px;
+    font-family: $catamaran;
+    line-height: 68px;
+    color: $white100;
+    margin-top: 48px;
+    margin-left: 70px;
+  }
+  p{
+    font-size: 18px;
+    font-family: $nunito;
+    font-weight: 400;
+    line-height: 28px;
+    color: $white100;
+    margin-left: 70px;
+  }
+  button {
+    background-color: $orange100;
+    color: $white100;
+    width: 244px;
+    height: 52px;
+    border-radius: 26px;
+    border: none;
+    margin-top: 24px;
+    margin-left: 70px;
+    margin-bottom: 48px;
+  }
+  button:hover {
+    border: 1px solid $orange100;
+    color: $orange100;
+    background-color: $white100;
+  }
+  .bowl-1{
+    margin-top: 82px;
+    height: 234px; 
+    width: 334px;
+  }
+  .bowl-2{
+    margin-bottom: 111px;
+    width: 174px; 
+    height: 174px;
+    margin-top: 29px;
+  }
+}
+
+.sect-5-home{
+  background-color: $lightgrey200;
+  h6{
+    font-family: $catamaran;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 68px;
+    color: $black100;
+  }
+  p{
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $black100;
+    white-space: nowrap;
+  }
+  img{
+    width: 238px;
+    height: 238px;
+    border-radius: 8px;
+  }
+  .icon{
+    cursor: pointer;
+  }
+}
+
+
+
+
+/*.sect1-home {
   .sect1-img {
     position: relative;
     width: 100%;
@@ -334,4 +586,4 @@
       }
     }
   }
-}
+}*/

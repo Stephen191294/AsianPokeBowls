@@ -43,12 +43,12 @@
           class="collapse navbar-collapse item-links"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav mx-auto mb-lg-0">
+          <ul class="navbar-nav mx-auto mb-lg-0 mt-3">
             <li class="nav-item">
               <a class="nav-link" href="./pages/menu.html">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/about.html">Our story </a>
+              <a class="nav-link" href="./pages/about.html">Our story</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./pages/location.html">Location</a>
@@ -58,32 +58,33 @@
             </li>
           </ul>
           <div class="d-flex align-items-center gap-3 items-btns">
-            <button class="btn">Order Online</button>
-            <button class="btn-1">Book a Table</button>
+            <button class="btn" onclick="orderOnline()">Order Online</button>
+            <button class="btn-1" onclick="bookTable()">Book a Table</button>
           </div>
         </div>
       </div>
     </nav>
-    <section class="sect1-home">
-      <div class="sect1-img">
-        <img src="assets/images/Image 21[1].png" alt="bowl" />
-      </div>
-      <div class="sect1-box-container">
+
+    <div class="container-fluid position-relative">
+      <div id="box-1" class="text-center position-absolute">
         <div class="row">
-          <div class="col-md-6 offset-md-3 box">
-            <h1>ASIAN INSPIRED BOWLS</h1>
-            <div class="sect1-btn-container">
-              <p>Fresh, heathly, delicious</p>
-              <a href="./pages/menu-pickup.html">
-                <button>Order Now</button>
-              </a>
-            </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <h1 class="card-title">ASIAN INSPIRED BOWLS</h1>
+            <p class="card-text">Fresh, healthy, delicous</p>
+            <button class="btn btn-primary">Order Now</button>
           </div>
         </div>
       </div>
-      <div class="sect1-text-container">
-        <h2>What's poke?</h2>
-        <p>
+      <img
+        class="img-fluid w-100"
+        src="assets/images/you-le-WA8g4G4Go8U-unsplash.jpg"
+        alt="bowl"
+      />
+    </div>
+    <section class="sect-1-home">
+      <div class="container-fluid text-center">
+        <h2 class="card-title">What's poke?</h2>
+        <p class="card-text">
           Poke is a traditional Hawaiian dish that typically consist of diced
           raw <br />
           fish such as tuna or salmon marinated in soy sause and other flavorful
@@ -98,229 +99,261 @@
         </p>
       </div>
     </section>
-    <section class="sect2-home">
-      <div class="sect2-header">
-        <h3>Signature Bowls</h3>
-      </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="box">
-              <div class="image-container">
+    <section class="sect-2-home">
+      <h3 class="first-header text-center">Signature Bowls</h3>
+      <div class="container-fluid text-center">
+        <div
+          class="row justify-content-center row-cols-2 row-cols-lg-5 g-2 g-lg-3"
+        >
+          <div>
+            <div class="p-3">
+              <div class="container-fluid">
                 <img
+                  class="img-fluid"
                   src="assets/images/image1-removebg-preview (1).png"
                   alt="bowl"
                 />
               </div>
-              <h4>California Crunch Bowl</h4>
-              <p>
-                Shrimp &bull; Crab &bull; Cucumber &bull; Green Onion &bull;
-                Carrot &bull; Edamame &bull; Avocado &bull; Soy Sauce &bull;
-                Tempura Flakes &bull; Spicy Mayo Drizzle
-              </p>
-              <a href="./pages/menu-pickup.html">
-                <button>Order Now</button>
-              </a>
+              <div class="container-fluid text-box">
+                <h3 class="card-title">California Crunch Bowl</h3>
+
+                <p class="card-text">
+                  Shrimp &bull; Crab &bull; Cucumber &bull; Green Onion &bull;
+                  Carrot &bull; Edamame &bull; Avocado &bull; Soy Sauce &bull;
+                  Tempura Flakes &bull; Spicy Mayo
+                  <span class="text-nowrap">Drizzil</span>
+                </p>
+
+                <a href="./pages/menu-pickup.html">
+                  <button class="order-btn btn btn-primary text-nowrap">
+                    Order Now
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="box">
-              <div class="image-container">
+          <div class="col">
+            <div class="p-3">
+              <div class="container-fluid">
                 <img
+                  class="img-fluid"
                   src="assets/images/image2-removebg-preview.png"
                   alt="bowl"
                 />
               </div>
-              <h4>Rainbow Bowl</h4>
-              <p>
-                Crab &bull; Salmon &bull; Avocado &bull; Cucumber &bull;
-                Pineapple &bull; Carrot &bull; Seasame Seeds &bull; House Sauce
-              </p>
-              <a href="./pages/menu-pickup.html">
-                <button>Order Now</button>
-              </a>
+              <div class="container-fluid text-box">
+                <h3 class="card-title">Rainbow Bowl</h3>
+                <p class="card-text">
+                  Crab &bull; Salmon &bull; Avocado &bull; Cucumber &bull;
+                  Pineapple &bull; Carrot &bull; Seasame Seeds &bull; House
+                  Sauce
+                </p>
+                <a href="./pages/menu-pickup.html">
+                  <button class="order-btn btn btn-primary text-nowrap">
+                    Order Now
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="box">
-              <div class="image-container">
+          <div class="col">
+            <div class="p-3">
+              <div class="container-fluid">
                 <img
+                  class="img-fluid"
                   src="assets/images/image3-removebg-preview.png"
                   alt="bowl"
                 />
               </div>
-              <h4>Volcano Bowl</h4>
-              <p>
-                Spicy Salmon &bull; Spicy Tuna &bull; Green Onion &bull; Cabbage
-                &bull; Cucumber &bull; Carrot &bull; Jalapeno &bull; Ginger
-              </p>
-              <a href="./pages/menu-pickup.html">
-                <button>Order Now</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="box">
-              <div class="image-container">
-                <img
-                  src="assets/images/image4-removebg-preview.png"
-                  alt="bowl"
-                />
-              </div>
-              <h4>Tuna lover's Bowl</h4>
-              <p>
-                Tuna &bull; Ground Spicy &bull; Avocado &bull; Carrot &bull;
-                Cucumber &bull; Edamame &bull; Watermelon &bull; Radish
-              </p>
-              <a href="./pages/menu-pickup.html">
-                <button>Order Now</button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="sect2-btn-container">
-        <button>Explore More</button>
-      </div>
-    </section>
-
-    <section class="sect3-home">
-      <div>
-        <h5>Our happy customers</h5>
-        <p>
-          I'm a big fan of poke bowls, and this place <br />
-          definitely delivers. The quality of the <br />
-          ingredients is top-notch, and the variety of <br />
-          the toppings allows you to customize your <br />
-          bowl.
-        </p>
-        <p class="name">Lauren Martinez</p>
-        <div>
-          <img class="icon" src="assets/images/Avatar 1 (1).png" alt="avatar" />
-          <img class="icon" src="assets/images/Avatar 2 (1).png" alt="avatar" />
-          <img class="icon" src="assets/images/Avatar 3 (2).png" alt="avatar" />
-          <img class="icon" src="assets/images/Avatar 4.png" alt="avatar" />
-          <img
-            class="icon"
-            src="assets/images/Icon Button 1 (1).png"
-            alt="icon"
-          />
-        </div>
-      </div>
-      <div class="img-container">
-        <img class="sect3-img-home" src="assets/images/image5.jpeg" alt="bowl" />
-      </div>
-    </section>
-    <section class="sect4-home">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="box">
-              <div class="sect4-content">
-                <h6>Find our locations</h6>
-                <p>
-                  Serving fresh fish daily at Boston Harbor islands, Boylston
-                  St,<br />
-                  Congress St, Kendall Square, Cambrige St, Haviland St.
+              <div class="container-fluid text-box">
+                <h3 class="card-title">Volcano Bowl</h3>
+                <p class="card-text">
+                  Spicy Salmon &bull; Spicy Tuna &bull; Green Onion <br />
+                  &bull; Cabbage &bull; Cucumber &bull; Carrot &bull;<br />
+                  Jalapeno &bull; Ginger
                 </p>
-                <a href="./pages/location.html">
-                  <button>Locations & Hours</button>
+                <a href="./pages/menu-pickup.html">
+                  <button class="order-btn btn btn-primary text-nowrap">
+                    Order Now
+                  </button>
                 </a>
               </div>
-
-              <div class="img-container">
-                <div class="img1-container">
-                  <img
-                    class="img-1"
-                    src="assets/images/Image 6.png"
-                    alt="bowl"
-                  />
-                </div>
-
-                <img
-                  class="img-2"
-                  src="assets/images/image7-removebg-preview.png"
-                  alt="bowl"
-                />
-              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="container-fluid"></div>
+              <img
+                class="img-fluid"
+                src="assets/images/image4-removebg-preview.png"
+                alt="bowl"
+              />
+            </div>
+            <div class="container-fluid text-box">
+              <h3 class="card-title">Tuna lover's Bowl</h3>
+              <p class="card-text">
+                Tuna &bull; Ground Spicy &bull; Avocado &bull;<br />Carrot
+                &bull; Cucumber &bull; Edamame &bull; Watermelon &bull; Radish
+              </p>
+              <a class="text-decoration-none" href="./pages/menu-pickup.html">
+                <button class="order-btn btn btn-primary text-nowrap">
+                  Order Now
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
+      <div class="justify-content-center d-flex">
+        <button class="explor-btn btn btn-primary">Explor More</button>
+      </div>
     </section>
-    <section class="sect5-home">
-      <div class="sect5-text-container">
-        <h6>Follow Us</h6>
-        <p>@pokerbarboston</p>
-        <p>
-          To stay updated with the latest news, promotions, and <br />
-          offerings from the poke restaurtant, make sure to follow <br />
-          us social media accounts. Don't miss out on any updates.
-        </p>
-        <div class="icon-container">
-          <img src="assets/images/Button 7.png" alt="icon" />
-          <img src="assets/images/Button 8.png" alt="icon" />
-          <img src="assets/images/Button 9.png" alt="icon" />
-          <img src="assets/images/Button 10.png" alt="icon" />
+
+    <section class="sect-3-home container-fluid">
+      <div class="container-fluid justify-content-center d-flex">
+        <div class="d-flex">
+          <div>
+            <h4 class="card-title">Our happy customers</h4>
+            <p class="card-text">
+              I'm a big fan of poke bowls, and this place <br />
+              definitely delivers. The quality of the <br />
+              ingredients is top-notch, and the variety of <br />
+              the toppings allows you to customize your <br />
+              bowl.
+            </p>
+            <p class="name">Lauren Martinez</p>
+            <div>
+              <img
+                class="icon"
+                src="assets/images/Avatar 1 (1).png"
+                alt="avatar"
+              />
+              <img
+                class="icon"
+                src="assets/images/Avatar 2 (1).png"
+                alt="avatar"
+              />
+              <img
+                class="icon"
+                src="assets/images/Avatar 3 (2).png"
+                alt="avatar"
+              />
+              <img class="icon" src="assets/images/Avatar 4.png" alt="avatar" />
+              <img
+                class="icon"
+                src="assets/images/Icon Button 1 (1).png"
+                alt="icon"
+              />
+            </div>
+          </div>
+
+          <div class="img-div">
+            <img
+              class="img-fluid d-none d-sm-none d-md-block"
+              src="assets/images/image5.jpeg"
+              alt="bowl"
+            />
+          </div>
         </div>
       </div>
-      <div>
+    </section>
+
+    <section class="sect-4-home">
+      <div class="container overflow-hidden">
+        <div class="box d-flex">
+          <div>
+            <h5 class="card-title">Find our locations</h5>
+            <p class="card-title">
+              Serving fresh fish daily at Boston Harbor islands, Boylston
+              <span class="text-nowrap">St,</span><br />
+              Congress St, Kendall Square, Cambrige St, Haviland St.
+            </p>
+            <a href="./pages/location.html">
+              <button class="btn btn-primary">Locations & Hours</button>
+            </a>
+          </div>
+
+          <div class="ms-4 d-flex">
+            <img
+              class="bowl-1 img-fluid d-none d-sm-none d-md-block"
+              src="assets/images/Image 6.png"
+              alt="bowl"
+            />
+            <img
+              class="bowl-2 img-fluid d-none d-sm-none d-md-block"
+              src="assets/images/image7-removebg-preview.png"
+              alt="bowl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sect-5-home d-flex justify-content-center">
+      <div class="container-fluid d-flex justify-content-center overflow-visible">
+        <div style="margin-top: 160px;">
+          <h6 class="card-title">Follow Us</h6>
+          <p>@pokerbarboston</p>
+          <p class="card-text">
+            To stay updated with the latest news, promotions, and <br />
+            offerings from the poke restaurtant, make sure to follow <br />
+            us social media accounts. Don't miss out on any updates.
+          </p>
+          <div class="icon-container">
+            <img class="icon" src="assets/images/Button 7.png" alt="icon" />
+            <img class="icon" src="assets/images/Button 8.png" alt="icon" />
+            <img class="icon" src="assets/images/Button 9.png" alt="icon" />
+            <img class="icon" src="assets/images/Button 10.png" alt="icon" />
+          </div>
+        </div>
+
         <div class="container">
-          <div class="row no-gutters">
-            <div class="col-md-4 custom-negative-margin">
-              <div class="box">
-                <img src="assets/images/image8.jpeg" alt="bowl" />
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="assets/images/image8.jpeg" class="img-fluid" alt="bowl">
               </div>
-              <div class="box mt-3">
-                <img src="assets/images/image9.jpeg" alt="bowl" />
+              <div class="col-md-4 mb-4">
+                  <img src="assets/images/image13.jpeg" class="img-fluid" alt="bowl">
               </div>
-              <div class="box mt-3">
-                <img src="assets/images/image10.jpeg" alt="bowl" />
+              <div class="col-md-4 mb-4">
+                  <img src="assets/images/image16.jpeg" class="img-fluid" alt="bowl">
               </div>
-            </div>
-            <div class="col-md-4 custom-negative-margin-1">
-              <div class="box">
-                <img
-                  class="img-1"
-                  src="assets/images/image13.jpeg"
-                  alt="bowl"
-                />
-              </div>
-              <div class="box mt-3">
-                <img
-                  class="img-1"
-                  src="assets/images/image11.jpeg"
-                  alt="bowl"
-                />
-              </div>
-              <div class="box mt-3">
-                <img
-                  class="img-1"
-                  src="assets/images/image12.jpeg"
-                  alt="bowl"
-                />
-              </div>
-            </div>
-            <div class="col-md-4 custom-negative-margin">
-              <div class="box">
-                <img src="assets/images/image16.jpeg" alt="bowl" />
-              </div>
-              <div class="box mt-3">
-                <img src="assets/images/image14.jpeg" alt="bowl" />
-              </div>
-              <div class="box mt-3">
-                <img src="assets/images/image15.jpeg" alt="bowl" />
-              </div>
-            </div>
           </div>
-        </div>
+          <div class="row">
+              <div class="col-md-4 mb-4">
+                  <img src="assets/images/image9.jpeg" class="img-fluid" alt="bowl">
+              </div>
+              <div class="col-md-4">
+                  <img src="assets/images/image11.jpeg" class="img-fluid" alt="bowl">
+              </div>
+              <div class="col-md-4">
+                  <img src="assets/images/image14.jpeg" class="img-fluid" alt="bowl">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="assets/images/image10.jpeg" class="img-fluid" alt="bowl">
+              </div>
+              <div class="col-md-4">
+                <img src="assets/images/image12.jpeg" class="img-fluid" alt="bowl">
+            </div>
+            <div class="col-md-4">
+              <img src="assets/images/image15.jpeg" class="img-fluid" alt="bowl">
+          </div>
+
+          </div>
+          
+      </div>
+
+
       </div>
     </section>
+
     <footer class="footer">
       <div class="container-fluid d-flex justify-content-between">
         <div>
-          <div class=" footer-icon ">
+          <div class="footer-icon">
             <div>
               <img src="assets/images/Image 22 (1).png" alt="logo" />
             </div>
@@ -328,7 +361,7 @@
               <h6 class="mt-4">POKE NOW.</h6>
             </div>
           </div>
-          <div class=" footer-link-div mt-4">
+          <div class="footer-link-div mt-4">
             <a class="footer-link me-2" href="./pages/menu.html">Menu</a>
             <a class="footer-link me-2" href="./pages/about.html">Our Story</a>
             <a class="footer-link me-2" href="./pages/location.html"

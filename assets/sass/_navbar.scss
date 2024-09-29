@@ -61,6 +61,11 @@
     left: 1195px;
     text-decoration: none;
   }
+  .btn-1:hover{
+    background-color: $white100;
+    color: $black100;
+    border: 1px solid $black100;
+  }
   .cart {
     background-color: $black100;
     padding-left: 10px;

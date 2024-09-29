@@ -3,6 +3,8 @@
 
 .sect1-about {
   //box-shadow: 0 0 1px 0 $black100;
+  width: 100%;
+  height: auto;
   .sect1-img-about {
     position: relative;
     width: 100%;
@@ -69,8 +71,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 300px;
+  //margin-top: 300px;
   height: 678px;
+ // padding: 30px;
 
   background-color: $lightgrey200;
   .sect2-text-container-about {

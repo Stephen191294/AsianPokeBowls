@@ -91,6 +91,11 @@
   left: 1195px;
   text-decoration: none;
 }
+.navbar .btn-1:hover {
+  background-color: #FFFFFF;
+  color: #171A1f;
+  border: 1px solid #171A1f;
+}
 .navbar .cart {
   background-color: #171A1f;
   padding-left: 10px;
@@ -107,106 +112,90 @@
   border: none;
 }
 
-.sect1-home .sect1-img {
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-.sect1-home .sect1-img img {
-  width: 100%;
-  height: auto;
-}
-.sect1-home .sect1-box-container {
-  position: absolute;
-  top: 279px;
-  left: 10px;
-  height: 413px;
-  border: none;
-  z-index: 1;
-}
-.sect1-home .sect1-box-container .box {
+#box-1 {
   background-color: #FFFFFF;
-  padding: 48px 36px;
-  width: 100%;
-  height: auto;
-  box-shadow: 0 0 1px 0 #171A1f;
   border-radius: 4px;
+  box-shadow: 0 0 1px 0 #171A1f;
+  padding: 48px 36px;
 }
-.sect1-home .sect1-box-container .box .sect1-btn-container {
-  margin-top: 80px;
-}
-.sect1-home .sect1-box-container h1 {
+#box-1 h1 {
+  color: #171A1f;
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  font-size: 3rem;
   width: 370px;
+  height: 136px;
   line-height: 68px;
   color: #171A1f;
-  width: 100%;
-  height: auto;
+  text-align: left;
 }
-.sect1-home .sect1-box-container p {
+#box-1 p {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
-  font-size: 18px;
   line-height: 28px;
+  margin-top: 80px;
+  white-space: nowrap;
 }
-.sect1-home .sect1-box-container button {
+#box-1 button {
   background-color: #F96540;
   color: #FFFFFF;
+  width: 219px;
+  height: 52px;
   padding: 12px 64px;
   border-radius: 26px;
   border: none;
 }
-.sect1-home .sect1-box-container button:hover {
+#box-1 button:hover {
   color: #F96540;
   background-color: #FFFFFF;
   border: 1px solid #F96540;
 }
-.sect1-home .sect1-text-container {
-  text-align: center;
-}
-.sect1-home .sect1-text-container h2 {
+
+.sect-1-home h2 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  font-size: 48px;
   line-height: 68px;
-  width: 100%;
   height: auto;
 }
-.sect1-home .sect1-text-container p {
+.sect-1-home p {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
-  font-size: 18px;
   line-height: 28px;
-  width: 100%;
-  height: auto;
 }
 
-.sect2-home {
-  padding-top: 48px;
+.sect-2-home {
+  margin-top: 48px;
   background-color: #FAFAFB;
+  padding-top: 48px;
+  padding-bottom: 60px;
 }
-.sect2-home .sect2-header {
-  text-align: center;
+.sect-2-home .first-header {
+  font-size: 48px;
   font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  line-height: 68px;
 }
-.sect2-home .container .box {
-  background-color: #FFFFFF;
-  padding: 10px;
-  width: 267px;
-  border-radius: 8px;
+.sect-2-home h3 {
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  white-space: nowrap;
+  text-align: left;
 }
-.sect2-home .container .box .image-container {
+.sect-2-home P {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}
+.sect-2-home img {
   width: 219px;
   height: 219px;
 }
-.sect2-home .container .box .image-container img {
-  width: 100%;
-  height: auto;
-  margin-left: 10px;
+.sect-2-home .text-box {
+  border-radius: 8px;
 }
-.sect2-home .container .box button {
+.sect-2-home .order-btn {
   background-color: #FFF3F0;
   color: #F96540;
   width: 94px;
@@ -214,156 +203,411 @@
   border-radius: 18px;
   border: none;
 }
-.sect2-home .container .box button:hover {
+.sect-2-home .order-btn:hover {
   color: #FFF3F0;
   background-color: #F96540;
 }
-.sect2-home .container .box p {
-  width: 235px;
-  height: 60px;
-  font-size: 12px;
-}
-.sect2-home .container .box h4 {
-  white-space: nowrap;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-  width: 100%;
-  height: auto;
-}
-.sect2-home .sect2-btn-container {
-  text-align: center;
-}
-.sect2-home .sect2-btn-container button {
+.sect-2-home .explor-btn {
   width: 219px;
   height: 52px;
-  margin-top: 48px;
   border-radius: 26px;
   border: 1px solid #171A1f;
+  background-color: #FFFFFF;
   color: #171A1f;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
 }
-.sect2-home .sect2-btn-container button:hover {
+.sect-2-home .explor-btn:hover {
   background-color: #171A1f;
   color: #FFFFFF;
 }
 
-.sect3-home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 48px;
-  margin-right: 132px;
-  margin-left: 132px;
+.sect-3-home {
+  margin-top: 48px;
+  height: 616px;
 }
-.sect3-home h5 {
+.sect-3-home h4 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  font-size: 48px;
   line-height: 68px;
   color: #171A1f;
 }
-.sect3-home p {
+.sect-3-home p {
+  margin-top: 24px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
-  font-size: 24px;
   line-height: 36px;
+  color: #171A1f;
 }
-.sect3-home .icon {
-  margin-top: 114px;
-}
-.sect3-home .name {
-  width: 182px;
-  height: 36px;
-  margin-top: 20px;
+.sect-3-home .name {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
-  color: #171A1f;
 }
-.sect3-home .img-container {
-  width: 520px;
-  height: 520px;
-}
-.sect3-home .img-container img {
-  width: 100%;
-  height: auto;
+.sect-3-home .img-div {
+  margin-left: 194px;
 }
 
-.sect4-home {
-  width: 100%;
-  height: auto;
+.sect-4-home {
+  margin-bottom: 72px;
 }
-.sect4-home .container {
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-.sect4-home .container .box {
-  margin-top: 72px;
-  margin-bottom: 95px;
-  display: flex;
-  height: 314px;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+.sect-4-home .box {
   background-color: #171A1f;
   border-radius: 8px;
-  padding: 48px 70px 48px 70px;
-  overflow: hidden;
 }
-.sect4-home .container .box h6 {
-  color: #FFFFFF;
+.sect-4-home h5 {
+  font-size: 48px;
   font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  font-size: 3rem;
   line-height: 68px;
-  width: 100%;
-  height: auto;
-}
-.sect4-home .container .box p {
   color: #FFFFFF;
-  font-size: 1rem;
+  margin-top: 48px;
+  margin-left: 70px;
 }
-.sect4-home .container .box button {
+.sect-4-home p {
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-left: 70px;
+}
+.sect-4-home button {
   background-color: #F96540;
   color: #FFFFFF;
   width: 244px;
   height: 52px;
   border-radius: 26px;
   border: none;
+  margin-top: 24px;
+  margin-left: 70px;
+  margin-bottom: 48px;
 }
-.sect4-home .container .box button:hover {
+.sect-4-home button:hover {
   border: 1px solid #F96540;
   color: #F96540;
   background-color: #FFFFFF;
 }
-.sect4-home .container .box .img-container {
-  display: flex;
-  flex-direction: row;
-}
-.sect4-home .container .box .img-container .img1-container {
-  height: 200px;
-  width: 300px;
-  border-radius: 167px;
-  margin-top: -16px;
-}
-.sect4-home .container .box .img-container .img-1 {
-  height: auto;
-  width: 100%;
+.sect-4-home .bowl-1 {
   margin-top: 82px;
-  margin-right: 204px;
-  margin-bottom: 202px;
-  width: 100%;
+  height: 234px;
+  width: 334px;
 }
-.sect4-home .container .box .img-container .img-2 {
+.sect-4-home .bowl-2 {
+  margin-bottom: 111px;
   width: 174px;
   height: 174px;
+  margin-top: 29px;
+}
+
+.sect-5-home {
+  background-color: #FAFAFB;
+}
+.sect-5-home h6 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 68px;
+  color: #171A1f;
+}
+.sect-5-home p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #171A1f;
+  white-space: nowrap;
+}
+.sect-5-home img {
+  width: 238px;
+  height: 238px;
+  border-radius: 8px;
+}
+.sect-5-home .icon {
+  cursor: pointer;
+}
+
+/*.sect1-home {
+  .sect1-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .sect1-box-container {
+    position: absolute;
+    top: 279px;
+    left: 10px;
+    // width: 442px;
+    height: 413px;
+    border: none;
+
+    z-index: 1;
+    .box {
+      background-color: $white100;
+      padding: 48px 36px;
+      width: 100%;
+      height: auto;
+      box-shadow: 0 0 1px 0 $black100;
+      border-radius: 4px;
+      .sect1-btn-container {
+        margin-top: 80px;
+      }
+    }
+    h1 {
+      font-family: $catamaran;
+      font-weight: 400;
+      font-size: 3rem;
+      width: 370px;
+      line-height: 68px;
+      color: $black100;
+      width: 100%;
+      height: auto;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    button {
+      background-color: $orange100;
+      color: $white100;
+      // width: 219px;
+      // height: 52px;
+      padding: 12px 64px;
+      border-radius: 26px;
+      border: none;
+    }
+    button:hover {
+      color: $orange100;
+      background-color: $white100;
+      border: 1px solid $orange100;
+    }
+  }
+  .sect1-text-container {
+    // margin-top: 72px;
+    text-align: center;
+    h2 {
+      font-family: $catamaran;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 68px;
+      width: 100%;
+      height: auto;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.sect2-home {
+  //height: 683px;
+  padding-top: 48px;
+  background-color: $lightgrey200;
+  .sect2-header {
+    text-align: center;
+    font-family: $catamaran;
+  }
+  .container {
+    .box {
+      background-color: $white100;
+      padding: 10px;
+      width: 267px;
+      border-radius: 8px;
+      //height: 292px;
+      .image-container {
+        width: 219px;
+        height: 219px;
+        img {
+          width: 100%;
+          height: auto;
+          margin-left: 10px;
+        }
+      }
+      button {
+        background-color: $orange200;
+        color: $orange100;
+        width: 94px;
+        height: 36px;
+        border-radius: 18px;
+        border: none;
+      }
+      button:hover {
+        color: $orange200;
+        background-color: $orange100;
+      }
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+      h4 {
+        white-space: nowrap;
+        font-family: $catamaran;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .sect2-btn-container {
+    text-align: center;
+    button {
+      width: 219px;
+      height: 52px;
+      margin-top: 48px;
+      border-radius: 26px;
+      border: 1px solid $black100;
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    button:hover {
+      background-color: $black100;
+      color: $white100;
+    }
+  }
+}
+
+.sect3-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  //margin-top: 72px;
+  padding-top: 48px;
+  margin-right: 132px;
+  margin-left: 132px;
+  //height: 616px;
+  //width: 1440px;
+
+  h5 {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 68px;
+    color: $black100;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .icon {
+    margin-top: 114px;
+  }
+
+  .name {
+    width: 182px;
+    height: 36px;
+    margin-top: 20px;
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: $black100;
+  }
+  .img-container {
+    width: 520px;
+    height: 520px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.sect4-home {
+  width: 100%;
+  height: auto;
+  .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    .box {
+      margin-top: 72px;
+      margin-bottom: 95px;
+      // margin-left: 132px;
+      // margin-right: 132px;
+      display: flex;
+      height: 314px;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      background-color: $black100;
+      border-radius: 8px;
+      padding: 48px 70px 48px 70px;
+      overflow: hidden;
+      h6 {
+        color: $white100;
+        font-family: $catamaran;
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 68px;
+        width: 100%;
+        height: auto;
+      }
+      p {
+        color: $white100;
+        font-size: 1rem;
+        // width: 100%;
+        //  height: auto;
+      }
+      button {
+        background-color: $orange100;
+        color: $white100;
+        width: 244px;
+        height: 52px;
+        border-radius: 26px;
+        border: none;
+      }
+      button:hover {
+        border: 1px solid $orange100;
+        color: $orange100;
+        background-color: $white100;
+      }
+      .img-container {
+        display: flex;
+        flex-direction: row;
+        .img1-container {
+          height: 200px;
+          width: 300px;
+          border-radius: 167px;
+          margin-top: -16px;
+        }
+
+        .img-1 {
+          height: auto;
+          width: 100%;
+          margin-top: 82px;
+          margin-right: 204px;
+          margin-bottom: 202px;
+
+          width: 100%;
+        }
+        .img-2 {
+          width: 174px;
+          height: 174px;
+        }
+      }
+    }
+  }
 }
 
 .sect5-home {
@@ -374,63 +618,173 @@
   width: 100%;
   height: 616px;
   border-radius: 4px;
-  background-color: #FAFAFB;
+  background-color: $lightgrey200;
+  .container {
+    padding: 0;
+    .custom-negative-margin {
+      margin-top: -50px;
+    }
+    .custom-negative-margin-1 {
+      margin-top: -100px;
+    }
+    .box {
+      width: 238px;
+      height: 238;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+      }
+    }
+  }
+  .sect5-text-container {
+    margin-top: 160px;
+    margin-left: 132px;
+    h6 {
+      font-family: $catamaran;
+      font-size: 48px;
+      line-height: 68px;
+      font-weight: 500;
+      color: $black100;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: $black100;
+    }
+    .icon-container {
+      margin-top: 52px;
+      img {
+        margin-right: 24px;
+        width: 44px;
+        height: 44px;
+      }
+    }
+  }
+}*/
+@media (min-width: 0) {
+  #box-1 {
+    left: 0;
+    top: 199px;
+    width: 100%;
+    height: auto;
+  }
+  #box-1 h1 {
+    font-size: 28px;
+  }
+  #box-1 p {
+    font-size: 16px;
+  }
 }
-.sect5-home .container {
-  padding: 0;
+@media (min-width: 576px) {
+  #box-1 {
+    left: 132px;
+    top: 199px;
+    width: 442px;
+    height: 413px;
+  }
+  #box-1 h1 {
+    font-size: 48px;
+  }
+  #box-1 p {
+    font-size: 18px;
+  }
 }
-.sect5-home .container .custom-negative-margin {
-  margin-top: -50px;
+@media (min-width: 768px) {
+  #box-1 {
+    left: 132px;
+    top: 199px;
+  }
 }
-.sect5-home .container .custom-negative-margin-1 {
-  margin-top: -100px;
-}
-.sect5-home .container .box {
-  width: 238px;
-  height: 238;
-}
-.sect5-home .container .box img {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-}
-.sect5-home .sect5-text-container {
-  margin-top: 160px;
-  margin-left: 132px;
-}
-.sect5-home .sect5-text-container h6 {
-  font-family: "Catamaran", sans-serif;
-  font-size: 48px;
-  line-height: 68px;
-  font-weight: 500;
-  color: #171A1f;
-}
-.sect5-home .sect5-text-container p {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
+#box-1 p {
   font-size: 18px;
-  line-height: 28px;
-  color: #171A1f;
-}
-.sect5-home .sect5-text-container .icon-container {
-  margin-top: 52px;
-}
-.sect5-home .sect5-text-container .icon-container img {
-  margin-right: 24px;
-  width: 44px;
-  height: 44px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+@media (min-width: 0) {
+  .sect-1-home {
+    width: 100%;
+    height: auto;
+  }
+  .sect-1-home div {
+    margin-top: 400px;
+  }
+  .sect-1-home h2 {
+    font-size: 28px;
+  }
+  .sect-1-home p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 576px) {
+  .sect-1-home div {
+    margin-top: 200px;
+  }
+  .sect-1-home h2 {
+    font-size: 48px;
+  }
+  .sect-1-home p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .sect-1-home div {
+    margin-top: 72px;
+  }
+  .sect-1-home h2 {
+    font-size: 48px;
+  }
+  .sect-1-home p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 0) {
+  .sect-3-home h4 {
+    font-size: 28px;
+  }
+  .sect-3-home p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 576px) {
+  .sect-3-home h4 {
+    font-size: 48px;
+  }
+  .sect-3-home p {
+    font-size: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .sect-3-home h4 {
+    font-size: 48px;
+  }
+  .sect-3-home p {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 0) {
+  .sect-4-home {
+    margin-top: 550px;
+  }
+}
+@media (min-width: 576px) {
+  .sect-4-home {
+    margin-top: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .sect-4-home {
+    margin-top: 72px;
+  }
 }
 
 @media (min-width: 0) {
   .sect1-box-container {
     width: 100%;
     height: auto;
-    overflow: scroll;
   }
   .sect1-box-container button {
     width: 100%;
@@ -1214,6 +1568,10 @@ footer a {
   text-decoration: none;
 }
 
+.sect1-about {
+  width: 100%;
+  height: auto;
+}
 .sect1-about .sect1-img-about {
   position: relative;
   width: 100%;
@@ -1276,7 +1634,6 @@ footer a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 300px;
   height: 678px;
   background-color: #FAFAFB;
 }
