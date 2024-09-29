@@ -308,7 +308,6 @@
 .sect-5-home h6 {
   font-family: "Catamaran", sans-serif;
   font-weight: 500;
-  font-size: 48px;
   line-height: 68px;
   color: #171A1f;
 }
@@ -782,17 +781,17 @@
 }
 
 @media (min-width: 0) {
-  .sect-6-home h6 {
+  .sect-5-home h6 {
     font-size: 28px;
   }
 }
 @media (min-width: 576px) {
-  .sect-6-home h6 {
+  .sect-5-home h6 {
     font-size: 48px;
   }
 }
 @media (min-width: 768px) {
-  .sect-6-home h6 {
+  .sect-5-home h6 {
     font-size: 48px;
   }
 }
