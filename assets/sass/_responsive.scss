@@ -81,8 +81,11 @@
 
 .sect-2-home {
   @include respond-to(xs) {
-    h3{
+    .header{
     
+      white-space: wrap;
+    }
+    p{
       white-space: wrap;
     }
     #bottom-bowl{
@@ -98,8 +101,11 @@
     }
   }
   @include respond-to(sm) {
-    h3{
+    .header{
     
+      white-space: nowrap;
+    }
+    p{
       white-space: nowrap;
     }
     #bottom-bowl{
@@ -115,8 +121,11 @@
     }
   }
   @include respond-to(md) {
-    h3{
+    .header{
     
+      white-space: nowrap;
+    }
+    p{
       white-space: nowrap;
     }
      #bottom-bowl{
@@ -191,18 +200,28 @@
       text-align: center;
       white-space: wrap;
     }
+    .icon-container {
+      text-align: left;
+      margin-left: 40px;
+    }
   }
   @include respond-to(sm) {
     margin-bottom: 30px;
     h6 {
       font-size: 48px;
       text-align: left;
+      margin-left: 40px;
     }
     p{
       
       font-size: 18px;
       white-space: nowrap;
       text-align: left;
+      margin-left: 40px;
+    }
+    .icon-container {
+      text-align: left;
+      margin-left: 40px;
     }
   }
   @include respond-to(md) {
@@ -215,6 +234,9 @@
       
       font-size: 18px;
       white-space: nowrap;
+      text-align: left;
+    }
+    .icon-container {
       text-align: left;
     }
   }

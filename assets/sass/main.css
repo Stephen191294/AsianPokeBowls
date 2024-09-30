@@ -775,7 +775,10 @@
 }
 
 @media (min-width: 0) {
-  .sect-2-home h3 {
+  .sect-2-home .header {
+    white-space: wrap;
+  }
+  .sect-2-home p {
     white-space: wrap;
   }
   .sect-2-home #bottom-bowl {
@@ -790,7 +793,10 @@
   }
 }
 @media (min-width: 576px) {
-  .sect-2-home h3 {
+  .sect-2-home .header {
+    white-space: nowrap;
+  }
+  .sect-2-home p {
     white-space: nowrap;
   }
   .sect-2-home #bottom-bowl {
@@ -805,7 +811,10 @@
   }
 }
 @media (min-width: 768px) {
-  .sect-2-home h3 {
+  .sect-2-home .header {
+    white-space: nowrap;
+  }
+  .sect-2-home p {
     white-space: nowrap;
   }
   .sect-2-home #bottom-bowl {
@@ -887,6 +896,10 @@
     text-align: center;
     white-space: wrap;
   }
+  .sect-5-home .icon-container {
+    text-align: left;
+    margin-left: 40px;
+  }
 }
 @media (min-width: 576px) {
   .sect-5-home {
@@ -895,11 +908,17 @@
   .sect-5-home h6 {
     font-size: 48px;
     text-align: left;
+    margin-left: 40px;
   }
   .sect-5-home p {
     font-size: 18px;
     white-space: nowrap;
     text-align: left;
+    margin-left: 40px;
+  }
+  .sect-5-home .icon-container {
+    text-align: left;
+    margin-left: 40px;
   }
 }
 @media (min-width: 768px) {
@@ -913,6 +932,9 @@
   .sect-5-home p {
     font-size: 18px;
     white-space: nowrap;
+    text-align: left;
+  }
+  .sect-5-home .icon-container {
     text-align: left;
   }
 }
