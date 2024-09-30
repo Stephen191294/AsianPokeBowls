@@ -91,6 +91,11 @@
     .explor-btn{
       margin-top: 30px;
     }
+    img {
+      width: 119px;
+      height: 119px;
+      
+    }
   }
   @include respond-to(sm) {
     h3{
@@ -103,6 +108,11 @@
     .explor-btn{
       margin-top: 0;
     }
+    img {
+      width: 219px;
+      height: 219px;
+      
+    }
   }
   @include respond-to(md) {
     h3{
@@ -114,6 +124,11 @@
     }
     .explor-btn{
       margin-top: 0;
+    }
+    img {
+      width: 219px;
+      height: 219px;
+      
     }
   }
 }
