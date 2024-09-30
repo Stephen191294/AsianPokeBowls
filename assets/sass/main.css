@@ -963,64 +963,64 @@
 }
 
 @media (min-width: 0) {
-  .sect-2-menu .header {
+  .sect-1-menu .header {
     white-space: wrap;
   }
-  .sect-2-menu p {
+  .sect-1-menu p {
     white-space: wrap;
   }
-  .sect-2-menu #bottom-bowl {
+  .sect-1-menu #bottom-bowl {
     margin-top: 90px;
   }
-  .sect-2-menu #bottom-bowl-2 {
+  .sect-1-menu #bottom-bowl-2 {
     margin-top: 0;
   }
-  .sect-2-menu .seeAll-btn {
+  .sect-1-menu .seeAll-btn {
     margin-top: 30px;
   }
-  .sect-2-menu img {
+  .sect-1-menu img {
     width: 119px;
     height: 119px;
   }
 }
 @media (min-width: 576px) {
-  .sect-2-menu .header {
+  .sect-1-menu .header {
     white-space: nowrap;
   }
-  .sect-2-menu p {
+  .sect-1-menu p {
     white-space: nowrap;
   }
-  .sect-2-menu #bottom-bowl {
+  .sect-1-menu #bottom-bowl {
     margin-top: 90px;
   }
-  .sect-2-menu #bottom-bowl-2 {
+  .sect-1-menu #bottom-bowl-2 {
     margin-top: 90px;
   }
-  .sect-2-menu .seeAll-btn {
+  .sect-1-menu .seeAll-btn {
     margin-top: 0;
   }
-  .sect-2-menu img {
+  .sect-1-menu img {
     width: 219px;
     height: 219px;
   }
 }
 @media (min-width: 768px) {
-  .sect-2-menu .header {
+  .sect-1-menu .header {
     white-space: nowrap;
   }
-  .sect-2-menu p {
+  .sect-1-menu p {
     white-space: nowrap;
   }
-  .sect-2-menu #bottom-bowl {
+  .sect-1-menu #bottom-bowl {
     margin-top: 0;
   }
-  .sect-2-menu #bottom-bowl-2 {
+  .sect-1-menu #bottom-bowl-2 {
     margin-top: 0;
   }
-  .sect-2-menu .seeAll-btn {
+  .sect-1-menu .seeAll-btn {
     margin-top: 0;
   }
-  .sect-2-menu img {
+  .sect-1-menu img {
     width: 219px;
     height: 219px;
   }
@@ -1695,18 +1695,18 @@ footer a {
   height: 379px;
 }
 
-.sect-2-menu {
+.sect-1-menu {
   background-color: #FAFAFB;
   height: 683px;
   padding-top: 48px;
 }
-.sect-2-menu .first-header {
+.sect-1-menu .first-header {
   font-size: 48px;
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
   line-height: 68px;
 }
-.sect-2-menu .header {
+.sect-1-menu .header {
   font-size: 18px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
@@ -1714,22 +1714,22 @@ footer a {
   text-align: left;
   margin-top: 128px;
 }
-.sect-2-menu P {
+.sect-1-menu P {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
   text-align: left;
 }
-.sect-2-menu img {
+.sect-1-menu img {
   left: 24px;
   top: -115px;
   z-index: 2;
 }
-.sect-2-menu .text-box {
+.sect-1-menu .text-box {
   border-radius: 8px;
 }
-.sect-2-menu .order-btn {
+.sect-1-menu .order-btn {
   background-color: #FFF3F0;
   color: #F96540;
   width: 94px;
@@ -1737,11 +1737,11 @@ footer a {
   border-radius: 18px;
   border: none;
 }
-.sect-2-menu .order-btn:hover {
+.sect-1-menu .order-btn:hover {
   color: #FFF3F0;
   background-color: #F96540;
 }
-.sect-2-menu .seeAll-btn {
+.sect-1-menu .seeAll-btn {
   width: 219px;
   height: 52px;
   border-radius: 26px;
@@ -1753,11 +1753,11 @@ footer a {
   font-size: 18px;
   line-height: 28px;
 }
-.sect-2-menu .seeAll-btn:hover {
+.sect-1-menu .seeAll-btn:hover {
   background-color: #171A1f;
   color: #FFFFFF;
 }
-.sect-2-menu .text-box-div {
+.sect-1-menu .text-box-div {
   width: 267px;
   height: 292px;
   border: 1px solid transparent;
@@ -1767,12 +1767,26 @@ footer a {
   padding-right: 16px;
   padding-bottom: 24px;
 }
-.sect-2-menu .btn-div {
+.sect-1-menu .btn-div {
   margin-top: 19px;
   text-align: left;
 }
-.sect-2-menu .bowls-div {
+.sect-1-menu .bowls-div {
   margin-top: 140px;
+}
+
+.sect-2-menu {
+  height: 2870px;
+  margin-top: 459px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+}
+.sect-2-menu h3 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  line-height: 74px;
+  font-size: 52px;
+  margin-top: 96px;
 }
 
 /*

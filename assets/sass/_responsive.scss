@@ -262,7 +262,7 @@
 
 
 
-.sect-2-menu {
+.sect-1-menu {
   @include respond-to(xs) {
     .header{
     
@@ -334,6 +334,18 @@
   }
 }
 
+
+.sect-2-menu{
+  @include respond-to(xs) {
+
+  }
+@include respond-to(sm) {
+    
+  }
+  @include respond-to(md) {
+    
+  }
+}
 
 
 

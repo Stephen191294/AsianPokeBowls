@@ -6,7 +6,7 @@
 }
 
 
-.sect-2-menu {
+.sect-1-menu {
   background-color: $lightgrey200;
   height: 683px;
   padding-top: 48px;
@@ -92,7 +92,19 @@
   }
 }
 
-
+.sect-2-menu{
+  height: 2870px ;
+  margin-top: 459px;
+  background-color: $white100;
+  border: 1px solid black;
+  h3{
+    font-family: $catamaran;
+    font-weight: 400;
+    line-height: 74px;
+    font-size: 52px;
+    margin-top: 96px;
+  }
+}
 
 
 
