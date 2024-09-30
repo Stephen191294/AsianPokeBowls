@@ -1,5 +1,113 @@
 @import "./variables";
 
+.image-div-menu {
+  width: 1440px;
+  height: 379px;
+}
+
+
+.sect-2-menu {
+  background-color: $lightgrey200;
+  height: 683px;
+  padding-top: 48px;
+  .first-header {
+    font-size: 48px;
+    font-family: $catamaran;
+    font-weight: 400;
+    line-height: 68px;
+  }
+  .header {
+    font-size: 18px;
+    font-family: $nunito;
+    font-weight: 700;
+    //line-height: 28;
+    white-space: nowrap;
+    text-align: left;
+    margin-top: 128px;
+  }
+  P {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+   // white-space: nowrap;
+  }
+  img {
+   // width: 219px;
+   // height: 219px;
+    left: 24px;
+    top: -115px;
+    z-index: 2;
+  }
+  .text-box {
+    // height: 292px;
+    border-radius: 8px;
+    //  padding: 125px 16px 24px 16px;
+  }
+  .order-btn {
+    background-color: $orange200;
+    color: $orange100;
+    width: 94px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+  }
+  .order-btn:hover {
+    color: $orange200;
+    background-color: $orange100;
+  }
+  .seeAll-btn {
+    width: 219px;
+    height: 52px;
+    border-radius: 26px;
+    border: 1px solid $black100;
+    background-color: $white100;
+    color: $black100;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .seeAll-btn:hover {
+    background-color: $black100;
+    color: $white100;
+  }
+  .text-box-div {
+    width: 267px;
+    height: 292px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: $white100;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+  }
+  .btn-div {
+    margin-top: 19px;
+    text-align: left;
+  }
+  .bowls-div {
+    margin-top: 140px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .sect1-menu {
   background-color: $lightgrey200;
   margin-bottom: 0;
@@ -202,4 +310,4 @@
       width: 100%;
     }
   }
-}
+}*/

@@ -963,184 +963,66 @@
 }
 
 @media (min-width: 0) {
-  .sect1-box-container {
-    width: 100%;
-    height: auto;
+  .sect-2-menu .header {
+    white-space: wrap;
   }
-  .sect1-box-container button {
-    width: 100%;
-    height: auto;
+  .sect-2-menu p {
+    white-space: wrap;
   }
-}
-@media (min-width: 576px) {
-  .sect1-box-container {
-    width: 100%;
-    height: auto;
-    overflow: visible;
-  }
-  .sect1-box-container button {
-    width: 219px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .sect1-box-container {
-    width: 100%;
-    height: auto;
-    overflow: visible;
-  }
-  .sect1-box-container button {
-    width: 219px;
-    height: 52px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect1-text-container {
-    width: 100%;
-    height: auto;
-    margin-top: 300px;
-  }
-}
-@media (min-width: 576px) {
-  .sect1-text-container {
-    width: 100%;
-    height: auto;
-    margin-top: 300px;
-  }
-}
-@media (min-width: 768px) {
-  .sect1-text-container {
-    width: 100%;
-    height: auto;
-    margin-top: 72px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect2-home {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (min-width: 576px) {
-  .sect2-home {
-    height: 683px;
-  }
-}
-@media (min-width: 768px) {
-  .sect2-home {
-    height: 683px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect3-home {
-    margin-top: 100px;
-    text-align: center;
-  }
-  .sect3-home .sect3-img-home {
-    display: none;
-  }
-}
-@media (min-width: 0) and (min-width: 576px) {
-  .sect3-home {
-    margin-top: 1100px;
-  }
-  .sect3-home .sect3-img-home {
-    display: block;
-  }
-}
-@media (min-width: 0) and (min-width: 576px) and (min-width: 768px) {
-  .sect3-home {
-    margin-top: 0px;
-  }
-  .sect3-home .sect3-img-home {
-    display: block;
-  }
-}
-
-@media (min-width: 0) {
-  .sect4-home .box {
-    height: auto !important;
-    width: 100%;
-  }
-  .sect4-home .box img {
-    display: none;
-  }
-  .sect4-home .box .sect4-content {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (min-width: 576px) {
-  .sect4-home .box {
-    height: 370px !important;
-    width: 100%;
-  }
-  .sect4-home .box img {
-    display: block;
-  }
-  .sect4-home .box .sect4-content {
-    width: 100%;
-    height: auto;
-  }
-  .sect4-home .box .sect4-content button {
-    width: 244px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .sect4-home .box {
-    height: 314px !important;
-  }
-  .sect4-home .box img {
-    display: block;
-  }
-  .sect4-home .box .sect4-content {
-    width: 100%;
-    height: auto;
-  }
-  .sect4-home .box .sect4-content button {
-    width: 244px;
-    height: 52px;
-  }
-}
-@media (min-width: 576px) {
-  .sect4-home .img-1 {
-    margin-top: 138px !important;
-  }
-}
-
-@media (min-width: 0) {
-  .sect5-home .img-1 {
-    display: none !important;
-  }
-}
-@media (min-width: 576px) {
-  .sect5-home .img-1 {
-    display: none !important;
-  }
-}
-@media (min-width: 768px) {
-  .sect5-home .img-1 {
-    display: block !important;
-  }
-}
-@media (min-width: 0) {
-  .sect5-home .sect5-text-container {
+  .sect-2-menu #bottom-bowl {
     margin-top: 90px;
-    margin-right: 30px;
+  }
+  .sect-2-menu #bottom-bowl-2 {
+    margin-top: 0;
+  }
+  .sect-2-menu .seeAll-btn {
+    margin-top: 30px;
+  }
+  .sect-2-menu img {
+    width: 119px;
+    height: 119px;
   }
 }
 @media (min-width: 576px) {
-  .sect5-home .sect5-text-container {
-    margin-top: 160px;
+  .sect-2-menu .header {
+    white-space: nowrap;
+  }
+  .sect-2-menu p {
+    white-space: nowrap;
+  }
+  .sect-2-menu #bottom-bowl {
+    margin-top: 90px;
+  }
+  .sect-2-menu #bottom-bowl-2 {
+    margin-top: 90px;
+  }
+  .sect-2-menu .seeAll-btn {
+    margin-top: 0;
+  }
+  .sect-2-menu img {
+    width: 219px;
+    height: 219px;
   }
 }
 @media (min-width: 768px) {
-  .sect5-home .sect5-text-container {
-    margin-top: 160px;
+  .sect-2-menu .header {
+    white-space: nowrap;
+  }
+  .sect-2-menu p {
+    white-space: nowrap;
+  }
+  .sect-2-menu #bottom-bowl {
+    margin-top: 0;
+  }
+  .sect-2-menu #bottom-bowl-2 {
+    margin-top: 0;
+  }
+  .sect-2-menu .seeAll-btn {
+    margin-top: 0;
+  }
+  .sect-2-menu img {
+    width: 219px;
+    height: 219px;
   }
 }
 
@@ -1348,69 +1230,6 @@
 @media (min-width: 768px) {
   .sect2-text-container-about {
     padding-left: 132px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect1-img-menu {
-    height: 30px;
-    margin-bottom: 30px;
-    background-color: aqua;
-  }
-}
-@media (min-width: 576px) {
-  .sect1-img-menu {
-    height: 179px;
-  }
-}
-@media (min-width: 768px) {
-  .sect1-img-menu {
-    height: 179px;
-    margin-bottom: 300px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect2-menu h1 {
-    margin-top: 0;
-    white-space: nowrap;
-  }
-}
-@media (min-width: 576px) {
-  .sect2-menu {
-    margin-bottom: 2800px !important;
-  }
-}
-@media (min-width: 768px) {
-  .sect2-menu {
-    margin-bottom: 400px !important;
-  }
-}
-
-@media (min-width: 0) {
-  .section-ingredients-menu {
-    margin-top: 2700px;
-  }
-}
-@media (min-width: 576px) {
-  .section-ingredients-menu {
-    margin-top: 0;
-  }
-}
-@media (min-width: 768px) {
-  .section-ingredients-menu {
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 576px) {
-  .location-hours-container {
-    margin-bottom: 2000px !important;
-  }
-}
-@media (min-width: 768px) {
-  .location-hours-container {
-    margin-bottom: 0 !important;
   }
 }
 
@@ -1871,50 +1690,46 @@ footer a {
   left: 575px;
 }
 
-.sect1-menu {
-  background-color: #FAFAFB;
-  margin-bottom: 0;
-}
-.sect1-menu h1 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  font-size: 52px;
-  line-height: 74px;
-}
-.sect1-menu .sect1-img-menu {
-  position: relative;
-  width: 100%;
-}
-.sect1-menu .sect1-img-menu img {
-  width: 100%;
+.image-div-menu {
+  width: 1440px;
+  height: 379px;
 }
 
-.sect2-menu {
-  height: 683px;
-  padding: 72px 156px 84px 148px;
-  margin-bottom: 400px;
-  margin-top: 0;
+.sect-2-menu {
   background-color: #FAFAFB;
+  height: 683px;
+  padding-top: 48px;
 }
-.sect2-menu .sect2-header-menu {
-  text-align: center;
+.sect-2-menu .first-header {
+  font-size: 48px;
   font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  line-height: 68px;
 }
-.sect2-menu .container-menu .box-menu {
-  background-color: #FFFFFF;
-  padding: 10px;
-  width: 267px;
+.sect-2-menu .header {
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  white-space: nowrap;
+  text-align: left;
+  margin-top: 128px;
+}
+.sect-2-menu P {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}
+.sect-2-menu img {
+  left: 24px;
+  top: -115px;
+  z-index: 2;
+}
+.sect-2-menu .text-box {
   border-radius: 8px;
 }
-.sect2-menu .container-menu .box-menu .image-container-menu {
-  width: 219px;
-  height: 219px;
-}
-.sect2-menu .container-menu .box-menu .image-container-menu img {
-  width: 100%;
-  margin-left: 10px;
-}
-.sect2-menu .container-menu .box-menu button {
+.sect-2-menu .order-btn {
   background-color: #FFF3F0;
   color: #F96540;
   width: 94px;
@@ -1922,95 +1737,200 @@ footer a {
   border-radius: 18px;
   border: none;
 }
-.sect2-menu .container-menu .box-menu button:hover {
+.sect-2-menu .order-btn:hover {
   color: #FFF3F0;
   background-color: #F96540;
 }
-.sect2-menu .container-menu .box-menu p {
-  width: 235px;
-  height: 60px;
-  font-size: 12px;
-}
-.sect2-menu .container-menu .box-menu h2 {
-  white-space: nowrap;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-}
-.sect2-menu .sect2-btn-container-menu {
-  text-align: center;
-}
-.sect2-menu .sect2-btn-container-menu button {
+.sect-2-menu .seeAll-btn {
   width: 219px;
   height: 52px;
-  margin-top: 48px;
   border-radius: 26px;
   border: 1px solid #171A1f;
+  background-color: #FFFFFF;
   color: #171A1f;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
 }
-.sect2-menu .sect2-btn-container-menu button:hover {
+.sect-2-menu .seeAll-btn:hover {
   background-color: #171A1f;
   color: #FFFFFF;
+}
+.sect-2-menu .text-box-div {
+  width: 267px;
+  height: 292px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+}
+.sect-2-menu .btn-div {
+  margin-top: 19px;
+  text-align: left;
+}
+.sect-2-menu .bowls-div {
+  margin-top: 140px;
+}
+
+/*
+.sect1-menu {
+  background-color: $lightgrey200;
+  margin-bottom: 0;
+ // height: 500px;
+  h1{
+    font-family: $catamaran;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 74px;
+      //  margin-top: 100px;
+  }
+  .sect1-img-menu {
+    position: relative;
+    width: 100%;
+   // height: 179px;
+    img {
+      width: 100%;
+      //margin-bottom: 40px;
+    //  height: 100%;
+    }
+  }
+}
+
+.sect2-menu {
+  height: 683px;
+  padding: 72px 156px 84px 148px;
+  margin-bottom: 400px;
+  margin-top: 0;
+  background-color: $lightgrey200;
+  .sect2-header-menu {
+    text-align: center;
+    font-family: $catamaran;
+  }
+  .container-menu {
+    .box-menu {
+      background-color: $white100;
+      padding: 10px;
+      width: 267px;
+      border-radius: 8px;
+      //height: 292px;
+      .image-container-menu {
+        width: 219px;
+        height: 219px;
+        img {
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+      button {
+        background-color: $orange200;
+        color: $orange100;
+        width: 94px;
+        height: 36px;
+        border-radius: 18px;
+        border: none;
+      }
+      button:hover{
+        color: $orange200;
+        background-color: $orange100;
+      }
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+      h2 {
+        white-space: nowrap;
+        font-family: $catamaran;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+  .sect2-btn-container-menu {
+    text-align: center;
+    button {
+      width: 219px;
+      height: 52px;
+      margin-top: 48px;
+      border-radius: 26px;
+      border: 1px solid $black100;
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    button:hover{
+      background-color: $black100;
+      color: $white100;
+    }
+  }
 }
 
 .section-ingredients-menu {
   padding-left: 132px;
   padding-right: 161px;
   padding-bottom: 96px;
-}
-.section-ingredients-menu .sect2-header-ingredients-menu h3 {
-  font-family: "Catamaran", sans-serif;
-}
-.section-ingredients-menu .container-menu {
-  margin-bottom: 36px;
-}
-.section-ingredients-menu .container-menu .box-menu {
-  background-color: #FFFFFF;
-  border-radius: 8px;
-}
-.section-ingredients-menu .container-menu .box-menu .image-container-menu {
-  width: 206px;
-  height: 206px;
-  align-items: center;
-}
-.section-ingredients-menu .container-menu .box-menu .image-container-menu img {
-  width: 100%;
-}
-.section-ingredients-menu .container-menu .box-menu p {
-  width: 235px;
-  height: 60px;
-  font-size: 12px;
-}
-.section-ingredients-menu .container-menu .box-menu h4 {
-  white-space: nowrap;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-}
-.section-ingredients-menu button {
-  background-color: #F96540;
-  color: #FFFFFF;
-  width: 219px;
-  height: 52px;
-  margin-top: 60px;
-  margin-bottom: 96px;
-  border-radius: 26px;
-  border: none;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-}
-.section-ingredients-menu button:hover {
-  color: #F96540;
-  background-color: #FFFFFF;
-  border: 1px solid #F96540;
+
+  .sect2-header-ingredients-menu {
+    h3 {
+      font-family: $catamaran;
+    }
+  }
+  .container-menu {
+    margin-bottom: 36px;
+    .box-menu {
+      background-color: $white100;
+      // padding: 10px;
+      // width: 267px;
+      border-radius: 8px;
+      //height: 292px;
+      .image-container-menu {
+        width: 206px;
+        height: 206px;
+        align-items: center;
+        img {
+          width: 100%;
+        }
+      }
+
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+      h4 {
+        white-space: nowrap;
+        font-family: $catamaran;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+  button {
+    background-color: $orange100;
+    color: $white100;
+    width: 219px;
+    height: 52px;
+    margin-top: 60px;
+    margin-bottom: 96px;
+    border-radius: 26px;
+    border: none;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  button:hover{
+    color: $orange100;
+    background-color: $white100;
+    border: 1px solid $orange100;
+  }
 }
 
 .sect3-menu {
@@ -2021,41 +1941,44 @@ footer a {
   padding-top: 48px;
   margin-right: 132px;
   margin-left: 132px;
-}
-.sect3-menu h5 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 68px;
-  color: #171A1f;
-}
-.sect3-menu p {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-}
-.sect3-menu .icon {
-  margin-top: 114px;
-}
-.sect3-menu .name {
-  width: 182px;
-  height: 36px;
-  margin-top: 20px;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  color: #171A1f;
-}
-.sect3-menu .img-container {
-  width: 520px;
-  height: 520px;
-}
-.sect3-menu .img-container img {
-  width: 100%;
-}
+  //height: 616px;
+  //width: 1440px;
 
+  h5 {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 68px;
+    color: $black100;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .icon {
+    margin-top: 114px;
+  }
+
+  .name {
+    width: 182px;
+    height: 36px;
+    margin-top: 20px;
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: $black100;
+  }
+  .img-container {
+    width: 520px;
+    height: 520px;
+    img {
+      width: 100%;
+    }
+  }
+}*/
 .sect-1-location h1 {
   font-size: 48px;
   font-family: "Catamaran", sans-serif;
