@@ -182,6 +182,8 @@
   .box {
     background-color: $black100;
     border-radius: 8px;
+   // width: 1176px;
+   height: 314px;
   }
 
   h5 {
@@ -199,6 +201,7 @@
     line-height: 28px;
     color: $white100;
     margin-left: 70px;
+    width: 568px;
   }
   button {
     background-color: $orange100;
@@ -226,6 +229,9 @@
     width: 174px;
     height: 174px;
     margin-top: 29px;
+  }
+  .bowls-div{
+    margin-left: 0;
   }
 }
 

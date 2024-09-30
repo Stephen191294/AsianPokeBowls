@@ -91,6 +91,9 @@
     #bottom-bowl{
       margin-top: 90px;
     }
+    #bottom-bowl-2{
+      margin-top: 0;
+    }
     .explor-btn{
       margin-top: 30px;
     }
@@ -111,6 +114,9 @@
     #bottom-bowl{
       margin-top: 90px;
     }
+    #bottom-bowl-2{
+      margin-top: 90px;
+    }
     .explor-btn{
       margin-top: 0;
     }
@@ -129,6 +135,9 @@
       white-space: nowrap;
     }
      #bottom-bowl{
+      margin-top: 0;
+    }
+    #bottom-bowl-2{
       margin-top: 0;
     }
     .explor-btn{
@@ -175,12 +184,21 @@
 .sect-4-home {
   @include respond-to(xs) {
     margin-top: 550px;
+    .box{
+      width: 700px;
+    }
   }
   @include respond-to(sm) {
     margin-top: 300px;
+    .box{
+      width: 700px;
+    }
   }
   @include respond-to(md) {
     margin-top: 72px;
+    .box{
+      width: 1176px;
+    }
   }
 }
 //media query not changing font size

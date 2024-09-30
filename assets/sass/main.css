@@ -276,6 +276,7 @@
 .sect-4-home .box {
   background-color: #171A1f;
   border-radius: 8px;
+  height: 314px;
 }
 .sect-4-home h5 {
   font-size: 48px;
@@ -292,6 +293,7 @@
   line-height: 28px;
   color: #FFFFFF;
   margin-left: 70px;
+  width: 568px;
 }
 .sect-4-home button {
   background-color: #F96540;
@@ -319,6 +321,9 @@
   width: 174px;
   height: 174px;
   margin-top: 29px;
+}
+.sect-4-home .bowls-div {
+  margin-left: 0;
 }
 
 .sect-5-home {
@@ -784,6 +789,9 @@
   .sect-2-home #bottom-bowl {
     margin-top: 90px;
   }
+  .sect-2-home #bottom-bowl-2 {
+    margin-top: 0;
+  }
   .sect-2-home .explor-btn {
     margin-top: 30px;
   }
@@ -802,6 +810,9 @@
   .sect-2-home #bottom-bowl {
     margin-top: 90px;
   }
+  .sect-2-home #bottom-bowl-2 {
+    margin-top: 90px;
+  }
   .sect-2-home .explor-btn {
     margin-top: 0;
   }
@@ -818,6 +829,9 @@
     white-space: nowrap;
   }
   .sect-2-home #bottom-bowl {
+    margin-top: 0;
+  }
+  .sect-2-home #bottom-bowl-2 {
     margin-top: 0;
   }
   .sect-2-home .explor-btn {
@@ -867,15 +881,24 @@
   .sect-4-home {
     margin-top: 550px;
   }
+  .sect-4-home .box {
+    width: 700px;
+  }
 }
 @media (min-width: 576px) {
   .sect-4-home {
     margin-top: 300px;
   }
+  .sect-4-home .box {
+    width: 700px;
+  }
 }
 @media (min-width: 768px) {
   .sect-4-home {
     margin-top: 72px;
+  }
+  .sect-4-home .box {
+    width: 1176px;
   }
 }
 
@@ -1714,6 +1737,9 @@ footer .btn-container .btn2:hover {
 }
 footer .social {
   text-align: right;
+}
+footer .social img {
+  cursor: pointer;
 }
 footer .footer-link {
   text-decoration: none;

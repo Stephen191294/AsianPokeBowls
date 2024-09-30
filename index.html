@@ -58,8 +58,8 @@
             </li>
           </ul>
           <div class="d-flex align-items-center gap-3 items-btns">
-            <button class="btn" onclick="orderOnline()">Order Online</button>
-            <button class="btn-1" onclick="bookTable()">Book a Table</button>
+            <button onclick="location.href='./pages/menu-pickup.html '" class="btn" onclick="orderOnline()">Order Online</button>
+            <button onclick="location.href='./pages/reservation.html '" class="btn-1" onclick="bookTable()">Book a Table</button>
           </div>
         </div>
       </div>
@@ -71,7 +71,12 @@
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
             <h1 class="card-title">ASIAN INSPIRED BOWLS</h1>
             <p class="card-text">Fresh, healthy, delicous</p>
-            <button class="btn btn-primary">Order Now</button>
+            <button
+              onclick="location.href='./pages/menu-pickup.html '"
+              class="btn btn-primary"
+            >
+              Order Now
+            </button>
           </div>
         </div>
       </div>
@@ -104,22 +109,21 @@
       <div>
         <h3 class="first-header text-center">Signature Bowls</h3>
       </div>
-      
-      <div class=" bowls-div container-fluid text-center">
+
+      <div class="bowls-div container-fluid text-center">
         <div
           class="row justify-content-center row-cols-2 row-cols-lg-5 g-2 g-lg-3"
         >
           <div class="col">
             <div class="p-3">
-             
               <div class="container-fluid text-box">
                 <div class="text-box-div position-relative">
                   <img
-                  class="img-fluid position-absolute"
-                  src="assets/images/image1-removebg-preview (1).png"
-                  alt="bowl"
-                />
-                  <h3 class=" header card-title ">California Crunch Bowl</h3>
+                    class="img-fluid position-absolute"
+                    src="assets/images/image1-removebg-preview(1).png"
+                    alt="bowl"
+                  />
+                  <h3 class="header card-title">California Crunch Bowl</h3>
                   <p class="card-text">
                     Shrimp &bull; Crab &bull; Cucumber &bull; Green Onion
                     &bull;<br />
@@ -128,11 +132,12 @@
                     <span class="text-nowrap">Drizzil</span>
                   </p>
                   <div class="btn-div">
-                    <a href="./pages/menu-pickup.html">
-                      <button class="order-btn btn btn-primary text-nowrap">
-                        Order Now
-                      </button>
-                    </a>
+                    <button
+                      onclick="location.href='./pages/menu-pickup.html '"
+                      class="order-btn btn btn-primary text-nowrap"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
               </div>
@@ -140,26 +145,26 @@
           </div>
           <div class="col">
             <div class="p-3">
-              
               <div class="container-fluid text-box">
                 <div class="text-box-div position-relative">
                   <img
-                  class="img-fluid position-absolute"
-                  src="assets/images/image2-removebg-preview.png"
-                  alt="bowl"
-                />
-                  <h3 class=" header card-title">Rainbow Bowl</h3>
+                    class="img-fluid position-absolute"
+                    src="assets/images/image2-removebg-preview.png"
+                    alt="bowl"
+                  />
+                  <h3 class="header card-title">Rainbow Bowl</h3>
                   <p class="card-text">
                     Crab &bull; Salmon &bull; Avocado &bull; Cucumber &bull;<br />
                     Pineapple &bull; Carrot &bull; Seasame Seeds &bull;<br />
                     House Sauce
                   </p>
                   <div class="btn-div">
-                    <a href="./pages/menu-pickup.html">
-                      <button class="order-btn btn btn-primary text-nowrap">
-                        Order Now
-                      </button>
-                    </a>
+                    <button
+                      onclick="location.href='./pages/menu-pickup.html '"
+                      class="order-btn btn btn-primary text-nowrap"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
               </div>
@@ -167,26 +172,26 @@
           </div>
           <div class="col">
             <div class="p-3">
-              
-              <div id="bottom-bowl"  class="container-fluid text-box ">
+              <div id="bottom-bowl" class="container-fluid text-box">
                 <div class="text-box-div position-relative">
                   <img
-                  class="img-fluid position-absolute"
-                  src="assets/images/image3-removebg-preview.png"
-                  alt="bowl"
-                />
-                  <h3 class=" header card-title">Volcano Bowl</h3>
+                    class="img-fluid position-absolute"
+                    src="assets/images/image3-removebg-preview.png"
+                    alt="bowl"
+                  />
+                  <h3 class="header card-title">Volcano Bowl</h3>
                   <p class="card-text">
                     Spicy Salmon &bull; Spicy Tuna &bull; Green Onion <br />
                     &bull; Cabbage &bull; Cucumber &bull; Carrot &bull;<br />
                     Jalapeno &bull; Ginger
                   </p>
                   <div class="btn-div">
-                    <a href="./pages/menu-pickup.html">
-                      <button class="order-btn btn btn-primary text-nowrap">
-                        Order Now
-                      </button>
-                    </a>
+                    <button
+                      onclick="location.href='./pages/menu-pickup.html '"
+                      class="order-btn btn btn-primary text-nowrap"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
               </div>
@@ -194,25 +199,27 @@
           </div>
           <div class="col">
             <div class="p-3">
-            <div id="bottom-bowl"  class="container-fluid text-box   mb-1">
-              <div class="text-box-div position-relative">
-                <img
-                class="img-fluid position-absolute"
-                src="assets/images/image4-removebg-preview.png"
-                alt="bowl"
-              />
-                <h3 class=" header card-title">Tuna lover's Bowl</h3>
-                <p class="card-text">
-                  Tuna &bull; Ground Spicy &bull; Avocado &bull;<br />Carrot
-                  &bull; Cucumber &bull; Edamame &bull;<br />
-                  Watermelon &bull; Radish
-                </p>
-                <div class="btn-div">
-                  <a href="./pages/menu-pickup.html">
-                    <button class="order-btn btn btn-primary text-nowrap">
+              <div id="bottom-bowl-2" class="container-fluid text-box mb-1">
+                <div class="text-box-div position-relative">
+                  <img
+                    class="img-fluid position-absolute"
+                    src="assets/images/image4-removebg-preview.png"
+                    alt="bowl"
+                  />
+                  <h3 class="header card-title">Tuna lover's Bowl</h3>
+                  <p class="card-text">
+                    Tuna &bull; Ground Spicy &bull; Avocado &bull;<br />Carrot
+                    &bull; Cucumber &bull; Edamame &bull;<br />
+                    Watermelon &bull; Radish
+                  </p>
+                  <div class="btn-div">
+                    <button
+                      onclick="location.href='./pages/menu-pickup.html '"
+                      class="order-btn btn btn-primary text-nowrap"
+                    >
                       Order Now
                     </button>
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -256,7 +263,7 @@
               <img class="icon" src="assets/images/Avatar4.png" alt="avatar" />
               <img
                 class="icon"
-                src="assets/images/Icon Button 1 (1).png"
+                src="assets/images/IconButton1(1).png"
                 alt="icon"
               />
             </div>
@@ -273,32 +280,40 @@
       </div>
     </section>
 
-    <section class="sect-4-home">
-      <div class="container overflow-hidden">
-        <div class="box d-flex">
-          <div>
-            <h5 class="card-title">Find our locations</h5>
-            <p class="card-title">
-              Serving fresh fish daily at Boston Harbor islands, Boylston
-              <span class="text-nowrap">St,</span><br />
-              Congress St, Kendall Square, Cambrige St, Haviland St.
-            </p>
-            <a href="./pages/location.html">
-              <button class="btn btn-primary">Locations & Hours</button>
-            </a>
-          </div>
+    <section
+      class="sect-4-home d-flex justify-content-center align-items-center"
+    >
+      <div class="d-flex">
+        <div class="container-fluid overflow-hidden justify-content-center">
+          <div class="box d-flex">
+            <div>
+              <h5 class="card-title">Find our locations</h5>
+              <p class="card-text">
+                Serving fresh fish daily at Boston Harbor islands, Boylston
+                <span class="text-nowrap">St,</span><br />
+                Congress St, Kendall Square, Cambrige St, Haviland St.
+              </p>
 
-          <div class="ms-4 d-flex">
-            <img
-              class="bowl-1 img-fluid d-none d-sm-none d-md-block"
-              src="assets/images/Image 6.png"
-              alt="bowl"
-            />
-            <img
-              class="bowl-2 img-fluid d-none d-sm-none d-md-block"
-              src="assets/images/image7-removebg-preview.png"
-              alt="bowl"
-            />
+              <button
+                onclick="location.href='./pages/location.html '"
+                class="btn btn-primary"
+              >
+                Locations & Hours
+              </button>
+            </div>
+
+            <div class="bowls-div d-flex">
+              <img
+                class="bowl-1 img-fluid d-none d-sm-none d-md-block"
+                src="assets/images/Image6.png"
+                alt="bowl"
+              />
+              <img
+                class="bowl-2 img-fluid d-none d-sm-none d-md-block"
+                src="assets/images/image7-removebg-preview.png"
+                alt="bowl"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -315,15 +330,14 @@
             us social media accounts. Don't miss out on any updates.
           </p>
           <div class="icon-container">
-            <img class="icon" src="assets/images/Button 7.png" alt="icon" />
-            <img class="icon" src="assets/images/Button 8.png" alt="icon" />
-            <img class="icon" src="assets/images/Button 9.png" alt="icon" />
-            <img class="icon" src="assets/images/Button 10.png" alt="icon" />
+            <img class="icon" src="assets/images/Button7.png" alt="icon" />
+            <img class="icon" src="assets/images/Button8.png" alt="icon" />
+            <img class="icon" src="assets/images/Button9.png" alt="icon" />
+            <img class="icon" src="assets/images/Button10.png" alt="icon" />
           </div>
         </div>
 
-
-        <div style="margin-left: 132px;" class="container">
+        <div style="margin-left: 132px" class="container">
           <div class="row no-gutters">
             <div class="col-md-4 custom-negative-margin">
               <div class="box ms-5">
@@ -380,7 +394,7 @@
         <div>
           <div class="footer-icon">
             <div>
-              <img src="assets/images/Image 22 (1).png" alt="logo" />
+              <img src="assets/images/Image22(1).png" alt="logo" />
             </div>
             <div>
               <h6 class="mt-4">POKE NOW.</h6>
@@ -402,13 +416,19 @@
         </div>
         <div>
           <div class="btn-container">
-            <a href="./pages/menu-pickup.html">
-              <button class="btn1">Order Online</button>
-            </a>
+            <button
+              onclick="location.href='./pages/menu-pickup.html '"
+              class="btn1"
+            >
+              Order Online
+            </button>
 
-            <a href="pages/reservation.html">
-              <button class="btn2 mt-3">Book a Table</button>
-            </a>
+            <button
+              onclick="location.href='./pages/reservation.html '"
+              class="btn2 mt-3"
+            >
+              Book a Table
+            </button>
           </div>
           <p class="text-white mt-4">
             848 King Street, Mesa, AZ 85201, Boston, USA.
@@ -416,26 +436,10 @@
 
           <div class="social">
             <p class="text-white">info@pokebar.com</p>
-            <img
-              class="me-2"
-              src="assets/images/Twitter 1 (1).png"
-              alt="icon"
-            />
-            <img
-              class="me-2"
-              src="assets/images/Facebook 1 (1).png"
-              alt="icon"
-            />
-            <img
-              class="me-2"
-              src="assets/images/LinkedIn 1 (1).png"
-              alt="icon"
-            />
-            <img
-              class="me-2"
-              src="assets/images/YouTube 1 (1).png"
-              alt="icon"
-            />
+            <img class="me-2" src="assets/images/Twitter1(1).png" alt="icon" />
+            <img class="me-2" src="assets/images/Facebook1(1).png" alt="icon" />
+            <img class="me-2" src="assets/images/LinkedIn1(1).png" alt="icon" />
+            <img class="me-2" src="assets/images/YouTube1(1).png" alt="icon" />
           </div>
         </div>
       </div>
