@@ -45,7 +45,7 @@
 }
 
 .sect-1-home {
-  padding-bottom: 72px ;
+  padding-bottom: 72px;
   h2 {
     font-family: $catamaran;
     font-weight: 400;
@@ -70,11 +70,6 @@
     font-family: $catamaran;
     font-weight: 400;
     line-height: 68px;
-    
-    
-    
-
-    
   }
   .header {
     font-size: 18px;
@@ -84,7 +79,6 @@
     white-space: nowrap;
     text-align: left;
     margin-top: 128px;
-  
   }
   P {
     font-family: $nunito;
@@ -97,7 +91,7 @@
     width: 219px;
     height: 219px;
     left: 24px;
-    top:-115px;
+    top: -115px;
     z-index: 2;
   }
   .text-box {
@@ -136,7 +130,7 @@
   .text-box-div {
     width: 267px;
     height: 292px;
-   border: 1px solid transparent;
+    border: 1px solid transparent;
     border-radius: 8px;
     background-color: $white100;
     padding-left: 16px;
@@ -147,13 +141,13 @@
     margin-top: 19px;
     text-align: left;
   }
-  .bowls-div{
+  .bowls-div {
     margin-top: 140px;
   }
 }
 
 .sect-3-home {
- // margin-top: 48px;
+  // margin-top: 48px;
   height: 616px;
   h4 {
     // font-size: 48px;
@@ -236,6 +230,8 @@
 
 .sect-5-home {
   background-color: $lightgrey200;
+  overflow: hidden;
+  height: 616px;
   h6 {
     font-family: $catamaran;
     font-weight: 500;
@@ -264,8 +260,34 @@
   }
   .sect-5-home-txt {
     margin-top: 160px;
+    margin-left: 132px;
+  }
+  .custom-negative-margin {
+    margin-top: -50px;
+  }
+  .custom-negative-margin-1 {
+    margin-top: -100px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*.sect1-home {
   .sect1-img {

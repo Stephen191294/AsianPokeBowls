@@ -325,6 +325,8 @@
 
 .sect-5-home {
   background-color: #FAFAFB;
+  overflow: hidden;
+  height: 616px;
 }
 .sect-5-home h6 {
   font-family: "Catamaran", sans-serif;
@@ -351,6 +353,13 @@
 }
 .sect-5-home .sect-5-home-txt {
   margin-top: 160px;
+  margin-left: 132px;
+}
+.sect-5-home .custom-negative-margin {
+  margin-top: -50px;
+}
+.sect-5-home .custom-negative-margin-1 {
+  margin-top: -100px;
 }
 
 /*.sect1-home {
@@ -771,6 +780,9 @@
   .sect-2-home h3 {
     white-space: wrap;
   }
+  .sect-2-home #bottom-bowl {
+    margin-top: 90px;
+  }
   .sect-2-home .explor-btn {
     margin-top: 30px;
   }
@@ -778,6 +790,9 @@
 @media (min-width: 576px) {
   .sect-2-home h3 {
     white-space: nowrap;
+  }
+  .sect-2-home #bottom-bowl {
+    margin-top: 90px;
   }
   .sect-2-home .explor-btn {
     margin-top: 0;
@@ -787,6 +802,9 @@
   .sect-2-home h3 {
     white-space: nowrap;
   }
+  .sect-2-home #bottom-bowl {
+    margin-top: 0;
+  }
   .sect-2-home .explor-btn {
     margin-top: 0;
   }
@@ -794,7 +812,7 @@
 
 @media (min-width: 0) {
   .sect-3-home {
-    margin-top: 350px;
+    margin-top: 450px;
   }
   .sect-3-home h4 {
     font-size: 28px;
@@ -805,7 +823,7 @@
 }
 @media (min-width: 576px) {
   .sect-3-home {
-    margin-top: 350px;
+    margin-top: 450px;
   }
   .sect-3-home h4 {
     font-size: 48px;
