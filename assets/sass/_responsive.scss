@@ -337,17 +337,67 @@
 
 .sect-2-menu{
   @include respond-to(xs) {
-
+  height: auto;
+  margin-top: 1500px;
   }
 @include respond-to(sm) {
-    
+    margin-top: 1500px;
   }
   @include respond-to(md) {
-    
+    margin-top: 459px;
   }
 }
 
+.sect-3-menu {
+  @include respond-to(xs) {
+    margin-top: 450px;
+    h4 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  @include respond-to(sm) {
+    margin-top: 1650px;
+    h4 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+  @include respond-to(md) {
+    margin-top: 48px;
+    h4 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+}
 
+.sect-4-menu {
+  @include respond-to(xs) {
+    margin-top: 550px;
+    .box{
+      width: 700px;
+    }
+  }
+  @include respond-to(sm) {
+    margin-top: 300px;
+    .box{
+      width: 700px;
+    }
+  }
+  @include respond-to(md) {
+    margin-top: 72px;
+    .box{
+      width: 1176px;
+    }
+  }
+}
 
 
 

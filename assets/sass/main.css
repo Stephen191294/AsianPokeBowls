@@ -1027,6 +1027,82 @@
 }
 
 @media (min-width: 0) {
+  .sect-2-menu {
+    height: auto;
+    margin-top: 1500px;
+  }
+}
+@media (min-width: 576px) {
+  .sect-2-menu {
+    margin-top: 1500px;
+  }
+}
+@media (min-width: 768px) {
+  .sect-2-menu {
+    margin-top: 459px;
+  }
+}
+
+@media (min-width: 0) {
+  .sect-3-menu {
+    margin-top: 450px;
+  }
+  .sect-3-menu h4 {
+    font-size: 28px;
+  }
+  .sect-3-menu p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 576px) {
+  .sect-3-menu {
+    margin-top: 1650px;
+  }
+  .sect-3-menu h4 {
+    font-size: 48px;
+  }
+  .sect-3-menu p {
+    font-size: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .sect-3-menu {
+    margin-top: 48px;
+  }
+  .sect-3-menu h4 {
+    font-size: 48px;
+  }
+  .sect-3-menu p {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 0) {
+  .sect-4-menu {
+    margin-top: 550px;
+  }
+  .sect-4-menu .box {
+    width: 700px;
+  }
+}
+@media (min-width: 576px) {
+  .sect-4-menu {
+    margin-top: 300px;
+  }
+  .sect-4-menu .box {
+    width: 700px;
+  }
+}
+@media (min-width: 768px) {
+  .sect-4-menu {
+    margin-top: 72px;
+  }
+  .sect-4-menu .box {
+    width: 1176px;
+  }
+}
+
+@media (min-width: 0) {
   footer .container-fluid {
     display: flex;
     flex-direction: column;
@@ -1777,16 +1853,117 @@ footer a {
 
 .sect-2-menu {
   height: 2870px;
-  margin-top: 459px;
   background-color: #FFFFFF;
-  border: 1px solid black;
+  padding: 96px 161px 96px 132px;
 }
 .sect-2-menu h3 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
   line-height: 74px;
   font-size: 52px;
-  margin-top: 96px;
+}
+.sect-2-menu .row-img {
+  margin-top: 133px;
+}
+.sect-2-menu button {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 219px;
+  height: 52px;
+  border-radius: 26px;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 96px;
+}
+.sect-2-menu button:hover {
+  border: 1px solid #F96540;
+  color: #F96540;
+  background-color: #FFFFFF;
+}
+
+.sect-3-menu {
+  height: 616px;
+}
+.sect-3-menu h4 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  line-height: 68px;
+  color: #171A1f;
+}
+.sect-3-menu p {
+  margin-top: 24px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  color: #171A1f;
+}
+.sect-3-menu .name {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.sect-3-menu .img-div {
+  margin-left: 194px;
+}
+
+.sect-4-menu {
+  margin-bottom: 72px;
+}
+.sect-4-menu .box {
+  background-color: #171A1f;
+  border-radius: 8px;
+  height: 314px;
+}
+.sect-4-menu h5 {
+  font-size: 48px;
+  font-family: "Catamaran", sans-serif;
+  line-height: 68px;
+  color: #FFFFFF;
+  margin-top: 48px;
+  margin-left: 70px;
+}
+.sect-4-menu p {
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-left: 70px;
+  width: 568px;
+}
+.sect-4-menu button {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 244px;
+  height: 52px;
+  border-radius: 26px;
+  border: none;
+  margin-top: 24px;
+  margin-left: 70px;
+  margin-bottom: 48px;
+}
+.sect-4-menu button:hover {
+  border: 1px solid #F96540;
+  color: #F96540;
+  background-color: #FFFFFF;
+}
+.sect-4-menu .bowl-1 {
+  margin-top: 82px;
+  height: 234px;
+  width: 334px;
+}
+.sect-4-menu .bowl-2 {
+  margin-bottom: 111px;
+  width: 174px;
+  height: 174px;
+  margin-top: 29px;
+}
+.sect-4-menu .bowls-div {
+  margin-left: 0;
 }
 
 /*

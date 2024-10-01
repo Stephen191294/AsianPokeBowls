@@ -94,22 +94,129 @@
 
 .sect-2-menu{
   height: 2870px ;
-  margin-top: 459px;
+ // margin-top: 1500px;
   background-color: $white100;
-  border: 1px solid black;
+  padding: 96px 161px 96px 132px ;
   h3{
     font-family: $catamaran;
     font-weight: 400;
     line-height: 74px;
     font-size: 52px;
-    margin-top: 96px;
+  }
+  .row-img{
+    margin-top: 133px;
+  }
+  button{
+    background-color: $orange100;
+    color: $white100;
+    width: 219px;
+    height: 52px;
+    border-radius: 26px;
+    border:none;
+    font-family: $nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    //margin-top: 84px;
+    margin-bottom: 96px;
+  }
+  button:hover{
+    border: 1px solid $orange100;
+    color: $orange100;
+    background-color: $white100;
   }
 }
 
 
 
 
+.sect-3-menu {
+  // margin-top: 48px;
+  height: 616px;
+  h4 {
+    // font-size: 48px;
+    font-family: $catamaran;
+    font-weight: 400;
+    line-height: 68px;
+    color: $black100;
+  }
+  p {
+    margin-top: 24px;
+    // font-size: 24px;
+    font-family: $nunito;
+    font-weight: 400;
+    line-height: 36px;
+    color: $black100;
+  }
+  .name {
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .img-div {
+    margin-left: 194px;
+  }
+}
 
+.sect-4-menu {
+  // margin-top: 72px;
+  margin-bottom: 72px;
+  .box {
+    background-color: $black100;
+    border-radius: 8px;
+   // width: 1176px;
+   height: 314px;
+  }
+
+  h5 {
+    font-size: 48px;
+    font-family: $catamaran;
+    line-height: 68px;
+    color: $white100;
+    margin-top: 48px;
+    margin-left: 70px;
+  }
+  p {
+    font-size: 18px;
+    font-family: $nunito;
+    font-weight: 400;
+    line-height: 28px;
+    color: $white100;
+    margin-left: 70px;
+    width: 568px;
+  }
+  button {
+    background-color: $orange100;
+    color: $white100;
+    width: 244px;
+    height: 52px;
+    border-radius: 26px;
+    border: none;
+    margin-top: 24px;
+    margin-left: 70px;
+    margin-bottom: 48px;
+  }
+  button:hover {
+    border: 1px solid $orange100;
+    color: $orange100;
+    background-color: $white100;
+  }
+  .bowl-1 {
+    margin-top: 82px;
+    height: 234px;
+    width: 334px;
+  }
+  .bowl-2 {
+    margin-bottom: 111px;
+    width: 174px;
+    height: 174px;
+    margin-top: 29px;
+  }
+  .bowls-div{
+    margin-left: 0;
+  }
+}
 
 
 
