@@ -1,40 +1,32 @@
 @import "./variables";
 
-#box-1 {
-  background-color: $white100;
-  // width: 442px;
-  // height: 413px;
-  border-radius: 4px;
-  // left: 132px ;
-  // top: 199px;
-  box-shadow: 0 0 1px 0 $black100;
-  padding: 48px 36px;
+.intro-card {
   h1 {
     color: $black100;
     font-family: $catamaran;
     font-weight: 400;
-    // font-size: 48px;
-    width: 370px;
-    height: 136px;
+    font-size: 28px;
+    // min-width: 370px;
+    // max-height: 136px;
     line-height: 68px;
     color: $black100;
-    text-align: left;
+    text-align: center;
   }
   p {
     font-family: $nunito;
     font-weight: 400;
-    // font-size: 18px;
+    font-size: 18px;
     line-height: 28px;
     // margin-top: 80px;
-    white-space: nowrap;
+    text-align: center;
   }
   button {
     background-color: $orange100;
     color: $white100;
-    width: 219px;
-    height: 52px;
+    // min-width: 219px;
+    // min-height: 52px;
     padding: 12px 64px;
-    border-radius: 26px;
+    // border-radius: 26px;
     border: none;
   }
   button:hover {
@@ -45,76 +37,55 @@
 }
 
 .sect-1-home {
-  padding-bottom: 72px;
   h2 {
     font-family: $catamaran;
     font-weight: 400;
-    // font-size: 48px;
-    line-height: 68px;
-    height: auto;
-  }
-  p {
-    font-family: $nunito;
-    font-weight: 400;
-    // font-size: 18px;
-    line-height: 28px;
+    font-size: 28px;
+    margin-top: 30px;
   }
 }
 
 .sect-2-home {
-  background-color: $lightgrey200;
-  height: 683px;
-  padding-top: 48px;
-  .first-header {
-    font-size: 48px;
-    font-family: $catamaran;
-    font-weight: 400;
-    line-height: 68px;
-  }
-  .header {
-    font-size: 18px;
+  background-color: lightgrey200;
+  height: auto;
+  //border: 1px solid black;
+  margin-top: 30px;
+  h3 {
     font-family: $nunito;
     font-weight: 700;
-    //line-height: 28;
-    white-space: nowrap;
-    text-align: left;
-    margin-top: 128px;
+    font-size: 18px;
+    line-height: 28px;
   }
-  P {
+  p {
     font-family: $nunito;
     font-weight: 400;
     font-size: 12px;
+    max-width: 235px;
     line-height: 20px;
     text-align: left;
-   // white-space: nowrap;
   }
-  img {
-   // width: 219px;
-   // height: 219px;
-    left: 24px;
-    top: -115px;
-    z-index: 2;
-  }
-  .text-box {
-    // height: 292px;
+  .card-sect-1 {
+    min-height: 68px;
+    //min-width: 267px;
+    background-color: $white100;
     border-radius: 8px;
-    //  padding: 125px 16px 24px 16px;
   }
-  .order-btn {
-    background-color: $orange200;
-    color: $orange100;
-    width: 94px;
-    height: 36px;
-    border-radius: 18px;
-    border: none;
-  }
-  .order-btn:hover {
-    color: $orange200;
-    background-color: $orange100;
+  .btn-div {
+    height: auto;
+    .order-btn {
+      background-color: $orange200;
+      color: $orange100;
+      border-radius: 18px;
+      border: none;
+    }
+    .order-btn:hover {
+      color: $orange200;
+      background-color: $orange100;
+    }
   }
   .explor-btn {
-    width: 219px;
-    height: 52px;
+    // width: 219px;
+    // height: 52px;
     border-radius: 26px;
     border: 1px solid $black100;
     background-color: $white100;
@@ -123,511 +94,49 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+    margin-bottom: 30px;
   }
   .explor-btn:hover {
     background-color: $black100;
     color: $white100;
   }
-  .text-box-div {
-    width: 267px;
-    height: 292px;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background-color: $white100;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 24px;
-  }
-  .btn-div {
-    margin-top: 19px;
-    text-align: left;
-  }
-  .bowls-div {
-    margin-top: 140px;
-  }
 }
 
 .sect-3-home {
-  // margin-top: 48px;
-  height: 616px;
-  h4 {
-    // font-size: 48px;
-    font-family: $catamaran;
-    font-weight: 400;
-    line-height: 68px;
-    color: $black100;
-  }
-  p {
-    margin-top: 24px;
-    // font-size: 24px;
-    font-family: $nunito;
-    font-weight: 400;
-    line-height: 36px;
-    color: $black100;
-  }
-  .name {
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .img-div {
-    margin-left: 194px;
-  }
+  margin-top: 30px;
+ // border: 1px solid black;
 }
 
 .sect-4-home {
-  // margin-top: 72px;
-  margin-bottom: 72px;
-  .box {
+  margin-top: 30px;
+  .card-sect-4 {
     background-color: $black100;
     border-radius: 8px;
-   // width: 1176px;
-   height: 314px;
-  }
-
-  h5 {
-    font-size: 48px;
-    font-family: $catamaran;
-    line-height: 68px;
-    color: $white100;
-    margin-top: 48px;
-    margin-left: 70px;
-  }
-  p {
-    font-size: 18px;
-    font-family: $nunito;
-    font-weight: 400;
-    line-height: 28px;
-    color: $white100;
-    margin-left: 70px;
-    width: 568px;
-  }
-  button {
-    background-color: $orange100;
-    color: $white100;
-    width: 244px;
-    height: 52px;
-    border-radius: 26px;
-    border: none;
-    margin-top: 24px;
-    margin-left: 70px;
-    margin-bottom: 48px;
-  }
-  button:hover {
-    border: 1px solid $orange100;
-    color: $orange100;
-    background-color: $white100;
-  }
-  .bowl-1 {
-    margin-top: 82px;
-    height: 234px;
-    width: 334px;
-  }
-  .bowl-2 {
-    margin-bottom: 111px;
-    width: 174px;
-    height: 174px;
-    margin-top: 29px;
-  }
-  .bowls-div{
-    margin-left: 0;
-  }
-}
-
-.sect-5-home {
-  background-color: $lightgrey200;
-  overflow: hidden;
-  height: 616px;
-  h6 {
-    font-family: $catamaran;
-    font-weight: 500;
-    //font-size: 48px;
-    line-height: 68px;
-    color: $black100;
-  }
-  p {
-    font-family: $nunito;
-    font-weight: 400;
-    // font-size: 18px;
-    line-height: 28px;
-    color: $black100;
-    // white-space: nowrap;
-  }
-  img {
-    width: 238px;
-    height: 238px;
-    border-radius: 8px;
-  }
-  .icon-container {
-    text-align: left;
-  }
-  .icon {
-    cursor: pointer;
-  }
-  .sect-5-home-txt {
-    margin-top: 160px;
-    margin-left: 132px;
-  }
-  .custom-negative-margin {
-    margin-top: -50px;
-  }
-  .custom-negative-margin-1 {
-    margin-top: -100px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.sect1-home {
-  .sect1-img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-  .sect1-box-container {
-    position: absolute;
-    top: 279px;
-    left: 10px;
-    // width: 442px;
-    height: 413px;
-    border: none;
-
-    z-index: 1;
-    .box {
-      background-color: $white100;
-      padding: 48px 36px;
-      width: 100%;
-      height: auto;
-      box-shadow: 0 0 1px 0 $black100;
-      border-radius: 4px;
-      .sect1-btn-container {
-        margin-top: 80px;
-      }
-    }
-    h1 {
+    h5 {
+      font-size: 28px;
       font-family: $catamaran;
-      font-weight: 400;
-      font-size: 3rem;
-      width: 370px;
       line-height: 68px;
-      color: $black100;
-      width: 100%;
-      height: auto;
+      color: $white100;
+      text-align: center;
     }
     p {
+      font-size: 18px;
       font-family: $nunito;
       font-weight: 400;
-      font-size: 18px;
       line-height: 28px;
+      color: $white100;
+      text-align: center;
     }
     button {
       background-color: $orange100;
       color: $white100;
-      // width: 219px;
-      // height: 52px;
-      padding: 12px 64px;
       border-radius: 26px;
       border: none;
     }
     button:hover {
+      border: 1px solid $orange100;
       color: $orange100;
       background-color: $white100;
-      border: 1px solid $orange100;
-    }
-  }
-  .sect1-text-container {
-    // margin-top: 72px;
-    text-align: center;
-    h2 {
-      font-family: $catamaran;
-      font-weight: 400;
-      font-size: 48px;
-      line-height: 68px;
-      width: 100%;
-      height: auto;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-      width: 100%;
-      height: auto;
     }
   }
 }
-
-.sect2-home {
-  //height: 683px;
-  padding-top: 48px;
-  background-color: $lightgrey200;
-  .sect2-header {
-    text-align: center;
-    font-family: $catamaran;
-  }
-  .container {
-    .box {
-      background-color: $white100;
-      padding: 10px;
-      width: 267px;
-      border-radius: 8px;
-      //height: 292px;
-      .image-container {
-        width: 219px;
-        height: 219px;
-        img {
-          width: 100%;
-          height: auto;
-          margin-left: 10px;
-        }
-      }
-      button {
-        background-color: $orange200;
-        color: $orange100;
-        width: 94px;
-        height: 36px;
-        border-radius: 18px;
-        border: none;
-      }
-      button:hover {
-        color: $orange200;
-        background-color: $orange100;
-      }
-      p {
-        width: 235px;
-        height: 60px;
-        font-size: 12px;
-      }
-      h4 {
-        white-space: nowrap;
-        font-family: $catamaran;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
-        width: 100%;
-        height: auto;
-      }
-    }
-  }
-  .sect2-btn-container {
-    text-align: center;
-    button {
-      width: 219px;
-      height: 52px;
-      margin-top: 48px;
-      border-radius: 26px;
-      border: 1px solid $black100;
-      color: $black100;
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-    }
-    button:hover {
-      background-color: $black100;
-      color: $white100;
-    }
-  }
-}
-
-.sect3-home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  //margin-top: 72px;
-  padding-top: 48px;
-  margin-right: 132px;
-  margin-left: 132px;
-  //height: 616px;
-  //width: 1440px;
-
-  h5 {
-    font-family: $catamaran;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 68px;
-    color: $black100;
-  }
-  p {
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .icon {
-    margin-top: 114px;
-  }
-
-  .name {
-    width: 182px;
-    height: 36px;
-    margin-top: 20px;
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    color: $black100;
-  }
-  .img-container {
-    width: 520px;
-    height: 520px;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-}
-
-.sect4-home {
-  width: 100%;
-  height: auto;
-  .container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    .box {
-      margin-top: 72px;
-      margin-bottom: 95px;
-      // margin-left: 132px;
-      // margin-right: 132px;
-      display: flex;
-      height: 314px;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 100%;
-      background-color: $black100;
-      border-radius: 8px;
-      padding: 48px 70px 48px 70px;
-      overflow: hidden;
-      h6 {
-        color: $white100;
-        font-family: $catamaran;
-        font-weight: 400;
-        font-size: 3rem;
-        line-height: 68px;
-        width: 100%;
-        height: auto;
-      }
-      p {
-        color: $white100;
-        font-size: 1rem;
-        // width: 100%;
-        //  height: auto;
-      }
-      button {
-        background-color: $orange100;
-        color: $white100;
-        width: 244px;
-        height: 52px;
-        border-radius: 26px;
-        border: none;
-      }
-      button:hover {
-        border: 1px solid $orange100;
-        color: $orange100;
-        background-color: $white100;
-      }
-      .img-container {
-        display: flex;
-        flex-direction: row;
-        .img1-container {
-          height: 200px;
-          width: 300px;
-          border-radius: 167px;
-          margin-top: -16px;
-        }
-
-        .img-1 {
-          height: auto;
-          width: 100%;
-          margin-top: 82px;
-          margin-right: 204px;
-          margin-bottom: 202px;
-
-          width: 100%;
-        }
-        .img-2 {
-          width: 174px;
-          height: 174px;
-        }
-      }
-    }
-  }
-}
-
-.sect5-home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  overflow: hidden;
-  width: 100%;
-  height: 616px;
-  border-radius: 4px;
-  background-color: $lightgrey200;
-  .container {
-    padding: 0;
-    .custom-negative-margin {
-      margin-top: -50px;
-    }
-    .custom-negative-margin-1 {
-      margin-top: -100px;
-    }
-    .box {
-      width: 238px;
-      height: 238;
-      img {
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-      }
-    }
-  }
-  .sect5-text-container {
-    margin-top: 160px;
-    margin-left: 132px;
-    h6 {
-      font-family: $catamaran;
-      font-size: 48px;
-      line-height: 68px;
-      font-weight: 500;
-      color: $black100;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-      color: $black100;
-    }
-    .icon-container {
-      margin-top: 52px;
-      img {
-        margin-right: 24px;
-        width: 44px;
-        height: 44px;
-      }
-    }
-  }
-}*/

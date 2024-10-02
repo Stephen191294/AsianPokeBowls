@@ -1,9 +1,10 @@
 @import "./variables";
 
 footer {
-  height: 312px;
+  height: auto;
   background-color: $black100;
-  padding: 50px 132px 79px 136px;
+  //padding: 50px 132px 79px 136px;
+  padding-bottom: 350px;
   h6 {
     font-family: $catamaran;
     font-weight: 800;
@@ -12,9 +13,10 @@ footer {
     color: $white100;
   }
   .btn-container {
+
     .btn1 {
-      width: 125px;
-      height: 44px;
+     // width: 125px;
+      height: auto;
       border: 1px solid $orange100;
       border-radius: 22px;
       color: $orange100;
@@ -25,8 +27,8 @@ footer {
       color: $black100;
     }
     .btn2 {
-      width: 126px;
-      height: 44px;
+     // width: 126px;
+     // height: 44px;
       border-radius: 22px;
       border: none;
       color: $white100;

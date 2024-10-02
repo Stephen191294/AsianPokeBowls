@@ -112,107 +112,79 @@
   border: none;
 }
 
-#box-1 {
-  background-color: #FFFFFF;
-  border-radius: 4px;
-  box-shadow: 0 0 1px 0 #171A1f;
-  padding: 48px 36px;
-}
-#box-1 h1 {
+.intro-card h1 {
   color: #171A1f;
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  width: 370px;
-  height: 136px;
+  font-size: 28px;
   line-height: 68px;
   color: #171A1f;
-  text-align: left;
+  text-align: center;
 }
-#box-1 p {
+.intro-card p {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
+  font-size: 18px;
   line-height: 28px;
-  white-space: nowrap;
+  text-align: center;
 }
-#box-1 button {
+.intro-card button {
   background-color: #F96540;
   color: #FFFFFF;
-  width: 219px;
-  height: 52px;
   padding: 12px 64px;
-  border-radius: 26px;
   border: none;
 }
-#box-1 button:hover {
+.intro-card button:hover {
   color: #F96540;
   background-color: #FFFFFF;
   border: 1px solid #F96540;
 }
 
-.sect-1-home {
-  padding-bottom: 72px;
-}
 .sect-1-home h2 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  line-height: 68px;
-  height: auto;
-}
-.sect-1-home p {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  line-height: 28px;
+  font-size: 28px;
+  margin-top: 30px;
 }
 
 .sect-2-home {
-  background-color: #FAFAFB;
-  height: 683px;
-  padding-top: 48px;
+  background-color: lightgrey200;
+  height: auto;
+  margin-top: 30px;
 }
-.sect-2-home .first-header {
-  font-size: 48px;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  line-height: 68px;
-}
-.sect-2-home .header {
-  font-size: 18px;
+.sect-2-home h3 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  white-space: nowrap;
-  text-align: left;
-  margin-top: 128px;
+  font-size: 18px;
+  line-height: 28px;
 }
-.sect-2-home P {
+.sect-2-home p {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
+  max-width: 235px;
   line-height: 20px;
   text-align: left;
 }
-.sect-2-home img {
-  left: 24px;
-  top: -115px;
-  z-index: 2;
-}
-.sect-2-home .text-box {
+.sect-2-home .card-sect-1 {
+  min-height: 68px;
+  background-color: #FFFFFF;
   border-radius: 8px;
 }
-.sect-2-home .order-btn {
+.sect-2-home .btn-div {
+  height: auto;
+}
+.sect-2-home .btn-div .order-btn {
   background-color: #FFF3F0;
   color: #F96540;
-  width: 94px;
-  height: 36px;
   border-radius: 18px;
   border: none;
 }
-.sect-2-home .order-btn:hover {
+.sect-2-home .btn-div .order-btn:hover {
   color: #FFF3F0;
   background-color: #F96540;
 }
 .sect-2-home .explor-btn {
-  width: 219px;
-  height: 52px;
   border-radius: 26px;
   border: 1px solid #171A1f;
   background-color: #FFFFFF;
@@ -221,745 +193,49 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  margin-bottom: 30px;
 }
 .sect-2-home .explor-btn:hover {
   background-color: #171A1f;
   color: #FFFFFF;
 }
-.sect-2-home .text-box-div {
-  width: 267px;
-  height: 292px;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  background-color: #FFFFFF;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 24px;
-}
-.sect-2-home .btn-div {
-  margin-top: 19px;
-  text-align: left;
-}
-.sect-2-home .bowls-div {
-  margin-top: 140px;
-}
 
 .sect-3-home {
-  height: 616px;
-}
-.sect-3-home h4 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  line-height: 68px;
-  color: #171A1f;
-}
-.sect-3-home p {
-  margin-top: 24px;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  line-height: 36px;
-  color: #171A1f;
-}
-.sect-3-home .name {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-}
-.sect-3-home .img-div {
-  margin-left: 194px;
+  margin-top: 30px;
 }
 
 .sect-4-home {
-  margin-bottom: 72px;
+  margin-top: 30px;
 }
-.sect-4-home .box {
+.sect-4-home .card-sect-4 {
   background-color: #171A1f;
   border-radius: 8px;
-  height: 314px;
 }
-.sect-4-home h5 {
-  font-size: 48px;
+.sect-4-home .card-sect-4 h5 {
+  font-size: 28px;
   font-family: "Catamaran", sans-serif;
   line-height: 68px;
   color: #FFFFFF;
-  margin-top: 48px;
-  margin-left: 70px;
+  text-align: center;
 }
-.sect-4-home p {
+.sect-4-home .card-sect-4 p {
   font-size: 18px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   line-height: 28px;
   color: #FFFFFF;
-  margin-left: 70px;
-  width: 568px;
+  text-align: center;
 }
-.sect-4-home button {
+.sect-4-home .card-sect-4 button {
   background-color: #F96540;
   color: #FFFFFF;
-  width: 244px;
-  height: 52px;
   border-radius: 26px;
   border: none;
-  margin-top: 24px;
-  margin-left: 70px;
-  margin-bottom: 48px;
 }
-.sect-4-home button:hover {
+.sect-4-home .card-sect-4 button:hover {
   border: 1px solid #F96540;
   color: #F96540;
   background-color: #FFFFFF;
-}
-.sect-4-home .bowl-1 {
-  margin-top: 82px;
-  height: 234px;
-  width: 334px;
-}
-.sect-4-home .bowl-2 {
-  margin-bottom: 111px;
-  width: 174px;
-  height: 174px;
-  margin-top: 29px;
-}
-.sect-4-home .bowls-div {
-  margin-left: 0;
-}
-
-.sect-5-home {
-  background-color: #FAFAFB;
-  overflow: hidden;
-  height: 616px;
-}
-.sect-5-home h6 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 500;
-  line-height: 68px;
-  color: #171A1f;
-}
-.sect-5-home p {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  line-height: 28px;
-  color: #171A1f;
-}
-.sect-5-home img {
-  width: 238px;
-  height: 238px;
-  border-radius: 8px;
-}
-.sect-5-home .icon-container {
-  text-align: left;
-}
-.sect-5-home .icon {
-  cursor: pointer;
-}
-.sect-5-home .sect-5-home-txt {
-  margin-top: 160px;
-  margin-left: 132px;
-}
-.sect-5-home .custom-negative-margin {
-  margin-top: -50px;
-}
-.sect-5-home .custom-negative-margin-1 {
-  margin-top: -100px;
-}
-
-/*.sect1-home {
-  .sect1-img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-  .sect1-box-container {
-    position: absolute;
-    top: 279px;
-    left: 10px;
-    // width: 442px;
-    height: 413px;
-    border: none;
-
-    z-index: 1;
-    .box {
-      background-color: $white100;
-      padding: 48px 36px;
-      width: 100%;
-      height: auto;
-      box-shadow: 0 0 1px 0 $black100;
-      border-radius: 4px;
-      .sect1-btn-container {
-        margin-top: 80px;
-      }
-    }
-    h1 {
-      font-family: $catamaran;
-      font-weight: 400;
-      font-size: 3rem;
-      width: 370px;
-      line-height: 68px;
-      color: $black100;
-      width: 100%;
-      height: auto;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-    }
-    button {
-      background-color: $orange100;
-      color: $white100;
-      // width: 219px;
-      // height: 52px;
-      padding: 12px 64px;
-      border-radius: 26px;
-      border: none;
-    }
-    button:hover {
-      color: $orange100;
-      background-color: $white100;
-      border: 1px solid $orange100;
-    }
-  }
-  .sect1-text-container {
-    // margin-top: 72px;
-    text-align: center;
-    h2 {
-      font-family: $catamaran;
-      font-weight: 400;
-      font-size: 48px;
-      line-height: 68px;
-      width: 100%;
-      height: auto;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-      width: 100%;
-      height: auto;
-    }
-  }
-}
-
-.sect2-home {
-  //height: 683px;
-  padding-top: 48px;
-  background-color: $lightgrey200;
-  .sect2-header {
-    text-align: center;
-    font-family: $catamaran;
-  }
-  .container {
-    .box {
-      background-color: $white100;
-      padding: 10px;
-      width: 267px;
-      border-radius: 8px;
-      //height: 292px;
-      .image-container {
-        width: 219px;
-        height: 219px;
-        img {
-          width: 100%;
-          height: auto;
-          margin-left: 10px;
-        }
-      }
-      button {
-        background-color: $orange200;
-        color: $orange100;
-        width: 94px;
-        height: 36px;
-        border-radius: 18px;
-        border: none;
-      }
-      button:hover {
-        color: $orange200;
-        background-color: $orange100;
-      }
-      p {
-        width: 235px;
-        height: 60px;
-        font-size: 12px;
-      }
-      h4 {
-        white-space: nowrap;
-        font-family: $catamaran;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
-        width: 100%;
-        height: auto;
-      }
-    }
-  }
-  .sect2-btn-container {
-    text-align: center;
-    button {
-      width: 219px;
-      height: 52px;
-      margin-top: 48px;
-      border-radius: 26px;
-      border: 1px solid $black100;
-      color: $black100;
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-    }
-    button:hover {
-      background-color: $black100;
-      color: $white100;
-    }
-  }
-}
-
-.sect3-home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  //margin-top: 72px;
-  padding-top: 48px;
-  margin-right: 132px;
-  margin-left: 132px;
-  //height: 616px;
-  //width: 1440px;
-
-  h5 {
-    font-family: $catamaran;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 68px;
-    color: $black100;
-  }
-  p {
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .icon {
-    margin-top: 114px;
-  }
-
-  .name {
-    width: 182px;
-    height: 36px;
-    margin-top: 20px;
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    color: $black100;
-  }
-  .img-container {
-    width: 520px;
-    height: 520px;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-}
-
-.sect4-home {
-  width: 100%;
-  height: auto;
-  .container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    .box {
-      margin-top: 72px;
-      margin-bottom: 95px;
-      // margin-left: 132px;
-      // margin-right: 132px;
-      display: flex;
-      height: 314px;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 100%;
-      background-color: $black100;
-      border-radius: 8px;
-      padding: 48px 70px 48px 70px;
-      overflow: hidden;
-      h6 {
-        color: $white100;
-        font-family: $catamaran;
-        font-weight: 400;
-        font-size: 3rem;
-        line-height: 68px;
-        width: 100%;
-        height: auto;
-      }
-      p {
-        color: $white100;
-        font-size: 1rem;
-        // width: 100%;
-        //  height: auto;
-      }
-      button {
-        background-color: $orange100;
-        color: $white100;
-        width: 244px;
-        height: 52px;
-        border-radius: 26px;
-        border: none;
-      }
-      button:hover {
-        border: 1px solid $orange100;
-        color: $orange100;
-        background-color: $white100;
-      }
-      .img-container {
-        display: flex;
-        flex-direction: row;
-        .img1-container {
-          height: 200px;
-          width: 300px;
-          border-radius: 167px;
-          margin-top: -16px;
-        }
-
-        .img-1 {
-          height: auto;
-          width: 100%;
-          margin-top: 82px;
-          margin-right: 204px;
-          margin-bottom: 202px;
-
-          width: 100%;
-        }
-        .img-2 {
-          width: 174px;
-          height: 174px;
-        }
-      }
-    }
-  }
-}
-
-.sect5-home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  overflow: hidden;
-  width: 100%;
-  height: 616px;
-  border-radius: 4px;
-  background-color: $lightgrey200;
-  .container {
-    padding: 0;
-    .custom-negative-margin {
-      margin-top: -50px;
-    }
-    .custom-negative-margin-1 {
-      margin-top: -100px;
-    }
-    .box {
-      width: 238px;
-      height: 238;
-      img {
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-      }
-    }
-  }
-  .sect5-text-container {
-    margin-top: 160px;
-    margin-left: 132px;
-    h6 {
-      font-family: $catamaran;
-      font-size: 48px;
-      line-height: 68px;
-      font-weight: 500;
-      color: $black100;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-      color: $black100;
-    }
-    .icon-container {
-      margin-top: 52px;
-      img {
-        margin-right: 24px;
-        width: 44px;
-        height: 44px;
-      }
-    }
-  }
-}*/
-@media (min-width: 0) {
-  #box-1 {
-    left: 0;
-    top: 240px;
-    width: 100%;
-    height: auto;
-  }
-  #box-1 h1 {
-    font-size: 28px;
-  }
-  #box-1 p {
-    font-size: 16px;
-    margin-top: 0;
-  }
-}
-@media (min-width: 576px) {
-  #box-1 {
-    left: 132px;
-    top: 199px;
-    width: 442px;
-    height: 413px;
-  }
-  #box-1 h1 {
-    font-size: 48px;
-  }
-  #box-1 p {
-    font-size: 18px;
-    margin-top: 80px;
-  }
-}
-@media (min-width: 768px) {
-  #box-1 {
-    left: 132px;
-    top: 199px;
-  }
-}
-#box-1 p {
-  font-size: 18px;
-  margin-top: 80px;
-}
-
-@media (min-width: 0) {
-  .sect-1-home {
-    width: 100%;
-    height: auto;
-  }
-  .sect-1-home div {
-    margin-top: 450px;
-  }
-  .sect-1-home h2 {
-    font-size: 28px;
-  }
-  .sect-1-home p {
-    font-size: 16px;
-  }
-}
-@media (min-width: 576px) {
-  .sect-1-home div {
-    margin-top: 200px;
-  }
-  .sect-1-home h2 {
-    font-size: 48px;
-  }
-  .sect-1-home p {
-    font-size: 18px;
-  }
-}
-@media (min-width: 768px) {
-  .sect-1-home div {
-    margin-top: 72px;
-  }
-  .sect-1-home h2 {
-    font-size: 48px;
-  }
-  .sect-1-home p {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect-2-home .header {
-    white-space: wrap;
-  }
-  .sect-2-home p {
-    white-space: wrap;
-  }
-  .sect-2-home #bottom-bowl {
-    margin-top: 90px;
-  }
-  .sect-2-home #bottom-bowl-2 {
-    margin-top: 0;
-  }
-  .sect-2-home .explor-btn {
-    margin-top: 30px;
-  }
-  .sect-2-home img {
-    width: 119px;
-    height: 119px;
-  }
-}
-@media (min-width: 576px) {
-  .sect-2-home .header {
-    white-space: nowrap;
-  }
-  .sect-2-home p {
-    white-space: nowrap;
-  }
-  .sect-2-home #bottom-bowl {
-    margin-top: 90px;
-  }
-  .sect-2-home #bottom-bowl-2 {
-    margin-top: 90px;
-  }
-  .sect-2-home .explor-btn {
-    margin-top: 0;
-  }
-  .sect-2-home img {
-    width: 219px;
-    height: 219px;
-  }
-}
-@media (min-width: 768px) {
-  .sect-2-home .header {
-    white-space: nowrap;
-  }
-  .sect-2-home p {
-    white-space: nowrap;
-  }
-  .sect-2-home #bottom-bowl {
-    margin-top: 0;
-  }
-  .sect-2-home #bottom-bowl-2 {
-    margin-top: 0;
-  }
-  .sect-2-home .explor-btn {
-    margin-top: 0;
-  }
-  .sect-2-home img {
-    width: 219px;
-    height: 219px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect-3-home {
-    margin-top: 450px;
-  }
-  .sect-3-home h4 {
-    font-size: 28px;
-  }
-  .sect-3-home p {
-    font-size: 16px;
-  }
-}
-@media (min-width: 576px) {
-  .sect-3-home {
-    margin-top: 450px;
-  }
-  .sect-3-home h4 {
-    font-size: 48px;
-  }
-  .sect-3-home p {
-    font-size: 24px;
-  }
-}
-@media (min-width: 768px) {
-  .sect-3-home {
-    margin-top: 48px;
-  }
-  .sect-3-home h4 {
-    font-size: 48px;
-  }
-  .sect-3-home p {
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect-4-home {
-    margin-top: 550px;
-  }
-  .sect-4-home .box {
-    width: 700px;
-  }
-}
-@media (min-width: 576px) {
-  .sect-4-home {
-    margin-top: 300px;
-  }
-  .sect-4-home .box {
-    width: 700px;
-  }
-}
-@media (min-width: 768px) {
-  .sect-4-home {
-    margin-top: 72px;
-  }
-  .sect-4-home .box {
-    width: 1176px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect-5-home {
-    margin-bottom: 30px;
-  }
-  .sect-5-home h6 {
-    font-size: 28px;
-  }
-  .sect-5-home p {
-    font-size: 16px;
-    width: 100%;
-    white-space: wrap;
-    text-align: center;
-  }
-  .sect-5-home .sect-5-home-txt {
-    text-align: center;
-    white-space: wrap;
-  }
-  .sect-5-home .icon-container {
-    text-align: left;
-    margin-left: 40px;
-  }
-}
-@media (min-width: 576px) {
-  .sect-5-home {
-    margin-bottom: 30px;
-  }
-  .sect-5-home h6 {
-    font-size: 48px;
-    text-align: left;
-    margin-left: 40px;
-  }
-  .sect-5-home p {
-    font-size: 18px;
-    white-space: nowrap;
-    text-align: left;
-    margin-left: 40px;
-  }
-  .sect-5-home .icon-container {
-    text-align: left;
-    margin-left: 40px;
-  }
-}
-@media (min-width: 768px) {
-  .sect-5-home {
-    margin-bottom: 0;
-  }
-  .sect-5-home h6 {
-    font-size: 48px;
-    text-align: left;
-  }
-  .sect-5-home p {
-    font-size: 18px;
-    white-space: nowrap;
-    text-align: left;
-  }
-  .sect-5-home .icon-container {
-    text-align: left;
-  }
 }
 
 @media (min-width: 0) {
@@ -1595,9 +871,9 @@
 }
 
 footer {
-  height: 312px;
+  height: auto;
   background-color: #171A1f;
-  padding: 50px 132px 79px 136px;
+  padding-bottom: 350px;
 }
 footer h6 {
   font-family: "Catamaran", sans-serif;
@@ -1607,8 +883,7 @@ footer h6 {
   color: #FFFFFF;
 }
 footer .btn-container .btn1 {
-  width: 125px;
-  height: 44px;
+  height: auto;
   border: 1px solid #F96540;
   border-radius: 22px;
   color: #F96540;
@@ -1619,8 +894,6 @@ footer .btn-container .btn1:hover {
   color: #171A1f;
 }
 footer .btn-container .btn2 {
-  width: 126px;
-  height: 44px;
   border-radius: 22px;
   border: none;
   color: #FFFFFF;
