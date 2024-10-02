@@ -110,11 +110,10 @@
             raw fish (such as tuna or salmon) marinated in soy sauce and other
             flavorful ingredients. It is often served over a bed of rice and
             topped with various toppings like seaweed, cucumber, avocado, and
-            sesame seeds. Poke has gained popularity worldwide and is now enjoyed
-            in many different variations and flavors.
+            sesame seeds. Poke has gained popularity worldwide and is now
+            enjoyed in many different variations and flavors.
           </p>
         </div>
-        
       </div>
     </section>
 
@@ -123,10 +122,10 @@
         <h3 class="sect-2-head">Signature Bowls</h3>
       </div>
       <div class="container text-center">
-        <div class=" all-cards-div row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+        <div class="all-cards-div row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
           <div class="col">
             <div class="p-3">
-              <div class=" card-div card">
+              <div class="card-div card">
                 <div class="card-sect-2 card-body">
                   <img
                     class="img-fluid"
@@ -153,7 +152,7 @@
           </div>
           <div class="col">
             <div class="p-3">
-              <div class=" card-div card">
+              <div class="card-div card">
                 <div id="cardOne" class="card-sect-2 card-body">
                   <img
                     class="img-fluid"
@@ -179,7 +178,7 @@
           </div>
           <div class="col">
             <div class="p-3">
-              <div class=" card-div card">
+              <div class="card-div card">
                 <div class="card-sect-2 card-body">
                   <img
                     class="img-fluid"
@@ -205,7 +204,7 @@
           </div>
           <div class="col">
             <div class="p-3">
-              <div class=" card-div card">
+              <div class="card-div card">
                 <div class="card-sect-2 card-body">
                   <img
                     class="img-fluid"
@@ -239,7 +238,7 @@
     <section class="sect-3-home">
       <div class="container-fluid justify-content-center d-flex">
         <div class="d-flex">
-          <div class=" first-card card">
+          <div class="first-card card border-0">
             <div class="card-body">
               <h4 class="card-title">Our happy customers</h4>
               <p class="card-text">
@@ -250,7 +249,7 @@
                 bowl.
               </p>
               <p class="name">Lauren Martinez</p>
-              <div>
+              <div class="icon-div">
                 <img
                   class="icon"
                   src="assets/images/Avatar1(1).png"
@@ -266,7 +265,11 @@
                   src="assets/images/Avatar3(2).png"
                   alt="avatar"
                 />
-                <img class="icon" src="assets/images/Avatar4.png" alt="avatar" />
+                <img
+                  class="icon"
+                  src="assets/images/Avatar4.png"
+                  alt="avatar"
+                />
                 <img
                   class="icon"
                   src="assets/images/IconButton1(1).png"
@@ -274,12 +277,11 @@
                 />
               </div>
             </div>
-           
           </div>
 
           <div class="img-div">
             <img
-              class="img-fluid d-none d-sm-none d-md-block"
+              class="bowl-img img-fluid d-none d-sm-none d-md-block"
               src="assets/images/image5.jpeg"
               alt="bowl"
             />
@@ -289,21 +291,39 @@
     </section>
 
     <section class="sect-4-home px-3">
-      <div class="card">
-        <div class="card-sect-4 card-body">
-          <h5 class="card-title">Find our locations</h5>
-          <p class="card-text">
-            Serving fresh fish daily at Boston Harbor islands, Boylston
-            <span class="text-nowrap">St,</span><br />
-            Congress St, Kendall Square, Cambrige St, Haviland St.
-          </p>
-          <div class="d-flex justify-content-center">
-            <button
-              onclick="location.href='./pages/location.html '"
-              class="btn btn-primary"
-            >
-              Locations & Hours
-            </button>
+      <div class="sect-4-card card">
+        <div class="card-sect-4 card-body d-flex p-0">
+          <div>
+            <h5 class="card-title">Find our locations</h5>
+            <p class="card-text">
+              <span class="sect-4-txt"
+                >Serving fresh fish daily at Boston Harbor islands, Boylston
+                St,</span
+              >
+              <br />
+              Congress St, Kendall Square, Cambrige St, Haviland St.
+            </p>
+            <div class="btn-div">
+              <button
+                onclick="location.href='./pages/location.html '"
+                class="btn btn-primary"
+              >
+                Locations & Hours
+              </button>
+            </div>
+          </div>
+
+          <div class="bowls-div d-flex">
+            <img
+              class="bowl-1 img-fluid d-none d-sm-none d-md-block"
+              src="assets/images/Image6.png"
+              alt="bowl"
+            />
+            <img
+              class="bowl-2 img-fluid d-none d-sm-none d-md-block"
+              src="assets/images/image7-removebg-preview.png"
+              alt="bowl"
+            />
           </div>
         </div>
       </div>
@@ -313,8 +333,10 @@
       <div class="container-fluid d-flex justify-content-center">
         <div class="sect-5-home-txt">
           <h6 class="card-title">Follow Us</h6>
-          <p>@pokerbarboston</p>
           <p class="card-text">
+            <span class="twitter">
+              @pokerbarboston
+            </span> <br>
             To stay updated with the latest news, promotions, and <br />
             offerings from the poke restaurtant, make sure to follow <br />
             us social media accounts. Don't miss out on any updates.
@@ -327,58 +349,86 @@
           </div>
         </div>
 
-       <!---- <div class="container">
-          <div class="row no-gutters">
-            <div class="col-md-4 custom-negative-margin">
-              <div class="box ms-5">
-                <img src="../assets/images/image8.jpeg" alt="bowl" />
+        <div style="margin-top: -130px;" class="bowl-div align-content-end container-fluid d-none d-sm-none d-md-block">
+          <div class="row">
+            <!-- Column 1 -->
+            <div class="col-3 mt-5">
+              <div class="box p-2">
+                <img
+                  style="width: 238; height: 238px"
+                  class="img-fluid"
+                  src="../assets/images/image8.jpeg"
+                  alt="bowl"
+                />
               </div>
-              <div class="box mt-3 ms-5">
-                <img class="img-fluid" src="../assets/images/image9.jpeg" alt="bowl" />
+              <div  class="box p-2">
+                <img style="width: 238; height: 238px"
+                  class="img-fluid"
+                  src="../assets/images/image9.jpeg"
+                  alt="bowl"
+                />
               </div>
-              <div class="box mt-3 ms-5">
-                <img src="../assets/images/image10.jpeg" alt="bowl" />
+              <div class="box p-2">
+                <img style="width: 238; height: 238px"
+                  class="img-fluid"
+                  src="../assets/images/image10.jpeg"
+                  alt="bowl"
+                />
               </div>
             </div>
-            <div class="col-md-4 custom-negative-margin-1">
-              <div class="box">
-                <img
-                  class="img-1 ms-5 d-none d-sm-none d-md-block"
+            <!-- Column 2 -->
+            <div class="col-3 ms-4 mb-4">
+              <div class="box p-2">
+                <img style="width: 238; height: 238px"
+                  class="img-fluid"
                   src="../assets/images/image13.jpeg"
                   alt="bowl"
                 />
               </div>
-              <div class="box mt-3">
-                <img
-                  class="img-1 ms-5"
+              <div class="box p-2">
+                <img style="width: 238; height: 238px"
+                  class="img-fluid"
                   src="../assets/images/image11.jpeg"
                   alt="bowl"
                 />
               </div>
-              <div class="box mt-3">
-                <img
-                  class="img-1 ms-5"
+              <div class="box p-2">
+                <img style="width: 238; height: 238px"
+                  class="img-fluid"
                   src="../assets/images/image12.jpeg"
                   alt="bowl"
                 />
               </div>
             </div>
-            <div class="col-md-4 custom-negative-margin">
-              <div class="box ms-5">
-                <img src="../assets/images/image16.jpeg" alt="bowl" />
+            <!-- Column 3 -->
+            <div class="col-3 ms-4 mt-5">
+              <div class="box p-2">
+                <img style="width: 238; height: 238px"
+                  class="img-fluid"
+                  src="../assets/images/image16.jpeg"
+                  alt="bowl"
+                />
               </div>
-              <div class="box mt-3 ms-5">
-                <img src="../assets/images/image14.jpeg" alt="bowl" />
+              <div class="box p-2">
+                <img style="width: 238; height: 238px"
+                  class="img-fluid"
+                  src="../assets/images/image14.jpeg"
+                  alt="bowl"
+                />
               </div>
-              <div class="box mt-3 ms-5">
-                <img src="../assets/images/image15.jpeg" alt="bowl" />
+              <div class="box p-2">
+                <img style="width: 238; height: 238px"
+                  class="img-fluid"
+                  src="../assets/images/image15.jpeg"
+                  alt="bowl"
+                />
               </div>
             </div>
           </div>
-        </div>-->
-
+        </div>
       </div>
-    </section>-
+    </section>
+
     <footer class="footer">
       <div class="container-fluid d-flex justify-content-between">
         <div>

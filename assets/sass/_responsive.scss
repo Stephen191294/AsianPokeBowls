@@ -85,7 +85,7 @@
       font-weight: 400;
       font-size: 48px;
       line-height: 68px;
-     // margin-top: 48px;
+      // margin-top: 48px;
     }
     .all-cards-div {
       display: flex;
@@ -119,37 +119,155 @@
         max-width: 219px;
         max-height: 219px;
       }
-      .btn-div{
+      .btn-div {
         display: flex;
         align-items: start;
       }
-      
     }
-    .explor-btn{
-      min-width: 219px ;
+    .explor-btn {
+      min-width: 219px;
       min-height: 52px;
     }
   }
 }
 
-
-.sect-3-home{
+.sect-3-home {
   @include respond-to(md) {
-    .first-card{
+    .first-card {
       padding-right: 194px;
-      h4{
+      h4 {
         font-family: $catamaran;
         font-size: 48px;
         font-weight: 400;
         line-height: 68px;
         color: $black100;
       }
-      p{
+      p {
         font-size: 24px;
       }
+      .name {
+        font-family: $nunito;
+        font-weight: 700;
+        line-height: 36px;
+        color: $black100;
+        font-size: 24px;
+        margin-top: 54px;
+      }
+      .icon-div {
+        margin-top: 114px;
+      }
+      .bowl-img {
+        min-width: 520px;
+        min-height: 520px;
+      }
     }
-    img{
-      margin-left: 0;
+  }
+}
+
+.sect-4-home {
+  @include respond-to(md) {
+    .sect-4-card {
+      min-width: 1176px;
+      min-height: 314px;
+      margin-left: 132px;
+      margin-right: 132px;
+
+      h5 {
+        text-align: left;
+        font-family: $catamaran;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 68px;
+        margin-top: 18px;
+        margin-left: 70px;
+      }
+      p {
+        text-align: left;
+        font-family: $nunito;
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 24px;
+        margin-left: 70px;
+      }
+      .sect-4-text {
+        white-space: nowrap;
+      }
+      .btn-div {
+        display: flex;
+        justify-content: start;
+        margin-left: 70px;
+        button {
+          background-color: $orange100;
+          color: $white100;
+          border-radius: 26px;
+          border: none;
+          min-width: 244px;
+          min-height: 52px;
+        }
+        button:hover {
+          border: 1px solid $orange100;
+          color: $orange100;
+          background-color: $white100;
+        }
+      }
+      .bowls-div {
+        .bowl-1 {
+          max-width: 334px;
+          max-height: 334px;
+          margin-top: 82px;
+        }
+        .bowl-2 {
+          max-width: 174px;
+          max-height: 174px;
+          margin-top: 29px;
+          margin-right: 26px;
+        }
+      }
+    }
+  }
+}
+
+.sect-5-home {
+  @include respond-to(md) {
+    width: 100%;
+    max-height: 616px;
+    border: 1px solid black;
+    h6 {
+      font-size: 48px;
+      font-weight: 500;
+      font-family: $catamaran;
+      line-height: 68px;
+      color: $black100;
+      margin-left: 132px;
+      margin-top: 160px;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 18px;
+      font-family: $nunito;
+      font-weight: 400;
+      line-height: 28px;
+      color: $black100;
+      margin-left: 132px;
+      min-width: 465px;
+      min-height: 84px;
+    }
+    .twitter{
+      margin-top: 12px;
+    }
+    .icon-container {
+      margin-left: 132px;
+    }
+    .bowl-div{
+      img{
+        min-width: 238px ;
+        min-height: 238px;
+        margin-left: 140px;
+        border-radius: 8px;
+      
+      
+      
+      }
     }
   }
 }
@@ -285,35 +403,13 @@
 }
 
 footer {
-  .container-fluid {
-    @include respond-to(xs) {
-      display: flex;
-      flex-direction: column;
-      padding-right: 0px;
-
-      h6 {
-        white-space: nowrap;
-      }
-      .footer-link {
-        display: inline-block;
-      }
-    }
-    @include respond-to(sm) {
-      display: flex;
-      flex-direction: column;
-      .footer-icon {
-        display: flex;
-      }
-      .footer-link-div {
-        display: flex;
-      }
-      .btn-container {
-        margin-left: 60px;
-      }
-    }
+  
     @include respond-to(md) {
       display: flex;
       flex-direction: row;
+      padding-left: 132px ;
+      padding-right: 132px;
+      padding-top: 57px;
       .footer-icon {
         display: flex;
       }
@@ -322,9 +418,13 @@ footer {
       }
       .btn-container {
         margin-left: 60px;
+        button{
+          min-height: 44px;
+          min-width: 126px;
+        }
       }
     }
-  }
+  
 
   .social {
     @include respond-to(xs) {
