@@ -238,6 +238,10 @@
   background-color: #FFFFFF;
 }
 
+.sect-5-home {
+  margin-top: 30px;
+}
+
 @media (min-width: 0) {
   .sect-1-menu .header {
     white-space: wrap;
