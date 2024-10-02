@@ -42,17 +42,29 @@
     font-weight: 400;
     font-size: 28px;
     margin-top: 30px;
+    color: $black100;
   }
+  .sect-1-card{
+    p{
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+      color: $black100;
+    }
+  }
+ 
 }
 
 .sect-2-home {
-  background-color: lightgrey200;
+  background-color: $lightgrey200;
   height: auto;
   //border: 1px solid black;
   margin-top: 30px;
   h3 {
     font-family: $nunito;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     line-height: 28px;
   }
@@ -64,7 +76,7 @@
     line-height: 20px;
     text-align: left;
   }
-  .card-sect-1 {
+  .card-sect-2 {
     min-height: 68px;
     //min-width: 267px;
     background-color: $white100;

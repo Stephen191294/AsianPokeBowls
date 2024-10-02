@@ -1,105 +1,231 @@
 @import "./variables";
 @import "./mixins";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sect-1-menu {
-  @include respond-to(xs) {
-    .header{
-    
-      white-space: wrap;
-    }
-    p{
-      white-space: wrap;
-    }
-    #bottom-bowl{
-      margin-top: 90px;
-    }
-    #bottom-bowl-2{
-      margin-top: 0;
-    }
-    .seeAll-btn{
-      margin-top: 30px;
-    }
-    img {
-      width: 119px;
-      height: 119px;
-      
-    }
-  }
-  @include respond-to(sm) {
-    .header{
-    
-      white-space: nowrap;
-    }
-    p{
-      white-space: nowrap;
-    }
-    #bottom-bowl{
-      margin-top: 90px;
-    }
-    #bottom-bowl-2{
-      margin-top: 90px;
-    }
-    .seeAll-btn{
-      margin-top: 0;
-    }
-    img {
-      width: 219px;
-      height: 219px;
-      
-    }
-  }
+.intro-card {
   @include respond-to(md) {
-    .header{
-    
-      white-space: nowrap;
+    border-radius: 4px;
+    left: 132px;
+    top: 199px;
+    max-width: 442px;
+    max-height: 413px;
+    box-shadow: 0 0 1px 0 $black100;
+    padding: 48px 36px;
+    position: absolute;
+    h1 {
+      color: $black100;
+      font-family: $catamaran;
+      font-weight: 400;
+      font-size: 48px;
+      max-width: 370px;
+      max-height: 136px;
+      line-height: 68px;
+      color: $black100;
+      text-align: left;
     }
-    p{
-      white-space: nowrap;
+    p {
+      font-size: 18px;
+      font-family: $nunito;
+      font-weight: 400;
+      line-height: 28px;
+      color: $black100;
+      text-align: left;
+      max-width: 193px;
+      max-height: 28px;
+      margin-top: 80px;
     }
-     #bottom-bowl{
-      margin-top: 0;
+    button {
+      background-color: $orange100;
+      color: $white100;
+      max-width: 219px;
+      max-height: 52px;
+      padding: 12px 64px;
+      border-radius: 26px;
+      border: none;
     }
-    #bottom-bowl-2{
-      margin-top: 0;
+    button:hover {
+      color: $orange100;
+      background-color: $white100;
+      border: 1px solid $orange100;
     }
-    .seeAll-btn{
-      margin-top: 0;
+  }
+}
+
+.card-img-div {
+  @include respond-to(md) {
+    position: relative;
+  }
+}
+
+.sect-1-home {
+  @include respond-to(md) {
+    .sect-1-card {
+      min-width: 587px;
+      min-height: 168px;
+      padding-left: 428px;
+      padding-right: 425px;
+      margin-top: 18px;
+      margin-bottom: 72px;
+      p {
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: $black100;
+      }
     }
-    img {
-      width: 219px;
-      height: 219px;
+  }
+}
+
+.sect-2-home {
+  @include respond-to(md) {
+    padding-top: 48px;
+    .sect-2-head {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 68px;
+     // margin-top: 48px;
+    }
+    .all-cards-div {
+      display: flex;
+      justify-content: center;
+    }
+    .card-div {
+      margin-top: 140px;
+    }
+    .card-sect-2 {
+      position: relative;
+      padding: 128px 16px 24px 16px;
+      min-width: 267px;
+      min-height: 292px;
+      border-radius: 8px;
+      background-color: $white100;
+      h3 {
+        text-align: left;
+        margin-top: 24px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: $black100;
+      }
+      p {
+        text-align: left;
+      }
+      img {
+        position: absolute;
+        top: -115px;
+        left: 24px;
+        max-width: 219px;
+        max-height: 219px;
+      }
+      .btn-div{
+        display: flex;
+        align-items: start;
+      }
       
+    }
+    .explor-btn{
+      min-width: 219px ;
+      min-height: 52px;
     }
   }
 }
 
 
-.sect-2-menu{
-  @include respond-to(xs) {
-  height: auto;
-  margin-top: 1500px;
+.sect-3-home{
+  @include respond-to(md) {
+    .first-card{
+      padding-right: 194px;
+      h4{
+        font-family: $catamaran;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 68px;
+        color: $black100;
+      }
+      p{
+        font-size: 24px;
+      }
+    }
+    img{
+      margin-left: 0;
+    }
   }
-@include respond-to(sm) {
+}
+
+.sect-1-menu {
+  @include respond-to(xs) {
+    .header {
+      white-space: wrap;
+    }
+    p {
+      white-space: wrap;
+    }
+    #bottom-bowl {
+      margin-top: 90px;
+    }
+    #bottom-bowl-2 {
+      margin-top: 0;
+    }
+    .seeAll-btn {
+      margin-top: 30px;
+    }
+    img {
+      width: 119px;
+      height: 119px;
+    }
+  }
+  @include respond-to(sm) {
+    .header {
+      white-space: nowrap;
+    }
+    p {
+      white-space: nowrap;
+    }
+    #bottom-bowl {
+      margin-top: 90px;
+    }
+    #bottom-bowl-2 {
+      margin-top: 90px;
+    }
+    .seeAll-btn {
+      margin-top: 0;
+    }
+    img {
+      width: 219px;
+      height: 219px;
+    }
+  }
+  @include respond-to(md) {
+    .header {
+      white-space: nowrap;
+    }
+    p {
+      white-space: nowrap;
+    }
+    #bottom-bowl {
+      margin-top: 0;
+    }
+    #bottom-bowl-2 {
+      margin-top: 0;
+    }
+    .seeAll-btn {
+      margin-top: 0;
+    }
+    img {
+      width: 219px;
+      height: 219px;
+    }
+  }
+}
+
+.sect-2-menu {
+  @include respond-to(xs) {
+    height: auto;
+    margin-top: 1500px;
+  }
+  @include respond-to(sm) {
     margin-top: 1300px;
   }
   @include respond-to(md) {
@@ -140,25 +266,23 @@
 .sect-4-menu {
   @include respond-to(xs) {
     margin-top: 550px;
-    .box{
+    .box {
       width: 700px;
     }
   }
   @include respond-to(sm) {
     margin-top: 300px;
-    .box{
+    .box {
       width: 700px;
     }
   }
   @include respond-to(md) {
     margin-top: 72px;
-    .box{
+    .box {
       width: 1176px;
     }
   }
 }
-
-
 
 footer {
   .container-fluid {
@@ -228,16 +352,6 @@ footer {
     height: 312px;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 .sect1-box-container-about {
   @include respond-to(xs) {
@@ -343,11 +457,6 @@ footer {
     padding-left: 132px;
   }
 }
-
-
-
-
-
 
 .container-giftcard-boxes {
   @include respond-to(sm) {

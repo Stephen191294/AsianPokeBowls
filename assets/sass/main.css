@@ -145,16 +145,25 @@
   font-weight: 400;
   font-size: 28px;
   margin-top: 30px;
+  color: #171A1f;
+}
+.sect-1-home .sect-1-card p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #171A1f;
 }
 
 .sect-2-home {
-  background-color: lightgrey200;
+  background-color: #FAFAFB;
   height: auto;
   margin-top: 30px;
 }
 .sect-2-home h3 {
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 28px;
 }
@@ -166,7 +175,7 @@
   line-height: 20px;
   text-align: left;
 }
-.sect-2-home .card-sect-1 {
+.sect-2-home .card-sect-2 {
   min-height: 68px;
   background-color: #FFFFFF;
   border-radius: 8px;
@@ -240,6 +249,152 @@
 
 .sect-5-home {
   margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .intro-card {
+    border-radius: 4px;
+    left: 132px;
+    top: 199px;
+    max-width: 442px;
+    max-height: 413px;
+    box-shadow: 0 0 1px 0 #171A1f;
+    padding: 48px 36px;
+    position: absolute;
+  }
+  .intro-card h1 {
+    color: #171A1f;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    max-width: 370px;
+    max-height: 136px;
+    line-height: 68px;
+    color: #171A1f;
+    text-align: left;
+  }
+  .intro-card p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #171A1f;
+    text-align: left;
+    max-width: 193px;
+    max-height: 28px;
+    margin-top: 80px;
+  }
+  .intro-card button {
+    background-color: #F96540;
+    color: #FFFFFF;
+    max-width: 219px;
+    max-height: 52px;
+    padding: 12px 64px;
+    border-radius: 26px;
+    border: none;
+  }
+  .intro-card button:hover {
+    color: #F96540;
+    background-color: #FFFFFF;
+    border: 1px solid #F96540;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-img-div {
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .sect-1-home .sect-1-card {
+    min-width: 587px;
+    min-height: 168px;
+    padding-left: 428px;
+    padding-right: 425px;
+    margin-top: 18px;
+    margin-bottom: 72px;
+  }
+  .sect-1-home .sect-1-card p {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #171A1f;
+  }
+}
+
+@media (min-width: 768px) {
+  .sect-2-home {
+    padding-top: 48px;
+  }
+  .sect-2-home .sect-2-head {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 68px;
+  }
+  .sect-2-home .all-cards-div {
+    display: flex;
+    justify-content: center;
+  }
+  .sect-2-home .card-div {
+    margin-top: 140px;
+  }
+  .sect-2-home .card-sect-2 {
+    position: relative;
+    padding: 128px 16px 24px 16px;
+    min-width: 267px;
+    min-height: 292px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+  }
+  .sect-2-home .card-sect-2 h3 {
+    text-align: left;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #171A1f;
+  }
+  .sect-2-home .card-sect-2 p {
+    text-align: left;
+  }
+  .sect-2-home .card-sect-2 img {
+    position: absolute;
+    top: -115px;
+    left: 24px;
+    max-width: 219px;
+    max-height: 219px;
+  }
+  .sect-2-home .card-sect-2 .btn-div {
+    display: flex;
+    align-items: start;
+  }
+  .sect-2-home .explor-btn {
+    min-width: 219px;
+    min-height: 52px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sect-3-home .first-card {
+    padding-right: 194px;
+  }
+  .sect-3-home .first-card h4 {
+    font-family: "Catamaran", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 68px;
+    color: #171A1f;
+  }
+  .sect-3-home .first-card p {
+    font-size: 24px;
+  }
+  .sect-3-home img {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 0) {
