@@ -122,7 +122,6 @@
       .btn-div {
         display: flex;
         align-items: start;
-        
       }
     }
     .explor-btn {
@@ -294,11 +293,6 @@
   }
 }
 
-
-
-
-
-
 .sect-1-menu {
   @include respond-to(md) {
     padding-top: 48px;
@@ -308,7 +302,6 @@
       font-size: 48px;
       line-height: 68px;
       // margin-top: 48px;
-      
     }
     .all-cards-div {
       display: flex;
@@ -331,7 +324,6 @@
         font-size: 18px;
         line-height: 28px;
         color: $black100;
-        
       }
       p {
         text-align: left;
@@ -346,27 +338,19 @@
       .btn-div {
         display: flex;
         align-items: start;
-
       }
     }
     .explor-btn {
       min-width: 219px;
       min-height: 52px;
-      
     }
   }
 }
 
-
-
-
-
-
-
 .sect-2-menu {
   @include respond-to(md) {
     padding-top: 48px;
-    
+
     .sect-2-head {
       font-family: $nunito;
       font-weight: 400;
@@ -377,11 +361,10 @@
     .all-cards-div {
       display: flex;
       justify-content: center;
-      
     }
     .card-div {
       margin-top: 140px;
-      button{
+      button {
         background-color: aqua;
       }
     }
@@ -399,7 +382,6 @@
         font-size: 18px;
         line-height: 28px;
         color: $black100;
-        
       }
 
       img {
@@ -410,23 +392,24 @@
         max-height: 219px;
       }
     }
-    
-    
+    .btn-div {
+      height: auto;
+      .order-btn-two {
+        background-color: $orange100;
+        color: $white100;
+        border-radius: 26px;
+        border: none;
+        min-width: 219px ;
+        min-height: 52px;
+      }
+      .order-btn-two:hover {
+        color: $orange100;
+        background-color: $white100;
+        border: 1px solid $orange100;
+      }
+    }
   }
- 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
   @include respond-to(md) {

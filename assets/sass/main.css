@@ -682,6 +682,22 @@
     max-width: 219px;
     max-height: 219px;
   }
+  .sect-2-menu .btn-div {
+    height: auto;
+  }
+  .sect-2-menu .btn-div .order-btn-two {
+    background-color: #F96540;
+    color: #FFFFFF;
+    border-radius: 26px;
+    border: none;
+    min-width: 219px;
+    min-height: 52px;
+  }
+  .sect-2-menu .btn-div .order-btn-two:hover {
+    color: #F96540;
+    background-color: #FFFFFF;
+    border: 1px solid #F96540;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1404,21 +1420,16 @@ footer a {
 .sect-2-menu .btn-div {
   height: auto;
 }
-.sect-2-menu .btn-div .order-btn {
+.sect-2-menu .btn-div .order-btn-two {
   background-color: #F96540;
   color: #FFFFFF;
   border-radius: 26px;
   border: none;
-  min-height: 52px;
-  min-width: 219px;
 }
-.sect-2-menu .btn-div .order-btn .order-btn:hover {
-  color: #FFF3F0;
-  background-color: #F96540;
-}
-.sect-2-menu .btn-div .order-btn:hover {
-  color: #FFF3F0;
-  background-color: #F96540;
+.sect-2-menu .btn-div .order-btn-two:hover {
+  color: #F96540;
+  background-color: #FFFFFF;
+  border: 1px solid #F96540;
 }
 
 .sect-1-location h1 {

@@ -62,7 +62,7 @@
   background-color: $white100;
   height: auto;
   padding-top: 30px;
- 
+
   //border: 1px solid black;
   // margin-top: 30px;
   h2 {
@@ -70,7 +70,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-  
   }
   p {
     font-family: $nunito;
@@ -88,21 +87,16 @@
   }
   .btn-div {
     height: auto;
-    .order-btn  {
+    .order-btn-two {
       background-color: $orange100;
       color: $white100;
-      border-radius: 26px;
+     border-radius: 26px;
       border: none;
-      min-height: 52px;
-      min-width: 219px;
-      .order-btn:hover {
-        color: $orange200;
-        background-color: $orange100;
-      }
     }
-    .order-btn:hover {
-      color: $orange200;
-      background-color: $orange100;
+    .order-btn-two:hover {
+      color: $orange100;
+      background-color: $white100;
+      border: 1px solid $orange100;
     }
   }
 }
