@@ -122,6 +122,7 @@
       .btn-div {
         display: flex;
         align-items: start;
+        
       }
     }
     .explor-btn {
@@ -139,53 +140,51 @@
     padding-right: 132px;
     margin-bottom: 72px;
     margin-top: 72px;
-    
-      h4 {
-        font-family: $catamaran;
-        font-size: 48px;
-        font-weight: 400;
-        line-height: 68px;
-        color: $black100;
-        text-align: left;
-      }
-      p {
-        font-size: 24px;
-        text-align: left;
-      }
-      .name {
-        font-family: $nunito;
-        font-weight: 700;
-        line-height: 36px;
-        color: $black100;
-        font-size: 24px;
-        margin-top: 54px;
-      }
-      .icon-div {
-        margin-top: 114px;
-       
-      }
-      .bowl-img {
-        min-width: 520px;
-        min-height: 520px;
-      }
-      .content-div{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        margin-right: 194px;
-      }
-      .img-div{
-        img{
-          border-radius: 8px;
-        }
+
+    h4 {
+      font-family: $catamaran;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 68px;
+      color: $black100;
+      text-align: left;
+    }
+    p {
+      font-size: 24px;
+      text-align: left;
+    }
+    .name {
+      font-family: $nunito;
+      font-weight: 700;
+      line-height: 36px;
+      color: $black100;
+      font-size: 24px;
+      margin-top: 54px;
+    }
+    .icon-div {
+      margin-top: 114px;
+    }
+    .bowl-img {
+      min-width: 520px;
+      min-height: 520px;
+    }
+    .content-div {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-right: 194px;
+    }
+    .img-div {
+      img {
+        border-radius: 8px;
       }
     }
   }
-
+}
 
 .sect-4-home {
   @include respond-to(md) {
-    .card-sect-4{
+    .card-sect-4 {
       display: flex;
     }
     .sect-4-card {
@@ -193,7 +192,6 @@
       min-height: 314px;
       margin-left: 132px;
       margin-right: 132px;
-    
 
       h5 {
         text-align: left;
@@ -277,7 +275,7 @@
       min-height: 84px;
       text-align: left;
     }
-    .twitter{
+    .twitter {
       margin-top: 12px;
     }
     .icon-container {
@@ -285,173 +283,172 @@
       display: flex;
       justify-content: flex-start;
     }
-    .bowl-div{
-      img{
-        min-width: 238px ;
+    .bowl-div {
+      img {
+        min-width: 238px;
         min-height: 238px;
         margin-left: 140px;
         border-radius: 8px;
-      
-      
-      
       }
     }
   }
 }
+
+
+
+
+
 
 .sect-1-menu {
-  @include respond-to(xs) {
-    .header {
-      white-space: wrap;
-    }
-    p {
-      white-space: wrap;
-    }
-    #bottom-bowl {
-      margin-top: 90px;
-    }
-    #bottom-bowl-2 {
-      margin-top: 0;
-    }
-    .seeAll-btn {
-      margin-top: 30px;
-    }
-    img {
-      width: 119px;
-      height: 119px;
-    }
-  }
-  @include respond-to(sm) {
-    .header {
-      white-space: nowrap;
-    }
-    p {
-      white-space: nowrap;
-    }
-    #bottom-bowl {
-      margin-top: 90px;
-    }
-    #bottom-bowl-2 {
-      margin-top: 90px;
-    }
-    .seeAll-btn {
-      margin-top: 0;
-    }
-    img {
-      width: 219px;
-      height: 219px;
-    }
-  }
   @include respond-to(md) {
-    .header {
-      white-space: nowrap;
+    padding-top: 48px;
+    .sect-1-head {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 68px;
+      // margin-top: 48px;
+      
     }
-    p {
-      white-space: nowrap;
+    .all-cards-div {
+      display: flex;
+      justify-content: center;
     }
-    #bottom-bowl {
-      margin-top: 0;
+    .card-div {
+      margin-top: 140px;
     }
-    #bottom-bowl-2 {
-      margin-top: 0;
+    .card-sect-1 {
+      position: relative;
+      padding: 128px 16px 24px 16px;
+      min-width: 267px;
+      min-height: 292px;
+      border-radius: 8px;
+      background-color: $white100;
+      h2 {
+        text-align: left;
+        margin-top: 24px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: $black100;
+        
+      }
+      p {
+        text-align: left;
+      }
+      img {
+        position: absolute;
+        top: -115px;
+        left: 24px;
+        max-width: 219px;
+        max-height: 219px;
+      }
+      .btn-div {
+        display: flex;
+        align-items: start;
+
+      }
     }
-    .seeAll-btn {
-      margin-top: 0;
-    }
-    img {
-      width: 219px;
-      height: 219px;
+    .explor-btn {
+      min-width: 219px;
+      min-height: 52px;
+      
     }
   }
 }
+
+
+
+
+
+
 
 .sect-2-menu {
-  @include respond-to(xs) {
-    height: auto;
-    margin-top: 1500px;
-  }
-  @include respond-to(sm) {
-    margin-top: 1300px;
-  }
   @include respond-to(md) {
-    margin-top: 459px;
+    padding-top: 48px;
+    
+    .sect-2-head {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 68px;
+      // margin-top: 48px;
+    }
+    .all-cards-div {
+      display: flex;
+      justify-content: center;
+      
+    }
+    .card-div {
+      margin-top: 140px;
+      button{
+        background-color: aqua;
+      }
+    }
+    .card-sect-2 {
+      position: relative;
+      padding: 128px 16px 24px 16px;
+      min-width: 267px;
+      min-height: 292px;
+      border-radius: 8px;
+      background-color: $white100;
+      h3 {
+        text-align: center;
+        margin-top: 24px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: $black100;
+        
+      }
+
+      img {
+        position: absolute;
+        top: -115px;
+        left: 24px;
+        max-width: 219px;
+        max-height: 219px;
+      }
+    }
+    
+    
   }
+ 
 }
 
-.sect-3-menu {
-  @include respond-to(xs) {
-    margin-top: 450px;
-    h4 {
-      font-size: 28px;
-    }
-    p {
-      font-size: 16px;
-    }
-  }
-  @include respond-to(sm) {
-    margin-top: 1650px;
-    h4 {
-      font-size: 48px;
-    }
-    p {
-      font-size: 24px;
-    }
-  }
-  @include respond-to(md) {
-    margin-top: 48px;
-    h4 {
-      font-size: 48px;
-    }
-    p {
-      font-size: 24px;
-    }
-  }
-}
 
-.sect-4-menu {
-  @include respond-to(xs) {
-    margin-top: 550px;
-    .box {
-      width: 700px;
-    }
-  }
-  @include respond-to(sm) {
-    margin-top: 300px;
-    .box {
-      width: 700px;
-    }
-  }
-  @include respond-to(md) {
-    margin-top: 72px;
-    .box {
-      width: 1176px;
-    }
-  }
-}
+
+
+
+
+
+
+
+
+
+
 
 footer {
-  
-    @include respond-to(md) {
+  @include respond-to(md) {
+    display: flex;
+    flex-direction: row;
+    padding-left: 132px;
+    padding-right: 132px;
+    padding-top: 57px;
+    .footer-icon {
       display: flex;
-      flex-direction: row;
-      padding-left: 132px ;
-      padding-right: 132px;
-      padding-top: 57px;
-      .footer-icon {
-        display: flex;
-      }
-      .footer-link-div {
-        display: flex;
-      }
-      .btn-container {
-        margin-left: 60px;
-        button{
-          min-height: 44px;
-          min-width: 126px;
-        }
+    }
+    .footer-link-div {
+      display: flex;
+    }
+    .btn-container {
+      margin-left: 60px;
+      button {
+        min-height: 44px;
+        min-width: 126px;
       }
     }
-  
+  }
 
   .social {
     @include respond-to(xs) {

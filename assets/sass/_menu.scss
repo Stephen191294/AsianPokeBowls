@@ -1,65 +1,47 @@
 @import "./variables";
 
-.image-div-menu {
-  width: 1440px;
-  height: 379px;
-}
-
-
 .sect-1-menu {
   background-color: $lightgrey200;
-  height: 683px;
-  padding-top: 48px;
-  .first-header {
-    font-size: 48px;
-    font-family: $catamaran;
-    font-weight: 400;
-    line-height: 68px;
-  }
-  .header {
-    font-size: 18px;
+  height: auto;
+  padding-top: 30px;
+  //border: 1px solid black;
+  // margin-top: 30px;
+  h2 {
     font-family: $nunito;
-    font-weight: 700;
-    //line-height: 28;
-    white-space: nowrap;
-    text-align: left;
-    margin-top: 128px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
   }
-  P {
+  p {
     font-family: $nunito;
     font-weight: 400;
     font-size: 12px;
+    max-width: 235px;
     line-height: 20px;
     text-align: left;
-   // white-space: nowrap;
   }
-  img {
-   // width: 219px;
-   // height: 219px;
-    left: 24px;
-    top: -115px;
-    z-index: 2;
-  }
-  .text-box {
-    // height: 292px;
+  .card-sect-1 {
+    min-height: 68px;
+    //min-width: 267px;
+    background-color: $white100;
     border-radius: 8px;
-    //  padding: 125px 16px 24px 16px;
   }
-  .order-btn {
-    background-color: $orange200;
-    color: $orange100;
-    width: 94px;
-    height: 36px;
-    border-radius: 18px;
-    border: none;
+  .btn-div {
+    height: auto;
+    .order-btn {
+      background-color: $orange200;
+      color: $orange100;
+      border-radius: 18px;
+      border: none;
+    }
+    .order-btn:hover {
+      color: $orange200;
+      background-color: $orange100;
+    }
   }
-  .order-btn:hover {
-    color: $orange200;
-    background-color: $orange100;
-  }
-  .seeAll-btn {
-    width: 219px;
-    height: 52px;
+  .explor-btn {
+    // width: 219px;
+    // height: 52px;
     border-radius: 26px;
     border: 1px solid $black100;
     background-color: $white100;
@@ -68,365 +50,59 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+    margin-bottom: 30px;
   }
-  .seeAll-btn:hover {
+  .explor-btn:hover {
     background-color: $black100;
     color: $white100;
   }
-  .text-box-div {
-    width: 267px;
-    height: 292px;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background-color: $white100;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 24px;
+}
+
+.sect-2-menu {
+  background-color: $white100;
+  height: auto;
+  padding-top: 30px;
+ 
+  //border: 1px solid black;
+  // margin-top: 30px;
+  h2 {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  
   }
-  .btn-div {
-    margin-top: 19px;
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 12px;
+    max-width: 235px;
+    line-height: 20px;
     text-align: left;
   }
-  .bowls-div {
-    margin-top: 140px;
-  }
-}
-
-.sect-2-menu{
-  height: 2870px ;
- // margin-top: 1500px;
-  background-color: $white100;
-  padding: 96px 161px 96px 132px ;
-  h3{
-    font-family: $catamaran;
-    font-weight: 400;
-    line-height: 74px;
-    font-size: 52px;
-  }
-  .row-img{
-    margin-top: 133px;
-  }
-  button{
-    background-color: $orange100;
-    color: $white100;
-    width: 219px;
-    height: 52px;
-    border-radius: 26px;
-    border:none;
-    font-family: $nunito;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    //margin-top: 84px;
-    margin-bottom: 96px;
-  }
-  button:hover{
-    border: 1px solid $orange100;
-    color: $orange100;
+  .card-sect-2 {
+    min-height: 68px;
+    //min-width: 267px;
     background-color: $white100;
-  }
-}
-
-
-
-
-.sect-3-menu {
-  // margin-top: 48px;
-  height: 616px;
-  h4 {
-    // font-size: 48px;
-    font-family: $catamaran;
-    font-weight: 400;
-    line-height: 68px;
-    color: $black100;
-  }
-  p {
-    margin-top: 24px;
-    // font-size: 24px;
-    font-family: $nunito;
-    font-weight: 400;
-    line-height: 36px;
-    color: $black100;
-  }
-  .name {
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .img-div {
-    margin-left: 194px;
-  }
-}
-
-.sect-4-menu {
-  // margin-top: 72px;
-  margin-bottom: 72px;
-  .box {
-    background-color: $black100;
     border-radius: 8px;
-   // width: 1176px;
-   height: 314px;
   }
-
-  h5 {
-    font-size: 48px;
-    font-family: $catamaran;
-    line-height: 68px;
-    color: $white100;
-    margin-top: 48px;
-    margin-left: 70px;
-  }
-  p {
-    font-size: 18px;
-    font-family: $nunito;
-    font-weight: 400;
-    line-height: 28px;
-    color: $white100;
-    margin-left: 70px;
-    width: 568px;
-  }
-  button {
-    background-color: $orange100;
-    color: $white100;
-    width: 244px;
-    height: 52px;
-    border-radius: 26px;
-    border: none;
-    margin-top: 24px;
-    margin-left: 70px;
-    margin-bottom: 48px;
-  }
-  button:hover {
-    border: 1px solid $orange100;
-    color: $orange100;
-    background-color: $white100;
-  }
-  .bowl-1 {
-    margin-top: 82px;
-    height: 234px;
-    width: 334px;
-  }
-  .bowl-2 {
-    margin-bottom: 111px;
-    width: 174px;
-    height: 174px;
-    margin-top: 29px;
-  }
-  .bowls-div{
-    margin-left: 0;
-  }
-}
-
-
-
-
-
-
-
-
-
-/*
-.sect1-menu {
-  background-color: $lightgrey200;
-  margin-bottom: 0;
- // height: 500px;
-  h1{
-    font-family: $catamaran;
-        font-weight: 400;
-        font-size: 52px;
-        line-height: 74px;
-      //  margin-top: 100px;
-  }
-  .sect1-img-menu {
-    position: relative;
-    width: 100%;
-   // height: 179px;
-    img {
-      width: 100%;
-      //margin-bottom: 40px;
-    //  height: 100%;
-    }
-  }
-}
-
-.sect2-menu {
-  height: 683px;
-  padding: 72px 156px 84px 148px;
-  margin-bottom: 400px;
-  margin-top: 0;
-  background-color: $lightgrey200;
-  .sect2-header-menu {
-    text-align: center;
-    font-family: $catamaran;
-  }
-  .container-menu {
-    .box-menu {
-      background-color: $white100;
-      padding: 10px;
-      width: 267px;
-      border-radius: 8px;
-      //height: 292px;
-      .image-container-menu {
-        width: 219px;
-        height: 219px;
-        img {
-          width: 100%;
-          margin-left: 10px;
-        }
-      }
-      button {
-        background-color: $orange200;
-        color: $orange100;
-        width: 94px;
-        height: 36px;
-        border-radius: 18px;
-        border: none;
-      }
-      button:hover{
+  .btn-div {
+    height: auto;
+    .order-btn  {
+      background-color: $orange100;
+      color: $white100;
+      border-radius: 26px;
+      border: none;
+      min-height: 52px;
+      min-width: 219px;
+      .order-btn:hover {
         color: $orange200;
         background-color: $orange100;
       }
-      p {
-        width: 235px;
-        height: 60px;
-        font-size: 12px;
-      }
-      h2 {
-        white-space: nowrap;
-        font-family: $catamaran;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
-      }
     }
-  }
-  .sect2-btn-container-menu {
-    text-align: center;
-    button {
-      width: 219px;
-      height: 52px;
-      margin-top: 48px;
-      border-radius: 26px;
-      border: 1px solid $black100;
-      color: $black100;
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-    }
-    button:hover{
-      background-color: $black100;
-      color: $white100;
+    .order-btn:hover {
+      color: $orange200;
+      background-color: $orange100;
     }
   }
 }
-
-.section-ingredients-menu {
-  padding-left: 132px;
-  padding-right: 161px;
-  padding-bottom: 96px;
-
-  .sect2-header-ingredients-menu {
-    h3 {
-      font-family: $catamaran;
-    }
-  }
-  .container-menu {
-    margin-bottom: 36px;
-    .box-menu {
-      background-color: $white100;
-      // padding: 10px;
-      // width: 267px;
-      border-radius: 8px;
-      //height: 292px;
-      .image-container-menu {
-        width: 206px;
-        height: 206px;
-        align-items: center;
-        img {
-          width: 100%;
-        }
-      }
-
-      p {
-        width: 235px;
-        height: 60px;
-        font-size: 12px;
-      }
-      h4 {
-        white-space: nowrap;
-        font-family: $catamaran;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
-      }
-    }
-  }
-  button {
-    background-color: $orange100;
-    color: $white100;
-    width: 219px;
-    height: 52px;
-    margin-top: 60px;
-    margin-bottom: 96px;
-    border-radius: 26px;
-    border: none;
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-  }
-  button:hover{
-    color: $orange100;
-    background-color: $white100;
-    border: 1px solid $orange100;
-  }
-}
-
-.sect3-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 72px;
-  padding-top: 48px;
-  margin-right: 132px;
-  margin-left: 132px;
-  //height: 616px;
-  //width: 1440px;
-
-  h5 {
-    font-family: $catamaran;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 68px;
-    color: $black100;
-  }
-  p {
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .icon {
-    margin-top: 114px;
-  }
-
-  .name {
-    width: 182px;
-    height: 36px;
-    margin-top: 20px;
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    color: $black100;
-  }
-  .img-container {
-    width: 520px;
-    height: 520px;
-    img {
-      width: 100%;
-    }
-  }
-}*/
