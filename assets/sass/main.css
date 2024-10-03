@@ -211,6 +211,33 @@
 
 .sect-3-home {
   margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sect-3-home h4 {
+  text-align: center;
+}
+.sect-3-home p {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  color: #171A1f;
+  font-size: 18px;
+}
+.sect-3-home .name {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+  color: #171A1f;
+  font-size: 18px;
+  margin-top: 54px;
+}
+.sect-3-home .icon-div {
+  display: flex;
+  justify-content: center;
 }
 
 .sect-4-home {
@@ -226,6 +253,7 @@
   line-height: 68px;
   color: #FFFFFF;
   text-align: center;
+  margin-top: 20px;
 }
 .sect-4-home .card-sect-4 p {
   font-size: 18px;
@@ -238,6 +266,7 @@
 .sect-4-home .card-sect-4 .btn-div {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .sect-4-home .card-sect-4 .btn-div button {
   background-color: #F96540;
@@ -252,7 +281,9 @@
 }
 
 .sect-5-home {
+  display: flex;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 .sect-5-home h6 {
   font-size: 28px;
@@ -260,13 +291,20 @@
   font-weight: 500;
   line-height: 68px;
   color: #171A1f;
+  text-align: center;
 }
 .sect-5-home p {
   font-size: 18px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 28px;
   color: #171A1f;
+  text-align: center;
+}
+.sect-5-home .icon-container {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -397,20 +435,27 @@
 }
 
 @media (min-width: 768px) {
-  .sect-3-home .first-card {
-    padding-right: 194px;
+  .sect-3-home {
+    display: flex;
+    flex-direction: row;
+    padding-left: 132px;
+    padding-right: 132px;
+    margin-bottom: 72px;
+    margin-top: 72px;
   }
-  .sect-3-home .first-card h4 {
+  .sect-3-home h4 {
     font-family: "Catamaran", sans-serif;
     font-size: 48px;
     font-weight: 400;
     line-height: 68px;
     color: #171A1f;
+    text-align: left;
   }
-  .sect-3-home .first-card p {
+  .sect-3-home p {
     font-size: 24px;
+    text-align: left;
   }
-  .sect-3-home .first-card .name {
+  .sect-3-home .name {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
     line-height: 36px;
@@ -418,16 +463,28 @@
     font-size: 24px;
     margin-top: 54px;
   }
-  .sect-3-home .first-card .icon-div {
+  .sect-3-home .icon-div {
     margin-top: 114px;
   }
-  .sect-3-home .first-card .bowl-img {
+  .sect-3-home .bowl-img {
     min-width: 520px;
     min-height: 520px;
+  }
+  .sect-3-home .content-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 194px;
+  }
+  .sect-3-home .img-div img {
+    border-radius: 8px;
   }
 }
 
 @media (min-width: 768px) {
+  .sect-4-home .card-sect-4 {
+    display: flex;
+  }
   .sect-4-home .sect-4-card {
     min-width: 1176px;
     min-height: 314px;
@@ -489,6 +546,7 @@
   .sect-5-home {
     width: 100%;
     max-height: 616px;
+    margin-bottom: 0;
   }
   .sect-5-home h6 {
     font-size: 48px;
@@ -499,6 +557,7 @@
     margin-left: 132px;
     margin-top: 160px;
     margin-bottom: 12px;
+    text-align: left;
   }
   .sect-5-home p {
     font-size: 18px;
@@ -509,12 +568,15 @@
     margin-left: 132px;
     min-width: 465px;
     min-height: 84px;
+    text-align: left;
   }
   .sect-5-home .twitter {
     margin-top: 12px;
   }
   .sect-5-home .icon-container {
     margin-left: 132px;
+    display: flex;
+    justify-content: flex-start;
   }
   .sect-5-home .bowl-div img {
     min-width: 238px;

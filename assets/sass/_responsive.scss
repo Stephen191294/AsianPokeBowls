@@ -133,17 +133,24 @@
 
 .sect-3-home {
   @include respond-to(md) {
-    .first-card {
-      padding-right: 194px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 132px;
+    padding-right: 132px;
+    margin-bottom: 72px;
+    margin-top: 72px;
+    
       h4 {
         font-family: $catamaran;
         font-size: 48px;
         font-weight: 400;
         line-height: 68px;
         color: $black100;
+        text-align: left;
       }
       p {
         font-size: 24px;
+        text-align: left;
       }
       .name {
         font-family: $nunito;
@@ -155,22 +162,38 @@
       }
       .icon-div {
         margin-top: 114px;
+       
       }
       .bowl-img {
         min-width: 520px;
         min-height: 520px;
       }
+      .content-div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-right: 194px;
+      }
+      .img-div{
+        img{
+          border-radius: 8px;
+        }
+      }
     }
   }
-}
+
 
 .sect-4-home {
   @include respond-to(md) {
+    .card-sect-4{
+      display: flex;
+    }
     .sect-4-card {
       min-width: 1176px;
       min-height: 314px;
       margin-left: 132px;
       margin-right: 132px;
+    
 
       h5 {
         text-align: left;
@@ -231,6 +254,7 @@
   @include respond-to(md) {
     width: 100%;
     max-height: 616px;
+    margin-bottom: 0;
     h6 {
       font-size: 48px;
       font-weight: 500;
@@ -240,6 +264,7 @@
       margin-left: 132px;
       margin-top: 160px;
       margin-bottom: 12px;
+      text-align: left;
     }
     p {
       font-size: 18px;
@@ -250,12 +275,15 @@
       margin-left: 132px;
       min-width: 465px;
       min-height: 84px;
+      text-align: left;
     }
     .twitter{
       margin-top: 12px;
     }
     .icon-container {
       margin-left: 132px;
+      display: flex;
+      justify-content: flex-start;
     }
     .bowl-div{
       img{

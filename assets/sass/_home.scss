@@ -116,8 +116,39 @@
 
 .sect-3-home {
   margin-top: 30px;
+  width: 100%;
  // border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h4{
+    text-align: center;
+  }
+ p{
+  text-align: center;
+  font-family: $nunito;
+  font-weight: 400;
+  line-height: 36px;
+  color: $black100;
+  font-size: 18px;
+
+ }
+ .name {
+  font-family: $nunito;
+  font-weight: 700;
+  line-height: 36px;
+  color: $black100;
+  font-size: 18px;
+  margin-top: 54px;
 }
+.icon-div{
+  display: flex;
+  justify-content: center;
+}
+ 
+}
+
+
 
 .sect-4-home {
   margin-top: 30px;
@@ -130,6 +161,7 @@
       line-height: 68px;
       color: $white100;
       text-align: center;
+      margin-top: 20px;
     }
     p {
       font-size: 18px;
@@ -142,6 +174,7 @@
     .btn-div{
       display: flex;
       justify-content: center;
+      margin-bottom: 20px;
       button {
         background-color: $orange100;
         color: $white100;
@@ -159,21 +192,30 @@
 }
 
 .sect-5-home{
+  display: flex;
   margin-top: 30px;
+  margin-bottom: 30px;
   h6{
     font-size: 28px;
       font-family: $catamaran;
       font-weight: 500;
       line-height: 68px;
       color: $black100;
+      text-align: center;
     
   }
   p{
     font-size: 18px;
     font-family: $nunito;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 28px;
     color: $black100;
+    text-align: center;
     
   }
+.icon-container{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
 }
