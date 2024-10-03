@@ -1221,73 +1221,111 @@ footer a {
   text-decoration: none;
 }
 
-.sect1-about {
-  width: 100%;
-  height: auto;
-}
-.sect1-about .sect1-img-about {
-  position: relative;
-  width: 100%;
-}
-.sect1-about .sect1-img-about img {
-  width: 100%;
-  height: 100%;
-}
-.sect1-about .sect1-box-container-about {
-  position: absolute;
-  left: 351px;
-  height: 532px;
-  border: none;
-  z-index: 1;
-}
-.sect1-about .sect1-box-container-about .box-about {
-  background-color: #FFFFFF;
-  padding: 36px;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 1px 0 #171A1f;
-  border-radius: 8px;
-}
-.sect1-about .sect1-box-container-about h1 {
+.sect-1-about h1 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 28px;
   line-height: 68px;
   color: #171A1f;
 }
-.sect1-about .sect1-box-container-about h2 {
-  font-family: "Nunito Sans", sans-serif;
+.sect-1-about h2 {
+  font-family: "Catamaran", sans-serif;
   font-weight: 700;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 32px;
   color: #171A1f;
 }
-.sect1-about .sect1-box-container-about p {
+.sect-1-about p {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  color: #171A1f;
 }
-.sect1-about .sect1-box-container-about button {
+.sect-1-about .btn-div .order-btn {
   background-color: #F96540;
   color: #FFFFFF;
-  width: 219px;
-  height: 52px;
-  padding: 12px 64px;
-  border-radius: 26px;
   border: none;
+  border-radius: 26px;
 }
-.sect1-about .sect1-box-container-about button:hover {
+.sect-1-about .btn-div .order-btn:hover {
   background-color: #FFFFFF;
   color: #F96540;
   border: 1px solid #F96540;
 }
 
+.sect-2-about {
+  margin-top: 30px;
+}
+
+/*.sect1-about {
+  //box-shadow: 0 0 1px 0 $black100;
+
+  .sect1-img-about {
+    position: relative;
+    width: 100%;
+   // height: 450px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .sect1-box-container-about {
+    position: absolute;
+   // top: 234px;
+    left: 351px;
+   // width: 738px;
+    height: 532px;
+    border: none;
+    z-index: 1;
+    .box-about {
+      background-color: $white100;
+      padding: 36px;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 0 1px 0 $black100;
+      border-radius: 8px;
+    }
+    h1 {
+      font-family: $catamaran;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 68px;
+      color: $black100;
+    }
+    h2 {
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      color: $black100;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    button {
+      background-color: $orange100;
+      color: $white100;
+      width: 219px;
+      height: 52px;
+      padding: 12px 64px;
+      border-radius: 26px;
+      border: none;
+    }
+    button:hover{
+      background-color: $white100;
+      color: $orange100;
+      border: 1px solid $orange100;
+    }
+  }
+}*/
 .sect2-about {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 678px;
   background-color: #FAFAFB;
 }
 .sect2-about .sect2-text-container-about {
