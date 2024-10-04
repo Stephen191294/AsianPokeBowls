@@ -1503,8 +1503,8 @@ footer a {
   text-align: center;
 }
 .sect-1-giftcard .checkout-card .box-container-1 .box-1 {
-  width: 280px;
-  height: 102px;
+  max-width: 280px;
+  height: auto;
   border-radius: 8px;
   border: 1px solid #BCC1CA;
   padding: 20px 16px 45px 16px;
@@ -1721,15 +1721,18 @@ footer a {
   width: 40px;
   height: 24px;
 }
-.sect-1-giftcard .checkout-btn {
+.sect-1-giftcard .btn-div {
+  max-width: 369px;
+}
+.sect-1-giftcard .btn-div .checkout-btn {
   background-color: #F96540;
-  max-width: 396px;
+  width: 100%;
   max-height: 44px;
   border-radius: 22px;
   border: none;
   color: #FFFFFF;
 }
-.sect-1-giftcard .checkout-btn:hover {
+.sect-1-giftcard .btn-div .checkout-btn:hover {
   background-color: #FFFFFF;
   color: #F96540;
   border: 1px solid #F96540;

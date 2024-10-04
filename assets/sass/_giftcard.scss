@@ -31,8 +31,8 @@
     }
     .box-container-1 {
       .box-1 {
-        width: 280px;
-        height: 102px;
+        max-width: 280px;
+        height: auto;
         border-radius: 8px;
         border: 1px solid $lightgrey100;
         padding: 20px 16px 45px 16px;
@@ -259,19 +259,25 @@
     width: 40px;
     height: 24px;
   }
-  .checkout-btn {
-    background-color: $orange100;
-    max-width: 396px;
-    max-height: 44px;
-    border-radius: 22px;
-    border: none;
-    color: $white100;
+
+  .btn-div{
+
+    max-width: 369px;
+    .checkout-btn {
+      background-color: $orange100;
+      width: 100%;
+      max-height: 44px;
+      border-radius: 22px;
+      border: none;
+      color: $white100;
+    }
+    .checkout-btn:hover {
+      background-color: $white100;
+      color: $orange100;
+      border: 1px solid $orange100;
+    }
   }
-  .checkout-btn:hover {
-    background-color: $white100;
-    color: $orange100;
-    border: 1px solid $orange100;
-  }
+  
 
   .container-giftcard-boxes {
     overflow: hidden;
