@@ -1,5 +1,55 @@
 @import "./variables";
 
+
+
+
+
+.sect-2-menu-pickup {
+  background-color: $lightgrey200;
+  height: auto;
+  padding-top: 30px;
+  
+  h2 {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 12px;
+    max-width: 235px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .card-sect-1 {
+    min-height: 68px;
+    //min-width: 267px;
+    background-color: $white100;
+    border-radius: 8px;
+  }
+  .btn-div {
+    height: auto;
+    .order-btn {
+      background-color: $orange200;
+      color: $orange100;
+      border-radius: 18px;
+      border: none;
+    }
+    .order-btn:hover {
+      color: $orange200;
+      background-color: $orange100;
+    }
+  }
+  
+}
+
+
+
+
+
+/*
 .sect-1-menu-pickup {
   h1 {
     font-family: $catamaran;
@@ -117,4 +167,4 @@
    line-height: 28px;
    color: $black100;
   }
-}
+}*/

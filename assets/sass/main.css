@@ -717,6 +717,9 @@
   footer .btn-container {
     margin-left: 60px;
   }
+  footer .btn-container .btn2 {
+    margin-left: 10px;
+  }
   footer .btn-container button {
     min-height: 44px;
     min-width: 126px;
@@ -1876,113 +1879,163 @@ textarea {
   margin-right: 132px;
 }
 
-.sect-1-menu-pickup {
-  width: 100%;
+.sect-2-menu-pickup {
+  background-color: #FAFAFB;
+  height: auto;
+  padding-top: 30px;
 }
-.sect-1-menu-pickup h1 {
-  font-family: "Catamaran", sans-serif;
+.sect-2-menu-pickup h2 {
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 48px;
-  color: #171A1f;
+  font-size: 18px;
+  line-height: 28px;
 }
-.sect-1-menu-pickup img {
+.sect-2-menu-pickup p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  max-width: 235px;
+  line-height: 20px;
+  text-align: left;
+}
+.sect-2-menu-pickup .card-sect-1 {
+  min-height: 68px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+.sect-2-menu-pickup .btn-div {
+  height: auto;
+}
+.sect-2-menu-pickup .btn-div .order-btn {
+  background-color: #FFF3F0;
+  color: #F96540;
+  border-radius: 18px;
+  border: none;
+}
+.sect-2-menu-pickup .btn-div .order-btn:hover {
+  color: #FFF3F0;
+  background-color: #F96540;
+}
+
+/*
+.sect-1-menu-pickup {
+  h1 {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: $black100;
+  }
   width: 100%;
-}
-.sect-1-menu-pickup .container-fluid-menu-pickup .box-1 {
-  border: 1px solid #FCDD80;
-  width: 77px;
-  height: 34px;
-  border-radius: 4px 0 0 4px;
-  padding: 7px 12px 5px 12px;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-menu-pickup .container-fluid-menu-pickup .box-1 .box-1:hover {
-  background-color: #FCDD80;
-}
-.sect-1-menu-pickup .container-fluid-menu-pickup .box-2 {
-  border: 1px solid #FCDD80;
-  width: 77px;
-  height: 34px;
-  border-radius: 0 4px 4px 0;
-  padding: 7px 12px 5px 12px;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-menu-pickup .container-fluid-menu-pickup .box-1:hover {
-  background-color: #FCDD80;
-}
-.sect-1-menu-pickup .container-fluid-menu-pickup .box-2:hover {
-  background-color: #FCDD80;
-}
-.sect-1-menu-pickup .times {
-  white-space: nowrap;
+  img {
+    width: 100%;
+  }
+
+  .container-fluid-menu-pickup {
+
+    .box-1 {
+      border: 1px solid $yellow100;
+      width: 77px;
+      height: 34px;
+      border-radius: 4px 0 0 4px;
+      padding: 7px 12px 5px 12px;
+      color: $darkgreen100;
+      cursor: pointer;
+
+      .box-1:hover {
+        background-color: $yellow100;
+      }
+    }
+
+    .box-2 {
+      border: 1px solid $yellow100;
+      width: 77px;
+      height: 34px;
+      border-radius: 0 4px 4px 0;
+      padding: 7px 12px 5px 12px;
+      color: $darkgreen100;
+      cursor: pointer;
+    }
+    .box-1:hover {
+      background-color: $yellow100;
+    }
+    .box-2:hover {
+      background-color: $yellow100;
+    }
+  }
+
+  .times {
+    white-space: nowrap;
+  }
 }
 
 .sect2-menu-pickup {
+  //width: 100%;
+  // height: 100px;
   padding: 72px 156px 84px 148px;
   margin-top: 0;
-  background-color: #FAFAFB;
-}
-.sect2-menu-pickup .sect2-header-menu-pickup {
-  text-align: center;
-  font-family: "Catamaran", sans-serif;
-}
-.sect2-menu-pickup .container-menu-pickup .box-menu-pickup {
-  background-color: #FFFFFF;
-  padding: 10px;
-  width: 267px;
-  border-radius: 8px;
-}
-.sect2-menu-pickup .container-menu-pickup .box-menu-pickup .image-container-menu-pickup {
-  width: 219px;
-  height: 219px;
-}
-.sect2-menu-pickup .container-menu-pickup .box-menu-pickup .image-container-menu-pickup img {
-  width: 100%;
-  margin-left: 10px;
-}
-.sect2-menu-pickup .container-menu-pickup .box-menu-pickup button {
-  background-color: #FFF3F0;
-  color: #F96540;
-  width: 94px;
-  height: 36px;
-  border-radius: 18px;
-  border: none;
-  white-space: nowrap;
-}
-.sect2-menu-pickup .container-menu-pickup .box-menu-pickup button:hover {
-  background-color: #F96540;
-  color: #FFF3F0;
-}
-.sect2-menu-pickup .container-menu-pickup .box-menu-pickup p {
-  width: 235px;
-  height: 60px;
-  font-size: 12px;
-}
-.sect2-menu-pickup .container-menu-pickup .box-menu-pickup h2 {
-  white-space: nowrap;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-}
-.sect2-menu-pickup .menu-txt {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  color: #171A1f;
-}
-.sect2-menu-pickup .price {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-  color: #171A1f;
-}
-
+  background-color: $lightgrey200;
+  .sect2-header-menu-pickup {
+    text-align: center;
+    font-family: $catamaran;
+  }
+  .container-menu-pickup {
+    .box-menu-pickup {
+      background-color: $white100;
+      padding: 10px;
+      width: 267px;
+      border-radius: 8px;
+      //height: 292px;
+      .image-container-menu-pickup {
+        width: 219px;
+        height: 219px;
+        img {
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+      button {
+        background-color: $orange200;
+        color: $orange100;
+        width: 94px;
+        height: 36px;
+        border-radius: 18px;
+        border: none;
+        white-space: nowrap;
+      }
+      button:hover{
+        background-color: $orange100;
+        color: $orange200;
+      }
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+      h2 {
+        white-space: nowrap;
+        font-family: $catamaran;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+  .menu-txt {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: $black100;
+  }
+  .price{
+   font-family: $nunito;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 28px;
+   color: $black100;
+  }
+}*/
 .section-1-order-summary {
   margin-right: 123px;
   margin-left: 130px;
