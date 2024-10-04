@@ -811,6 +811,7 @@
   }
   .sect-2-about .sect-2-txt-div p {
     text-align: left;
+    line-height: 26px;
   }
   .sect-2-about .box-container {
     margin-left: 163px;
