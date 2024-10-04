@@ -771,7 +771,6 @@
   .sect-1-about .about-card h1 {
     font-size: 48px;
     text-align: left;
-    color: brown;
   }
   .sect-1-about .about-card h2 {
     font-size: 24px;
@@ -794,17 +793,24 @@
 
 @media (min-width: 768px) {
   .sect-2-about {
+    margin-top: 0;
     display: flex;
     min-height: 678px;
     overflow: visible;
-    background-color: #FAFAFB;
   }
-  .sect-2-about .sect-2-card h3 {
+  .sect-2-about .sect-2-txt-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 132px;
+  }
+  .sect-2-about .sect-2-txt-div h3 {
     font-size: 48px;
     text-align: left;
+    margin-top: 194px;
   }
-  .sect-2-about .sect-2-card p {
-    color: aqua;
+  .sect-2-about .sect-2-txt-div p {
+    text-align: left;
   }
   .sect-2-about .box-container {
     margin-left: 163px;
@@ -813,17 +819,17 @@
   }
   .sect-2-about .box-container .half-oval-container {
     position: relative;
-    width: 678px; /* Width of the container */
-    height: 678px; /* Height of the container */
+    width: 678px;
+    height: 678px;
     overflow: hidden;
   }
   .sect-2-about .box-container .half-oval-container .half-oval {
-    width: 100%; /* Twice the width of the container */
-    height: 100%; /* Same height as the container */
+    width: 100%;
+    height: 100%;
     border: 5px solid #FCDD80;
-    border-radius: 50%; /* Makes the shape oval */
+    border-radius: 50%;
     position: absolute;
-    right: -200px; /* Shift the oval to the left to show only the left half */
+    right: -200px;
   }
   .sect-2-about .box-container .boxes {
     position: absolute;
@@ -1217,25 +1223,24 @@ footer a {
 }
 
 .sect-2-about {
-  margin-top: 30px;
+  padding-top: 30px;
   background-color: #FAFAFB;
 }
-.sect-2-about .sect-2-card {
-  background-color: #FAFAFB;
-}
-.sect-2-about .sect-2-card h3 {
+.sect-2-about h3 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
   font-size: 28px;
   line-height: 68px;
   color: #171A1f;
+  text-align: center;
 }
-.sect-2-about .sect-2-card p {
+.sect-2-about p {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
   color: #171A1f;
+  text-align: center;
 }
 
 .sect-1-menu {
