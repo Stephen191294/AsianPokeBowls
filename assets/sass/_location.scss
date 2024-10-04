@@ -2,21 +2,36 @@
 
 .sect-1-location {
   h1 {
-    font-size: 48px;
+    font-size: 28px;
     font-family: $catamaran;
     font-weight: 400;
     line-height: 68px;
     color: $black100;
     margin-top: 48px;
   }
-}
-
-.sect-1-img-menu {
-  width: 100%;
-  img {
-    width: 100%;
+  h2 {
+    font-size: 16px;
+    font-family: $nunito;
+    font-weight: 700;
+    line-height: 26px;
+    color: $black100;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    font-family: $nunito;
+    font-weight: 700;
+    line-height: 26px;
+    color: $grey300;
+    text-align: center;
   }
 }
+
+
+
+
+/*
+
 
 .location-hours-container {
   width: 100%;
@@ -138,4 +153,4 @@
       }
     }
   }
-}
+}*/
