@@ -1,296 +1,279 @@
 @import "./variables";
 
-
-
-
-.sect-1-giftcard{
+.sect-1-giftcard {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  //margin-right: -117px;
-}
+  justify-content: center;
 
+  .checkout-card {
+    h1 {
+      font-family: $catamaran;
+      font-size: 28px;
+      font-weight: 500;
+      color: $black100;
+      text-align: center;
+    }
+    h2 {
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: $black100;
+      text-align: center;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: $black100;
+      text-align: center;
+    }
+    .box-container-1 {
+      .box-1 {
+        width: 280px;
+        height: 102px;
+        border-radius: 8px;
+        border: 1px solid $lightgrey100;
+        padding: 20px 16px 45px 16px;
+        cursor: pointer;
+        img {
+          width: 36px;
+          height: 36px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .text-1 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: $black100;
+          margin-bottom: 0;
+        }
+        .text-2 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          color: $black100;
+        }
+      }
 
-.checkout-container{
-  padding-bottom: 76px;
-  padding-left: 132px;
-  padding-top: 71px;
-  h1 {
-    font-family: $catamaran;
-    font-size: 28px;
-   
-   // line-height: 68px;
-    font-weight: 500;
-    color: $black100;
-  }
-  h2 {
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: $black100;
-  }
-  p {
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: $black100;
-  }
-  .box-container-1{
-    width: 600px;
+      .box-1:hover {
+        max-width: 280px;
+        height: auto;
+        border-radius: 8px;
+        border: 1px solid $orange100;
+        padding: 20px 16px 45px 16px;
+        cursor: pointer;
+        img {
+          width: 36px;
+          height: 36px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .text-1 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: $orange100;
+          margin-bottom: 0;
+        }
+        .text-2 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          color: $orange100;
+        }
+      }
 
-    .box-1 {
-      width: 280px;
-      height: 102px;
-      border-radius: 8px;
-      border: 1px solid $lightgrey100;;
-      padding: 20px 16px 45px 16px;
-      cursor: pointer;
-      img {
-        width: 36px;
-        height: 36px;
+      .box-2 {
+        max-width: 280px;
+        height: auto;
+        border-radius: 8px;
+        border: 1px solid $lightgrey100;
+        padding: 20px 16px 45px 16px;
+        cursor: pointer;
+        img {
+          width: 36px;
+          height: 36px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .text-1 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: $black100;
+          margin-bottom: 0;
+        }
+        .text-2 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          color: $black100;
+        }
       }
-      p {
-        font-size: 12px;
-      }
-      .text-1{
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 28px;
-        color: $black100;
-        margin-bottom: 0;
-      }
-      .text-2{
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-        color: $black100;
+
+      .box-2:hover {
+        min-width: 280px;
+        min-height: 102px;
+        border-radius: 8px;
+        border: 1px solid $orange100;
+        padding: 20px 16px 45px 16px;
+        img {
+          width: 36px;
+          height: 36px;
+          color: $orange100;
+        }
+        p {
+          font-size: 12px;
+        }
+        .text-1 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: $orange100;
+          margin-bottom: 0;
+        }
+        .text-2 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          color: $orange100;
+        }
       }
     }
+    .promo {
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 26px;
+      color: $blue100;
+    }
+  }
+  .icon-container {
+    margin-top: 52px;
 
-    .box-1:hover {
-      max-width: 280px;
-      max-height: 102px;
-      border-radius: 8px;
-      border: 1px solid $orange100;
-      padding: 20px 16px 45px 16px;
-      cursor: pointer;
-      img {
-        width: 36px;
-        height: 36px;
+    img {
+      margin-right: 24px;
+      min-width: 44px;
+      min-height: 44px;
+    }
+  }
+
+  .input-container {
+    max-width: 385px;
+    border-radius: 4px 4px 4px 4px;
+    .btn-group {
+      .btn-4 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid $yellow100;
+        color: $darkgreen100;
+        cursor: pointer;
       }
-      p {
-        font-size: 12px;
+      .btn-5 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        color: $darkgreen100;
+        cursor: pointer;
       }
-      .text-1{
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 28px;
-        color: $orange100;
-        margin-bottom: 0;
+      .btn-6 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        color: $darkgreen100;
+        cursor: pointer;
       }
-      .text-2{
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-        color: $orange100;
+      .btn-7 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        color: $darkgreen100;
+        cursor: pointer;
+      }
+      .btn-8 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        border-radius: 0 4px 4px 0;
+        color: $darkgreen100;
+        cursor: pointer;
+      }
+      .btn-9 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        border-radius: 0 4px 4px 0;
+        color: $darkgreen100;
+        cursor: pointer;
+      }
+      .btn-5:hover {
+        background-color: $yellow100;
+      }
+      .btn-6:hover {
+        background-color: $yellow100;
+      }
+      .btn-7:hover {
+        background-color: $yellow100;
+      }
+      .btn-8:hover {
+        background-color: $yellow100;
+      }
+      .btn-9:hover {
+        background-color: $yellow100;
       }
     }
-
-    .box-2 {
-      max-width: 280px;
-      max-height: 102px;
-      border-radius: 8px;
-      border: 1px solid $lightgrey100;
-      padding: 20px 16px 45px 16px;
-      cursor: pointer;
-      img {
-        width: 36px;
-        height: 36px;
-      }
-      p {
-        font-size: 12px;
-      }
-      .text-1{
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 28px;
-        color: $black100;
-        margin-bottom: 0;
-      }
-      .text-2{
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-        color: $black100;
-      }
-    }
-
-    .box-2:hover {
-      min-width: 280px;
-     min-height: 102px;
-      border-radius: 8px;
-      border: 1px solid $orange100;
-      padding: 20px 16px 45px 16px;
-      img {
-        width: 36px;
-        height: 36px;
-        color: $orange100;
-      }
-      p {
-        font-size: 12px;
-      }
-      .text-1{
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 28px;
-        color: $orange100;
-        margin-bottom: 0;
-      }
-      .text-2{
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-        color: $orange100;
-      }
-    }
-
-    
   }
-  .promo {
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    color: $blue100;
+  .details-input {
+    max-width: 395px;
+    max-height: 35px;
+    border-radius: 4px;
+    border: 1px solid $black100;
+    padding: 7px 12px 6px 12px;
+  }
+  textarea {
+    max-width: 395px;
+    max-height: 94px;
+    border-radius: 4px;
+    border: 1px solid $black100;
+    padding: 7px 17px 7px 12px;
+  }
+
+  .form-check-input {
+    background-color: $lightgreen;
+    border: 1px solid $lightgreen;
+    width: 40px;
+    height: 24px;
+  }
+  .checkout-btn {
+    background-color: $orange100;
+    max-width: 396px;
+    max-height: 44px;
+    border-radius: 22px;
+    border: none;
+    color: $white100;
+  }
+  .checkout-btn:hover {
+    background-color: $white100;
+    color: $orange100;
+    border: 1px solid $orange100;
+  }
+
+  .container-giftcard-boxes {
+    overflow: hidden;
   }
 }
-.icon-container {
-  margin-top: 52px;
-
-  img {
-    margin-right: 24px;
-    min-width: 44px;
-    min-height: 44px;
-  }
-}
-
-.input-container {
-  max-width: 385px;
-  border-radius: 4px 4px 4px 4px;
-  .btn5 {
-    padding: 7px 16px 5px 16px;
-    border-radius: 4px 0 0 4px;
-    border: 1px solid $yellow100;
-    color: $darkgreen100;
-    cursor: pointer;
-  }
-  .btn6 {
-    // background-color: $yellow100;
-     padding: 7px 16px 5px 16px;
-     border: 1px solid $yellow100;
-     color: $darkgreen100;
-     cursor: pointer;
-   }
-   .btn7 {
-    // background-color: $yellow100;
-     padding: 7px 16px 5px 16px;
-     border: 1px solid $yellow100;
-     color: $darkgreen100;
-     cursor: pointer;
-   }
-   .btn8 {
-    // background-color: $yellow100;
-     padding: 7px 16px 5px 16px;
-     border: 1px solid $yellow100;
-     color: $darkgreen100;
-     cursor: pointer;
-   }
-   .btn9 {
-    // background-color: $yellow100;
-     padding: 7px 16px 5px 16px;
-     border: 1px solid $yellow100;
-     border-radius: 0 4px 4px 0;
-     color: $darkgreen100;
-     cursor: pointer;
-   }
-   .btn5:hover{
-    background-color: $yellow100;
-   }
-   .btn6:hover{
-    background-color: $yellow100;
-   }
-   .btn7:hover{
-    background-color: $yellow100;
-   }
-   .btn8:hover{
-    background-color: $yellow100;
-   }
-   .btn9:hover{
-    background-color: $yellow100;
-   }
-}
-.details-input {
-  max-width: 395px;
-  max-height: 35px;
-  border-radius: 4px;
-  border: 1px solid $black100;
-  padding: 7px 12px 6px 12px;
-}
-textarea {
-  max-width: 395px;
-  max-height: 94px;
-  border-radius: 4px;
-  border: 1px solid $black100;
-  padding: 7px 17px 7px 12px;
-}
-
-.form-check-input {
-  background-color: $lightgreen;
-  border: 1px solid $lightgreen;
-  width: 40px;
-  height: 24px;
-}
-.checkout-btn {
-  background-color: $orange100;
-  max-width:  396px;
-  max-height: 44px;
-  border-radius: 22px;
-  border: none;
-  color: $white100;
-}
-.checkout-btn:hover{
-  background-color: $white100;
-  color: $orange100;
-  border: 1px solid $orange100;
-}
-
-
-.container-giftcard-boxes{
-  
-  overflow: hidden;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

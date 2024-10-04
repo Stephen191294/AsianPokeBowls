@@ -416,9 +416,9 @@ footer {
     display: flex;
     flex-direction: row;
     padding-left: 132px;
-   padding-right: 132px;
+    padding-right: 132px;
     padding-top: 57px;
-    h6{
+    h6 {
       font-size: 32px;
     }
     .footer-icon {
@@ -429,13 +429,12 @@ footer {
     }
     .btn-container {
       margin-left: 60px;
-      .btn2{
+      .btn2 {
         margin-left: 10px;
       }
       button {
         min-height: 44px;
         min-width: 126px;
-        
       }
     }
   }
@@ -482,7 +481,6 @@ footer {
       h1 {
         font-size: 48px;
         text-align: left;
-        
       }
       h2 {
         font-size: 24px;
@@ -508,29 +506,27 @@ footer {
 }
 
 .sect-2-about {
-  
   @include respond-to(md) {
     margin-top: 0;
     display: flex;
     min-height: 678px;
     overflow: visible;
- .sect-2-txt-div{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  
-  margin-left: 132px;
-  h3 {
-    font-size: 48px;
-    text-align: left;
-    margin-top: 194px;
-  }
-  p {
-    text-align: left;
-    line-height: 26px;
-  }
- }
-   
+    .sect-2-txt-div {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+
+      margin-left: 132px;
+      h3 {
+        font-size: 48px;
+        text-align: left;
+        margin-top: 194px;
+      }
+      p {
+        text-align: left;
+        line-height: 26px;
+      }
+    }
 
     .box-container {
       margin-left: 163px;
@@ -539,15 +535,15 @@ footer {
       .half-oval-container {
         position: relative;
         width: 678px;
-        height: 678px; 
+        height: 678px;
         overflow: hidden;
         .half-oval {
-          width: 100%; 
-          height: 100%; 
+          width: 100%;
+          height: 100%;
           border: 5px solid $yellow100;
-          border-radius: 50%; 
+          border-radius: 50%;
           position: absolute;
-          right: -200px; 
+          right: -200px;
         }
       }
       .boxes {
@@ -572,26 +568,28 @@ footer {
   }
 }
 
-.container-giftcard-boxes {
-  @include respond-to(sm) {
-    display: none;
-  }
+
+
+
+.sect-1-giftcard {
   @include respond-to(md) {
-    display: block;
+    width: 100%;
+   .checkout-card{
+    h1{
+      color: brown;
+    }
+   }
+    
   }
 }
 
-.section-1-giftcard {
-  @include respond-to(xs) {
-    width: 100%;
-  }
-  @include respond-to(sm) {
-    width: 100%;
-  }
-  @include respond-to(md) {
-    width: 1636px;
-  }
-}
+
+
+
+
+
+
+
 
 .container-fluid-menu-pickup {
   @include respond-to(sm) {
