@@ -708,6 +708,9 @@
     padding-right: 132px;
     padding-top: 57px;
   }
+  footer h6 {
+    font-size: 32px;
+  }
   footer .footer-icon {
     display: flex;
   }
@@ -1148,7 +1151,7 @@ footer {
 footer h6 {
   font-family: "Catamaran", sans-serif;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 48px;
   color: #FFFFFF;
   white-space: wrap;
@@ -1489,11 +1492,10 @@ footer a {
     }
   }
 }*/
-.section-1-giftcard {
+.sect-1-giftcard {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: -117px;
 }
 
 .checkout-container {
@@ -1503,7 +1505,7 @@ footer a {
 }
 .checkout-container h1 {
   font-family: "Catamaran", sans-serif;
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 500;
   color: #171A1f;
 }
@@ -1555,8 +1557,8 @@ footer a {
   color: #171A1f;
 }
 .checkout-container .box-container-1 .box-1:hover {
-  width: 280px;
-  height: 102px;
+  max-width: 280px;
+  max-height: 102px;
   border-radius: 8px;
   border: 1px solid #F96540;
   padding: 20px 16px 45px 16px;
@@ -1585,8 +1587,8 @@ footer a {
   color: #F96540;
 }
 .checkout-container .box-container-1 .box-2 {
-  width: 280px;
-  height: 102px;
+  max-width: 280px;
+  max-height: 102px;
   border-radius: 8px;
   border: 1px solid #BCC1CA;
   padding: 20px 16px 45px 16px;
@@ -1615,8 +1617,8 @@ footer a {
   color: #171A1f;
 }
 .checkout-container .box-container-1 .box-2:hover {
-  width: 280px;
-  height: 102px;
+  min-width: 280px;
+  min-height: 102px;
   border-radius: 8px;
   border: 1px solid #F96540;
   padding: 20px 16px 45px 16px;
@@ -1657,12 +1659,12 @@ footer a {
 }
 .icon-container img {
   margin-right: 24px;
-  width: 44px;
-  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .input-container {
-  width: 385px;
+  max-width: 385px;
   border-radius: 4px 4px 4px 4px;
 }
 .input-container .btn5 {
@@ -1714,16 +1716,16 @@ footer a {
 }
 
 .details-input {
-  width: 395px;
-  height: 35px;
+  max-width: 395px;
+  max-height: 35px;
   border-radius: 4px;
   border: 1px solid #171A1f;
   padding: 7px 12px 6px 12px;
 }
 
 textarea {
-  width: 395px;
-  height: 94px;
+  max-width: 395px;
+  max-height: 94px;
   border-radius: 4px;
   border: 1px solid #171A1f;
   padding: 7px 17px 7px 12px;
@@ -1738,8 +1740,8 @@ textarea {
 
 .checkout-btn {
   background-color: #F96540;
-  width: 396px;
-  height: 44px;
+  max-width: 396px;
+  max-height: 44px;
   border-radius: 22px;
   border: none;
   color: #FFFFFF;
@@ -1886,7 +1888,13 @@ textarea {
 }
 .sect-2-menu-pickup h2 {
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.sect-2-menu-pickup h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 28px;
 }

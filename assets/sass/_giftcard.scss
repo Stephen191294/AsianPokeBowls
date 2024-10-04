@@ -3,11 +3,11 @@
 
 
 
-.section-1-giftcard{
+.sect-1-giftcard{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: -117px;
+  //margin-right: -117px;
 }
 
 
@@ -17,7 +17,7 @@
   padding-top: 71px;
   h1 {
     font-family: $catamaran;
-    font-size: 48px;
+    font-size: 28px;
    
    // line-height: 68px;
     font-weight: 500;
@@ -72,8 +72,8 @@
     }
 
     .box-1:hover {
-      width: 280px;
-      height: 102px;
+      max-width: 280px;
+      max-height: 102px;
       border-radius: 8px;
       border: 1px solid $orange100;
       padding: 20px 16px 45px 16px;
@@ -103,8 +103,8 @@
     }
 
     .box-2 {
-      width: 280px;
-      height: 102px;
+      max-width: 280px;
+      max-height: 102px;
       border-radius: 8px;
       border: 1px solid $lightgrey100;
       padding: 20px 16px 45px 16px;
@@ -134,8 +134,8 @@
     }
 
     .box-2:hover {
-      width: 280px;
-      height: 102px;
+      min-width: 280px;
+     min-height: 102px;
       border-radius: 8px;
       border: 1px solid $orange100;
       padding: 20px 16px 45px 16px;
@@ -179,13 +179,13 @@
 
   img {
     margin-right: 24px;
-    width: 44px;
-    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
   }
 }
 
 .input-container {
-  width: 385px;
+  max-width: 385px;
   border-radius: 4px 4px 4px 4px;
   .btn5 {
     padding: 7px 16px 5px 16px;
@@ -240,15 +240,15 @@
    }
 }
 .details-input {
-  width: 395px;
-  height: 35px;
+  max-width: 395px;
+  max-height: 35px;
   border-radius: 4px;
   border: 1px solid $black100;
   padding: 7px 12px 6px 12px;
 }
 textarea {
-  width: 395px;
-  height: 94px;
+  max-width: 395px;
+  max-height: 94px;
   border-radius: 4px;
   border: 1px solid $black100;
   padding: 7px 17px 7px 12px;
@@ -262,8 +262,8 @@ textarea {
 }
 .checkout-btn {
   background-color: $orange100;
-  width: 396px;
-  height: 44px;
+  max-width:  396px;
+  max-height: 44px;
   border-radius: 22px;
   border: none;
   color: $white100;
