@@ -755,134 +755,93 @@
   }
 }
 
-@media (min-width: 0) {
-  .sect1-box-container-about {
-    left: 0 !important;
-    width: 100%;
-    top: 40px;
-  }
-}
-@media (min-width: 576px) {
-  .sect1-box-container-about {
-    left: 0 !important;
-    width: 100%;
-    top: 234px;
-  }
+.sect-1-about {
+  position: relative;
 }
 @media (min-width: 768px) {
-  .sect1-box-container-about {
-    left: 351px !important;
-    top: 234px;
+  .sect-1-about .about-card {
+    position: absolute;
+    left: 351px;
+    bottom: 300px;
+    max-height: 532px;
+    max-width: 738px;
+    border-radius: 8px;
+    padding: 36px;
+  }
+  .sect-1-about .about-card h1 {
+    font-size: 48px;
+    text-align: left;
+    color: brown;
+  }
+  .sect-1-about .about-card h2 {
+    font-size: 24px;
+    text-align: left;
+  }
+  .sect-1-about .btn-div .order-btn {
+    background-color: #F96540;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 26px;
+    min-width: 219px;
+    min-height: 52px;
+  }
+  .sect-1-about .btn-div .order-btn:hover {
+    background-color: #FFFFFF;
+    color: #F96540;
+    border: 1px solid #F96540;
   }
 }
 
-@media (min-width: 0) {
-  .sect1-box-container {
-    width: 100%;
-  }
-}
-@media (min-width: 576px) {
-  .sect1-box-container {
-    width: 442px;
-  }
-}
 @media (min-width: 768px) {
-  .sect1-box-container {
-    width: 442px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect1-box-container-about {
-    width: 100%;
-  }
-}
-@media (min-width: 576px) {
-  .sect1-box-container-about {
-    width: 738px;
-  }
-}
-@media (min-width: 768px) {
-  .sect1-box-container-about {
-    width: 738px;
-  }
-}
-
-@media (min-width: 0) {
-  .sect2-about .boxes,
-  .sect2-about .half-oval-container {
-    display: none;
-    width: 100%;
-  }
-}
-@media (min-width: 576px) {
-  .sect2-about .boxes,
-  .sect2-about .half-oval-container {
-    display: block;
-  }
-}
-@media (min-width: 768px) {
-  .sect2-about .boxes,
-  .sect2-about .half-oval-container {
-    display: block;
-  }
-}
-@media (min-width: 768px) {
-  .sect2-about .box1,
-  .sect2-about .box3,
-  .sect2-about .half-oval {
-    display: block;
-  }
-}
-@media (min-width: 0) {
-  .sect2-about .box3,
-  .sect2-about .half-oval {
-    display: none;
-  }
-}
-@media (min-width: 576px) {
-  .sect2-about .box3,
-  .sect2-about .half-oval {
-    display: block;
-  }
-}
-@media (min-width: 768px) {
-  .sect2-about .box3,
-  .sect2-about .half-oval {
-    display: block;
-  }
-}
-@media (min-width: 576px) {
-  .sect2-about {
+  .sect-2-about {
     display: flex;
-    flex-direction: column !important;
-    margin-top: 0 !important;
-    margin-bottom: 300px;
+    min-height: 678px;
+    overflow: visible;
+    background-color: #FAFAFB;
   }
-}
-@media (min-width: 768px) {
-  .sect2-about {
-    display: flex;
-    flex-direction: row !important;
-    margin-top: 300px !important;
-    margin-bottom: 0 !important;
+  .sect-2-about .sect-2-card h3 {
+    font-size: 48px;
+    text-align: left;
   }
-}
-
-@media (min-width: 0) {
-  .sect2-text-container-about {
-    padding-left: 0;
-    width: 100%;
+  .sect-2-about .sect-2-card p {
+    color: aqua;
   }
-}
-@media (min-width: 576px) {
-  .sect2-text-container-about {
-    padding-left: 132px;
+  .sect-2-about .box-container {
+    margin-left: 163px;
+    margin-top: 50px;
+    margin-bottom: 96px;
   }
-}
-@media (min-width: 768px) {
-  .sect2-text-container-about {
-    padding-left: 132px;
+  .sect-2-about .box-container .half-oval-container {
+    position: relative;
+    width: 678px; /* Width of the container */
+    height: 678px; /* Height of the container */
+    overflow: hidden;
+  }
+  .sect-2-about .box-container .half-oval-container .half-oval {
+    width: 100%; /* Twice the width of the container */
+    height: 100%; /* Same height as the container */
+    border: 5px solid #FCDD80;
+    border-radius: 50%; /* Makes the shape oval */
+    position: absolute;
+    right: -200px; /* Shift the oval to the left to show only the left half */
+  }
+  .sect-2-about .box-container .boxes {
+    position: absolute;
+    z-index: 1;
+  }
+  .sect-2-about .box-container .boxes .box1 {
+    position: absolute;
+    left: 575px;
+    top: -103px;
+  }
+  .sect-2-about .box-container .boxes .box2 {
+    position: absolute;
+    top: 108px;
+  }
+  .sect-2-about .box-container .boxes .box3 {
+    position: absolute;
+    top: 575px;
+    left: 575px;
   }
 }
 
@@ -1221,6 +1180,9 @@ footer a {
   text-decoration: none;
 }
 
+.sect-1-about .about-card {
+  background-color: #FFFFFF;
+}
 .sect-1-about h1 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
@@ -1256,126 +1218,24 @@ footer a {
 
 .sect-2-about {
   margin-top: 30px;
-}
-
-/*.sect1-about {
-  //box-shadow: 0 0 1px 0 $black100;
-
-  .sect1-img-about {
-    position: relative;
-    width: 100%;
-   // height: 450px;
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-  .sect1-box-container-about {
-    position: absolute;
-   // top: 234px;
-    left: 351px;
-   // width: 738px;
-    height: 532px;
-    border: none;
-    z-index: 1;
-    .box-about {
-      background-color: $white100;
-      padding: 36px;
-      width: 100%;
-      height: 100%;
-      box-shadow: 0 0 1px 0 $black100;
-      border-radius: 8px;
-    }
-    h1 {
-      font-family: $catamaran;
-      font-weight: 400;
-      font-size: 48px;
-      line-height: 68px;
-      color: $black100;
-    }
-    h2 {
-      font-family: $nunito;
-      font-weight: 700;
-      font-size: 24px;
-      line-height: 36px;
-      color: $black100;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-    }
-    button {
-      background-color: $orange100;
-      color: $white100;
-      width: 219px;
-      height: 52px;
-      padding: 12px 64px;
-      border-radius: 26px;
-      border: none;
-    }
-    button:hover{
-      background-color: $white100;
-      color: $orange100;
-      border: 1px solid $orange100;
-    }
-  }
-}*/
-.sect2-about {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   background-color: #FAFAFB;
 }
-.sect2-about .sect2-text-container-about {
-  margin-top: 192px;
+.sect-2-about .sect-2-card {
+  background-color: #FAFAFB;
 }
-.sect2-about .sect2-text-container-about h3 {
+.sect-2-about .sect-2-card h3 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 28px;
   line-height: 68px;
   color: #171A1f;
 }
-.sect2-about .sect2-text-container-about p {
+.sect-2-about .sect-2-card p {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   color: #171A1f;
-}
-.sect2-about .half-oval-container {
-  position: relative;
-  width: 678px; /* Width of the container */
-  height: 678px; /* Height of the container */
-  overflow: hidden; /* Hide overflow */
-}
-.sect2-about .half-oval-container .half-oval {
-  width: 100%; /* Twice the width of the container */
-  height: 100%; /* Same height as the container */
-  border: 5px solid #FCDD80;
-  border-radius: 50%; /* Makes the shape oval */
-  position: absolute;
-  right: -200px; /* Shift the oval to the left to show only the left half */
-}
-.sect2-about .boxes {
-  position: absolute;
-  z-index: 1;
-}
-.sect2-about .boxes .box1 {
-  position: absolute;
-  left: 575px;
-  top: -103px;
-}
-.sect2-about .boxes .box2 {
-  position: absolute;
-  top: 108px;
-}
-.sect2-about .boxes .box3 {
-  position: absolute;
-  top: 575px;
-  left: 575px;
 }
 
 .sect-1-menu {

@@ -1,8 +1,10 @@
 @import "./variables";
 
-
-.sect-1-about{
-  
+.sect-1-about {
+  .about-card {
+    // position: static;
+    background-color: $white100;
+  }
   h1 {
     font-family: $catamaran;
     font-weight: 400;
@@ -10,12 +12,12 @@
     line-height: 68px;
     color: $black100;
   }
-  h2{
+  h2 {
     font-family: $catamaran;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    color: $black100
+    color: $black100;
   }
   p {
     font-family: $nunito;
@@ -24,14 +26,14 @@
     line-height: 28px;
     color: $black100;
   }
-  .btn-div{
-    .order-btn{
+  .btn-div {
+    .order-btn {
       background-color: $orange100;
       color: $white100;
-      border:none;
+      border: none;
       border-radius: 26px;
     }
-    .order-btn:hover{
+    .order-btn:hover {
       background-color: $white100;
       color: $orange100;
       border: 1px solid $orange100;
@@ -40,135 +42,27 @@
 }
 
 
-.sect-2-about{
- margin-top: 30px;
-}
 
 
 
-/*.sect1-about {
-  //box-shadow: 0 0 1px 0 $black100;
-  
-  .sect1-img-about {
-    position: relative;
-    width: 100%;
-   // height: 450px;
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-  .sect1-box-container-about {
-    position: absolute;
-   // top: 234px;
-    left: 351px;
-   // width: 738px;
-    height: 532px;
-    border: none;
-    z-index: 1;
-    .box-about {
-      background-color: $white100;
-      padding: 36px;
-      width: 100%;
-      height: 100%;
-      box-shadow: 0 0 1px 0 $black100;
-      border-radius: 8px;
-    }
-    h1 {
+.sect-2-about {
+  margin-top: 30px;
+  background-color: $lightgrey200;
+  .sect-2-card {
+    background-color: $lightgrey200;
+    h3 {
       font-family: $catamaran;
       font-weight: 400;
-      font-size: 48px;
+      font-size: 28px;
       line-height: 68px;
-      color: $black100;
-    }
-    h2 {
-      font-family: $nunito;
-      font-weight: 700;
-      font-size: 24px;
-      line-height: 36px;
       color: $black100;
     }
     p {
       font-family: $nunito;
       font-weight: 400;
       font-size: 18px;
-      line-height: 28px;
-    }
-    button {
-      background-color: $orange100;
-      color: $white100;
-      width: 219px;
-      height: 52px;
-      padding: 12px 64px;
-      border-radius: 26px;
-      border: none;
-    }
-    button:hover{
-      background-color: $white100;
-      color: $orange100;
-      border: 1px solid $orange100;
-    }
-  }
-}*/
-
-.sect2-about {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  //margin-top: 300px;
-  //height: 678px;
- // padding: 30px;
-
-  background-color: $lightgrey200;
-  .sect2-text-container-about {
-    margin-top: 192px;
-  //  padding-left: 132px;
-    h3 {
-      font-family: $catamaran;
-      font-weight: 400;
-      font-size: 48px;
-      line-height: 68px;
-      color: $black100;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 16px;
       line-height: 26px;
       color: $black100;
-    }
-  }
-
-  .half-oval-container {
-    position: relative;
-    width: 678px; /* Width of the container */
-    height: 678px; /* Height of the container */
-    overflow: hidden; /* Hide overflow */
-    .half-oval {
-      width: 100%; /* Twice the width of the container */
-      height: 100%; /* Same height as the container */
-      border: 5px solid $yellow100;
-      border-radius: 50%; /* Makes the shape oval */
-      position: absolute;
-      right: -200px; /* Shift the oval to the left to show only the left half */
-    }
-  }
-  .boxes {
-    position: absolute;
-    z-index: 1;
-    .box1 {
-      position: absolute;
-      left: 575px;
-      top: -103px;
-    }
-    .box2 {
-      position: absolute;
-      top: 108px;
-    }
-    .box3 {
-      position: absolute;
-      top: 575px;
-      left: 575px;
     }
   }
 }

@@ -324,6 +324,7 @@
         font-size: 18px;
         line-height: 28px;
         color: $black100;
+        
       }
       p {
         text-align: left;
@@ -399,7 +400,7 @@
         color: $white100;
         border-radius: 26px;
         border: none;
-        min-width: 219px ;
+        min-width: 219px;
         min-height: 52px;
       }
       .order-btn-two:hover {
@@ -460,118 +461,103 @@ footer {
   }
 }
 
-
-
-
-
-
-.sect1-box-container-about {
-  @include respond-to(xs) {
-    left: 0 !important;
-    width: 100%;
-    top: 40px;
-  }
-  @include respond-to(sm) {
-    left: 0 !important;
-    width: 100%;
-    top: 234px;
-  }
+.sect-1-about {
+  position: relative;
   @include respond-to(md) {
-    left: 351px !important;
-    top: 234px;
+    .about-card {
+      position: absolute;
+      //top: 234px;
+      left: 351px;
+      bottom: 300px;
+      max-height: 532px;
+      max-width: 738px;
+      border-radius: 8px;
+      padding: 36px;
+      h1 {
+        font-size: 48px;
+        text-align: left;
+        color: brown;
+      }
+      h2 {
+        font-size: 24px;
+        text-align: left;
+      }
+    }
+    .btn-div {
+      .order-btn {
+        background-color: $orange100;
+        color: $white100;
+        border: none;
+        border-radius: 26px;
+        min-width: 219px;
+        min-height: 52px;
+      }
+      .order-btn:hover {
+        background-color: $white100;
+        color: $orange100;
+        border: 1px solid $orange100;
+      }
+    }
   }
 }
 
-.sect1-box-container {
-  @include respond-to(xs) {
-    width: 100%;
-    // overflow: hidden;
-  }
-  @include respond-to(sm) {
-    width: 442px;
-  }
-  @include respond-to(md) {
-    width: 442px;
-  }
-}
-.sect1-box-container-about {
-  @include respond-to(xs) {
-    width: 100%;
-  }
-  @include respond-to(sm) {
-    width: 738px;
-  }
-  @include respond-to(md) {
-    width: 738px;
-  }
-}
 
-.sect2-about {
-  .boxes,
-  .half-oval-container {
-    @include respond-to(xs) {
-      display: none;
-      width: 100%;
-    }
-    @include respond-to(sm) {
-      display: block;
-    }
-    @include respond-to(md) {
-      display: block;
-    }
-  }
-
-  .box1,
-  .box3,
-  .half-oval {
-    @include respond-to(md) {
-      display: block;
-    }
-  }
-
-  .box3,
-  .half-oval {
-    @include respond-to(xs) {
-      display: none;
-    }
-    @include respond-to(sm) {
-      display: block;
-    }
-    @include respond-to(md) {
-      display: block;
-    }
-  }
-
-  @include respond-to(sm) {
-    display: flex;
-    flex-direction: column !important;
-    margin-top: 0 !important;
-    margin-bottom: 300px;
-  }
-
+.sect-2-about {
   @include respond-to(md) {
     display: flex;
-    flex-direction: row !important;
-    margin-top: 300px !important;
-    margin-bottom: 0 !important;
+    min-height: 678px;
+    overflow: visible;
+    background-color: $lightgrey200;
+    .sect-2-card {
+      h3 {
+        font-size: 48px;
+        text-align: left;
+        
+      }
+      p {
+        color: aqua;
+        
+      }
+    }
+    .box-container {
+      margin-left: 163px;
+      margin-top: 50px;
+      margin-bottom: 96px;
+      .half-oval-container {
+        position: relative;
+        width: 678px; /* Width of the container */
+        height: 678px; /* Height of the container */
+        overflow: hidden; 
+        .half-oval {
+          width: 100%; /* Twice the width of the container */
+          height: 100%; /* Same height as the container */
+          border: 5px solid $yellow100;
+          border-radius: 50%; /* Makes the shape oval */
+          position: absolute;
+          right: -200px; /* Shift the oval to the left to show only the left half */
+        }
+      }
+      .boxes {
+        position: absolute;
+        z-index: 1;
+        .box1 {
+          position: absolute;
+          left: 575px;
+          top: -103px;
+        }
+        .box2 {
+          position: absolute;
+          top: 108px;
+        }
+        .box3 {
+          position: absolute;
+          top: 575px;
+          left: 575px;
+        }
+      }
+    }
   }
 }
-
-.sect2-text-container-about {
-  @include respond-to(xs) {
-    padding-left: 0;
-    width: 100%;
-  }
-  @include respond-to(sm) {
-    padding-left: 132px;
-  }
-  @include respond-to(md) {
-    padding-left: 132px;
-  }
-}
-
-
-
 
 
 
