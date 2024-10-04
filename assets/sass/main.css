@@ -1141,8 +1141,6 @@ footer {
   height: auto;
   background-color: #171A1f;
   padding-bottom: 350px;
-  padding-left: 0;
-  padding-right: 0;
 }
 footer h6 {
   font-family: "Catamaran", sans-serif;
@@ -1150,6 +1148,7 @@ footer h6 {
   font-size: 32px;
   line-height: 48px;
   color: #FFFFFF;
+  white-space: wrap;
 }
 footer .btn-container .btn1 {
   height: auto;
