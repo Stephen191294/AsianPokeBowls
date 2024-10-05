@@ -1,36 +1,105 @@
 @import "./variables";
 
+
+.reservation{
+  width: 100%;
+  .card-1{
+    h1{
+      font-size: 28px;
+      text-align: center;
+      font-family: $catamaran;
+      font-weight: 700;
+     // font-size: 32px;
+      line-height: 48px;
+      color: $black100;
+    }
+    p{
+      
+      
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #323842;
+    }
+    label{
+      text-align: center;
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 26px;
+      color: #424955;
+    }
+    #nameInput{
+      max-width: 541px;
+      max-height: 43px;
+    }
+    #guest{
+      max-width: 258px;
+      max-height: 43px;
+    }
+    #restaurant{
+      max-width: 258px;
+      max-height: 43px;
+    }
+    #date{
+      max-width: 258px;
+      max-height: 43px;
+    }
+    #time{
+      max-width: 258px;
+      max-height: 43px;
+      margin-left: 30px;
+    }
+    button{
+      background-color: $orange100;
+      color: $white100;
+    }
+    
+  }
+}
+
+
+
+
+.sect1-reservation {
+  filter: blur(10px);
+}
+
+
+
+
+/*
 .reservation {
-  .box-1 {
+  .card-1 {
     position: absolute;
     background-color: $white100;
-    // width: 1139px;
-    height: 624px;
+    max-width: 501px ;
     z-index: 1;
     top: 200px;
-   // left: 450px;
+   left: 450px;
     border-radius: 8px;
-    box-shadow: 0 0 4px 0;
+   // box-shadow: 0 0 4px 0;
    overflow: hidden;
   
 
     input {
-      width: 541px;
-      height: 43px;
+      max-width:  541px;
+      max-height: 43px;
       border-radius: 4px;
       padding-left: 16px;
     }
     .time {
-      width: 258px;
-      height: 43px;
+     max-width: 258px;
+      max-height: 43px;
     }
     .date {
-      width: 258px;
-      height: 43px;
+      min-width: 258px;
+      min-height: 43px;
     }
     select {
-      width: 258px;
-      height: 43px;
+      min-width: 258px;
+      min-height: 43px;
       border-radius: 4px;
       color: #bcc1ca;
       padding-left: 16px;
@@ -61,16 +130,16 @@
     .btn {
       background-color: $orange100;
       color: $white100;
-      width: 542px;
-      height: 44px;
+      max-width: 542px;
+      max-height: 44px;
       border-radius: 22px;
     }
     .btn:hover {
       background-color: $white100;
       color: $orange100;
       border: 1px solid $orange100;
-      width: 542px;
-      height: 44px;
+      max-width: 542px;
+      max-height: 44px;
       border-radius: 22px;
     }
   }
@@ -88,9 +157,9 @@
     }
   }
   .sect1-box-container {
-    position: absolute;
+   position: absolute;
     top: 279px;
-    left: 10px;
+   left: 10px;
     width: 442px;
     height: 413px;
     border: none;
@@ -399,3 +468,4 @@
     }
   }
 }
+*/
