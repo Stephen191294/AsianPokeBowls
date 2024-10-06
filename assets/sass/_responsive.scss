@@ -710,14 +710,22 @@ footer {
         text-align: left;
       }
       
-
-      button{
-        min-width: 542px ;
-        
+      .btn-div{
+        display: flex;
+        justify-content: start;
+        margin-top: 37px;
+        button{
+          min-width: 542px ;
+          min-height: 44px;
+          
+        }
       }
+
+      
       #nameInput{
         min-width: 541px;
         min-height: 43px;
+        margin-bottom: 21px;
       }
       #guest{
         min-width: 258px;
@@ -726,6 +734,7 @@ footer {
       #restaurant{
         min-width: 258px;
         min-height: 43px;
+        margin-left: 25px;
       }
       #date{
         min-width: 258px;
@@ -734,7 +743,8 @@ footer {
       #time{
         min-width: 258px;
         min-height: 43px;
-        margin-left: 30px;
+        margin-left: 25px;
+        
       }
     }
   }

@@ -1,28 +1,25 @@
 @import "./variables";
 
-
-.reservation{
+.reservation {
   width: 100%;
-  .card-1{
-    h1{
+  .card-1 {
+    h1 {
       font-size: 28px;
-     // text-align: center;
+      // text-align: center;
       font-family: $catamaran;
       font-weight: 700;
-     // font-size: 32px;
+      // font-size: 32px;
       line-height: 48px;
       color: $black100;
     }
-    p{
-      
-      
+    p {
       font-family: $nunito;
       font-weight: 400;
       font-size: 16px;
       line-height: 26px;
       color: #323842;
     }
-    label{
+    label {
       text-align: center;
       font-family: $nunito;
       font-weight: 700;
@@ -30,33 +27,42 @@
       line-height: 26px;
       color: #424955;
     }
-  
-    button{
+
+    button {
       background-color: $orange100;
       color: $white100;
       border-radius: 22px;
       border: none;
-      
-      
-    
-  }
-  button:hover{
-    background-color: $white100;
-    border: 1px solid $orange100;
-    color: $orange100;
+    }
+    button:hover {
+      background-color: $white100;
+      border: 1px solid $orange100;
+      color: $orange100;
+    }
+    #nameInput {
+      border-radius: 4px;
+      margin-bottom: 21px;
+    }
+    #guest {
+      border-radius: 4px;
+    }
+    #restaurant {
+      margin-left: 20px;
+      border-radius: 4px;
+    }
+    #date {
+      border-radius: 4px;
+    }
+    #time {
+      margin-left: 20px;
+      border-radius: 4px;
+    }
   }
 }
-}
-
-
-
 
 .sect1-reservation {
   filter: blur(10px);
 }
-
-
-
 
 /*
 .reservation {

@@ -989,12 +989,19 @@
   .reservation .card-1 h1, .reservation .card-1 p {
     text-align: left;
   }
-  .reservation .card-1 button {
+  .reservation .card-1 .btn-div {
+    display: flex;
+    justify-content: start;
+    margin-top: 37px;
+  }
+  .reservation .card-1 .btn-div button {
     min-width: 542px;
+    min-height: 44px;
   }
   .reservation .card-1 #nameInput {
     min-width: 541px;
     min-height: 43px;
+    margin-bottom: 21px;
   }
   .reservation .card-1 #guest {
     min-width: 258px;
@@ -1003,6 +1010,7 @@
   .reservation .card-1 #restaurant {
     min-width: 258px;
     min-height: 43px;
+    margin-left: 25px;
   }
   .reservation .card-1 #date {
     min-width: 258px;
@@ -1011,7 +1019,7 @@
   .reservation .card-1 #time {
     min-width: 258px;
     min-height: 43px;
-    margin-left: 30px;
+    margin-left: 25px;
   }
 }
 
@@ -1305,11 +1313,12 @@ footer a {
   height: auto;
   padding-top: 30px;
 }
-.sect-2-menu h2 {
+.sect-2-menu h3 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  white-space: nowrap;
 }
 .sect-2-menu p {
   font-family: "Nunito Sans", sans-serif;
@@ -2707,6 +2716,24 @@ footer a {
   background-color: #FFFFFF;
   border: 1px solid #F96540;
   color: #F96540;
+}
+.reservation .card-1 #nameInput {
+  border-radius: 4px;
+  margin-bottom: 21px;
+}
+.reservation .card-1 #guest {
+  border-radius: 4px;
+}
+.reservation .card-1 #restaurant {
+  margin-left: 20px;
+  border-radius: 4px;
+}
+.reservation .card-1 #date {
+  border-radius: 4px;
+}
+.reservation .card-1 #time {
+  margin-left: 20px;
+  border-radius: 4px;
 }
 
 .sect1-reservation {
