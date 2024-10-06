@@ -6,7 +6,7 @@
   .card-1{
     h1{
       font-size: 28px;
-      text-align: center;
+     // text-align: center;
       font-family: $catamaran;
       font-weight: 700;
      // font-size: 32px;
@@ -30,33 +30,22 @@
       line-height: 26px;
       color: #424955;
     }
-    #nameInput{
-      max-width: 541px;
-      max-height: 43px;
-    }
-    #guest{
-      max-width: 258px;
-      max-height: 43px;
-    }
-    #restaurant{
-      max-width: 258px;
-      max-height: 43px;
-    }
-    #date{
-      max-width: 258px;
-      max-height: 43px;
-    }
-    #time{
-      max-width: 258px;
-      max-height: 43px;
-      margin-left: 30px;
-    }
+  
     button{
       background-color: $orange100;
       color: $white100;
-    }
+      border-radius: 22px;
+      border: none;
+      
+      
     
   }
+  button:hover{
+    background-color: $white100;
+    border: 1px solid $orange100;
+    color: $orange100;
+  }
+}
 }
 
 

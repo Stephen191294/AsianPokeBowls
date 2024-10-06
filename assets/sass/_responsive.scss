@@ -568,29 +568,17 @@ footer {
   }
 }
 
-
-
-
 .sect-1-giftcard {
   @include respond-to(md) {
     width: 100%;
-   // margin-left: 132px;
-   .checkout-card{
-    h1{
-      color: brown;
+    // margin-left: 132px;
+    .checkout-card {
+      h1 {
+        color: brown;
+      }
     }
-   }
-    
   }
 }
-
-
-
-
-
-
-
-
 
 .container-fluid-menu-pickup {
   @include respond-to(sm) {
@@ -715,21 +703,43 @@ footer {
 }
 
 .reservation {
-  .box-1 {
-    @include respond-to(xs) {
-      left: 10px;
-      width: 100%;
-    }
-    @include respond-to(sm) {
-      left: 50px;
-      width: 650px;
-    }
+  @include respond-to(md){
+  max-width: 1440px;
+    .card-1{
+      h1, p{
+        text-align: left;
+      }
+      
 
-    @include respond-to(md) {
-      left: 450px;
-      width: 650px;
+      button{
+        min-width: 542px ;
+        
+      }
+      #nameInput{
+        min-width: 541px;
+        min-height: 43px;
+      }
+      #guest{
+        min-width: 258px;
+        min-height: 43px;
+      }
+      #restaurant{
+        min-width: 258px;
+        min-height: 43px;
+      }
+      #date{
+        min-width: 258px;
+        min-height: 43px;
+      }
+      #time{
+        min-width: 258px;
+        min-height: 43px;
+        margin-left: 30px;
+      }
     }
   }
+    
+  
 }
 
 .build-bowl-box {

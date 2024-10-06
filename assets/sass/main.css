@@ -982,22 +982,36 @@
   }
 }
 
-@media (min-width: 0) {
-  .reservation .box-1 {
-    left: 10px;
-    width: 100%;
-  }
-}
-@media (min-width: 576px) {
-  .reservation .box-1 {
-    left: 50px;
-    width: 650px;
-  }
-}
 @media (min-width: 768px) {
-  .reservation .box-1 {
-    left: 450px;
-    width: 650px;
+  .reservation {
+    max-width: 1440px;
+  }
+  .reservation .card-1 h1, .reservation .card-1 p {
+    text-align: left;
+  }
+  .reservation .card-1 button {
+    min-width: 542px;
+  }
+  .reservation .card-1 #nameInput {
+    min-width: 541px;
+    min-height: 43px;
+  }
+  .reservation .card-1 #guest {
+    min-width: 258px;
+    min-height: 43px;
+  }
+  .reservation .card-1 #restaurant {
+    min-width: 258px;
+    min-height: 43px;
+  }
+  .reservation .card-1 #date {
+    min-width: 258px;
+    min-height: 43px;
+  }
+  .reservation .card-1 #time {
+    min-width: 258px;
+    min-height: 43px;
+    margin-left: 30px;
   }
 }
 
@@ -2663,7 +2677,6 @@ footer a {
 }
 .reservation .card-1 h1 {
   font-size: 28px;
-  text-align: center;
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
   line-height: 48px;
@@ -2684,30 +2697,16 @@ footer a {
   line-height: 26px;
   color: #424955;
 }
-.reservation .card-1 #nameInput {
-  max-width: 541px;
-  max-height: 43px;
-}
-.reservation .card-1 #guest {
-  max-width: 258px;
-  max-height: 43px;
-}
-.reservation .card-1 #restaurant {
-  max-width: 258px;
-  max-height: 43px;
-}
-.reservation .card-1 #date {
-  max-width: 258px;
-  max-height: 43px;
-}
-.reservation .card-1 #time {
-  max-width: 258px;
-  max-height: 43px;
-  margin-left: 30px;
-}
 .reservation .card-1 button {
   background-color: #F96540;
   color: #FFFFFF;
+  border-radius: 22px;
+  border: none;
+}
+.reservation .card-1 button:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #F96540;
+  color: #F96540;
 }
 
 .sect1-reservation {
