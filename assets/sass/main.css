@@ -776,7 +776,6 @@
   }
   .sect-1-about .about-card h1 {
     font-size: 48px !important;
-    text-align: left !important;
   }
   .sect-1-about .about-card h2 {
     font-size: 24px;
@@ -1216,6 +1215,7 @@ footer a {
   font-size: 28px;
   line-height: 68px;
   color: #171A1f;
+  text-align: center;
 }
 .sect-1-about h2 {
   font-family: "Catamaran", sans-serif;
