@@ -984,14 +984,23 @@
 
 @media (min-width: 768px) {
   .reservation {
-    max-width: 1440px;
+    max-width: 1139px;
+    position: absolute;
+    top: 138px;
+    left: 151px;
+    z-index: 1;
   }
-  .reservation .card-1 h1, .reservation .card-1 p {
-    text-align: left;
+  .reservation .card-1 h1 {
+    text-align: left !important;
+  }
+  .reservation .card-1 p {
+    min-width: 542px;
+    min-height: 78px;
+    text-align: left !important;
   }
   .reservation .card-1 .btn-div {
     display: flex;
-    justify-content: start;
+    justify-content: start !important;
     margin-top: 37px;
   }
   .reservation .card-1 .btn-div button {
@@ -1013,7 +1022,7 @@
     margin-left: 25px;
   }
   .reservation .card-1 #date {
-    min-width: 258px;
+    max-width: 258px;
     min-height: 43px;
   }
   .reservation .card-1 #time {
@@ -2682,10 +2691,11 @@ footer a {
 }
 
 .reservation {
-  width: 100%;
+  min-width: 400px;
 }
 .reservation .card-1 h1 {
   font-size: 28px;
+  text-align: center;
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
   line-height: 48px;
@@ -2697,22 +2707,26 @@ footer a {
   font-size: 16px;
   line-height: 26px;
   color: #323842;
+  text-align: center;
 }
 .reservation .card-1 label {
-  text-align: center;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
   color: #424955;
 }
-.reservation .card-1 button {
+.reservation .card-1 .btn-div {
+  display: flex;
+  justify-content: center;
+}
+.reservation .card-1 .btn-div button {
   background-color: #F96540;
   color: #FFFFFF;
   border-radius: 22px;
   border: none;
 }
-.reservation .card-1 button:hover {
+.reservation .card-1 .btn-div button:hover {
   background-color: #FFFFFF;
   border: 1px solid #F96540;
   color: #F96540;
@@ -2720,20 +2734,25 @@ footer a {
 .reservation .card-1 #nameInput {
   border-radius: 4px;
   margin-bottom: 21px;
+  padding: 9px 140px 8px 16px;
 }
 .reservation .card-1 #guest {
   border-radius: 4px;
+  padding: 9px 0 8px 16px;
 }
 .reservation .card-1 #restaurant {
   margin-left: 20px;
   border-radius: 4px;
+  padding: 9px 17px 8px 16px;
 }
 .reservation .card-1 #date {
   border-radius: 4px;
+  padding: 9px 17px 8px 16px;
 }
 .reservation .card-1 #time {
   margin-left: 20px;
   border-radius: 4px;
+  padding: 9px 17px 8px 16px;
 }
 
 .sect1-reservation {

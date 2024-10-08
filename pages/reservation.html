@@ -14,7 +14,7 @@
 
     <title>Reservation</title>
   </head>
-  <body id="fadeElement">
+  <body class=" position-relative" id="fadeElement">
     <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
       <div class="container">
         <div class="logo-container">
@@ -69,17 +69,17 @@
       </div>
     </nav>
 
-    <div class=" reservation card bg-white d-flex flex-row container-fluid">
+    <div class=" reservation card bg-white d-flex flex-row container-fluid p-0">
       <div class=" card-1 card-body container-fluid">
         <div>
           <div>
             <h1>Reservation</h1>
             <p>
               We provide a convenient online reservation system. Simply select
-              your desired date, time, and party size, and we will make sure
-              that your table is ready upon your arrival.
+              your <br> desired date, time, and party size, and we will make sure
+              that your table is <br> ready upon your arrival.
             </p>
-            <label for="name">Your Name</label>
+            <label class="d-flex justify-content-start" for="name">Your Name</label>
             <form action="/submit-reservation" method="POST">
               <input id="nameInput"
                 type="text"
@@ -97,20 +97,20 @@
                     <option value="3">3 Guests</option>
                     <option value="4">4 Guests</option>
                   </select>
-                  <label for="date">Date</label>
+                  <label  for="date">Date</label>
                   <input id="date" class="date" type="date" name="date" />
                 </div>
               </div>
 
               <div>
-                <label for="restaurant">Restaurant</label>
+                <label class="ms-4" for="restaurant">Restaurant</label>
                 <div class="d-flex flex-column">
-                  <select id="restaurant" class="" name="restaurant">
+                  <select id="restaurant"  name="restaurant">
                     <option value="1">Your favorite place</option>
                     <option value="2">Option 2</option>
                     <option value="3">Option 3</option>
                   </select>
-                  <label for="time">Time</label>
+                  <label class="ms-4" for="time">Time</label>
                   <input id="time" type="time" name="time" />
                 </div>
               </div>
@@ -118,14 +118,18 @@
             <div class="btn-div">
               <button class="btn mt-4" type="submit">Book a table</button>
             </div>
+           
             
           </div>
         </div>
       </div>
       <div>
+        <div style="width: 490px;" class="position-absolute z-1  d-flex justify-content-end mt-2">
+          <button type="button" class="btn-close d-none d-sm-none d-md-block" aria-label="Close"></button>
+        </div>
         <img
           style="max-width: 501px; max-height: 624px;"
-          class="img-fluid d-none d-sm-none d-md-block"
+          class="img-fluid d-none d-sm-none d-md-block position-relative"
           src="../assets/images/Image 183.png"
           alt="bowl"
         />
@@ -133,8 +137,8 @@
     </div>
 
     <section class="sect1-reservation">
-      <div class="sect1-img">
-        <img src="../assets/images/Image 21[1].png" alt="bowl" />
+      <div class="sect1-img w-100">
+        <img class="w-100" src="../assets/images/Image 21[1].png" alt="bowl" />
       </div>
     </section>
 
