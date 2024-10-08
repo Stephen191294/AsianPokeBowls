@@ -306,6 +306,9 @@
   justify-content: center;
   cursor: pointer;
 }
+.sect-5-home .icon-container .icon {
+  margin-right: 10px;
+}
 
 @media (min-width: 768px) {
   .intro-card {
@@ -322,7 +325,7 @@
     color: #171A1f;
     font-family: "Catamaran", sans-serif;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     max-width: 370px;
     max-height: 136px;
     line-height: 68px;
@@ -363,6 +366,9 @@
 }
 
 @media (min-width: 768px) {
+  .sect-1-home h2 {
+    font-size: 3rem !important;
+  }
   .sect-1-home .sect-1-card {
     min-width: 587px;
     min-height: 168px;
@@ -445,7 +451,7 @@
   }
   .sect-3-home h4 {
     font-family: "Catamaran", sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 400;
     line-height: 68px;
     color: #171A1f;
@@ -494,7 +500,7 @@
   .sect-4-home .sect-4-card h5 {
     text-align: left;
     font-family: "Catamaran", sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 400;
     line-height: 68px;
     margin-top: 18px;
@@ -549,7 +555,7 @@
     margin-bottom: 0;
   }
   .sect-5-home h6 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 500;
     font-family: "Catamaran", sans-serif;
     line-height: 68px;
@@ -577,6 +583,9 @@
     margin-left: 132px;
     display: flex;
     justify-content: flex-start;
+  }
+  .sect-5-home .icon-container .icon {
+    margin-right: 10px;
   }
   .sect-5-home .bowl-div img {
     min-width: 238px;
@@ -646,7 +655,7 @@
   .sect-2-menu .sect-2-head {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 68px;
   }
   .sect-2-menu .all-cards-div {
