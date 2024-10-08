@@ -1104,19 +1104,15 @@
   }
 }
 
-@media (min-width: 0) {
-  .location-hours-container {
-    width: 100%;
-  }
-}
-@media (min-width: 576px) {
-  .location-hours-container {
-    width: 100%;
-  }
-}
 @media (min-width: 768px) {
-  .location-hours-container {
-    width: 100%;
+  .sect-1-location h1 {
+    font-size: 48px !important;
+  }
+  .sect-1-location h2 {
+    text-align: left !important;
+  }
+  .sect-1-location p {
+    text-align: left !important;
   }
 }
 
@@ -1380,6 +1376,10 @@ footer a {
   line-height: 26px;
   color: #6E7787;
   text-align: center;
+}
+.sect-1-location .icon-img {
+  height: 24px;
+  width: 24px;
 }
 
 /*
