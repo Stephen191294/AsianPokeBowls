@@ -1394,7 +1394,38 @@ footer a {
   height: 24px;
   width: 24px;
 }
-
+.sect-1-location .btn-div .btnOne {
+  width: 130px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+  color: #F96540;
+  border: 1px solid #F96540;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+}
+.sect-1-location .btn-div .btnOne:hover {
+  color: #FFFFFF;
+  background-color: #F96540;
+}
+.sect-1-location .btn-div .btnTwo {
+  width: 130px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+  color: #765903;
+  border: 1px solid #765903;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+}
+.sect-1-location .btn-div .btnTwo:hover {
+  background-color: #765903;
+  color: #FFFFFF;
+}
 /*
 
 
