@@ -775,12 +775,15 @@
     padding: 36px;
   }
   .sect-1-about .about-card h1 {
-    font-size: 48px;
-    text-align: left;
+    font-size: 48px !important;
+    text-align: left !important;
   }
   .sect-1-about .about-card h2 {
     font-size: 24px;
-    text-align: left;
+    text-align: left !important;
+  }
+  .sect-1-about .about-card P {
+    text-align: left !important;
   }
   .sect-1-about .btn-div .order-btn {
     background-color: #F96540;
@@ -789,6 +792,7 @@
     border-radius: 26px;
     min-width: 219px;
     min-height: 52px;
+    margin-top: 64px;
   }
   .sect-1-about .btn-div .order-btn:hover {
     background-color: #FFFFFF;

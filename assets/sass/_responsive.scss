@@ -479,12 +479,14 @@ footer {
       border-radius: 8px;
       padding: 36px;
       h1 {
-        font-size: 48px;
-        text-align: left;
+        font-size: 48px !important;
+        text-align: left !important;
       }
       h2 {
         font-size: 24px;
-        text-align: left;
+        text-align: left !important;
+      }P{
+        text-align: left !important;
       }
     }
     .btn-div {
@@ -495,6 +497,7 @@ footer {
         border-radius: 26px;
         min-width: 219px;
         min-height: 52px;
+        margin-top: 64px;
       }
       .order-btn:hover {
         background-color: $white100;
