@@ -1,30 +1,136 @@
 @import "./variables";
 
-.login-body{
+.login-body {
   margin-bottom: 200px;
 }
+
+
+.login-card-1{
+  h1 {
+    font-family: $catamaran;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    color: $black100;
+    text-align: center;
+  }
+  input {
+    min-width: 282px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: #f3f4f6;
+    border: none;
+    padding-left: 12px;
+  }
+  .button-1 {
+    background-color: $orange100;
+    color: $white100;
+    min-width: 282px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+  }
+  .button-1:hover {
+    background-color: $white100;
+    color: $orange100;
+    border: 1px solid $orange100;
+  }
+  .button-2 {
+    background-color: #f1f4fe;
+    color: $white100;
+   // max-width: 582px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ea4336;
+  }
+  .button-2:hover {
+    border: 1px solid #ea4336;
+  }
+  .button-3 {
+    background-color: #f1f4fe;
+    color: $white100;
+    //width: 582px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3f5893;
+  }
+  .button-3:hover {
+    border: 1px solid #3f5893;
+  }
+  .button-4 {
+    background-color: #f1f4fe;
+    color: $white100;
+    // width: 582px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .button-4:hover {
+    border: 1px solid black;
+  }
+  .login-txt {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #9095a0;
+  }
+  .login-txt-1 {
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #9095a0;
+  }
+  .login-txt-2 {
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #9095a0;
+    text-align: center;
+  }
+
+}
+
+
+
 
 .login-box {
   position: absolute;
   background-color: $white100;
- // width: 1139px;
+  // width: 1139px;
   height: 624px;
   z-index: 1;
   margin-top: 40px;
- margin-left: 100px;
+  margin-left: 100px;
   border-radius: 8px;
   box-shadow: 0 0 4px 0;
   padding: 0;
   .box-1 {
     width: 501px;
     height: 625px;
-    
   }
   .box-2 {
     width: 100%;
     padding-top: 22px;
-   // padding-right: 33px;
-   // overflow: hidden;
+    // padding-right: 33px;
+    // overflow: hidden;
     h1 {
       font-family: $catamaran;
       font-weight: 700;
@@ -40,30 +146,30 @@
       color: $black100;
     }
     input {
-     // width: 581px;
+      // width: 581px;
       height: 45px;
       border-radius: 23px;
       background-color: #f3f4f6;
       border: none;
-      padding-left: 12px ;
+      padding-left: 12px;
     }
     .button-1 {
       background-color: $orange100;
       color: $white100;
-     // width: 582px;
+      // width: 582px;
       height: 44px;
       border-radius: 22px;
       border: none;
     }
-    .button-1:hover{
+    .button-1:hover {
       background-color: $white100;
       color: $orange100;
       border: 1px solid $orange100;
     }
     .button-2 {
-      background-color: #F1F4FE;
+      background-color: #f1f4fe;
       color: $white100;
-     // width: 582px;
+      // width: 582px;
       height: 44px;
       border-radius: 22px;
       border: none;
@@ -71,13 +177,13 @@
       font-weight: 400;
       font-size: 16px;
       line-height: 26px;
-      color: #EA4336;
+      color: #ea4336;
     }
-    .button-2:hover{
-      border: 1px solid #EA4336;
+    .button-2:hover {
+      border: 1px solid #ea4336;
     }
     .button-3 {
-      background-color: #F1F4FE;
+      background-color: #f1f4fe;
       color: $white100;
       //width: 582px;
       height: 44px;
@@ -87,15 +193,15 @@
       font-weight: 400;
       font-size: 16px;
       line-height: 26px;
-      color: #3F5893;
+      color: #3f5893;
     }
-    .button-3:hover{
-      border: 1px solid #3F5893;
+    .button-3:hover {
+      border: 1px solid #3f5893;
     }
     .button-4 {
-      background-color: #F1F4FE;
+      background-color: #f1f4fe;
       color: $white100;
-     // width: 582px;
+      // width: 582px;
       height: 44px;
       border-radius: 22px;
       border: none;
@@ -105,158 +211,52 @@
       line-height: 26px;
       color: #000000;
     }
-    .button-4:hover{
-      border: 1px solid black; 
+    .button-4:hover {
+      border: 1px solid black;
     }
-    
-    .line-1{
+
+    .line-1 {
       width: 282px;
       height: 1px;
-      border: 1px solid #DEE1E6;
+      border: 1px solid #dee1e6;
     }
-    .line-2{
+    .line-2 {
       width: 282px;
       height: 1px;
-      border: 1px solid #DEE1E6;
+      border: 1px solid #dee1e6;
     }
-    .login-txt{
+    .login-txt {
       font-family: $nunito;
       font-weight: 400;
       font-size: 14px;
       line-height: 22px;
-      color: #9095A0;
+      color: #9095a0;
     }
-    .login-txt-1{
+    .login-txt-1 {
       font-family: $nunito;
       font-weight: 700;
       font-size: 14px;
       line-height: 22px;
-      color: #9095A0;
+      color: #9095a0;
     }
-    .login-txt-2{
+    .login-txt-2 {
       font-family: $nunito;
       font-weight: 700;
       font-size: 14px;
       line-height: 22px;
-      color: #9095A0;
+      color: #9095a0;
       text-align: center;
     }
   }
 }
 
+
+
+
 .sect-1-menu-pickup-build {
-  filter: blur(10px);
-  h1 {
-    font-family: $catamaran;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 48px;
-    color: $black100;
-  }
   width: 100%;
   .img-blur {
     width: 100%;
     filter: blur(10px);
-  }
-
-  .container-fluid-menu-pickup {
-    .box-1 {
-      border: 1px solid $yellow100;
-      width: 77px;
-      height: 34px;
-      border-radius: 4px 0 0 4px;
-      padding: 7px 12px 5px 12px;
-      color: $darkgreen100;
-      cursor: pointer;
-
-      .box-1:hover {
-        background-color: $yellow100;
-      }
-    }
-
-    .box-2 {
-      border: 1px solid $yellow100;
-      width: 77px;
-      height: 34px;
-      border-radius: 0 4px 4px 0;
-      padding: 7px 12px 5px 12px;
-      color: $darkgreen100;
-      cursor: pointer;
-    }
-    .box-1:hover {
-      background-color: $yellow100;
-    }
-    .box-2:hover {
-      background-color: $yellow100;
-    }
-  }
-
-  .times {
-    white-space: nowrap;
-  }
-}
-
-.sect2-menu-pickup-build {
-  filter: blur(10px);
-  //width: 100%;
-  // height: 100px;
-  padding: 72px 156px 84px 148px;
-  margin-top: 0;
-  background-color: $lightgrey200;
-  .sect2-header-menu-pickup {
-    text-align: center;
-    font-family: $catamaran;
-  }
-  .container-menu-pickup {
-    .box-menu-pickup {
-      background-color: $white100;
-      padding: 10px;
-      width: 267px;
-      border-radius: 8px;
-      //height: 292px;
-      .image-container-menu-pickup {
-        width: 219px;
-        height: 219px;
-        img {
-          width: 100%;
-          margin-left: 10px;
-        }
-      }
-      button {
-        background-color: $orange200;
-        color: $orange100;
-        width: 94px;
-        height: 36px;
-        border-radius: 18px;
-        border: none;
-        white-space: nowrap;
-      }
-      p {
-        width: 235px;
-        height: 60px;
-        font-size: 12px;
-      }
-      h2 {
-        white-space: nowrap;
-        font-family: $catamaran;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
-      }
-    }
-  }
-  .menu-txt {
-    font-family: $catamaran;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    color: $black100;
-  }
-  .price {
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    color: $black100;
   }
 }

@@ -908,94 +908,15 @@
   }
 }
 
-@media (min-width: 0) {
-  .login-box .box-1 {
-    display: none;
-    margin-left: 0;
-  }
-}
-@media (min-width: 576px) {
-  .login-box .box-1 {
-    display: none;
-    width: 1139px;
-  }
-}
 @media (min-width: 768px) {
-  .login-box .box-1 {
-    display: inline-block;
-    width: 1400px;
+  .login-card-1 {
+    min-width: 638px;
   }
-}
-
-@media (min-width: 576px) {
-  .login-box .box-2 input {
-    width: 500px;
+  .login-card-1 h1 {
+    font-size: 32px !important;
   }
-}
-
-@media (min-width: 768px) {
-  .login-box .box-2 input {
-    width: 581px;
-  }
-}
-
-@media (min-width: 576px) {
-  .login-box .box-2 .button-1 {
-    width: 500px;
-  }
-}
-
-@media (min-width: 576px) {
-  .login-box .box-2 .button-2 {
-    width: 500px;
-  }
-}
-
-@media (min-width: 576px) {
-  .login-box .box-2 .button-3 {
-    width: 500px;
-  }
-}
-
-@media (min-width: 576px) {
-  .login-box .box-2 .button-4 {
-    width: 500px;
-  }
-}
-
-@media (min-width: 768px) {
-  .login-box .box-2 .button-1 {
-    width: 581px;
-  }
-}
-
-@media (min-width: 768px) {
-  .login-box .box-2 .button-2 {
-    width: 581px;
-  }
-}
-
-@media (min-width: 768px) {
-  .login-box .box-2 .button-3 {
-    width: 581px;
-  }
-}
-
-@media (min-width: 768px) {
-  .login-box .box-2 .button-4 {
-    width: 581px;
-  }
-}
-
-@media (min-width: 576px) {
-  .login-box .box-2 .box-2-txt {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .login-box .box-2 .box-2-txt {
-    display: inline-block;
+  .login-card-1 .card-img-1 {
+    min-width: 501px !important;
   }
 }
 
@@ -2445,6 +2366,103 @@ footer a {
   margin-bottom: 200px;
 }
 
+.login-card-1 h1 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+  color: #171A1f;
+  text-align: center;
+}
+.login-card-1 input {
+  min-width: 282px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #f3f4f6;
+  border: none;
+  padding-left: 12px;
+}
+.login-card-1 .button-1 {
+  background-color: #F96540;
+  color: #FFFFFF;
+  min-width: 282px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+}
+.login-card-1 .button-1:hover {
+  background-color: #FFFFFF;
+  color: #F96540;
+  border: 1px solid #F96540;
+}
+.login-card-1 .button-2 {
+  background-color: #f1f4fe;
+  color: #FFFFFF;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ea4336;
+}
+.login-card-1 .button-2:hover {
+  border: 1px solid #ea4336;
+}
+.login-card-1 .button-3 {
+  background-color: #f1f4fe;
+  color: #FFFFFF;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3f5893;
+}
+.login-card-1 .button-3:hover {
+  border: 1px solid #3f5893;
+}
+.login-card-1 .button-4 {
+  background-color: #f1f4fe;
+  color: #FFFFFF;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.login-card-1 .button-4:hover {
+  border: 1px solid black;
+}
+.login-card-1 .login-txt {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #9095a0;
+}
+.login-card-1 .login-txt-1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #9095a0;
+}
+.login-card-1 .login-txt-2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #9095a0;
+  text-align: center;
+}
+
 .login-box {
   position: absolute;
   background-color: #FFFFFF;
@@ -2498,7 +2516,7 @@ footer a {
   border: 1px solid #F96540;
 }
 .login-box .box-2 .button-2 {
-  background-color: #F1F4FE;
+  background-color: #f1f4fe;
   color: #FFFFFF;
   height: 44px;
   border-radius: 22px;
@@ -2507,13 +2525,13 @@ footer a {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #EA4336;
+  color: #ea4336;
 }
 .login-box .box-2 .button-2:hover {
-  border: 1px solid #EA4336;
+  border: 1px solid #ea4336;
 }
 .login-box .box-2 .button-3 {
-  background-color: #F1F4FE;
+  background-color: #f1f4fe;
   color: #FFFFFF;
   height: 44px;
   border-radius: 22px;
@@ -2522,13 +2540,13 @@ footer a {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #3F5893;
+  color: #3f5893;
 }
 .login-box .box-2 .button-3:hover {
-  border: 1px solid #3F5893;
+  border: 1px solid #3f5893;
 }
 .login-box .box-2 .button-4 {
-  background-color: #F1F4FE;
+  background-color: #f1f4fe;
   color: #FFFFFF;
   height: 44px;
   border-radius: 22px;
@@ -2545,140 +2563,42 @@ footer a {
 .login-box .box-2 .line-1 {
   width: 282px;
   height: 1px;
-  border: 1px solid #DEE1E6;
+  border: 1px solid #dee1e6;
 }
 .login-box .box-2 .line-2 {
   width: 282px;
   height: 1px;
-  border: 1px solid #DEE1E6;
+  border: 1px solid #dee1e6;
 }
 .login-box .box-2 .login-txt {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: #9095A0;
+  color: #9095a0;
 }
 .login-box .box-2 .login-txt-1 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
-  color: #9095A0;
+  color: #9095a0;
 }
 .login-box .box-2 .login-txt-2 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
-  color: #9095A0;
+  color: #9095a0;
   text-align: center;
 }
 
 .sect-1-menu-pickup-build {
-  filter: blur(10px);
   width: 100%;
-}
-.sect-1-menu-pickup-build h1 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 48px;
-  color: #171A1f;
 }
 .sect-1-menu-pickup-build .img-blur {
   width: 100%;
   filter: blur(10px);
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-1 {
-  border: 1px solid #FCDD80;
-  width: 77px;
-  height: 34px;
-  border-radius: 4px 0 0 4px;
-  padding: 7px 12px 5px 12px;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-1 .box-1:hover {
-  background-color: #FCDD80;
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-2 {
-  border: 1px solid #FCDD80;
-  width: 77px;
-  height: 34px;
-  border-radius: 0 4px 4px 0;
-  padding: 7px 12px 5px 12px;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-1:hover {
-  background-color: #FCDD80;
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-2:hover {
-  background-color: #FCDD80;
-}
-.sect-1-menu-pickup-build .times {
-  white-space: nowrap;
-}
-
-.sect2-menu-pickup-build {
-  filter: blur(10px);
-  padding: 72px 156px 84px 148px;
-  margin-top: 0;
-  background-color: #FAFAFB;
-}
-.sect2-menu-pickup-build .sect2-header-menu-pickup {
-  text-align: center;
-  font-family: "Catamaran", sans-serif;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup {
-  background-color: #FFFFFF;
-  padding: 10px;
-  width: 267px;
-  border-radius: 8px;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup .image-container-menu-pickup {
-  width: 219px;
-  height: 219px;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup .image-container-menu-pickup img {
-  width: 100%;
-  margin-left: 10px;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup button {
-  background-color: #FFF3F0;
-  color: #F96540;
-  width: 94px;
-  height: 36px;
-  border-radius: 18px;
-  border: none;
-  white-space: nowrap;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup p {
-  width: 235px;
-  height: 60px;
-  font-size: 12px;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup h2 {
-  white-space: nowrap;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-}
-.sect2-menu-pickup-build .menu-txt {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  color: #171A1f;
-}
-.sect2-menu-pickup-build .price {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-  color: #171A1f;
 }
 
 .reservation {
