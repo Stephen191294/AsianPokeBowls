@@ -873,9 +873,14 @@
 @media (min-width: 768px) {
   .sect-1-giftcard {
     width: 100%;
+    margin-left: 132px;
   }
   .sect-1-giftcard .checkout-card h1 {
-    color: brown;
+    font-size: 3rem !important;
+    text-align: left !important;
+  }
+  .sect-1-giftcard .checkout-card h2, .sect-1-giftcard .checkout-card p {
+    text-align: left !important;
   }
 }
 
@@ -1580,10 +1585,9 @@ footer a {
 }
 .sect-1-giftcard .checkout-card .box-container-1 .box-1 {
   max-width: 280px;
-  height: auto;
+  height: 102px;
   border-radius: 8px;
   border: 1px solid #BCC1CA;
-  padding: 20px 16px 45px 16px;
   cursor: pointer;
 }
 .sect-1-giftcard .checkout-card .box-container-1 .box-1 img {
@@ -1610,10 +1614,9 @@ footer a {
 }
 .sect-1-giftcard .checkout-card .box-container-1 .box-1:hover {
   max-width: 280px;
-  height: auto;
+  height: 102px;
   border-radius: 8px;
   border: 1px solid #F96540;
-  padding: 20px 16px 45px 16px;
   cursor: pointer;
 }
 .sect-1-giftcard .checkout-card .box-container-1 .box-1:hover img {
@@ -1638,66 +1641,6 @@ footer a {
   line-height: 20px;
   color: #F96540;
 }
-.sect-1-giftcard .checkout-card .box-container-1 .box-2 {
-  max-width: 280px;
-  height: auto;
-  border-radius: 8px;
-  border: 1px solid #BCC1CA;
-  padding: 20px 16px 45px 16px;
-  cursor: pointer;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-2 img {
-  width: 36px;
-  height: 36px;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-2 p {
-  font-size: 12px;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-2 .text-1 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  color: #171A1f;
-  margin-bottom: 0;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-2 .text-2 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
-  color: #171A1f;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-2:hover {
-  min-width: 280px;
-  min-height: 102px;
-  border-radius: 8px;
-  border: 1px solid #F96540;
-  padding: 20px 16px 45px 16px;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-2:hover img {
-  width: 36px;
-  height: 36px;
-  color: #F96540;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-2:hover p {
-  font-size: 12px;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-2:hover .text-1 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  color: #F96540;
-  margin-bottom: 0;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-2:hover .text-2 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
-  color: #F96540;
-}
 .sect-1-giftcard .checkout-card .promo {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
@@ -1714,8 +1657,12 @@ footer a {
   min-height: 44px;
 }
 .sect-1-giftcard .input-container {
-  max-width: 385px;
+  min-width: 385px;
   border-radius: 4px 4px 4px 4px;
+}
+.sect-1-giftcard .input-container .btn-group {
+  display: flex;
+  flex-wrap: wrap;
 }
 .sect-1-giftcard .input-container .btn-group .btn-4 {
   background-color: #FFFFFF;

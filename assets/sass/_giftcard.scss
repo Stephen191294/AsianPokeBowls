@@ -13,6 +13,7 @@
       font-weight: 500;
       color: $black100;
       text-align: center;
+     // margin-top: 71px;
     }
     h2 {
       font-family: $nunito;
@@ -33,10 +34,10 @@
     .box-container-1 {
       .box-1 {
         max-width: 280px;
-        height: auto;
+        height: 102px;
         border-radius: 8px;
         border: 1px solid $lightgrey100;
-        padding: 20px 16px 45px 16px;
+        // padding: 20px 16px 45px 16px;
         cursor: pointer;
         img {
           width: 36px;
@@ -64,76 +65,14 @@
 
       .box-1:hover {
         max-width: 280px;
-        height: auto;
+        height: 102px;
         border-radius: 8px;
         border: 1px solid $orange100;
-        padding: 20px 16px 45px 16px;
+        // padding: 20px 16px 45px 16px;
         cursor: pointer;
         img {
           width: 36px;
           height: 36px;
-        }
-        p {
-          font-size: 12px;
-        }
-        .text-1 {
-          font-family: $nunito;
-          font-weight: 400;
-          font-size: 18px;
-          line-height: 28px;
-          color: $orange100;
-          margin-bottom: 0;
-        }
-        .text-2 {
-          font-family: $nunito;
-          font-weight: 400;
-          font-size: 12px;
-          line-height: 20px;
-          color: $orange100;
-        }
-      }
-
-      .box-2 {
-        max-width: 280px;
-        height: auto;
-        border-radius: 8px;
-        border: 1px solid $lightgrey100;
-        padding: 20px 16px 45px 16px;
-        cursor: pointer;
-        img {
-          width: 36px;
-          height: 36px;
-        }
-        p {
-          font-size: 12px;
-        }
-        .text-1 {
-          font-family: $nunito;
-          font-weight: 400;
-          font-size: 18px;
-          line-height: 28px;
-          color: $black100;
-          margin-bottom: 0;
-        }
-        .text-2 {
-          font-family: $nunito;
-          font-weight: 400;
-          font-size: 12px;
-          line-height: 20px;
-          color: $black100;
-        }
-      }
-
-      .box-2:hover {
-        min-width: 280px;
-        min-height: 102px;
-        border-radius: 8px;
-        border: 1px solid $orange100;
-        padding: 20px 16px 45px 16px;
-        img {
-          width: 36px;
-          height: 36px;
-          color: $orange100;
         }
         p {
           font-size: 12px;
@@ -174,9 +113,12 @@
   }
 
   .input-container {
-    max-width: 385px;
+    min-width: 385px;
     border-radius: 4px 4px 4px 4px;
+
     .btn-group {
+      display: flex;
+      flex-wrap: wrap;
       .btn-4 {
         background-color: $white100;
         padding: 7px 16px 5px 16px;
@@ -261,8 +203,7 @@
     height: 24px;
   }
 
-  .btn-div{
-
+  .btn-div {
     max-width: 369px;
     .checkout-btn {
       background-color: $orange100;
@@ -278,7 +219,6 @@
       border: 1px solid $orange100;
     }
   }
-  
 
   .container-giftcard-boxes {
     overflow: hidden;

@@ -580,10 +580,14 @@ footer {
 .sect-1-giftcard {
   @include respond-to(md) {
     width: 100%;
-    // margin-left: 132px;
+   margin-left: 132px;
     .checkout-card {
       h1 {
-        color: brown;
+      font-size: $primaryheader !important ;
+      text-align: left !important;
+      }
+      h2, p{
+        text-align: left !important ;
       }
     }
   }
