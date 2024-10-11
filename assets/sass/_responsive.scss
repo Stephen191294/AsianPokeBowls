@@ -50,15 +50,26 @@
   }
 }
 
+
+
+
+
+
 .card-img-div {
   @include respond-to(md) {
     position: relative;
+  }
+  @include respond-to(lg) {
+    position: relative;
+    img{
+      width: 100%;
+    }
   }
 }
 
 .sect-1-home {
   @include respond-to(md) {
-    h2{
+    h2 {
       font-size: $primaryheader !important;
     }
     .sect-1-card {
@@ -77,6 +88,11 @@
         color: $black100;
       }
     }
+  }
+  @include respond-to(lg) {
+      .sect-1-card{
+        width: 100%;
+      }
   }
 }
 
@@ -284,7 +300,7 @@
       margin-left: 132px;
       display: flex;
       justify-content: flex-start;
-      .icon{
+      .icon {
         margin-right: 10px;
       }
     }
@@ -486,12 +502,12 @@ footer {
       padding: 36px;
       h1 {
         font-size: 48px !important;
-        
       }
       h2 {
         font-size: 24px;
         text-align: left !important;
-      }P{
+      }
+      P {
         text-align: left !important;
       }
     }
@@ -580,13 +596,14 @@ footer {
 .sect-1-giftcard {
   @include respond-to(md) {
     width: 100%;
-   margin-left: 132px;
+    margin-left: 132px;
     .checkout-card {
       h1 {
-      font-size: $primaryheader !important ;
-      text-align: left !important;
+        font-size: $primaryheader !important ;
+        text-align: left !important;
       }
-      h2, p{
+      h2,
+      p {
         text-align: left !important ;
       }
     }
@@ -621,18 +638,34 @@ footer {
   }
 }
 
-.login-card-1{
-  @include respond-to(md) {
-    min-width: 638px;
-    h1{
-      font-size: 32px !important;
-      
-    }
-    .card-img-1{
-      min-width: 501px !important;
+
+
+
+
+
+.login-box-1 {
+  .login-card-1 {
+    @include respond-to(md) {
+      // min-width: 638px;
+      h1 {
+        font-size: 32px !important;
+      }
+      input {
+        min-width: 581px !important ;
+      }
+      .button-1 {
+        min-width: 581px !important;
+      }
+      .card-img-1 {
+        max-width: 501px !important;
+      }
     }
   }
 }
+
+
+
+
 
 
 
@@ -672,30 +705,24 @@ footer {
       #guest {
         min-width: 258px;
         min-height: 43px;
-        
       }
       #restaurant {
         min-width: 258px;
         min-height: 43px;
         margin-left: 25px;
-        
       }
       #date {
         max-width: 258px;
         min-height: 43px;
-        
       }
       #time {
         min-width: 258px;
         min-height: 43px;
         margin-left: 25px;
-       
       }
     }
   }
 }
-
-
 
 .build-bowl-box {
   @include respond-to(xs) {
@@ -755,14 +782,13 @@ footer {
 
 .sect-1-location {
   @include respond-to(md) {
-    h1{
+    h1 {
       font-size: 48px !important;
-      
     }
-    h2{
+    h2 {
       text-align: left !important;
     }
-    p{
+    p {
       text-align: left !important;
     }
   }
