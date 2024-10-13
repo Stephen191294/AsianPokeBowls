@@ -240,13 +240,6 @@
   font-size: 18px;
   margin-top: 54px;
 }
-.sect-3-home .icon-div {
-  margin-top: 114px;
-}
-.sect-3-home .bowl-img {
-  border-radius: 4px;
-}
-
 .sect-4-home .box-1 {
   border-radius: 8px;
 }
@@ -283,45 +276,6 @@
   background-color: #FFFFFF;
 }
 
-/*.sect-4-home {
-  margin-top: 30px;
-  .card-sect-4 {
-    background-color: $black100;
-    border-radius: 8px;
-    h5 {
-      font-size: 28px;
-      font-family: $catamaran;
-      line-height: 68px;
-      color: $white100;
-      text-align: center;
-      margin-top: 20px;
-    }
-    p {
-      font-size: 18px;
-      font-family: $nunito;
-      font-weight: 400;
-      line-height: 28px;
-      color: $white100;
-      text-align: center;
-    }
-    .btn-div {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 20px;
-      button {
-        background-color: $orange100;
-        color: $white100;
-        border-radius: 26px;
-        border: none;
-      }
-      button:hover {
-        border: 1px solid $orange100;
-        color: $orange100;
-        background-color: $white100;
-      }
-    }
-  }
-}*/
 .sect-5-home {
   display: flex;
   margin-top: 30px;
@@ -513,19 +467,6 @@
   }
   .sect-3-home .icon-div {
     margin-top: 114px;
-  }
-  .sect-3-home .bowl-img {
-    min-width: 520px;
-    min-height: 520px;
-  }
-  .sect-3-home .content-div {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-right: 194px;
-  }
-  .sect-3-home .img-div img {
-    border-radius: 8px;
   }
 }
 

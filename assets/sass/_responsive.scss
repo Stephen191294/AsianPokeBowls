@@ -58,15 +58,14 @@
 
 .sect-1-home {
   @include respond-to(md) {
-    
     h2 {
       font-size: $primaryheader !important;
     }
     .sect-1-card {
       min-width: 587px;
       min-height: 168px;
-       padding-left: 428px;
-       padding-right: 425px;
+      padding-left: 428px;
+      padding-right: 425px;
       margin-top: 18px;
       margin-bottom: 72px;
       p {
@@ -166,21 +165,6 @@
     }
     .icon-div {
       margin-top: 114px;
-    }
-    .bowl-img {
-      min-width: 520px;
-      min-height: 520px;
-    }
-    .content-div {
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      margin-right: 194px;
-    }
-    .img-div {
-      img {
-        border-radius: 8px;
-      }
     }
   }
 }
