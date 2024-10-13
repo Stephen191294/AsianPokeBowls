@@ -140,6 +140,9 @@
   border: 1px solid #F96540;
 }
 
+.sect-1-home {
+  margin-top: 150px;
+}
 .sect-1-home h2 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
@@ -154,6 +157,8 @@
   line-height: 28px;
   text-align: center;
   color: #171A1f;
+  width: 100%;
+  text-align: center;
 }
 
 .sect-2-home {
@@ -236,18 +241,16 @@
   margin-top: 54px;
 }
 .sect-3-home .icon-div {
-  display: flex;
-  justify-content: center;
+  margin-top: 114px;
+}
+.sect-3-home .bowl-img {
+  border-radius: 4px;
 }
 
-.sect-4-home {
-  margin-top: 30px;
-}
-.sect-4-home .card-sect-4 {
-  background-color: #171A1f;
+.sect-4-home .box-1 {
   border-radius: 8px;
 }
-.sect-4-home .card-sect-4 h5 {
+.sect-4-home .box-1 h5 {
   font-size: 28px;
   font-family: "Catamaran", sans-serif;
   line-height: 68px;
@@ -255,7 +258,7 @@
   text-align: center;
   margin-top: 20px;
 }
-.sect-4-home .card-sect-4 p {
+.sect-4-home .box-1 p {
   font-size: 18px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
@@ -263,23 +266,62 @@
   color: #FFFFFF;
   text-align: center;
 }
-.sect-4-home .card-sect-4 .btn-div {
+.sect-4-home .box-1 .btn-div {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-.sect-4-home .card-sect-4 .btn-div button {
+.sect-4-home .box-1 .btn-div button {
   background-color: #F96540;
   color: #FFFFFF;
   border-radius: 26px;
   border: none;
 }
-.sect-4-home .card-sect-4 .btn-div button:hover {
+.sect-4-home .box-1 .btn-div button:hover {
   border: 1px solid #F96540;
   color: #F96540;
   background-color: #FFFFFF;
 }
 
+/*.sect-4-home {
+  margin-top: 30px;
+  .card-sect-4 {
+    background-color: $black100;
+    border-radius: 8px;
+    h5 {
+      font-size: 28px;
+      font-family: $catamaran;
+      line-height: 68px;
+      color: $white100;
+      text-align: center;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 18px;
+      font-family: $nunito;
+      font-weight: 400;
+      line-height: 28px;
+      color: $white100;
+      text-align: center;
+    }
+    .btn-div {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      button {
+        background-color: $orange100;
+        color: $white100;
+        border-radius: 26px;
+        border: none;
+      }
+      button:hover {
+        border: 1px solid $orange100;
+        color: $orange100;
+        background-color: $white100;
+      }
+    }
+  }
+}*/
 .sect-5-home {
   display: flex;
   margin-top: 30px;
@@ -364,14 +406,6 @@
     position: relative;
   }
 }
-@media (min-width: 992px) {
-  .card-img-div {
-    position: relative;
-  }
-  .card-img-div img {
-    width: 100%;
-  }
-}
 
 @media (min-width: 768px) {
   .sect-1-home h2 {
@@ -380,8 +414,6 @@
   .sect-1-home .sect-1-card {
     min-width: 587px;
     min-height: 168px;
-    padding-left: 428px;
-    padding-right: 425px;
     margin-top: 18px;
     margin-bottom: 72px;
   }
@@ -392,11 +424,6 @@
     line-height: 28px;
     text-align: center;
     color: #171A1f;
-  }
-}
-@media (min-width: 992px) {
-  .sect-1-home .sect-1-card {
-    width: 100%;
   }
 }
 
@@ -501,59 +528,54 @@
 }
 
 @media (min-width: 768px) {
-  .sect-4-home .card-sect-4 {
-    display: flex;
-  }
-  .sect-4-home .sect-4-card {
-    min-width: 1176px;
-    min-height: 314px;
+  .sect-4-home .box-1 {
     margin-left: 132px;
     margin-right: 132px;
   }
-  .sect-4-home .sect-4-card h5 {
-    text-align: left;
+  .sect-4-home .box-1 h5 {
+    font-size: 48px;
     font-family: "Catamaran", sans-serif;
-    font-size: 3rem;
-    font-weight: 400;
     line-height: 68px;
-    margin-top: 18px;
+    color: #FFFFFF;
+    margin-top: 48px;
     margin-left: 70px;
-  }
-  .sect-4-home .sect-4-card p {
     text-align: left;
+  }
+  .sect-4-home .box-1 p {
+    font-size: 18px;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
     line-height: 28px;
-    font-size: 24px;
+    color: #FFFFFF;
+    text-align: left;
     margin-left: 70px;
+    margin-top: 18px;
   }
-  .sect-4-home .sect-4-card .sect-4-text {
-    white-space: nowrap;
-  }
-  .sect-4-home .sect-4-card .btn-div {
+  .sect-4-home .box-1 .btn-div {
     display: flex;
     justify-content: start;
-    margin-left: 70px;
   }
-  .sect-4-home .sect-4-card .btn-div button {
+  .sect-4-home .box-1 .btn-div button {
     background-color: #F96540;
     color: #FFFFFF;
     border-radius: 26px;
     border: none;
     min-width: 244px;
     min-height: 52px;
+    margin-left: 70px;
+    margin-top: 24px;
   }
-  .sect-4-home .sect-4-card .btn-div button:hover {
+  .sect-4-home .box-1 .btn-div button:hover {
     border: 1px solid #F96540;
     color: #F96540;
     background-color: #FFFFFF;
   }
-  .sect-4-home .sect-4-card .bowls-div .bowl-1 {
+  .sect-4-home .box-1 .bowl-1 {
     max-width: 334px;
     max-height: 334px;
     margin-top: 82px;
   }
-  .sect-4-home .sect-4-card .bowls-div .bowl-2 {
+  .sect-4-home .box-1 .bowl-2 {
     max-width: 174px;
     max-height: 174px;
     margin-top: 29px;
@@ -561,6 +583,72 @@
   }
 }
 
+/*
+.sect-4-home {
+  @include respond-to(md) {
+    .card-sect-4 {
+      display: flex;
+    }
+    .sect-4-card {
+     // min-width: 1176px;
+     // min-height: 314px;
+     // margin-left: 132px;
+     // margin-right: 132px;
+
+      h5 {
+        text-align: left;
+        font-family: $catamaran;
+        font-size: $primaryheader;
+        font-weight: 400;
+        line-height: 68px;
+        margin-top: 18px;
+        margin-left: 70px;
+      }
+      p {
+        text-align: left;
+        font-family: $nunito;
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 24px;
+        margin-left: 70px;
+      }
+      .sect-4-text {
+        white-space: nowrap;
+      }
+      .btn-div {
+        display: flex;
+        justify-content: start;
+        margin-left: 70px;
+        button {
+          background-color: $orange100;
+          color: $white100;
+          border-radius: 26px;
+          border: none;
+          min-width: 244px;
+          min-height: 52px;
+        }
+        button:hover {
+          border: 1px solid $orange100;
+          color: $orange100;
+          background-color: $white100;
+        }
+      }
+      .bowls-div {
+        .bowl-1 {
+          max-width: 334px;
+          max-height: 334px;
+          margin-top: 82px;
+        }
+        .bowl-2 {
+          max-width: 174px;
+          max-height: 174px;
+          margin-top: 29px;
+          margin-right: 26px;
+        }
+      }
+    }
+  }
+}*/
 @media (min-width: 768px) {
   .sect-5-home {
     width: 100%;

@@ -48,7 +48,9 @@
       border: 1px solid $orange100;
     }
   }
+  
 }
+
 
 
 
@@ -59,12 +61,8 @@
   @include respond-to(md) {
     position: relative;
   }
-  @include respond-to(lg) {
-    position: relative;
-    img{
-      width: 100%;
-    }
-  }
+ 
+  
 }
 
 .sect-1-home {
@@ -75,8 +73,8 @@
     .sect-1-card {
       min-width: 587px;
       min-height: 168px;
-      padding-left: 428px;
-      padding-right: 425px;
+     // padding-left: 428px;
+     // padding-right: 425px;
       margin-top: 18px;
       margin-bottom: 72px;
       p {
@@ -89,11 +87,7 @@
       }
     }
   }
-  @include respond-to(lg) {
-      .sect-1-card{
-        width: 100%;
-      }
-  }
+  
 }
 
 .sect-2-home {
@@ -200,16 +194,89 @@
   }
 }
 
+
+
+.sect-4-home {
+  @include respond-to(md) {
+    .box-1{
+      margin-left: 132px;
+      margin-right: 132px;
+      h5 {
+        font-size: 48px;
+        font-family: $catamaran;
+        line-height: 68px;
+        color: $white100;
+        margin-top: 48px;
+        margin-left: 70px;
+        text-align: left;
+      }
+      p {
+        font-size: 18px;
+        font-family: $nunito;
+        font-weight: 400;
+        line-height: 28px;
+        color: $white100;
+        text-align: left;
+        margin-left: 70px;
+        margin-top: 18px;
+        
+      }
+      .btn-div{
+        display: flex;
+        justify-content: start;
+        button {
+          background-color: $orange100;
+          color: $white100;
+          border-radius: 26px;
+          border: none;
+          min-width: 244px;
+        min-height: 52px;
+        margin-left: 70px;
+        margin-top: 24px;
+        }
+        button:hover {
+          border: 1px solid $orange100;
+          color: $orange100;
+          background-color: $white100;
+        }
+      }
+
+
+
+
+     
+      .bowl-1{
+        max-width: 334px;
+        max-height: 334px;
+        margin-top: 82px;
+      }
+      .bowl-2{
+        max-width: 174px;
+        max-height: 174px;
+        margin-top: 29px;
+        margin-right: 26px;
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+/*
 .sect-4-home {
   @include respond-to(md) {
     .card-sect-4 {
       display: flex;
     }
     .sect-4-card {
-      min-width: 1176px;
-      min-height: 314px;
-      margin-left: 132px;
-      margin-right: 132px;
+     // min-width: 1176px;
+     // min-height: 314px;
+     // margin-left: 132px;
+     // margin-right: 132px;
 
       h5 {
         text-align: left;
@@ -264,7 +331,7 @@
       }
     }
   }
-}
+}*/
 
 .sect-5-home {
   @include respond-to(md) {

@@ -80,7 +80,6 @@
       </div>
     </nav>
 
-    
     <div class="card-img-div">
       <div class="intro-card card">
         <div class="card-body">
@@ -101,12 +100,12 @@
       />
     </div>
 
-    <section class="sect-1-home">
+    <section class="sect-1-home container-fluid">
       <div class="text-center">
         <h2>What's poke</h2>
       </div>
-      <div class="card border-0">
-        <div class="sect-1-card card-body">
+      <div class="card border-0 p-0">
+        <div class="sect-1-card card-body w-100">
           <p class="text-center">
             Poke is a traditional Hawaiian dish that typically consists of diced
             raw fish (such as tuna or salmon) marinated in soy sauce and other
@@ -237,43 +236,92 @@
       </div>
     </section>
 
-    <section class="sect-3-home">
-      <div class="content-div">
-        <div>
-          <h4>Our happy customers</h4>
-        </div>
-        <div class="card border-0">
-          <div class="sect-1-card card-body">
-            <p>
-              I'm a big fan of poke bowls, and this place definitely delivers.
-              The quality of the ingredients is top-notch, and the variety of
-              toppings allows you to customize your bowl.
-            </p>
-            <p class="name">Lauren Martinez</p>
+    <section class="sect-3-home container-fluid">
+      <div class="row d-flex justify-content-around mt-5">
+        <div class="col-md-1 w-50">
+          <h4 class="align-items-md-start">Our happy customers</h4>
+          <p class="mt-5">
+            I'm a big fan of poke bowls, and this place definitely delivers. The
+            quality of the ingredients is top-notch, and the variety of toppings
+            allows you to customize your bowl.
+          </p>
+          <p class="name mt-5">Lauren Martinez</p>
+          <div class="icon-div row d-flex flex-row flex-nowrap mt-5">
+            <div class="col-3 col-md-2 col-sm-2">
+              <img
+                class="icon img-fluid"
+                src="assets/images/Avatar1(1).png"
+                alt="avatar"
+              />
+            </div>
+            <div class="col-3 col-md-2 col-sm-2">
+              <img
+                class="icon img-fluid"
+                src="assets/images/Avatar2(1).png"
+                alt="avatar"
+              />
+            </div>
+            <div class="col-3 col-md-2 col-sm-2">
+              <img
+                class="icon img-fluid"
+                src="assets/images/Avatar3(2).png"
+                alt="avatar"
+              />
+            </div>
+            <div class="col-3 col-md-2 col-sm-2">
+              <img
+                class="icon img-fluid"
+                src="assets/images/Avatar4.png"
+                alt="avatar"
+              />
+            </div>
+            <div class="col-3 col-md-2 col-sm-2">
+              <img
+                class="icon img-fluid"
+                src="assets/images/IconButton1(1).png"
+                alt="icon"
+              />
+            </div>
           </div>
         </div>
-
-        <div class="icon-div">
-          <img class="icon" src="assets/images/Avatar1(1).png" alt="avatar" />
-          <img class="icon" src="assets/images/Avatar2(1).png" alt="avatar" />
-          <img class="icon" src="assets/images/Avatar3(2).png" alt="avatar" />
-          <img class="icon" src="assets/images/Avatar4.png" alt="avatar" />
-          <img class="icon" src="assets/images/IconButton1(1).png" alt="icon" />
+        <div class="col-5 d-none d-sm-none d-md-block container-fluid">
+          <img class="img-fluid" src="assets/images/image5.jpeg" alt="bowl" />
         </div>
-      </div>
-
-      <div class="img-div">
-        <img
-          class="bowl-img img-fluid d-none d-sm-none d-md-block"
-          src="assets/images/image5.jpeg"
-          alt="bowl"
-        />
       </div>
     </section>
 
-    <section class="sect-4-home px-3">
+    <section class=" sect-4-home container-fluid mt-5">
+      <div class="box-1 bg-black d-flex">
+        <div>
+          <h5 class="text-white">Find our locations</h5>
+          <p class="text-white">
+            Serving fresh fish daily at Boston Harbor Islands, Boylston St,
+            Congress St, Kendall Square, Cambridge St, Haviland St.
+          </p>
+          <div class="btn-div">
+            <button
+            onclick="location.href='./pages/location.html '"
+            class="btn"
+          >
+            Locations & Hours
+          </button>
+          </div>
+         
+        </div>
+        <div class="d-flex">
+          <img class=" bowl-1 img-fluid d-none d-sm-none d-md-block" src="assets/images/Image6.png" alt="bowl" />
+          <img
+            class=" bowl-2 img-fluid d-none d-sm-none d-md-block"
+            src="assets/images/image7-removebg-preview.png"
+            alt="bowl"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!---- <section class="sect-4-home px-3 container-fluid">
       <div class="sect-4-card card">
-        <div class="card-sect-4 card-body p-0">
+        <div class="card-sect-4 card-body container-fluid">
           <div>
             <h5 class="card-title">Find our locations</h5>
             <p class="card-text">
@@ -294,7 +342,7 @@
             </div>
           </div>
 
-          <div class="bowls-div d-flex">
+          <div class="bowls-div d-flex container-fluid">
             <img
               class="bowl-1 img-fluid d-none d-sm-none d-md-block"
               src="assets/images/Image6.png"
@@ -308,9 +356,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
-    <section class="sect-5-home d-flex justify-content-center overflow-hidden">
+    <section
+      class="sect-5-home d-flex justify-content-center overflow-hidden container-fluid"
+    >
       <div class="container-fluid d-flex justify-content-center">
         <div class="sect-5-home-txt">
           <h6 class="card-title">Follow Us</h6>
@@ -333,8 +383,7 @@
           class="bowl-div align-content-end container-fluid d-none d-sm-none d-md-block"
         >
           <div class="row">
-            <!-- Column 1 -->
-            <div class="col-3 mt-5">
+            <div class="col-3 col-lg-3 mt-5">
               <div class="box p-2">
                 <img
                   style="width: 238; height: 238px"
@@ -360,8 +409,8 @@
                 />
               </div>
             </div>
-            <!-- Column 2 -->
-            <div class="col-3 ms-3 mb-4">
+
+            <div class="col-3 col-lg-3 ms-3 mb-4">
               <div class="box p-2">
                 <img
                   style="width: 238; height: 238px"
@@ -387,8 +436,8 @@
                 />
               </div>
             </div>
-            <!-- Column 3 -->
-            <div class="col-3 ms-3 mt-5">
+
+            <div class="col-3 col-lg-1 ms-3 mt-5">
               <div class="box p-2">
                 <img
                   style="width: 238; height: 238px"
@@ -455,7 +504,7 @@
 
             <button
               onclick="location.href='./pages/reservation.html '"
-              class="btn2 mt-3 "
+              class="btn2 mt-3"
             >
               Book a Table
             </button>
