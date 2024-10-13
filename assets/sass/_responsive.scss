@@ -48,33 +48,25 @@
       border: 1px solid $orange100;
     }
   }
-  
 }
-
-
-
-
-
-
 
 .card-img-div {
   @include respond-to(md) {
     position: relative;
   }
- 
-  
 }
 
 .sect-1-home {
   @include respond-to(md) {
+    
     h2 {
       font-size: $primaryheader !important;
     }
     .sect-1-card {
       min-width: 587px;
       min-height: 168px;
-     // padding-left: 428px;
-     // padding-right: 425px;
+       padding-left: 428px;
+       padding-right: 425px;
       margin-top: 18px;
       margin-bottom: 72px;
       p {
@@ -87,7 +79,6 @@
       }
     }
   }
-  
 }
 
 .sect-2-home {
@@ -194,11 +185,9 @@
   }
 }
 
-
-
 .sect-4-home {
   @include respond-to(md) {
-    .box-1{
+    .box-1 {
       margin-left: 132px;
       margin-right: 132px;
       h5 {
@@ -219,89 +208,10 @@
         text-align: left;
         margin-left: 70px;
         margin-top: 18px;
-        
-      }
-      .btn-div{
-        display: flex;
-        justify-content: start;
-        button {
-          background-color: $orange100;
-          color: $white100;
-          border-radius: 26px;
-          border: none;
-          min-width: 244px;
-        min-height: 52px;
-        margin-left: 70px;
-        margin-top: 24px;
-        }
-        button:hover {
-          border: 1px solid $orange100;
-          color: $orange100;
-          background-color: $white100;
-        }
-      }
-
-
-
-
-     
-      .bowl-1{
-        max-width: 334px;
-        max-height: 334px;
-        margin-top: 82px;
-      }
-      .bowl-2{
-        max-width: 174px;
-        max-height: 174px;
-        margin-top: 29px;
-        margin-right: 26px;
-      }
-    }
-  }
-
-}
-
-
-
-
-
-
-/*
-.sect-4-home {
-  @include respond-to(md) {
-    .card-sect-4 {
-      display: flex;
-    }
-    .sect-4-card {
-     // min-width: 1176px;
-     // min-height: 314px;
-     // margin-left: 132px;
-     // margin-right: 132px;
-
-      h5 {
-        text-align: left;
-        font-family: $catamaran;
-        font-size: $primaryheader;
-        font-weight: 400;
-        line-height: 68px;
-        margin-top: 18px;
-        margin-left: 70px;
-      }
-      p {
-        text-align: left;
-        font-family: $nunito;
-        font-weight: 400;
-        line-height: 28px;
-        font-size: 24px;
-        margin-left: 70px;
-      }
-      .sect-4-text {
-        white-space: nowrap;
       }
       .btn-div {
         display: flex;
         justify-content: start;
-        margin-left: 70px;
         button {
           background-color: $orange100;
           color: $white100;
@@ -309,6 +219,8 @@
           border: none;
           min-width: 244px;
           min-height: 52px;
+          margin-left: 70px;
+          margin-top: 24px;
         }
         button:hover {
           border: 1px solid $orange100;
@@ -316,22 +228,21 @@
           background-color: $white100;
         }
       }
-      .bowls-div {
-        .bowl-1 {
-          max-width: 334px;
-          max-height: 334px;
-          margin-top: 82px;
-        }
-        .bowl-2 {
-          max-width: 174px;
-          max-height: 174px;
-          margin-top: 29px;
-          margin-right: 26px;
-        }
+
+      .bowl-1 {
+        max-width: 334px;
+        max-height: 334px;
+        margin-top: 82px;
+      }
+      .bowl-2 {
+        max-width: 174px;
+        max-height: 174px;
+        margin-top: 29px;
+        margin-right: 26px;
       }
     }
   }
-}*/
+}
 
 .sect-5-home {
   @include respond-to(md) {
@@ -705,11 +616,6 @@ footer {
   }
 }
 
-
-
-
-
-
 .login-box-1 {
   .login-card-1 {
     @include respond-to(md) {
@@ -729,13 +635,6 @@ footer {
     }
   }
 }
-
-
-
-
-
-
-
 
 .reservation {
   @include respond-to(md) {
