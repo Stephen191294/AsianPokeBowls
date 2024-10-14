@@ -140,9 +140,6 @@
   border: 1px solid #F96540;
 }
 
-.sect-1-home {
-  margin-top: 150px;
-}
 .sect-1-home h2 {
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
@@ -242,6 +239,7 @@
 }
 
 .sect-4-home .box-1 {
+  background-color: #171A1f;
   border-radius: 8px;
 }
 .sect-4-home .box-1 h5 {
@@ -278,9 +276,11 @@
 }
 
 .sect-5-home {
-  display: flex;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  background-color: #FAFAFB;
+}
+.sect-5-home img {
+  max-width: 238;
+  max-height: 238px;
 }
 .sect-5-home h6 {
   font-size: 28px;
@@ -288,7 +288,6 @@
   font-weight: 500;
   line-height: 68px;
   color: #171A1f;
-  text-align: center;
 }
 .sect-5-home p {
   font-size: 18px;
@@ -296,15 +295,6 @@
   font-weight: 400;
   line-height: 28px;
   color: #171A1f;
-  text-align: center;
-}
-.sect-5-home .icon-container {
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-}
-.sect-5-home .icon-container .icon {
-  margin-right: 10px;
 }
 
 @media (min-width: 768px) {
@@ -371,7 +361,6 @@
     min-height: 168px;
     padding-left: 428px;
     padding-right: 425px;
-    margin-top: 18px;
     margin-bottom: 72px;
   }
   .sect-1-home .sect-1-card p {
@@ -529,9 +518,9 @@
 
 @media (min-width: 768px) {
   .sect-5-home {
-    width: 100%;
+    padding-left: 132px;
+    margin-top: 96px;
     max-height: 616px;
-    margin-bottom: 0;
   }
   .sect-5-home h6 {
     font-size: 3rem;
@@ -539,10 +528,8 @@
     font-family: "Catamaran", sans-serif;
     line-height: 68px;
     color: #171A1f;
-    margin-left: 132px;
     margin-top: 160px;
     margin-bottom: 12px;
-    text-align: left;
   }
   .sect-5-home p {
     font-size: 18px;
@@ -550,27 +537,11 @@
     font-weight: 400;
     line-height: 28px;
     color: #171A1f;
-    margin-left: 132px;
     min-width: 465px;
     min-height: 84px;
-    text-align: left;
   }
   .sect-5-home .twitter {
     margin-top: 12px;
-  }
-  .sect-5-home .icon-container {
-    margin-left: 132px;
-    display: flex;
-    justify-content: flex-start;
-  }
-  .sect-5-home .icon-container .icon {
-    margin-right: 10px;
-  }
-  .sect-5-home .bowl-div img {
-    min-width: 238px;
-    min-height: 238px;
-    margin-left: 140px;
-    border-radius: 8px;
   }
 }
 

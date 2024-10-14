@@ -66,7 +66,7 @@
       min-height: 168px;
       padding-left: 428px;
       padding-right: 425px;
-      margin-top: 18px;
+      //margin-top: 18px;
       margin-bottom: 72px;
       p {
         font-family: $nunito;
@@ -228,21 +228,22 @@
   }
 }
 
-.sect-5-home {
+
+.sect-5-home{
   @include respond-to(md) {
-    width: 100%;
+    padding-left:132px ;
+    margin-top: 96px;
     max-height: 616px;
-    margin-bottom: 0;
     h6 {
       font-size: $primaryheader;
       font-weight: 500;
       font-family: $catamaran;
       line-height: 68px;
       color: $black100;
-      margin-left: 132px;
+    //  margin-left: 132px;
       margin-top: 160px;
       margin-bottom: 12px;
-      text-align: left;
+      
     }
     p {
       font-size: 18px;
@@ -250,32 +251,20 @@
       font-weight: 400;
       line-height: 28px;
       color: $black100;
-      margin-left: 132px;
+     // margin-left: 132px;
       min-width: 465px;
       min-height: 84px;
-      text-align: left;
+      
     }
     .twitter {
       margin-top: 12px;
     }
-    .icon-container {
-      margin-left: 132px;
-      display: flex;
-      justify-content: flex-start;
-      .icon {
-        margin-right: 10px;
-      }
-    }
-    .bowl-div {
-      img {
-        min-width: 238px;
-        min-height: 238px;
-        margin-left: 140px;
-        border-radius: 8px;
-      }
-    }
+
   }
 }
+
+
+
 
 .sect-1-menu {
   @include respond-to(md) {
