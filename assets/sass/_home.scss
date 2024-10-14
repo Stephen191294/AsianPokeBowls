@@ -5,10 +5,10 @@
     color: $black100;
     font-family: $catamaran;
     font-weight: 400;
-    font-size: 28px;
-    // min-width: 370px;
+    font-size: $mobileheader100;
+    // min-width: 370px;s
     // max-height: 136px;
-    line-height: 68px;
+    line-height: 4.25rem;
     color: $black100;
     text-align: center;
   }
@@ -35,7 +35,7 @@
     border: 1px solid $orange100;
   }
 }
-
+/*
 .sect-1-home {
 // margin-top: 150px;
   h2 {
@@ -57,7 +57,7 @@
       text-align: center;
     }
   }
-}
+} */
 
 .sect-2-home {
   background-color: $lightgrey200;

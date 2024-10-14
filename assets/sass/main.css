@@ -116,8 +116,8 @@
   color: #171A1f;
   font-family: "Catamaran", sans-serif;
   font-weight: 400;
-  font-size: 28px;
-  line-height: 68px;
+  font-size: 1.75rem;
+  line-height: 4.25rem;
   color: #171A1f;
   text-align: center;
 }
@@ -140,24 +140,29 @@
   border: 1px solid #F96540;
 }
 
-.sect-1-home h2 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  font-size: 28px;
-  margin-top: 30px;
-  color: #171A1f;
-}
-.sect-1-home .sect-1-card p {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
-  color: #171A1f;
-  width: 100%;
-  text-align: center;
-}
-
+/*
+.sect-1-home {
+// margin-top: 150px;
+  h2 {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 30px;
+    color: $black100;
+  }
+  .sect-1-card {
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+      color: $black100;
+      width: 100%;
+      text-align: center;
+    }
+  }
+} */
 .sect-2-home {
   background-color: #FAFAFB;
   height: auto;
@@ -542,6 +547,9 @@
   }
   .sect-5-home .twitter {
     margin-top: 12px;
+  }
+  .sect-5-home .bowl-div {
+    margin-left: 127px;
   }
 }
 
