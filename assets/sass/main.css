@@ -862,6 +862,10 @@
 }
 
 @media (min-width: 768px) {
+  .login-box-1 {
+    top: 138px;
+    left: 151px;
+  }
   .login-box-1 .login-card-1 h1 {
     font-size: 32px !important;
   }
@@ -2066,108 +2070,120 @@ footer a {
   line-height: 28px;
 }
 
-.section-1-purchase-info h1 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 700px;
-  font-size: 32px;
-  line-height: 48px;
-  color: #171A1f;
+.img-1 {
+  margin-top: 36px;
 }
-.section-1-purchase-info p {
-  color: #9095A0;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
+
+.square-check {
+  top: 270px;
+  left: 210px;
+}
+
+/*
+.section-1-purchase-info {
+  h1 {
+    font-family: $catamaran;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 48px;
+    color: $black100;
+  }
+  p {
+    color: $grey400;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
 
 .section-2-purchase-info {
   margin-bottom: 100px;
-}
-.section-2-purchase-info .purchase-info {
-  width: 560px;
-}
-.section-2-purchase-info .purchase-info .left-txt {
-  display: inline-block;
-}
-.section-2-purchase-info .purchase-info .left-txt p {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #9095A0;
-}
-.section-2-purchase-info .purchase-info .right-txt {
-  color: #171A1f;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-}
-.section-2-purchase-info .purchase-info .right-txt-1 {
-  color: #171A1f;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
-}
-.section-2-purchase-info .purchase-info .right-txt-2 {
-  color: #171A1f;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-}
-.section-2-purchase-info h2 {
-  color: #171A1f;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: left;
-}
-.section-2-purchase-info h3 {
-  color: #323842;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: left;
-}
-.section-2-purchase-info .purchased-item {
-  display: inline-block;
-}
-.section-2-purchase-info .order-line {
-  width: 560px;
-}
-.section-2-purchase-info .order-line-img {
-  width: 94px;
-  height: 94px;
-}
-.section-2-purchase-info .order-line-txt-1 {
-  text-align: left;
-}
-.section-2-purchase-info .order-line-txt-2 {
-  text-align: left;
-}
-.section-2-purchase-info .back-home {
-  background-color: #F96540;
-  border: none;
-  width: 130px;
-  height: 44px;
-  color: #FFFFFF;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  border-radius: 22px;
-}
-.section-2-purchase-info .line {
-  border: 1px solid #dee1e6;
-  height: 1px;
-  width: 512px;
-}
+  .purchase-info {
+    width: 560px;
+    .left-txt {
+      display: inline-block;
+      p {
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $grey400;
+      }
+    }
+    .right-txt {
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .right-txt-1 {
+      color: $black100;
+      font-family: $catamaran;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .right-txt-2 {
+      color: $black100;
+      font-family: $nunito;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
 
+  h2 {
+    color: $black100;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+  }
+  h3 {
+    color: #323842;
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+  }
+  .purchased-item {
+    display: inline-block;
+  }
+  .order-line {
+    width: 560px;
+  }
+  .order-line-img {
+    width: 94px;
+    height: 94px;
+  }
+  .order-line-txt-1 {
+    text-align: left;
+  }
+  .order-line-txt-2 {
+    text-align: left;
+  }
+  .back-home {
+    background-color: $orange100;
+    border: none;
+    width: 130px;
+    height: 44px;
+    color: $white100;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 22px;
+  }
+  .line {
+    border: 1px solid #dee1e6;
+    height: 1px;
+    width: 512px;
+  }
+}*/
 .build-bowl-body {
   margin-bottom: 500px;
 }
@@ -2318,10 +2334,6 @@ footer a {
   color: #171A1f;
 }
 
-.login-box-1 {
-  top: 100px;
-  left: 100px;
-}
 .login-box-1 .login-card-1 {
   border-radius: 8px;
   background-color: #FFFFFF;
