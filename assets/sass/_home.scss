@@ -35,9 +35,9 @@
     border: 1px solid $orange100;
   }
 }
-/*
+
 .sect-1-home {
-// margin-top: 150px;
+ margin-top: 30px;
   h2 {
     font-family: $catamaran;
     font-weight: 400;
@@ -57,7 +57,7 @@
       text-align: center;
     }
   }
-} */
+} 
 
 .sect-2-home {
   background-color: $lightgrey200;
@@ -187,7 +187,7 @@
 .sect-5-home{
   background-color: $lightgrey200;
   img{
-    max-width: 238;
+    max-width: 238px;
      max-height: 238px;
   }
   h6 {

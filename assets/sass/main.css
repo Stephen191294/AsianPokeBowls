@@ -140,29 +140,27 @@
   border: 1px solid #F96540;
 }
 
-/*
 .sect-1-home {
-// margin-top: 150px;
-  h2 {
-    font-family: $catamaran;
-    font-weight: 400;
-    font-size: 28px;
-    margin-top: 30px;
-    color: $black100;
-  }
-  .sect-1-card {
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-      text-align: center;
-      color: $black100;
-      width: 100%;
-      text-align: center;
-    }
-  }
-} */
+  margin-top: 30px;
+}
+.sect-1-home h2 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  margin-top: 30px;
+  color: #171A1f;
+}
+.sect-1-home .sect-1-card p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #171A1f;
+  width: 100%;
+  text-align: center;
+}
+
 .sect-2-home {
   background-color: #FAFAFB;
   height: auto;
@@ -284,7 +282,7 @@
   background-color: #FAFAFB;
 }
 .sect-5-home img {
-  max-width: 238;
+  max-width: 238px;
   max-height: 238px;
 }
 .sect-5-home h6 {
@@ -362,10 +360,6 @@
     font-size: 3rem !important;
   }
   .sect-1-home .sect-1-card {
-    min-width: 587px;
-    min-height: 168px;
-    padding-left: 428px;
-    padding-right: 425px;
     margin-bottom: 72px;
   }
   .sect-1-home .sect-1-card p {
