@@ -1,6 +1,43 @@
 @import "./variables";
 @import "./mixins";
 
+
+
+/* Ultra large devices (extra-wide screens, 1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    width: 1440px;
+  }
+}
+
+@media (max-width: 800px) {
+  .hideOnMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .intro-card {
   @include respond-to(md) {
     border-radius: 4px;
@@ -260,7 +297,7 @@
       margin-left: 127px;
     }
   }
-}
+}*/
 
 .sect-1-menu {
   @include respond-to(md) {

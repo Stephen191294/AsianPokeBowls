@@ -1,5 +1,28 @@
 @import "./variables";
 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
 .sect-1-about {
   .about-card {
     // position: static;

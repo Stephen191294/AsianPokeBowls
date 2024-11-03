@@ -1,22 +1,26 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const element = document.getElementById('fadeElement');
-  fadeIn(element, 2000); 
-});
+new WOW().init();
 
-function fadeIn(element, duration) {
-  let opacity = 0;
-  const interval = 50;
-  const increment = interval / duration;
 
-  const fade = setInterval(() => {
-      opacity += increment;
-      if (opacity >= 1) {
-          clearInterval(fade);
-          opacity = 1; 
-      }
-      element.style.opacity = opacity;
-  }, interval);
-};
+function showSidebar(){
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "flex"
+
+}
+
+
+function hideSidebar(){
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "none"
+
+}
+
+
+
+
+
+
+
+
 
 
 
