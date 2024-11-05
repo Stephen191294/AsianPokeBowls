@@ -487,6 +487,13 @@ body {
 .section-5-home .icon-div img {
   cursor: pointer;
 }
+.section-5-home .bowl-div {
+  display: none;
+}
+.section-5-home .bowl-div img {
+  width: 238px;
+  height: 238px;
+}
 
 /* Small devices (tablets, 600px and up) */
 @media (min-width: 600px) {
@@ -621,6 +628,7 @@ body {
     /* max-height: 314px ;*/
     max-width: 1176px;
     margin: auto;
+    margin-bottom: 95px;
   }
   .section-4-home .box-1 {
     display: flex;
@@ -672,6 +680,46 @@ body {
     max-height: 174px;
     top: 29;
     left: 976px;
+  }
+  .section-5-home {
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    height: 616px;
+  }
+  .section-5-home .section-5-text {
+    margin-top: 160px;
+  }
+  .section-5-home .bowl-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-left: auto;
+    margin-top: -70px;
+    margin-right: -50px;
+  }
+  .section-5-home .bowl-div .middle {
+    margin-top: -50px;
+  }
+  .section-5-home .bowl-div img {
+    border-radius: 8px;
+  }
+  .section-5-home h6 {
+    text-align: left;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  .section-5-home p {
+    text-align: left;
+    width: 465px;
+    height: 84px;
+  }
+  .section-5-home .icon-div {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 52px;
   }
 }
 /* Extra large devices (large desktops, 1200px and up) */

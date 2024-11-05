@@ -121,13 +121,13 @@
   .section-3-home {
     display: flex;
     padding: 48px 132px;
-    h4{
+    h4 {
       font-size: 48px;
       font-weight: 400;
       line-height: 68px;
       text-align: left;
     }
-    p{
+    p {
       text-align: left;
       font-weight: 400;
       font-size: 24px;
@@ -135,84 +135,125 @@
       width: 492px;
       height: 180px;
     }
-    .name{
+    .name {
       font-weight: 700;
       font-size: 24px;
       line-height: 36px;
       margin-top: 54px;
     }
-    .icon-div{
+    .icon-div {
       display: flex;
       justify-content: flex-start;
       margin-top: 0;
     }
-    .img-div{
+    .img-div {
       margin-left: 194px;
     }
   }
 
-.section-4-home{
- /* max-height: 314px ;*/
-  max-width: 1176px;
-  margin: auto;
-  .box-1{
+  .section-4-home {
+    /* max-height: 314px ;*/
+    max-width: 1176px;
+    margin: auto;
+    margin-bottom: 95px;
+    .box-1 {
+      display: flex;
+      position: relative;
+      h5 {
+        text-align: left;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 68px;
+        margin-top: 48px;
+        margin-left: 70px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        width: 568px;
+        height: 56px;
+        line-height: 28px;
+        margin-top: 18px;
+        margin-left: 70px;
+        text-align: left;
+      }
+      .btn-div {
+        margin-top: 18px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 70px;
+        margin-bottom: 48px;
+        .btn {
+          border-radius: 26px;
+        }
+      }
+      .bowl-div {
+        display: flex;
+        .bowl-1 {
+          display: block;
+          max-width: 334px;
+          max-height: 334px;
+          position: absolute;
+          top: 98px;
+          left: 638px;
+        }
+        .bowl-2 {
+          position: absolute;
+          display: block;
+          max-width: 174px;
+          max-height: 174px;
+          top: 29;
+          left: 976px;
+        }
+      }
+    }
+  }
+
+  .section-5-home {
+    overflow: hidden;
     display: flex;
-    position: relative;
-    h5{
+    margin: 0;
+    height: 616px;
+    .section-5-text{
+      margin-top: 160px ;
+    }
+    
+  
+    .bowl-div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-left: auto;
+      margin-top: -70px;
+      margin-right: -50px;
+      .middle{
+        margin-top: -50px;
+      }
+    
+      img{
+        border-radius: 8px;
+      }
+    }
+    h6 {
       text-align: left;
       font-size: 48px;
-      font-weight: 400;
       line-height: 68px;
-      margin-top: 48px;
-      margin-left: 70px;
+      font-weight: 500;
+      margin-bottom: 12px;
     }
-    p{
-      font-size: 18px;
-      font-weight: 400;
-      width: 568px;
-      height: 56px;
-      line-height: 28px;
-      margin-top: 18px;
-      margin-left: 70px;
+    p {
       text-align: left;
+      width: 465px;
+      height: 84px;
+     
     }
-    .btn-div{
-      margin-top: 18px;
+    .icon-div{
       display: flex;
       justify-content: flex-start;
-      margin-left: 70px;
-      margin-bottom: 48px;
-      .btn{
-border-radius: 26px;
-      }
-    }
-    .bowl-div{
-      display: flex;
-      .bowl-1{
-        display: block;
-        max-width: 334px;
-        max-height: 334px;
-        position: absolute;
-        top: 98px;
-        left: 638px;
-    
-      }
-      .bowl-2{
-        position: absolute;
-        display: block;
-        max-width: 174px;
-        max-height: 174px;
-        top: 29;
-        left: 976px;
-      }
+      margin-top: 52px;
     }
     
   }
-  
-}
-
-
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
