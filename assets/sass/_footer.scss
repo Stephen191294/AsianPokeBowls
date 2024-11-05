@@ -2,59 +2,85 @@
 
 footer {
   height: auto;
+  width: 100%;
   background-color: $black100;
-  padding-bottom: 350px;
- // padding-left: 0;
- // padding-right: 0;
-  h6 {
-    font-family: $catamaran;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 48px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: top 1.25rem;
+  padding-bottom: 1.25rem;
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-bottom: 1.25rem;
+    li {
+      a {
+        color: $white100;
+        text-decoration: none;
+      }
+    }
+  }
+  p {
     color: $white100;
-    white-space: wrap;
+    margin-bottom: 1.25rem;
+  }
+
+  .logo-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h6 {
+      font-family: $catamaran;
+      font-weight: 800;
+      font-size: 1.5rem;
+      line-height: 3rem;
+      color: $white100;
+    }
   }
   .btn-container {
-
-    .btn1 {
-     // width: 125px;
-      height: auto;
-      border: 1px solid $orange100;
-      border-radius: 22px;
-      color: $orange100;
+    margin-bottom: 1.25rem;
+    .btn-1 {
       background-color: $black100;
-    }
-    .btn1:hover{
-      background-color: $orange100;
-      color: $black100;
-    }
-    .btn2 {
-     // width: 126px;
-     // height: 44px;
-      border-radius: 22px;
-      border: none;
-      color: $white100;
-      background-color: $orange100;
-    }
-    .btn2:hover{
-      background-color: $white100;
       color: $orange100;
-    }
-  }
-  .social {
-    text-align: right;
-    img{
+      border: 1px solid $orange100;
+      width: 7.8125rem;
+      height: 2.75rem;
+      border-radius: 1.375rem;
+      font-size: 1rem;
       cursor: pointer;
     }
+    .btn-1:hover{
+      background-color: $orange100;
+      color: $black100;
+      border: 1px solid $orange100;
+    }
+    .btn-2 {
+      background-color: $orange100;
+      color: $white100;
+      width: 7.8125rem;
+      height: 2.75rem;
+      border-radius: 1.375rem;
+      border: transparent;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .btn-2:hover{
+      color: $orange100;
+      background-color: $white100;
+      border: 1px solid $orange100;
+    }
   }
-  .footer-link{
-    text-decoration: none;
-    color: $white100;
-  }
-  .footer-link:hover{
-    color: $orange100;
-  }
-  a{
-    text-decoration: none;
+  .social-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.25rem;
+    cursor: pointer;
   }
 }
