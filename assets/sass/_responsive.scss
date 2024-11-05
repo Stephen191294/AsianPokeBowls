@@ -1,25 +1,218 @@
 @import "./variables";
 @import "./mixins";
 
-
-
-
-
-
-
 /* Small devices (tablets, 600px and up) */
 @media (min-width: 600px) {
-  /* Styles for tablets */
+  .section-1-home {
+    h1 {
+      font-size: 48px;
+      line-height: 68px;
+      font-weight: 400;
+    }
+  }
+
+  .section-2-home {
+    .card-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 36px;
+    }
+  }
 }
 
 /* Medium devices (small laptops/desktops, 768px and up) */
 @media (min-width: 768px) {
-  /* Styles for small laptops */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* Styles for regular laptops */
+  .section-1-home {
+    position: relative;
+
+    .card-img-div {
+      position: absolute;
+      top: 199px;
+      left: 132px;
+      width: 442px;
+      height: 413px;
+      padding: 48px 36px;
+      border-radius: 4px;
+      background-color: $white100;
+      z-index: 1;
+      box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+      h1 {
+        margin-bottom: 80px;
+        text-align: left;
+        font-size: 48px;
+      }
+      p {
+        text-align: left;
+      }
+      .btn-div {
+        display: flex;
+        justify-content: flex-start;
+        .card-btn {
+          border-radius: 26px;
+        }
+      }
+    }
+    .section-1-text {
+      h2 {
+        font-size: 48px;
+        line-height: 68px;
+        font-weight: 400;
+      }
+      p {
+        width: 587px;
+        height: 168px;
+        line-height: 28px;
+        font-weight: 400;
+        font-size: 18px;
+        margin: auto;
+      }
+    }
+  }
+  .section-2-home {
+    .heading-div {
+      margin-bottom: 26px;
+      h3 {
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: 400;
+      }
+    }
+    .card-container {
+      display: grid;
+      flex-direction: row;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 140px;
+
+      .card-sect-2 {
+        position: relative;
+        padding-top: 128px;
+        height: auto;
+        width: 292px;
+        h3 {
+          text-align: left;
+        }
+        p {
+          text-align: left;
+        }
+        .btn-div {
+          display: flex;
+          justify-content: flex-start;
+        }
+      }
+      .img-div {
+        img {
+          position: absolute;
+          top: -115px;
+          left: 24px;
+        }
+      }
+    }
+  }
+  .btn-div-2 {
+    .explor-btn {
+      border-radius: 26px !important;
+    }
+  }
+
+  .section-3-home {
+    display: flex;
+    padding: 48px 132px;
+    h4{
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 68px;
+      text-align: left;
+    }
+    p{
+      text-align: left;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      width: 492px;
+      height: 180px;
+    }
+    .name{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      margin-top: 54px;
+    }
+    .icon-div{
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 0;
+    }
+    .img-div{
+      margin-left: 194px;
+    }
+  }
+
+.section-4-home{
+ /* max-height: 314px ;*/
+  max-width: 1176px;
+  margin: auto;
+  .box-1{
+    display: flex;
+    position: relative;
+    h5{
+      text-align: left;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 68px;
+      margin-top: 48px;
+      margin-left: 70px;
+    }
+    p{
+      font-size: 18px;
+      font-weight: 400;
+      width: 568px;
+      height: 56px;
+      line-height: 28px;
+      margin-top: 18px;
+      margin-left: 70px;
+      text-align: left;
+    }
+    .btn-div{
+      margin-top: 18px;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 70px;
+      margin-bottom: 48px;
+      .btn{
+border-radius: 26px;
+      }
+    }
+    .bowl-div{
+      display: flex;
+      .bowl-1{
+        display: block;
+        max-width: 334px;
+        max-height: 334px;
+        position: absolute;
+        top: 98px;
+        left: 638px;
+    
+      }
+      .bowl-2{
+        position: absolute;
+        display: block;
+        max-width: 174px;
+        max-height: 174px;
+        top: 29;
+        left: 976px;
+      }
+    }
+    
+  }
+  
+}
+
+
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -32,11 +225,11 @@
   /* Styles for ultra-wide screens */
 }
 
-
 /* Ultra large devices (extra-wide screens, 1400px and up) */
 @media (min-width: 1400px) {
   .container {
     width: 1440px;
+    margin: auto;
   }
 }
 
@@ -51,5 +244,3 @@
     width: 100%;
   }
 }
-
-
