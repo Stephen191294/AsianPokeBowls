@@ -48,6 +48,9 @@ footer {
   }
   .btn-container {
     margin-bottom: 1.25rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     .btn-1 {
       background-color: $black100;
       color: $orange100;

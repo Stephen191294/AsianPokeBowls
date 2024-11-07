@@ -117,20 +117,20 @@ body {
     }
   }
   .card-sect-2 {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     border-radius: 14px;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: $white100;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
     h3 {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 1.25rem;
       font-family: $catamaran;
     }
 
     p {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 1.25rem;
       white-space: nowrap;
       font-family: $nunito;
       line-height: 28px;
@@ -140,7 +140,7 @@ body {
     .btn-div {
       display: flex;
       justify-content: center;
-      margin-top: 20px;
+      margin-top: 1.25rem;
       button {
         background-color: $orange200;
         color: $orange100;
@@ -187,7 +187,7 @@ body {
   margin-top: 40px;
   h4 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     font-family: $catamaran;
     font-size: 28px;
   }
@@ -198,14 +198,14 @@ body {
     font-size: 18px;
   }
   .name {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-weight: 700;
     font-family: $nunito;
   }
   .icon-div {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     margin-bottom: 40px;
     gap: 10px;
   }
@@ -222,7 +222,7 @@ body {
 .section-4-home {
   margin-top: 40px;
   background-color: $black100;
-  padding: 20px;
+  padding: 1.25rem;
   border-radius: 7px;
   img {
     display: none;
@@ -265,20 +265,20 @@ body {
   h6 {
     font-size: 28px;
     font-size: $catamaran;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   p {
     margin-bottom: 20px;
     font-weight: 400;
     font-family: $nunito;
     font-size: 1.125rem;
-    line-height: 28px;
+    line-height: 1.75rem;
   }
   .icon-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
     img {
       cursor: pointer;
     }
@@ -286,8 +286,8 @@ body {
   .bowl-div{
     display: none;
     img{
-      width: 238px;
-      height: 238px;
+      width: 14.875rem;
+      height: 14.875rem;
     }
   }
 }
