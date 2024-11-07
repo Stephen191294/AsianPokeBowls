@@ -308,72 +308,65 @@
     }
   }
 
-
-
-  .section-2-about{
-    height: 678px;
-    border: 1px solid black;
+  .section-2-about {
+    height: 678px !important;
     position: relative;
     margin-top: 97px;
     margin-bottom: 97px;
-    .circle-line{
+    .h3-span {
+      display: block;
+    }
+    .circle-line {
       width: 678px;
       height: 678px;
       border: 5px solid yellow;
       border-radius: 50%;
-      /* Halve the circle */
       border-bottom-color: transparent;
       border-left-color: transparent;
-      /* Rotate the circle */
       transform: rotate(225deg);
       position: absolute;
-      top:0;
+      top: 0;
       left: 1051px;
-    z-index: 1;
+      z-index: 1;
       display: block !important;
     }
-    h3{
+    h3 {
       text-align: left !important;
-
+      margin-top: 194px;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 68px;
     }
 
-    p{
+    p {
       text-align: left !important;
       width: 554px;
       height: 130px;
+      font-size: 16px;
     }
-    .bowl-1{
+    .bowl-1 {
       display: block !important;
       position: absolute;
       top: -103px;
       left: 1337px;
       z-index: 2;
-      
     }
-    
-    .bowl-2{
+
+    .bowl-2 {
       display: block !important;
       position: absolute;
       top: 108px;
       left: 849px;
       z-index: 2;
     }
-    .bowl-3{
+    .bowl-3 {
       display: block !important;
       position: absolute;
       top: 575px;
       left: 1337px;
       z-index: 2;
     }
-    
   }
-  
-
- 
-
-
-
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

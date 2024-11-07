@@ -731,21 +731,21 @@ body {
     border: 1px solid #F96540;
   }
   .section-2-about {
-    height: 678px;
-    border: 1px solid black;
+    height: 678px !important;
     position: relative;
     margin-top: 97px;
     margin-bottom: 97px;
+  }
+  .section-2-about .h3-span {
+    display: block;
   }
   .section-2-about .circle-line {
     width: 678px;
     height: 678px;
     border: 5px solid yellow;
     border-radius: 50%;
-    /* Halve the circle */
     border-bottom-color: transparent;
     border-left-color: transparent;
-    /* Rotate the circle */
     transform: rotate(225deg);
     position: absolute;
     top: 0;
@@ -755,11 +755,16 @@ body {
   }
   .section-2-about h3 {
     text-align: left !important;
+    margin-top: 194px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 68px;
   }
   .section-2-about p {
     text-align: left !important;
     width: 554px;
     height: 130px;
+    font-size: 16px;
   }
   .section-2-about .bowl-1 {
     display: block !important;
@@ -1002,8 +1007,19 @@ body {
 }
 
 .section-2-about {
-  border: 1px solid black;
-  background-color: lightgray;
+  background-color: #FAFAFB;
+  height: 200px;
+  padding: 36px;
+}
+.section-2-about h3 {
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+}
+.section-2-about p {
+  text-align: center;
+  margin-top: 20px;
+  line-height: 28px;
+  font-family: "Nunito Sans", sans-serif;
 }
 .section-2-about .circle-line {
   width: 678px;
