@@ -64,50 +64,43 @@ body {
   }
 }
 
-
-
-
-
-
-.section-2-about{
+.section-2-about {
   background-color: $lightgrey200;
   height: 200px;
   padding: 36px;
-  h3{
+  h3 {
     text-align: center;
     font-family: $catamaran;
   }
-  p{ 
+  p {
     text-align: center;
     margin-top: 20px;
     line-height: 28px;
     font-family: $nunito;
   }
-.circle-line{
-  width: 678px;
-  height: 678px;
-  border: 5px solid yellow;
-  border-radius: 50%;
-  /* Halve the circle */
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  /* Rotate the circle */
-  transform: rotate(225deg);
-  display: none;
-}
-  .bowl-1{
+  .circle-line {
+    width: 678px;
+    height: 678px;
+    border: 5px solid yellow;
+    border-radius: 50%;
+    /* Halve the circle */
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    /* Rotate the circle */
+    transform: rotate(225deg);
+    display: none;
+  }
+  .bowl-1 {
     display: none;
     z-index: 4;
   }
-  
-  .bowl-2{
-    display: none;
-    z-index: 4;
-  }
-  .bowl-3{
-    display: none;
-    z-index: 4;
-  }
-  
-}
 
+  .bowl-2 {
+    display: none;
+    z-index: 4;
+  }
+  .bowl-3 {
+    display: none;
+    z-index: 4;
+  }
+}

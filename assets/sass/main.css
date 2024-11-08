@@ -1046,99 +1046,273 @@ body {
   z-index: 4;
 }
 
-.sect-1-menu {
-  background-color: #FAFAFB;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.img-1 img {
+  width: 100%;
   height: auto;
-  padding-top: 30px;
 }
-.sect-1-menu h2 {
+
+.section-1-menu {
+  background-color: #FAFAFB;
+  padding: 48px 156px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.section-1-menu h1 {
+  text-align: center;
+  margin-top: 1.25rem;
+  font-family: "Catamaran", sans-serif;
+  white-space: nowrap;
+}
+.section-1-menu .card-div {
+  display: flex;
+  justify-content: center;
+}
+.section-1-menu .card-div .img-div {
+  display: flex;
+  justify-content: center;
+}
+.section-1-menu .card-sect-2 {
+  margin-top: 1.25rem;
+  border-radius: 14px;
+  padding: 1.25rem;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.section-1-menu .card-sect-2 h3 {
+  text-align: center;
+  margin-top: 1.25rem;
+  font-family: "Catamaran", sans-serif;
+  white-space: nowrap;
+}
+.section-1-menu .card-sect-2 p {
+  text-align: center;
+  margin-top: 1.25rem;
+  white-space: nowrap;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
   line-height: 28px;
-}
-.sect-1-menu p {
-  font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  max-width: 235px;
-  line-height: 20px;
-  text-align: left;
 }
-.sect-1-menu .card-sect-1 {
-  min-height: 68px;
-  background-color: #FFFFFF;
-  border-radius: 8px;
+.section-1-menu .card-sect-2 .btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
 }
-.sect-1-menu .btn-div {
-  height: auto;
-}
-.sect-1-menu .btn-div .order-btn {
+.section-1-menu .card-sect-2 .btn-div button {
   background-color: #FFF3F0;
   color: #F96540;
+  height: 36px;
+  width: 94px;
   border-radius: 18px;
-  border: none;
+  border: transparent;
+  cursor: pointer;
 }
-.sect-1-menu .btn-div .order-btn:hover {
-  color: #FFF3F0;
+.section-1-menu .card-sect-2 .btn-div button:hover {
   background-color: #F96540;
+  color: #FFF3F0;
 }
-.sect-1-menu .explor-btn {
-  border-radius: 26px;
+.section-1-menu .section-2-img {
+  max-width: 13.6875rem;
+  max-height: 13.6875rem;
+}
+.section-1-menu .btn-div-2 {
+  margin-top: 40px;
+}
+.section-1-menu .btn-div-2 .explor-btn {
   border: 1px solid #171A1f;
   background-color: #FFFFFF;
-  color: #171A1f;
+  border-radius: 0.875rem;
+  width: 219px;
+  height: 52px;
+  font-size: 1.125rem;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 30px;
+  cursor: pointer;
 }
-.sect-1-menu .explor-btn:hover {
+.section-1-menu .btn-div-2 .explor-btn:hover {
   background-color: #171A1f;
   color: #FFFFFF;
 }
+.section-1-menu .section-2-heading {
+  font-size: 28px;
+  font-family: "Catamaran", sans-serif;
+}
 
-.sect-2-menu {
-  background-color: #FFFFFF;
-  height: auto;
-  padding-top: 30px;
+.section-2-menu {
+  margin-top: 40px;
 }
-.sect-2-menu h3 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  white-space: nowrap;
+.section-2-menu h4 {
+  text-align: center;
+  font-size: 28px;
+  font-family: "Catamaran", sans-serif;
 }
-.sect-2-menu p {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  max-width: 235px;
-  line-height: 20px;
-  text-align: left;
+.section-2-menu .number-div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.sect-2-menu .card-sect-2 {
-  min-height: 68px;
-  background-color: #FFFFFF;
-  border-radius: 8px;
+.section-2-menu .all-cards-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 40px;
 }
-.sect-2-menu .btn-div {
-  height: auto;
+.section-2-menu .card-div .card-sect-2 h3 {
+  text-align: center;
+  margin-top: 20px;
 }
-.sect-2-menu .btn-div .order-btn-two {
+.section-2-menu .btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.section-2-menu .btn-div button {
   background-color: #F96540;
   color: #FFFFFF;
-  border-radius: 26px;
-  border: none;
+  height: 52px;
+  width: 219px;
+  border-radius: 14px;
+  border: transparent;
+  cursor: pointer;
 }
-.sect-2-menu .btn-div .order-btn-two:hover {
-  color: #F96540;
+.section-2-menu .btn-div button:hover {
   background-color: #FFFFFF;
   border: 1px solid #F96540;
+  color: #F96540;
 }
 
+/*
+.sect-1-menu {
+  background-color: $lightgrey200;
+  height: auto;
+  padding-top: 30px;
+  //border: 1px solid black;
+  // margin-top: 30px;
+  h2 {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 12px;
+    max-width: 235px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .card-sect-1 {
+    min-height: 68px;
+    //min-width: 267px;
+    background-color: $white100;
+    border-radius: 8px;
+  }
+  .btn-div {
+    height: auto;
+    .order-btn {
+      background-color: $orange200;
+      color: $orange100;
+      border-radius: 18px;
+      border: none;
+    }
+    .order-btn:hover {
+      color: $orange200;
+      background-color: $orange100;
+    }
+  }
+  .explor-btn {
+    // width: 219px;
+    // height: 52px;
+    border-radius: 26px;
+    border: 1px solid $black100;
+    background-color: $white100;
+    color: $black100;
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .explor-btn:hover {
+    background-color: $black100;
+    color: $white100;
+  }
+}
+
+.sect-2-menu {
+  background-color: $white100;
+  height: auto;
+  padding-top: 30px;
+
+  //border: 1px solid black;
+  // margin-top: 30px;
+  h3 {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  p {
+    font-family: $nunito;
+    font-weight: 400;
+    font-size: 12px;
+    max-width: 235px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .card-sect-2 {
+    min-height: 68px;
+    //min-width: 267px;
+    background-color: $white100;
+    border-radius: 8px;
+  }
+  .btn-div {
+    height: auto;
+    .order-btn-two {
+      background-color: $orange100;
+      color: $white100;
+     border-radius: 26px;
+      border: none;
+    }
+    .order-btn-two:hover {
+      color: $orange100;
+      background-color: $white100;
+      border: 1px solid $orange100;
+    }
+  }
+}
+*/
 .sect-1-location h1 {
   font-size: 28px;
   font-family: "Catamaran", sans-serif;

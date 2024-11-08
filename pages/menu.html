@@ -4,87 +4,530 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="../assets/sass/main.css" />
     <title>Menu</title>
   </head>
-  <body id="fadeElement">
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
-      <div class="container">
-        <div class="logo-container">
-          <a class="navbar-brand" href="../index.html">
-            <img
-              src="../assets/images/Image20.png"
-              alt="logo"
-              class="img-fluid"
-            />
-          </a>
+  <body class="wow animate__animated animate__fadeIn">
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </li>
+        <li><a href="./pages/menu.html">Menu</a></li>
+        <li><a href="./pages/about.html">Our story</a></li>
+        <li><a href="./pages/location.html">Location</a></li>
+        <li><a href="./pages/giftcard.html">Gift card</a></li>
+      </ul>
+      <ul>
+        <li>
+          <img src="../assets/images/Image20.png" alt="logo" />
           <a class="index" href="../index.html">POKE NOW.</a>
-        </div>
+        </li>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse item-links"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav mx-auto mb-lg-0 mt-3">
-            <li class="nav-item">
-              <a class="nav-link ms-3" href="../pages/menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-3" href="../pages/about.html">Our story</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-3" href="../pages/location.html">Location</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-3" href="../pages/giftcard.html"
-                >Gift card</a
-              >
-            </li>
-          </ul>
-          <div class="d-flex align-items-center gap-3 items-btns">
-            <button
-              onclick="location.href='../pages/menu-pickup.html '"
-              class="btn"
-              onclick="orderOnline()"
-            >
-              Order Online
-            </button>
-            <button
-              onclick="location.href='../pages/reservation.html '"
-              class="btn-1"
-              onclick="bookTable()"
-            >
-              Book a Table
-            </button>
-          </div>
-        </div>
-      </div>
+        <li class="hideOnMobile">
+          <a href="./pages/menu.html">Menu</a>
+          <a href="./pages/about.html">Our story</a>
+          <a href="./pages/location.html">Location</a>
+          <a href="./pages/giftcard.html">Gift card</a>
+        </li>
+
+        <li class="hamburger" onclick="showSidebar()">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </li>
+        <li>
+          <a href="#"><button class="quote-btn">Order Online</button></a>
+        </li>
+        <li>
+          <a href="#"><button class="quote-btn-2">Book a Table</button></a>
+        </li>
+      </ul>
     </nav>
 
-
-    <div class="container-md">
-      <div class="image-div-menu container-fluid">
-        <img class="w-100" src="../assets/images/Image 51 (1).png" alt="bowl" />
+    <div class="container">
+      <div class="img-1">
+        <img src="../assets/images/Image 51 (1).png" alt="bowl" />
       </div>
-  
-      <section class="sect-1-menu container-fluid">
+      <section class="section-1-menu">
+        <h1>Our menu</h1>
+
+        <div class="card-div wow animate__animated animate__backInLeft">
+          <div class="card-sect-2">
+            <div class="img-div">
+              <img
+                class="section-2-img"
+                src="../assets/images/image1-removebg-preview(1).png"
+                alt="bowl"
+              />
+            </div>
+
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+              "
+            >
+              <h3>California Crunch Bowl</h3>
+              <p>
+                Shrimp • Crab • Cucumber • Green Onion • <br />
+                Carrot • Edamame • Avocado • Soy Sauce <br />
+                • Tempura Flakes • Spicy Mayo Drizzle
+              </p>
+            </div>
+
+            <div class="btn-div">
+              <button onclick="location.href='./pages/menu-pickup.html '">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div wow animate__animated animate__backInLeft">
+          <div class="card-sect-2">
+            <div class="img-div">
+              <img
+                class="section-2-img"
+                src="../assets/images/image1-removebg-preview(1).png"
+                alt="bowl"
+              />
+            </div>
+
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+              "
+            >
+              <h3>California Crunch Bowl</h3>
+              <p>
+                Shrimp • Crab • Cucumber • Green Onion • <br />
+                Carrot • Edamame • Avocado • Soy Sauce <br />
+                • Tempura Flakes • Spicy Mayo Drizzle
+              </p>
+            </div>
+
+            <div class="btn-div">
+              <button onclick="location.href='./pages/menu-pickup.html '">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div wow animate__animated animate__backInLeft">
+          <div class="card-sect-2">
+            <div class="img-div">
+              <img
+                class="section-2-img"
+                src="../assets/images/image1-removebg-preview(1).png"
+                alt="bowl"
+              />
+            </div>
+
+            <div>
+              <h3>California Crunch Bowl</h3>
+              <p>
+                Shrimp • Crab • Cucumber • Green Onion • <br />
+                Carrot • Edamame • Avocado • Soy Sauce <br />
+                • Tempura Flakes • Spicy Mayo Drizzle
+              </p>
+            </div>
+
+            <div class="btn-div">
+              <button onclick="location.href='./pages/menu-pickup.html '">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div wow animate__animated animate__backInLeft">
+          <div class="card-sect-2">
+            <div class="img-div">
+              <img
+                class="section-2-img"
+                src="../assets/images/image1-removebg-preview(1).png"
+                alt="bowl"
+              />
+            </div>
+
+            <div>
+              <h3>California Crunch Bowl</h3>
+              <p>
+                Shrimp • Crab • Cucumber • Green Onion • <br />
+                Carrot • Edamame • Avocado • Soy Sauce <br />
+                • Tempura Flakes • Spicy Mayo Drizzle
+              </p>
+            </div>
+
+            <div class="btn-div">
+              <button onclick="location.href='./pages/menu-pickup.html '">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div wow animate__animated animate__backInLeft">
+          <div class="card-sect-2">
+            <div class="img-div">
+              <img
+                class="section-2-img"
+                src="../assets/images/image1-removebg-preview(1).png"
+                alt="bowl"
+              />
+            </div>
+
+            <div>
+              <h3>California Crunch Bowl</h3>
+              <p>
+                Shrimp • Crab • Cucumber • Green Onion • <br />
+                Carrot • Edamame • Avocado • Soy Sauce <br />
+                • Tempura Flakes • Spicy Mayo Drizzle
+              </p>
+            </div>
+
+            <div class="btn-div">
+              <button onclick="location.href='./pages/menu-pickup.html '">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div wow animate__animated animate__backInLeft">
+          <div class="card-sect-2">
+            <div class="img-div">
+              <img
+                class="section-2-img"
+                src="../assets/images/image1-removebg-preview(1).png"
+                alt="bowl"
+              />
+            </div>
+
+            <div>
+              <h3>California Crunch Bowl</h3>
+              <p>
+                Shrimp • Crab • Cucumber • Green Onion • <br />
+                Carrot • Edamame • Avocado • Soy Sauce <br />
+                • Tempura Flakes • Spicy Mayo Drizzle
+              </p>
+            </div>
+
+            <div class="btn-div">
+              <button onclick="location.href='./pages/menu-pickup.html '">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div wow animate__animated animate__backInLeft">
+          <div class="card-sect-2">
+            <div class="img-div">
+              <img
+                class="section-2-img"
+                src="../assets/images/image1-removebg-preview(1).png"
+                alt="bowl"
+              />
+            </div>
+
+            <div>
+              <h3>California Crunch Bowl</h3>
+              <p>
+                Shrimp • Crab • Cucumber • Green Onion • <br />
+                Carrot • Edamame • Avocado • Soy Sauce <br />
+                • Tempura Flakes • Spicy Mayo Drizzle
+              </p>
+            </div>
+
+            <div class="btn-div">
+              <button onclick="location.href='./pages/menu-pickup.html '">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-div wow animate__animated animate__backInLeft">
+          <div class="card-sect-2">
+            <div class="img-div">
+              <img
+                class="section-2-img"
+                src="../assets/images/image1-removebg-preview(1).png"
+                alt="bowl"
+              />
+            </div>
+
+            <div>
+              <h3>California Crunch Bowl</h3>
+              <p>
+                Shrimp • Crab • Cucumber • Green Onion • <br />
+                Carrot • Edamame • Avocado • Soy Sauce <br />
+                • Tempura Flakes • Spicy Mayo Drizzle
+              </p>
+            </div>
+
+            <div class="btn-div">
+              <button onclick="location.href='./pages/menu-pickup.html '">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-2-menu">
+        <h4>Build your own bowl</h4>
+        <div class="number-div">
+          <div>
+            <img src="../assets/images/1.png" alt="" />
+          </div>
+
+          <p>Step 1</p>
+          <h4>Choose a Base</h4>
+        </div>
+        <div class="all-cards-div">
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 52 (1).png" alt="base" />
+              <h3>White Rice</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img
+                class="img-fluid"
+                src="../assets/images/Image 53 (1).png"
+                alt="base"
+              />
+              <h3>Brown Rice</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img
+                class="img-fluid"
+                src="../assets/images/Image 54 (1).png"
+                alt="base"
+              />
+              <h3>Salad</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 55 (1).png" alt="base" />
+              <h3>Noodles</h3>
+            </div>
+          </div>
+        </div>
+        <div class="number-div">
+          <div>
+            <img src="../assets/images/2.png" alt="" />
+          </div>
+
+          <p>Step 2</p>
+          <h4>Pick Your Protein</h4>
+        </div>
+
+        <div class="all-cards-div">
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 68.png" alt="protein" />
+              <h3>Salmon</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img
+                class="img-fluid"
+                src="../assets/images/Image 69.png"
+                alt="protein"
+              />
+              <h3>Tuna</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 70.png" alt="protein" />
+              <h3>Spicy Salmon</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 71.png" alt="protein" />
+              <h3>Shrimp</h3>
+            </div>
+          </div>
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img
+                src="../assets/images/Image 72.png           "
+                alt="protein"
+              />
+              <h3>Chicken</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img
+                class="img-fluid"
+                src="../assets/images/Image 73.png"
+                alt="protein"
+              />
+              <h3>Tofu</h3>
+            </div>
+          </div>
+
+          <div class="card-div card border-0">
+            <div class="card-sect-2 card-body">
+              <img
+                class="img-fluid"
+                src="../assets/images/Image 74.png"
+                alt="protein"
+              />
+              <h3>Crab</h3>
+            </div>
+          </div>
+
+          <div class="card-div card border-0">
+            <div class="card-sect-2 card-body">
+              <img
+                class="img-fluid"
+                src="../assets/images/Image 75.png"
+                alt="protein"
+              />
+              <h3>Octopus</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="number-div">
+          <div>
+            <img src="../assets/images/3.png" alt="" />
+          </div>
+
+          <p>Step 3</p>
+          <h4>Choose Your Mix-Ins</h4>
+        </div>
+
+        <div class="all-cards-div">
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 56.png" alt="mixin" />
+              <h3>Corn</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 57.png" alt="mixin" />
+              <h3>Edamame</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 58.png" alt="mixin" />
+              <h3>Cucumber</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 59.png" alt="bowl" />
+              <h3>Sweet Onion</h3>
+            </div>
+          </div>
+
+          <div class="all-cards-div">
+            <div class="card-div">
+              <div class="card-sect-2">
+                <img src="../assets/images/Image 60.png" alt="mixin" />
+                <h3>Avcado</h3>
+              </div>
+            </div>
+
+            <div class="card-div">
+              <div class="card-sect-2">
+                <img src="../assets/images/Image 61.png" alt="mixin" />
+                <h3>Ginger</h3>
+              </div>
+            </div>
+
+            <div class="card-div">
+              <div class="card-sect-2">
+                <img src="../assets/images/Image 62.png" alt="mixin" />
+                <h3>Carrot</h3>
+              </div>
+            </div>
+
+            <div class="card-div">
+              <div class="card-sect-2">
+                <img src="../assets/images/Image 63 (1).png" alt="mixin" />
+                <h3>Jalapeno</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="number-div">
+          <div>
+            <img src="../assets/images/4.png" alt="" />
+          </div>
+
+          <p>Step 4</p>
+          <h4>Choose a Flavor</h4>
+        </div>
+
+        <div class="all-cards-div">
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 64.png" alt="flavors" />
+              <h3>Ponzu Sauce</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 65.png" alt="flavors" />
+              <h3>Gochujan</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 66.png" alt="flavors" />
+              <h3>Sweet Soy</h3>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-2">
+              <img src="../assets/images/Image 67.png" alt="bowl" />
+              <h3>Sriracha Aioli</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-div">
+          <button>Order Now</button>
+        </div>
+      </section>
+
+      <!---  <section class="sect-1-menu container-fluid">
         <div class="text-center">
           <h1 class="sect-1-head">Our menu</h1>
         </div>
@@ -312,486 +755,55 @@
         </div>
       </section>
   
-      <section class="sect-2-menu container-fluid">
-        <div class="text-center">
-          <h3 class="sect-2-head">Build your own bowl</h3>
-        </div>
+
   
-        <div class="container text-center">
-          <div class="d-flex align-self-start">
-            <div class="mt-3">
-              <img src="../assets/images/1.png" alt="" />
-            </div>
-            <div style="text-align: left" class="d-flex flex-column ms-4">
-              <p>Step 1</p>
-              <h4>Choose a Base</h4>
-            </div>
-          </div>
-          <div class="all-cards-div row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 52 (1).png"
-                      alt="base"
-                    />
-                    <h3>White Rice</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 53 (1).png"
-                      alt="base"
-                    />
-                    <h3>Brown Rice</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
+    
+
   
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 54 (1).png"
-                      alt="base"
-                    />
-                    <h3>Salad</h3>
-                  </div>
-                </div>
-              </div>
+       -->
+
+      <section class="section-3-home">
+        <div>
+          <h4>Our happy customers</h4>
+          <p>
+            "I'm a big fan of poke bowls, and this place definitely delivers.
+            The quality of the ingredients is top-notch, and the variety of
+            toppings allows you to customize your bowl."
+          </p>
+          <p class="name">Lauren Martinez</p>
+          <div class="icon-div">
+            <div>
+              <img src="../assets/images/Avatar1(1).png" alt="avatar" />
             </div>
-  
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 55 (1).png"
-                      alt="base"
-                    />
-                    <h3>Noodles</h3>
-                  </div>
-                </div>
-              </div>
+            <div>
+              <img src="../assets/images/Avatar2(1).png" alt="avatar" />
+            </div>
+            <div>
+              <img src="../assets/images/Avatar3(2).png" alt="avatar" />
+            </div>
+            <div>
+              <img src="../assets/images/Avatar4.png" alt="avatar" />
+            </div>
+            <div class="col-3 col-md-2 col-sm-2">
+              <img src="../assets/images/IconButton1(1).png" alt="icon" />
             </div>
           </div>
         </div>
-  
-        <div class="container text-center">
-          <div class="d-flex align-self-start">
-            <div class="mt-3">
-              <img src="../assets/images/2.png" alt="" />
-            </div>
-            <div style="text-align: left" class="d-flex flex-column ms-4">
-              <p>Step 2</p>
-              <h4>Pick Your Protein</h4>
-            </div>
-          </div>
-          <div class="all-cards-div row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 68.png"
-                      alt="protein"
-                    />
-                    <h3>Salmon</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 69.png"
-                      alt="protein"
-                    />
-                    <h3>Tuna</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 70.png"
-                      alt="protein"
-                    />
-                    <h3>Spicy Salmon</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 71.png"
-                      alt="protein"
-                    />
-                    <h3>Shrimp</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="container text-center">
-          <div class="all-cards-div row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 72.png           "
-                      alt="protein"
-                    />
-                    <h3>Chicken</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 73.png"
-                      alt="protein"
-                    />
-                    <h3>Tofu</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 74.png"
-                      alt="protein"
-                    />
-                    <h3>Crab</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 75.png"
-                      alt="protein"
-                    />
-                    <h3>Octopus</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="container text-center">
-          <div class="d-flex align-self-start">
-            <div class="mt-3">
-              <img src="../assets/images/3.png" alt="" />
-            </div>
-            <div style="text-align: left" class="d-flex flex-column ms-4">
-              <p>Step 3</p>
-              <h4>Choose Your Mix-Ins</h4>
-            </div>
-          </div>
-          <div class="all-cards-div row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 56.png"
-                      alt="mixin"
-                    />
-                    <h3>Corn</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div  class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 57.png"
-                      alt="mixin"
-                    />
-                    <h3>Edamame</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 58.png"
-                      alt="mixin"
-                    />
-                    <h3>Cucumber</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 59.png"
-                      alt="bowl"
-                    />
-                    <h3>Sweet Onion</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="container text-center">
-          <div class="all-cards-div row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 60.png"
-                      alt="mixin"
-                    />
-                    <h3>Avcado</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div id="cardOne" class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 61.png"
-                      alt="mixin"
-                    />
-                    <h3>Ginger</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 62.png"
-                      alt="mixin"
-                    />
-                    <h3>Carrot</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 63 (1).png"
-                      alt="mixin"
-                    />
-                    <h3>Jalapeno</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="container text-center">
-          <div class="d-flex align-self-start">
-            <div class="mt-3">
-              <img src="../assets/images/4.png" alt="" />
-            </div>
-            <div style="text-align: left" class="d-flex flex-column ms-4">
-              <p>Step 4</p>
-              <h4>Choose a Flavor</h4>
-            </div>
-          </div>
-          <div class="all-cards-div row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 64.png"
-                      alt="flavors"
-                    />
-                    <h3>Ponzu Sauce</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div  class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 65.png"
-                      alt="flavors"
-                    />
-                    <h3>Gochujan</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 66.png"
-                      alt="flavors"
-                    />
-                    <h3>Sweet Soy</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <div class="card-div card border-0">
-                  <div class="card-sect-2 card-body">
-                    <img
-                      class="img-fluid"
-                      src="../assets/images/Image 67.png"
-                      alt="bowl"
-                    />
-                    <h3>Sriracha Aioli</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="btn-div justify-content-center d-flex mt-5">
-          <button class="order-btn-two btn btn-primary">Order Now</button>
-        </div>
-      </section>
-  
-      <section class="sect-3-home container-fluid">
-        <div class="row d-flex justify-content-around mt-5">
-          <div class="col-md-1 w-50">
-            <h4 class="align-items-md-start">Our happy customers</h4>
-            <p class="mt-5">
-              I'm a big fan of poke bowls, and this place definitely delivers.
-              The quality of the ingredients is top-notch, and the variety of
-              toppings allows you to customize your bowl.
-            </p>
-            <p class="name mt-5">Lauren Martinez</p>
-            <div class="icon-div row d-flex flex-row flex-nowrap">
-              <div class="col-3 col-md-2 col-sm-2">
-                <img
-                  class="icon img-fluid"
-                  src="../assets/images/Avatar1(1).png"
-                  alt="avatar"
-                />
-              </div>
-              <div class="col-3 col-md-2 col-sm-2">
-                <img
-                  class="icon img-fluid"
-                  src="../assets/images/Avatar2(1).png"
-                  alt="avatar"
-                />
-              </div>
-              <div class="col-3 col-md-2 col-sm-2">
-                <img
-                  class="icon img-fluid"
-                  src="../assets/images/Avatar3(2).png"
-                  alt="avatar"
-                />
-              </div>
-              <div class="col-3 col-md-2 col-sm-2">
-                <img
-                  class="icon img-fluid"
-                  src="../assets/images/Avatar4.png"
-                  alt="avatar"
-                />
-              </div>
-              <div class="col-3 col-md-2 col-sm-2">
-                <img
-                  class="icon img-fluid"
-                  src="../assets/images/IconButton1(1).png"
-                  alt="icon"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="col-5 d-none d-sm-none d-md-block container-fluid">
-            <img
-              class="img-fluid rounded-1"
-              src="../assets/images/image5.jpeg"
-              alt="bowl"
-            />
-          </div>
+        <div class="img-div">
+          <img
+            src="../assets/images/pexels-polina-tankilevitch-4828151.jpg"
+            alt="bowl"
+          />
         </div>
       </section>
 
-  
-      <section class="sect-4-home container-fluid mt-5">
-        <div class="box-1 d-flex">
+      <section class="section-4-home">
+        <div class="box-1">
           <div>
-            <h5 class="text-white">Find our locations</h5>
-            <p class="text-white">
+            <h5>Find our locations</h5>
+            <p>
               Serving fresh fish daily at Boston Harbor Islands, Boylston St,
-              Congress St.
+              Congress St, Kendall Square, Cambridge St, Haviland St.
             </p>
             <div class="btn-div">
               <button
@@ -802,106 +814,126 @@
               </button>
             </div>
           </div>
-          <div class="d-flex overflow-hidden">
+          <div class="bowl-div">
+            <img class="bowl-1" src="../assets/images/Image6.png" alt="bowl" />
             <img
-              class="bowl-1 img-fluid d-none d-sm-none d-md-block"
-              src="../assets/images/Image6.png"
-              alt="bowl"
-            />
-            <img
-              class="bowl-2 img-fluid d-none d-sm-none d-md-block"
+              class="bowl-2"
               src="../assets/images/image7-removebg-preview.png"
               alt="bowl"
             />
           </div>
         </div>
       </section>
-  
-      <footer class="footer mt-5 pt-5">
-        <div class="container-fluid d-flex justify-content-between">
+
+      <footer style="margin-top: 40px" class="footer">
+        <div class="primary-footer">
+          <div class="logo-div wow animate__animated animate__flip">
+            <img src="../assets/images/Image22(1).png" alt="logo" />
+            <h6>POKE NOW.</h6>
+          </div>
+          <ul>
+            <li>
+              <a class="footer-link" href="../pages/menu.html">Menu</a>
+            </li>
+            <li>
+              <a class="footer-link" href="../pages/about.html">Our Story</a>
+            </li>
+            <li>
+              <a class="footer-link" href="../pages/location.html">Location</a>
+            </li>
+            <li>
+              <a class="footer-link" href="../pages/giftcard.html">Giftcard</a>
+            </li>
+          </ul>
+
+          <div class="btn-container">
+            <button
+              onclick="location.href='../pages/menu-pickup.html '"
+              class="btn-1"
+            >
+              Order Online
+            </button>
+
+            <button
+              onclick="location.href='./pages/reservation.html '"
+              class="btn-2"
+            >
+              Book a Table
+            </button>
+          </div>
+          <p style="text-align: center">info@pokebar.com</p>
+          <p>848 King Street, Mesa, AZ 85201, Boston, USA.</p>
+          <p>
+            &copy; 2022 Brand, Inc. &bull; Privacy &bull; Terms &bull; Sitemap
+          </p>
+          <div class="social-div">
+            <img src="../assets/images/Twitter1(1).png" alt="icon" />
+            <img src="../assets/images/Facebook1(1).png" alt="icon" />
+            <img src="../assets/images/LinkedIn1(1).png" alt="icon" />
+            <img src="../assets/images/YouTube1(1).png" alt="icon" />
+          </div>
+        </div>
+        <div class="secondary-footer">
           <div>
-            <div class="footer-icon">
-              <div>
-                <img src="../assets/images/Image22(1).png" alt="logo" />
-              </div>
-              <div>
-                <h6 class="mt-4">POKE NOW.</h6>
-              </div>
+            <div class="logo-div-2 wow animate__animated animate__flip">
+              <img src="../assets/images/Image22(1).png" alt="logo" />
+              <h6>POKE NOW.</h6>
             </div>
-            <div class="footer-link-div mt-4">
-              <a class="footer-link me-2" href="./pages/menu.html">Menu</a>
-              <a class="footer-link me-2" href="./pages/about.html">Our Story</a>
-              <a class="footer-link me-2" href="./pages/location.html"
-                >Location</a
-              >
-              <a class="footer-link me-2" href="./pages/giftcard.html"
-                >Giftcard</a
-              >
-            </div>
-            <p class="text-white mt-4">
+            <ul>
+              <li>
+                <a class="footer-link" href="../pages/menu.html">Menu</a>
+              </li>
+              <li>
+                <a class="footer-link" href="../pages/about.html">Our Story</a>
+              </li>
+              <li>
+                <a class="footer-link" href="../pages/location.html"
+                  >Location</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="../pages/giftcard.html"
+                  >Giftcard</a
+                >
+              </li>
+            </ul>
+            <p>
               &copy; 2022 Brand, Inc. &bull; Privacy &bull; Terms &bull; Sitemap
             </p>
           </div>
-          <div>
+          <div class="left-footer">
             <div class="btn-container">
               <button
                 onclick="location.href='./pages/menu-pickup.html '"
-                class="btn1"
+                class="btn-1"
               >
                 Order Online
               </button>
-  
+
               <button
                 onclick="location.href='./pages/reservation.html '"
-                class="btn2 mt-3 ms-3"
+                class="btn-2"
               >
                 Book a Table
               </button>
             </div>
-            <p class="text-white mt-4">
-              848 King Street, Mesa, AZ 85201, Boston, USA.
-            </p>
-  
-            <div class="social">
-              <p class="text-white">info@pokebar.com</p>
-              <img
-                class="me-2"
-                src="../assets/images/Twitter1(1).png"
-                alt="icon"
-              />
-              <img
-                class="me-2"
-                src="../assets/images/Facebook1(1).png"
-                alt="icon"
-              />
-              <img
-                class="me-2"
-                src="../assets/images/LinkedIn1(1).png"
-                alt="icon"
-              />
-              <img
-                class="me-2"
-                src="../assets/images/YouTube1(1).png"
-                alt="icon"
-              />
+            <p>848 King Street, Mesa, AZ 85201, Boston, USA.</p>
+            <p>info@pokebar.com</p>
+            <div class="social-div-2">
+              <img src="../assets/images/Twitter1(1).png" alt="icon" />
+              <img src="../assets/images/Facebook1(1).png" alt="icon" />
+              <img src="../assets/images/LinkedIn1(1).png" alt="icon" />
+              <img src="../assets/images/YouTube1(1).png" alt="icon" />
             </div>
           </div>
         </div>
       </footer>
-  
-
-
-
     </div>
 
-
-
-
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="../assets/js/script.js"></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      src="https://kit.fontawesome.com/4b0c65d0fd.js"
       crossorigin="anonymous"
     ></script>
   </body>
