@@ -18,6 +18,13 @@
       gap: 36px;
     }
   }
+  .section-1-menu {
+    .all-cards-div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 36px;
+    }
+  }
 }
 
 /* Medium devices (small laptops/desktops, 768px and up) */
@@ -365,6 +372,59 @@
       top: 575px;
       left: 1337px;
       z-index: 2;
+    }
+  }
+
+  .section-1-menu {
+    .all-cards-div {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 36px;
+      margin-top: 182px;
+      .card-sect-1 {
+        position: relative;
+        padding-top: 128px;
+        height: auto;
+        width: 292px;
+        h3 {
+          text-align: left;
+        }
+        p {
+          text-align: left;
+        }
+        .btn-div {
+          display: flex;
+          justify-content: flex-start;
+        }
+        .img-div {
+          img {
+            position: absolute;
+            top: -115px;
+            left: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .section-2-menu {
+    
+    .all-cards-div {
+     display: grid !important;
+     grid-template-columns: repeat(4, 1fr) !important;
+     .card-sect-2{
+      h3{
+        text-align: center;
+      }
+     }
+    }
+    .number-div{
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: flex-start !important;
+      .step{
+        margin-left: 20px;
+      }
     }
   }
 }

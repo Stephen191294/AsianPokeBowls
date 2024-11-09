@@ -31,6 +31,26 @@ body {
 }
 
 .section-1-menu {
+  .btn-div-1 {
+    margin-top: 40px;
+    button {
+      background-color: $lightgrey200 ;
+      border: 1px solid $black100;
+      color: $black100;
+      height: 52px;
+      border-radius: 14px;
+      width: 219px;
+      cursor: pointer;
+
+     
+    }
+    button:hover{
+      background-color: $black100;
+      color: $lightgrey200;
+      
+    }
+  }
+
   background-color: $lightgrey200;
   padding: 48px 156px;
   display: flex;
@@ -53,7 +73,7 @@ body {
       justify-content: center;
     }
   }
-  .card-sect-2 {
+  .card-sect-1 {
     margin-top: 1.25rem;
     border-radius: 14px;
     padding: 1.25rem;
@@ -75,6 +95,7 @@ body {
       font-weight: 400;
       font-size: 12px;
     }
+
     .btn-div {
       display: flex;
       justify-content: center;
@@ -94,7 +115,8 @@ body {
       }
     }
   }
-  .section-2-img {
+
+  .section-1-img {
     max-width: 13.6875rem;
     max-height: 13.6875rem;
   }
@@ -121,22 +143,24 @@ body {
   }
 }
 
-
-.section-2-menu{
+.section-2-menu {
   margin-top: 40px;
-  h4{
+  h4 {
     text-align: center;
     font-size: 28px;
     font-family: $catamaran;
   }
-  .number-div{
+  .number-div {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    .step{
+      text-align: center;
+    }
   }
-  .all-cards-div{
+  .all-cards-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,19 +168,19 @@ body {
     gap: 60px;
     margin-top: 40px;
   }
-  .card-div{
-    .card-sect-2{
-      h3{
+  .card-div {
+    .card-sect-2 {
+      h3 {
         text-align: center;
         margin-top: 20px;
       }
     }
   }
-  .btn-div{
+  .btn-div {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    button{
+    button {
       background-color: $orange100;
       color: $white100;
       height: 52px;
@@ -165,24 +189,13 @@ body {
       border: transparent;
       cursor: pointer;
     }
-    button:hover{
+    button:hover {
       background-color: $white100;
       border: 1px solid $orange100;
-      color: $orange100
+      color: $orange100;
     }
   }
-  
 }
-
-
-
-
-
-
-
-
-
-
 
 /*
 .sect-1-menu {
