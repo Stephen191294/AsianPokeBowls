@@ -25,6 +25,35 @@
       gap: 36px;
     }
   }
+  .section-2-menu {
+    .all-cards-div {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+      .card-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .card-sect-2 {
+        h3 {
+          text-align: center;
+        }
+      }
+    }
+    .number-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .step {
+        margin-left: 20px;
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
 }
 
 /* Medium devices (small laptops/desktops, 768px and up) */
@@ -408,22 +437,24 @@
   }
 
   .section-2-menu {
-    
     .all-cards-div {
-     display: grid !important;
-     grid-template-columns: repeat(4, 1fr) !important;
-     .card-sect-2{
-      h3{
-        text-align: center;
+      display: grid !important;
+      grid-template-columns: repeat(4, 1fr) !important;
+      .card-sect-2 {
+        h3 {
+          text-align: center;
+        }
       }
-     }
     }
-    .number-div{
+    .number-div {
       display: flex !important;
       flex-direction: row !important;
       justify-content: flex-start !important;
-      .step{
+      .step {
         margin-left: 20px;
+        p {
+          text-align: left;
+        }
       }
     }
   }
