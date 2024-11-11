@@ -43,12 +43,33 @@ body {
     width: 24px;
     height: 24px;
   }
-  .info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  .info-div{
+    .info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .btn-div{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      button{
+        color: #765903 ;
+        border: 1px solid #FCDD80 ;
+        background-color: $white100;
+        width: 77px;
+        height: 34px;
+        cursor: pointer;
+      }
+      button:hover{
+        background-color: #FCDD80;
+      }
+    }
   }
+  
 }
 
 .section-2-menu-pickup {
@@ -102,6 +123,14 @@ body {
             color: $orange200;
           }
         }
+      }
+      .drinks-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 40px;
       }
     }
   }

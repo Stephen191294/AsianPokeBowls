@@ -1913,11 +1913,29 @@ body {
   width: 24px;
   height: 24px;
 }
-.section-1-menu-pickup .info {
+.section-1-menu-pickup .info-div .info {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+.section-1-menu-pickup .info-div .btn-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.section-1-menu-pickup .info-div .btn-div button {
+  color: #765903;
+  border: 1px solid #FCDD80;
+  background-color: #FFFFFF;
+  width: 77px;
+  height: 34px;
+  cursor: pointer;
+}
+.section-1-menu-pickup .info-div .btn-div button:hover {
+  background-color: #FCDD80;
 }
 
 .section-2-menu-pickup .all-cards-div .card-div {
@@ -1969,6 +1987,14 @@ body {
 .section-2-menu-pickup .all-cards-div .card-div .card-sect-2 .btn-div button:hover {
   background-color: #F96540;
   color: #FFF3F0;
+}
+.section-2-menu-pickup .all-cards-div .card-div .drinks-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 40px;
 }
 
 /*
