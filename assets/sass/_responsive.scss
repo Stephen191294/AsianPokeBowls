@@ -54,7 +54,6 @@
       }
     }
   }
-  
 }
 
 /* Medium devices (small laptops/desktops, 768px and up) */
@@ -472,31 +471,31 @@
     }
   }
 
-  .section-1-location{
+  .section-1-location {
     padding-bottom: 72px;
-   .all-cards-div{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 36px;
-    .card-div{
-      h2{
-        text-align: left;
-      }
-      p{
-        text-align: left;
-      }
-      .info-div{
-        .info{
+    .all-cards-div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 36px;
+      .card-div {
+        h2 {
+          text-align: left;
+        }
+        p {
+          text-align: left;
+        }
+        .info-div {
+          .info {
+            display: flex;
+            justify-content: flex-start;
+          }
+        }
+        .btn-div {
           display: flex;
           justify-content: flex-start;
         }
       }
-      .btn-div{
-        display: flex;
-        justify-content: flex-start;
-      }
     }
-   }
   }
 }
 
