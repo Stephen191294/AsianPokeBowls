@@ -4,496 +4,423 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="../assets/sass/main.css" />
     <title>Location</title>
   </head>
-  <body id="fadeElement">
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
-      <div class="container">
-        <div class="logo-container">
-          <a class="navbar-brand" href="#">
-            <img
-              src="../assets/images/Image20.png"
-              alt="logo"
-              class="img-fluid"
-            />
-          </a>
+  <body class="wow animate__animated animate__fadeIn">
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </li>
+        <li><a href="../pages/menu.html">Menu</a></li>
+        <li><a href="../pages/about.html">Our story</a></li>
+        <li><a href="../pages/location.html">Location</a></li>
+        <li><a href="../pages/giftcard.html">Gift card</a></li>
+      </ul>
+      <ul>
+        <li>
+          <img src="../assets/images/Image20.png" alt="logo" />
           <a class="index" href="../index.html">POKE NOW.</a>
+        </li>
+
+        <li class="hideOnMobile">
+          <a href="../pages/menu.html">Menu</a>
+          <a href="../pages/about.html">Our story</a>
+          <a href="../pages/location.html">Location</a>
+          <a href="../pages/giftcard.html">Gift card</a>
+        </li>
+
+        <li class="hamburger" onclick="showSidebar()">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </li>
+        <li>
+          <a href="#"><button class="quote-btn">Order Online</button></a>
+        </li>
+        <li>
+          <a href="#"><button class="quote-btn-2">Book a Table</button></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <section class="section-1-location">
+        <img
+          class="img-fluid w-100"
+          src="../assets/images/Image 81 (1).png"
+          alt="bowl"
+        />
+        <div>
+          <h1 class="sect-1-head">Locations & Hours</h1>
         </div>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse item-links"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav mx-auto mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/menu.html">Menu</a>
+        <div class="all-cards-div">
+          <div class="card-div">
+            <div class="card-sect-1">
+              <img
+                class="img-fluid"
+                src="../assets/images/Image 83.png"
+                alt="location"
+              />
+            </div>
+            <h2>Boston Harbor Islands, 15 State Street, Suite 1100, Boston</h2>
+            <p>
+              Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM
+            </p>
+            <div class="info-div">
+              <div class="info">
+                <img src="../assets/images/Phone 1.png" alt="phone" />
+                <p>(713) 814-7100</p>
+              </div>
+              <div class="info">
+                <img
+                  class="icon-img img-fluid"
+                  src="../assets/images/Love heart pin 1.png"
+                  alt=""
+                />
+                <p>pokebarharborislands@gmail.com</p>
+              </div>
+            </div>
+            <div class="btn-div">
+              <button class="btn-1">Delivery</button>
+              <button class="btn-2">Pickup</button>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-1">
+              <img
+               
+              src="../assets/images/Image 84.png"
+                alt="location"
+              />
+            </div>
+            <h2> 827 Boylston St, Boston</h2>
+            <p>
+              Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM
+            </p>
+            <div class="info-div">
+              <div class="info">
+                <img src="../assets/images/Phone 1.png" alt="phone" />
+                <p>(713) 814-7100</p>
+              </div>
+              <div class="info">
+                <img
+                  class="icon-img img-fluid"
+                  src="../assets/images/Love heart pin 1.png"
+                  alt=""
+                />
+                <p>pokebarharborislands@gmail.com</p>
+              </div>
+            </div>
+            <div class="btn-div">
+              <button class="btn-1">Delivery</button>
+              <button class="btn-2">Pickup</button>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-1">
+              <img
+              src="../assets/images/Image 85.png"
+                alt="location"
+              />
+            </div>
+            <h2>372 Congress St, Boston</h2>
+            <p>
+              Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM
+            </p>
+            <div class="info-div">
+              <div class="info">
+                <img src="../assets/images/Phone 1.png" alt="phone" />
+                <p>(803) 832-8595</p>
+              </div>
+              <div class="info">
+                <img
+                  class="icon-img img-fluid"
+                  src="../assets/images/Love heart pin 1.png"
+                  alt=""
+                />
+                <p>pokebarharborislands@gmail.com</p>
+              </div>
+            </div>
+            <div class="btn-div">
+              <button class="btn-1">Delivery</button>
+              <button class="btn-2">Pickup</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="all-cards-div">
+          <div class="card-div">
+            <div class="card-sect-1">
+              <img
+              src="../assets/images/Image 86 (2).png"
+                alt="location"
+              />
+            </div>
+            <h2>1 Kendall Square, Boston</h2>
+            <p>
+              Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM
+            </p>
+            <div class="info-div">
+              <div class="info">
+                <img src="../assets/images/Phone 1.png" alt="phone" />
+                <p>(719) 582-8228</p>
+              </div>
+              <div class="info">
+                <img
+                  class="icon-img img-fluid"
+                  src="../assets/images/Love heart pin 1.png"
+                  alt=""
+                />
+                <p>pokebarharborislands@gmail.com</p>
+              </div>
+            </div>
+            <div class="btn-div">
+              <button class="btn-1">Delivery</button>
+              <button class="btn-2">Pickup</button>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-1">
+              <img
+              src="../assets/images/Image 87.png"
+                alt="location"
+              />
+            </div>
+            <h2>487 Cambridge St, Allston, Boston</h2>
+            <p>
+              Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM
+            </p>
+            <div class="info-div">
+              <div class="info">
+                <img src="../assets/images/Phone 1.png" alt="phone" />
+                <p>(806) 472-1493</p>
+              </div>
+              <div class="info">
+                <img
+                  class="icon-img img-fluid"
+                  src="../assets/images/Love heart pin 1.png"
+                  alt=""
+                />
+                <p>pokebarharborislands@gmail.com</p>
+              </div>
+            </div>
+            <div class="btn-div">
+              <button class="btn-1">Delivery</button>
+              <button class="btn-2">Pickup</button>
+            </div>
+          </div>
+
+          <div class="card-div">
+            <div class="card-sect-1">
+              <img
+                
+                src="../assets/images/Image 88.png"
+                alt="location"
+              />
+            </div>
+            <h2> 1 Haviland St, Boston, MA 02115</h2>
+            <p>
+              Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM
+            </p>
+            <div class="info-div">
+              <div class="info">
+                <img src="../assets/images/Phone 1.png" alt="phone" />
+                <p>(610) 743-8021</p>
+              </div>
+              <div class="info">
+                <img
+                  class="icon-img img-fluid"
+                  src="../assets/images/Love heart pin 1.png"
+                  alt=""
+                />
+                <p>pokebarharborislands@gmail.com</p>
+              </div>
+            </div>
+            <div class="btn-div">
+              <button class="btn-1">Delivery</button>
+              <button class="btn-2">Pickup</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-5-home">
+        <div class="section-5-text">
+          <h6>Follow Us</h6>
+          <p class="twitter">@pokerbarboston</p>
+          <p>
+            To stay updated with the latest news, promotions, and offerings from
+            the poke restaurtant, make sure to follow us social media accounts.
+            Don't miss out on any updates.
+          </p>
+          <div>
+            <div class="icon-div">
+              <img src="../assets/images/Button7.png" alt="icon" />
+              <img src="../assets/images/Button8.png" alt="icon" />
+              <img src="../assets/images/Button9.png" alt="icon" />
+              <img src="../assets/images/Button10.png" alt="icon" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bowl-div">
+          <div>
+            <img src="../assets/images/image8.jpeg" alt="bowl" />
+          </div>
+          <div>
+            <img class="middle" src="../assets/images/image9.jpeg" alt="bowl" />
+          </div>
+          <div>
+            <img src="../assets/images/image10.jpeg" alt="bowl" />
+          </div>
+
+          <div>
+            <img src="../assets/images/image13.jpeg" alt="bowl" />
+          </div>
+          <div>
+            <img
+              class="middle"
+              src="../assets/images/image11.jpeg"
+              alt="bowl"
+            />
+          </div>
+          <div>
+            <img src="../assets/images/image12.jpeg" alt="bowl" />
+          </div>
+
+          <div>
+            <img src="../assets/images/image16.jpeg" alt="bowl" />
+          </div>
+          <div>
+            <img
+              class="middle"
+              src="../assets/images/image14.jpeg"
+              alt="bowl"
+            />
+          </div>
+          <div>
+            <img src="../assets/images/image15.jpeg" alt="bowl" />
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="primary-footer">
+          <div class="logo-div wow animate__animated animate__flip">
+            <img src="../assets/images/Image22(1).png" alt="logo" />
+            <h6>POKE NOW.</h6>
+          </div>
+          <ul>
+            <li>
+              <a class="footer-link" href="../pages/menu.html">Menu</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/about.html">Our story </a>
+            <li>
+              <a class="footer-link" href="../pages/about.html">Our Story</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/location.html">Location</a>
+            <li>
+              <a class="footer-link" href="../pages/location.html">Location</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/giftcard.html">Gift card</a>
+            <li>
+              <a class="footer-link" href="../pages/giftcard.html">Giftcard</a>
             </li>
           </ul>
-          <div class="d-flex align-items-center gap-3 items-btns">
-            <a href="../pages/menu-pickup.html">
-              <button class="btn">Order Online</button>
-            </a>
-            <a href="../pages/reservation.html">
-              <button class="btn-1">Book a Table</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
-<div class="container-md">
-  <div>
-    <img
-      class="img-fluid w-100"
-      src="../assets/images/Image 81 (1).png"
-      alt="bowl"
-    />
-  </div>
-  <section class="sect-1-location">
-    <div class="text-center">
-      <h1 class="sect-1-head">Locations & Hours</h1>
-    </div>
-    <div class="container text-center">
-      <div class="all-cards-div row row-cols-1 row-cols-lg-3 g-2 g-lg-2">
-        <div class="col">
-          <div class="p-3">
-            <div class="card-div card border-0">
-              <div class="card-sect-1 card-body">
-                <img
-                  class="img-fluid"
-                  src="../assets/images/Image 83.png"
-                  alt="location"
-                />
-              </div>
-              <h2 class="mt-4 px-4">
-                Boston Harbor Islands, 15 State Street, Suite 1100, Boston
-              </h2>
-              <p class="px-4">
-                Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM  
-              </p>
-              <div>
-                <div class="d-flex px-4">
-                  <img class=" icon-img img-fluid" src="../assets/images/Phone 1.png" alt="phone">
-                  <p>(713) 814-7100</p>
-                </div>
-                <div class="d-flex px-4">
-                  <img class="icon-img img-fluid" src="../assets/images/Love heart pin 1.png" alt="">
-                  <p>
-                    pokebarharborislands@gmail.com
-                  </p>
-                </div>
-              </div>
-              <div class="btn-div px-4 mb-4 d-flex justify-content-start">
-                <button class="btnOne btn-primary ms-3 mt-3">Delivery</button>
-                <button class="btnTwo btn-primary ms-3 mt-3 ">Pickup</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="p-3">
-            <div class="card-div card border-0">
-              <div class="card-sect-1 card-body">
-                <img
-                  class="img-fluid"
-                  src="../assets/images/Image 84.png"
-                  alt="location"
-                />
-                
-              </div>
-              <h2 class="mt-4 px-4">
-                827 Boylston St, Boston
-              </h2>
-              <p class="px-4">
-                Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM  
-              </p>
-              <div>
-                <div class="d-flex px-4">
-                  <img class=" icon-img img-fluid" src="../assets/images/Phone 1.png" alt="phone">
-                  <p>(715) 941-6647</p>
-                </div>
-                <div class="d-flex px-4">
-                  <img class="icon-img img-fluid" src="../assets/images/Love heart pin 1.png" alt="">
-                  <p>
-                    pokebarharborislands@gmail.com
-                  </p>
-                </div>
-              </div>
-              <div class="btn-div px-4 mb-4 d-flex justify-content-start">
-                <button class="btnOne btn-primary ms-3 mt-3">Delivery</button>
-                <button class="btnTwo btn-primary ms-3 mt-3">Pickup</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="p-3">
-            <div class="card-div card border-0">
-              <div class="card-sect-1 card-body">
-                <img
-                  class=" img-fluid"
-                  src="../assets/images/Image 85.png"
-                  alt="location"
-                />
-              </div>
-              <h2 class="mt-4 px-4">
-                372 Congress St, Boston 
-              </h2>
-              <p class="px-4">
-                Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM  
-              </p>
-              <div>
-                <div class="d-flex px-4">
-                  <img class=" icon-img img-fluid" src="../assets/images/Phone 1.png" alt="phone">
-                  <p>(803) 832-8595</p>
-                </div>
-                <div class="d-flex px-4">
-                  <img class="icon-img img-fluid" src="../assets/images/Love heart pin 1.png" alt="">
-                  <p>
-                    pokebarharborislands@gmail.com
-                  </p>
-                </div>
-              </div>
-              <div class="btn-div px-4 mb-4 d-flex justify-content-start">
-                <button class="btnOne btn-primary ms-3 mt-3">Delivery</button>
-                <button class="btnTwo btn-primary ms-3 mt-3">Pickup</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="container text-center">
-      <div class="all-cards-div row row-cols-1 row-cols-lg-3 g-2 g-lg-2">
-        <div class="col">
-          <div class="p-3">
-            <div class="card-div card border-0">
-              <div class="card-sect-1 card-body">
-                <img
-                  class="img-fluid"
-                  src="../assets/images/Image 86 (2).png"
-                  alt="location"
-                />
-              </div>
-              <h2 class="mt-4 px-4">
-                1 Kendall Square, Boston
-              </h2>
-              <p class="px-4">
-                Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM  
-              </p>
-              <div>
-                <div class="d-flex px-4">
-                  <img class=" icon-img img-fluid" src="../assets/images/Phone 1.png" alt="phone">
-                  <p>(719) 582-8228</p>
-                </div>
-                <div class="d-flex px-4">
-                  <img class="icon-img img-fluid" src="../assets/images/Love heart pin 1.png" alt="">
-                  <p>
-                    pokebarharborislands@gmail.com
-                  </p>
-                </div>
-              </div>
-              <div class="btn-div px-4 mb-4 d-flex justify-content-start">
-                <button class="btnOne btn-primary ms-3 mt-3">Delivery</button>
-                <button class="btnTwo btn-primary ms-3 mt-3">Pickup</button>
-              </div>
-            </div>
+          <div class="btn-container">
+            <button
+              onclick="location.href='../pages/menu-pickup.html '"
+              class="btn-1"
+            >
+              Order Online
+            </button>
+
+            <button
+              onclick="location.href='../pages/reservation.html '"
+              class="btn-2"
+            >
+              Book a Table
+            </button>
+          </div>
+          <p style="text-align: center">info@pokebar.com</p>
+          <p>848 King Street, Mesa, AZ 85201, Boston, USA.</p>
+          <p>
+            &copy; 2022 Brand, Inc. &bull; Privacy &bull; Terms &bull; Sitemap
+          </p>
+          <div class="social-div">
+            <img src="../assets/images/Twitter1(1).png" alt="icon" />
+            <img src="../assets/images/Facebook1(1).png" alt="icon" />
+            <img src="../assets/images/LinkedIn1(1).png" alt="icon" />
+            <img src="../assets/images/YouTube1(1).png" alt="icon" />
           </div>
         </div>
-        <div class="col">
-          <div class="p-3">
-            <div class="card-div card border-0">
-              <div class="card-sect-1 card-body">
-                <img
-                  class="img-fluid"
-                  src="../assets/images/Image 87.png"
-                  alt="location"
-                />
-              </div>
-                <h2 class="mt-4 px-4">
-                  487 Cambridge St, Allston, Boston
-                </h2>
-                <p class="px-4">
-                  Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM  
-                </p>
-                <div>
-                  <div class="d-flex px-4">
-                    <img class=" icon-img img-fluid" src="../assets/images/Phone 1.png" alt="phone">
-                    <p>(806) 472-1493</p>
-                  </div>
-                  <div class="d-flex px-4">
-                    <img class="icon-img img-fluid" src="../assets/images/Love heart pin 1.png" alt="">
-                    <p>
-                      pokebarharborislands@gmail.com
-                    </p>
-                  </div>
-                </div>
-                <div class="btn-div px-4 mb-4 d-flex justify-content-start">
-                  <button class="btnOne btn-primary ms-3 mt-3">Delivery</button>
-                  <button class="btnTwo btn-primary ms-3 mt-3">Pickup</button>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="p-3">
-            <div class="card-div card border-0">
-              <div class="card-sect-1 card-body">
-                <img
-                  class="img-fluid"
-                  src="../assets/images/Image 88.png"
-                  alt="location"
-                />
-              </div>
-              <h2 class="mt-4 px-4">
-                1 Haviland St, Boston, MA 02115
-              </h2>
-              <p class="px-4">
-                Monday - Saturday 10:30 AM - 9:00 PM Sunday - 12:00 PM - 9:00 PM  
-              </p>
-              <div>
-                <div class="d-flex px-4">
-                  <img class=" icon-img img-fluid" src="../assets/images/Phone 1.png" alt="phone">
-                  <p>(610) 743-8021</p>
-                </div>
-                <div class="d-flex px-4">
-                  <img class="icon-img img-fluid" src="../assets/images/Love heart pin 1.png" alt="">
-                  <p>
-                    pokebarharborislands@gmail.com
-                  </p>
-                </div>
-              </div>
-              <div class="btn-div px-4 mb-4 d-flex justify-content-start">
-                <button class="btnOne btn-primary ms-3 mt-3">Delivery</button>
-                <button class="btnTwo btn-primary ms-3 mt-3">Pickup</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section
-      class="sect-5-home container-fluid d-flex overflow-hidden mt-sm-4 justify-content-center"
-    >
-      <div class="d-flex flex-column">
-        <h6 class="align">Follow Us</h6>
-        <p>
-          <span class="twitter"> @pokerbarboston </span> <br />
-          To stay updated with the latest news, promotions, and <br />
-          offerings from the poke restaurtant, make sure to follow <br />
-          us social media accounts. Don't miss out on any updates.
-        </p>
-        <div class="row mt-md-5">
-          <div class="col">
-            <img class="icon" src="../assets/images/Button7.png" alt="icon" />
-            <img
-              class="icon ms-md-3"
-              src="../assets/images/Button8.png"
-              alt="icon"
-            />
-            <img
-              class="icon ms-md-3"
-              src="../assets/images/Button9.png"
-              alt="icon"
-            />
-            <img
-              class="icon ms-md-3"
-              src="../assets/images/Button10.png"
-              alt="icon"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div style="margin-top: -70px;"
-      class="bowl-div d-none d-sm-none d-md-block ">
-        <div class="row ">
-
-          <div style="margin-left: -100px;"
-           class="col-4 me-3 ">
-            <div class="box mb-3">
-              <img
-                class="img-fluid rounded-1"
-                src="../assets/images/image8.jpeg"
-                alt="bowl"
-              />
-            </div>
-            <div class="box mb-3">
-              <img
-                class="img-fluid rounded-1"
-                src="../assets/images/image9.jpeg"
-                alt="bowl"
-              />
-            </div>
-            <div class="box">
-              <img
-                class="img-fluid rounded-1"
-                src="../assets/images/image10.jpeg"
-                alt="bowl"
-              />
-            </div>
-          </div>
-
-          <div style="margin-top: -40px;"
-           class="col-4 mx-5">
-            <div class="box mb-3">
-              <img
-                class="img-fluid rounded-1"
-                src="../assets/images/image13.jpeg"
-                alt="bowl"
-              />
-            </div>
-            <div class="box mb-3">
-              <img
-                class="img-fluid rounded-1"
-                src="../assets/images/Image30.png"
-                alt="bowl"
-              />
-            </div>
-            <div class="box">
-              <img
-                class="img-fluid rounded-1"
-                src="../assets/images/image12.jpeg"
-                alt="bowl"
-              />
-            </div>
-          </div>
-
-          <div class="col-1 ms-3 ">
-            <div class="box mb-3">
-              <img
-                class="img-fluid rounded-1"
-                src="../assets/images/image16.jpeg"
-                alt="bowl"
-              />
-            </div>
-            <div class="box mb-3">
-              <img
-                class="img-fluid rounded-1"
-                src="../assets/images/image14.jpeg"
-                alt="bowl"
-              />
-            </div>
-            <div class="box">
-              <img
-                class="img-fluid rounded-1"
-                src="../assets/images/image15.jpeg"
-                alt="bowl"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  <footer class="footer pt-5">
-    <div class="container-fluid d-flex justify-content-between">
-      <div>
-        <div class="footer-icon">
+        <div class="secondary-footer">
           <div>
-            <img src="../assets/images/Image22(1).png" alt="logo" />
+            <div class="logo-div-2 wow animate__animated animate__flip">
+              <img src="../assets/images/Image22(1).png" alt="logo" />
+              <h6>POKE NOW.</h6>
+            </div>
+            <ul>
+              <li>
+                <a class="footer-link" href="../pages/menu.html">Menu</a>
+              </li>
+              <li>
+                <a class="footer-link" href="../pages/about.html">Our Story</a>
+              </li>
+              <li>
+                <a class="footer-link" href="../pages/location.html"
+                  >Location</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="../pages/giftcard.html"
+                  >Giftcard</a
+                >
+              </li>
+            </ul>
+            <p>
+              &copy; 2022 Brand, Inc. &bull; Privacy &bull; Terms &bull; Sitemap
+            </p>
           </div>
-          <div>
-            <h6 class="mt-4">POKE NOW.</h6>
+          <div class="left-footer">
+            <div class="btn-container">
+              <button
+                onclick="location.href='../pages/menu-pickup.html '"
+                class="btn-1"
+              >
+                Order Online
+              </button>
+
+              <button
+                onclick="location.href='../pages/reservation.html '"
+                class="btn-2"
+              >
+                Book a Table
+              </button>
+            </div>
+            <p>848 King Street, Mesa, AZ 85201, Boston, USA.</p>
+            <p>info@pokebar.com</p>
+            <div class="social-div-2">
+              <img src="../assets/images/Twitter1(1).png" alt="icon" />
+              <img src="../assets/images/Facebook1(1).png" alt="icon" />
+              <img src="../assets/images/LinkedIn1(1).png" alt="icon" />
+              <img src="../assets/images/YouTube1(1).png" alt="icon" />
+            </div>
           </div>
         </div>
-        <div class="footer-link-div mt-4">
-          <a class="footer-link me-2" href="./pages/menu.html">Menu</a>
-          <a class="footer-link me-2" href="./pages/about.html">Our Story</a>
-          <a class="footer-link me-2" href="./pages/location.html"
-            >Location</a
-          >
-          <a class="footer-link me-2" href="./pages/giftcard.html"
-            >Giftcard</a
-          >
-        </div>
-        <p class="text-white mt-4">
-          &copy; 2022 Brand, Inc. &bull; Privacy &bull; Terms &bull; Sitemap
-        </p>
-      </div>
-      <div>
-        <div class="btn-container">
-          <button
-            onclick="location.href='./pages/menu-pickup.html '"
-            class="btn1"
-          >
-            Order Online
-          </button>
-
-          <button
-            onclick="location.href='./pages/reservation.html '"
-            class="btn2 mt-3"
-          >
-            Book a Table
-          </button>
-        </div>
-        <p class="text-white mt-4">
-          848 King Street, Mesa, AZ 85201, Boston, USA.
-        </p>
-
-        <div class="social">
-          <p class="text-white">info@pokebar.com</p>
-          <img
-            class="me-2"
-            src="../assets/images/Twitter1(1).png"
-            alt="icon"
-          />
-          <img
-            class="me-2"
-            src="../assets/images/Facebook1(1).png"
-            alt="icon"
-          />
-          <img
-            class="me-2"
-            src="../assets/images/LinkedIn1(1).png"
-            alt="icon"
-          />
-          <img
-            class="me-2"
-            src="../assets/images/YouTube1(1).png"
-            alt="icon"
-          />
-        </div>
-      </div>
+      </footer>
     </div>
-  </footer>
 
-
-</div>
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="../assets/js/script.js"></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      src="https://kit.fontawesome.com/4b0c65d0fd.js"
       crossorigin="anonymous"
     ></script>
   </body>

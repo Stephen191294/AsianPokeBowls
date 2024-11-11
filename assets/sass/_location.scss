@@ -1,197 +1,101 @@
 @import "./variables";
 
-.sect-1-location {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.section-1-location {
+  img {
+    width: 100%;
+    height: auto;
+  }
   h1 {
-    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
     font-family: $catamaran;
-    font-weight: 400;
-    line-height: 68px;
-    color: $black100;
-    margin-top: 48px;
   }
-  h2 {
-    font-size: 16px;
-    font-family: $nunito;
-    font-weight: 700;
-    line-height: 26px;
-    color: $black100;
-    text-align: center;
-  }
-  p {
-    font-size: 16px;
-    font-family: $nunito;
-    font-weight: 700;
-    line-height: 26px;
-    color: $grey300;
-    text-align: center;
-  }
-  .icon-img{
-    height: 24px; 
-    width: 24px;
-  }
-  .btn-div{
-    .btnOne {
-      width: 130px;
-      height: 36px;
-      border-radius: 18px;
-      background-color: $white100;
-      color: $orange100;
-      border: 1px solid $orange100;
-      font-size: 14px;
-      font-family: $nunito;
-      font-weight: 400;
-      line-height: 22px;
-    }
-    .btnOne:hover {
-      color: $white100;
-      background-color: $orange100;
-    }
-    .btnTwo {
-      width: 130px;
-      height: 36px;
-      border-radius: 18px;
-      background-color: $white100;
-      color: $darkgreen100;
-      border: 1px solid $darkgreen100;
-      font-size: 14px;
-      font-family: $nunito;
-      font-weight: 400;
-      line-height: 22px;
-    }
-    .btnTwo:hover {
-      background-color: $darkgreen100;
-      color: $white100;
-    }
-  }
-  .card-info{
-    //padding: 16px 16px 24px 16px;
-  }
-}
-
-
-
-
-/*
-
-
-.location-hours-container {
-  width: 100%;
-  height: 1294px;
-  h2 {
-    font-size: 16px;
-    font-family: $nunito;
-    font-weight: 700;
-    line-height: 26px;
-    color: $black100;
-  }
-  p {
-    font-size: 16px;
-    font-family: $nunito;
-    font-weight: 700;
-    line-height: 26px;
-    color: $grey300;
-  }
-  .btn-container {
-    .btn1 {
-      width: 130px;
-      height: 36px;
-      border-radius: 18px;
-      background-color: $white100;
-      color: $orange100;
-      border: 1px solid $orange100;
-      font-size: 14px;
-      font-family: $nunito;
-      font-weight: 400;
-      line-height: 22px;
-    }
-    .btn1:hover {
-      color: $white100;
-      background-color: $orange100;
-    }
-    .btn2 {
-      width: 130px;
-      height: 36px;
-      border-radius: 18px;
-      background-color: $white100;
-      color: $darkgreen100;
-      border: 1px solid $darkgreen100;
-      font-size: 14px;
-      font-family: $nunito;
-      font-weight: 400;
-      line-height: 22px;
-    }
-    .btn2:hover {
-      background-color: $darkgreen100;
-      color: $white100;
-    }
-  }
-  .box-inner-container {
-    height: 321px;
-    width: 368px;
-    padding: 16px 16px 24px 16px;
-    // border: 1px solid black;
-  }
-  .icon {
-    width: 24px;
-    height: 24px;
-  }
-  a {
-    text-decoration: none;
-  }
-}
-
-.sect-2-location {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  overflow: hidden;
-  width: 100%;
-  height: 616px;
-  border-radius: 4px;
-  background-color: $lightgrey200;
-  .container {
-    padding: 0;
-    .custom-negative-margin {
-      margin-top: -50px;
-    }
-    .custom-negative-margin-1 {
-      margin-top: -100px;
-    }
-    .box {
-      width: 238px;
-      height: 238;
-      img {
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-      }
-    }
-  }
-  .sect-2-text-container {
-     margin-top: 160px;
-    margin-left: 132px;
-    
-    h6 {
+  .card-div {
+    margin-top: 40px;
+    h2 {
+      text-align: center;
+      margin-top: 20px;
+      line-height: 28px;
       font-family: $catamaran;
-      font-size: 48px;
-      line-height: 68px;
-      font-weight: 500;
-      color: $black100;
     }
     p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 18px;
+      text-align: center;
+      margin-top: 20px;
       line-height: 28px;
-      color: $black100;
+      font-family: $nunito;
     }
-    .icon-container {
-      margin-top: 52px;
-      img {
-        margin-right: 24px;
-        width: 44px;
-        height: 44px;
+    .info-div {
+      margin-top: 20px;
+
+      .info {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          width: 24px;
+          height: 24px;
+          margin-top: 15px;
+        }
+      }
+    }
+    .btn-div {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      .btn-1 {
+        color: $orange100;
+        background-color: $white100;
+        border: 1px solid $orange100;
+        width: 130px;
+        height: 36px;
+        border-radius: 14px;
+        cursor: pointer;
+      }
+      .btn-1:hover {
+        background-color: $orange100;
+        color: $white100;
+      }
+      .btn-2 {
+        color: $darkgreen100;
+        background-color: $white100;
+        border: 1px solid $darkgreen100;
+        width: 130px;
+        height: 36px;
+        border-radius: 14px;
+        cursor: pointer;
+      }
+      .btn-2:hover {
+        background-color: $darkgreen100;
+        color: $white100;
       }
     }
   }
-}*/
+}
+

@@ -29,7 +29,7 @@
     .all-cards-div {
       display: grid !important;
       grid-template-columns: repeat(2, 1fr) !important;
-      .card-div{
+      .card-div {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -54,6 +54,7 @@
       }
     }
   }
+  
 }
 
 /* Medium devices (small laptops/desktops, 768px and up) */
@@ -405,6 +406,12 @@
   }
 
   .section-1-menu {
+    .first-heading {
+      font-family: $catamaran;
+      font-size: 52px;
+      line-height: 74px;
+      font-weight: 400;
+    }
     .all-cards-div {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -437,6 +444,12 @@
   }
 
   .section-2-menu {
+    .first-heading {
+      font-family: $catamaran;
+      font-size: 52px;
+      line-height: 74px;
+      font-weight: 400;
+    }
     .all-cards-div {
       display: grid !important;
       grid-template-columns: repeat(4, 1fr) !important;
@@ -457,6 +470,33 @@
         }
       }
     }
+  }
+
+  .section-1-location{
+    padding-bottom: 72px;
+   .all-cards-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+    .card-div{
+      h2{
+        text-align: left;
+      }
+      p{
+        text-align: left;
+      }
+      .info-div{
+        .info{
+          display: flex;
+          justify-content: flex-start;
+        }
+      }
+      .btn-div{
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+   }
   }
 }
 
