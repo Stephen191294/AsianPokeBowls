@@ -117,7 +117,15 @@ nav .index{
   color: $black100;
 }
 
-
+.cart-btn{
+  height: 44px;
+  width: 113px ;
+  border-radius: 22px;
+  color: $white100;
+  background-color: $black100;
+  border: transparent;
+  display: none;
+}
 
 .hideOnMobile{
   margin-right: auto;
@@ -145,6 +153,15 @@ nav .index{
   padding-left: 132px;
   padding-right: 132px;
  }
+ .cart-btn{
+  height: 44px;
+  width: 113px ;
+  border-radius: 22px;
+  color: $white100;
+  background-color: $black100;
+  border: transparent;
+  display: block;
+}
 }
 
 

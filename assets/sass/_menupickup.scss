@@ -44,7 +44,7 @@ body {
     width: 24px;
     height: 24px;
   }
-  .info-div{
+  .info-div {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -54,41 +54,39 @@ body {
       align-items: center;
       gap: 10px;
     }
-    .btn-div{
+    .btn-div {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
       margin-top: 20px;
-      
-      button{
-        color: #765903 ;
-        border: 1px solid #FCDD80 ;
+
+      button {
+        color: #765903;
+        border: 1px solid #fcdd80;
         background-color: $white100;
         width: 77px;
         height: 34px;
         cursor: pointer;
       }
-      button:hover{
-        background-color: #FCDD80;
+      button:hover {
+        background-color: #fcdd80;
       }
     }
   }
-  
 }
 
 .section-2-menu-pickup {
-  h2{
+  h2 {
     text-align: center;
     margin-top: 40px;
     font-family: $catamaran;
     font-weight: 400;
     line-height: 36px;
     font-size: 24px;
-
   }
   .all-cards-div {
-   
+    margin-top: 108px;
     .card-div {
       display: flex;
       justify-content: center;
@@ -139,25 +137,92 @@ body {
             background-color: $orange100;
             color: $orange200;
           }
-          p{
+          p {
             font-size: 18px;
             margin-bottom: 17px;
           }
         }
       }
-      .drinks-card{
+    }
+  }
+  .all-cards-div-2 {
+    margin-top: 0;
+    .card-div {
+      display: flex;
+      justify-content: center;
+      h3{
+        font-family: $nunito;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+      }
+      img {
+        width: 219px;
+        height: auto;
+      }
+      .card-sect-2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-       align-items: center;
+        margin-top: 1.25rem;
+        border-radius: 14px;
+        padding: 1.25rem;
+        background-color: $white100;
+        box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+        h3 {
+          text-align: center;
+          margin-top: 1.25rem;
+          font-family: $catamaran;
+        }
+
+        p {
+          text-align: center;
+          margin-top: 1.25rem;
+          white-space: nowrap;
+          font-family: $nunito;
+          line-height: 28px;
+          font-weight: 400;
+          font-size: 12px;
+        }
+        .btn-div {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          align-items: center;
+          margin-top: 1.25rem;
+          button {
+            background-color: $orange200;
+            color: $orange100;
+            height: 36px;
+            width: 94px;
+            border-radius: 18px;
+            border: transparent;
+            cursor: pointer;
+          }
+          button:hover {
+            background-color: $orange100;
+            color: $orange200;
+          }
+          p {
+            font-size: 18px;
+            margin-bottom: 17px;
+            font-family: $nunito;
+          }
+        }
+      }
+      .drinks-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 20px;
         gap: 40px;
-        .btn-div{
+        .btn-div {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          button{
+          button {
             background-color: $orange200;
             color: $orange100;
             border: transparent;
@@ -165,6 +230,11 @@ body {
             height: 36px;
             width: 94px;
             border-radius: 18px;
+            cursor: pointer;
+          }
+          button:hover {
+            background-color: $orange100;
+            color: $orange200;
           }
         }
       }

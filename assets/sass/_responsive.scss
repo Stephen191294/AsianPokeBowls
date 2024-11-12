@@ -521,8 +521,9 @@
     .icon {
       width: 24px;
       height: 24px;
+      margin-bottom: 12px;
     }
-    .info-div{
+    .info-div {
       width: 100%;
       display: flex !important;
       flex-direction: row !important;
@@ -533,41 +534,45 @@
         align-items: center;
         gap: 10px;
       }
-      .btn-div{
+      .btn-div {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
-        button{
-          color: #765903 ;
-          border: 1px solid #FCDD80 ;
+        button {
+          color: #765903;
+          border: 1px solid #fcdd80;
           background-color: $white100;
           width: 77px;
           height: 34px;
           cursor: pointer;
         }
-        button:hover{
-          background-color: #FCDD80;
+        button:hover {
+          background-color: #fcdd80;
         }
       }
     }
-    
   }
 
-
-
-
   .section-2-menu-pickup {
-    h2{
+    h2 {
       text-align: left !important;
     }
     .all-cards-div {
-    
       display: grid !important;
       grid-template-columns: repeat(4, 1fr) !important;
-      margin-top: 108px;
-      .card-sect-2{
+      margin-top: 108px !important;
+      .card-div-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        p {
+          text-align: left !important;
+        }
+      }
+      .card-sect-2 {
         position: relative;
         padding-top: 128px !important;
         height: auto !important;
@@ -580,19 +585,47 @@
           }
         }
       }
-      .drinks-card{
-       display: flex !important;
-       justify-content: flex-start !important;
-       align-items: start !important;
-        .btn-div{
-          display: flex !important;
-          flex-direction: row !important;
-          justify-content: space-between !important;
-          align-items: center !important;
-          gap: 119px !important;
-          p{
-            margin-top: 17px;
-          }
+    }
+  }
+
+  .all-cards-div-2 {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    margin-top: 0 !important;
+    .card-div-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: start;
+      p {
+        text-align: left !important;
+      }
+    }
+    .card-sect-2 {
+      position: relative;
+      padding-top: 128px !important;
+      height: auto !important;
+      width: 292px !important;
+      .img-div {
+        img {
+          position: absolute;
+          top: -115px;
+          left: 24px;
+        }
+      }
+    }
+    .drinks-card {
+      display: flex !important;
+      justify-content: flex-start !important;
+      align-items: start !important;
+      .btn-div {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 119px !important;
+        p {
+          margin-top: 17px;
         }
       }
     }
