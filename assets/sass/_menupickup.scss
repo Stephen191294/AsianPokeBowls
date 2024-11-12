@@ -149,9 +149,24 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+       align-items: center;
         margin-top: 20px;
         gap: 40px;
+        .btn-div{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          button{
+            background-color: $orange200;
+            color: $orange100;
+            border: transparent;
+            margin-top: 20px;
+            height: 36px;
+            width: 94px;
+            border-radius: 18px;
+          }
+        }
       }
     }
   }

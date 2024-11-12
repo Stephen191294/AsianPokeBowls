@@ -970,6 +970,21 @@ body {
     top: -115px;
     left: 24px;
   }
+  .section-2-menu-pickup .all-cards-div .drinks-card {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: start !important;
+  }
+  .section-2-menu-pickup .all-cards-div .drinks-card .btn-div {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 119px !important;
+  }
+  .section-2-menu-pickup .all-cards-div .drinks-card .btn-div p {
+    margin-top: 17px;
+  }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -2089,6 +2104,21 @@ body {
   align-items: center;
   margin-top: 20px;
   gap: 40px;
+}
+.section-2-menu-pickup .all-cards-div .card-div .drinks-card .btn-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-2-menu-pickup .all-cards-div .card-div .drinks-card .btn-div button {
+  background-color: #FFF3F0;
+  color: #F96540;
+  border: transparent;
+  margin-top: 20px;
+  height: 36px;
+  width: 94px;
+  border-radius: 18px;
 }
 
 /*

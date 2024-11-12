@@ -580,6 +580,21 @@
           }
         }
       }
+      .drinks-card{
+       display: flex !important;
+       justify-content: flex-start !important;
+       align-items: start !important;
+        .btn-div{
+          display: flex !important;
+          flex-direction: row !important;
+          justify-content: space-between !important;
+          align-items: center !important;
+          gap: 119px !important;
+          p{
+            margin-top: 17px;
+          }
+        }
+      }
     }
   }
 }
