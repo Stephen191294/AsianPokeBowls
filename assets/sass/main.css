@@ -1679,215 +1679,368 @@ body {
   color: #FFFFFF;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.section-1-giftcard h1,
+.section-1-giftcard h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.section-1-giftcard .section-1-box-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.section-1-giftcard .section-1-box-div .box-1,
+.section-1-giftcard .section-1-box-div .box-2 {
+  border: 1px solid #BCC1CA;
+  width: 280px;
+  height: 102px;
+  font-size: 12px;
+  padding: 3px;
+}
+.section-1-giftcard .btn-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.section-1-giftcard .btn-div button {
+  background-color: #FFFFFF;
+  color: #765903;
+  border: 1px solid #FCDD80;
+  width: 78px;
+  height: 34px;
+  cursor: pointer;
+}
+.section-1-giftcard .btn-div button:hover {
+  background-color: #FCDD80;
+}
+.section-1-giftcard input {
+  height: 35px;
+}
+.section-1-giftcard textarea {
+  width: 100%;
+  height: 195px;
+  margin-top: 10px;
+}
+.section-1-giftcard .btn-div-2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.section-1-giftcard .btn-div-2 .checkout-btn {
+  width: 300px;
+  height: 36px;
+  border-radius: 22px;
+  background-color: #F96540;
+  color: #FFFFFF;
+  border: transparent;
+  cursor: pointer;
+}
+.section-1-giftcard .promo {
+  color: #379AE6;
+  text-align: center;
+}
+.section-1-giftcard .switch-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  /* The switch - the box around the slider */
+  /* Hide default HTML checkbox */
+  /* The slider */
+  /* Rounded sliders */
+}
+.section-1-giftcard .switch-div .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.section-1-giftcard .switch-div .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.section-1-giftcard .switch-div .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+.section-1-giftcard .switch-div .slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+.section-1-giftcard .switch-div input:checked + .slider {
+  background-color: #1dd75b;
+}
+.section-1-giftcard .switch-div input:focus + .slider {
+  box-shadow: 0 0 1px #1dd75b;
+}
+.section-1-giftcard .switch-div input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.section-1-giftcard .switch-div .slider.round {
+  border-radius: 34px;
+}
+.section-1-giftcard .switch-div .slider.round:before {
+  border-radius: 50%;
+}
+
+/*
 .sect-1-giftcard {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-.sect-1-giftcard .checkout-card h1 {
-  font-family: "Catamaran", sans-serif;
-  font-size: 28px;
-  font-weight: 500;
-  color: #171A1f;
-  text-align: center;
-}
-.sect-1-giftcard .checkout-card h2 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  color: #171A1f;
-  text-align: center;
-}
-.sect-1-giftcard .checkout-card p {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  color: #171A1f;
-  text-align: center;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1 {
-  max-width: 280px;
-  height: 102px;
-  border-radius: 8px;
-  border: 1px solid #BCC1CA;
-  cursor: pointer;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1 img {
-  width: 36px;
-  height: 36px;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1 p {
-  font-size: 12px;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1 .text-1 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  color: #171A1f;
-  margin-bottom: 0;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1 .text-2 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
-  color: #171A1f;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1:hover {
-  max-width: 280px;
-  height: 102px;
-  border-radius: 8px;
-  border: 1px solid #F96540;
-  cursor: pointer;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1:hover img {
-  width: 36px;
-  height: 36px;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1:hover p {
-  font-size: 12px;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1:hover .text-1 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  color: #F96540;
-  margin-bottom: 0;
-}
-.sect-1-giftcard .checkout-card .box-container-1 .box-1:hover .text-2 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
-  color: #F96540;
-}
-.sect-1-giftcard .checkout-card .promo {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
-  color: #379AE6;
-}
-.sect-1-giftcard .icon-container {
-  margin-top: 52px;
-}
-.sect-1-giftcard .icon-container img {
-  margin-right: 24px;
-  min-width: 44px;
-  min-height: 44px;
-}
-.sect-1-giftcard .input-container {
-  min-width: 385px;
-  border-radius: 4px 4px 4px 4px;
-}
-.sect-1-giftcard .input-container .btn-group {
-  display: flex;
-  flex-wrap: wrap;
-}
-.sect-1-giftcard .input-container .btn-group .btn-4 {
-  background-color: #FFFFFF;
-  padding: 7px 16px 5px 16px;
-  border-radius: 4px 0 0 4px;
-  border: 1px solid #FCDD80;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-giftcard .input-container .btn-group .btn-5 {
-  background-color: #FFFFFF;
-  padding: 7px 16px 5px 16px;
-  border: 1px solid #FCDD80;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-giftcard .input-container .btn-group .btn-6 {
-  background-color: #FFFFFF;
-  padding: 7px 16px 5px 16px;
-  border: 1px solid #FCDD80;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-giftcard .input-container .btn-group .btn-7 {
-  background-color: #FFFFFF;
-  padding: 7px 16px 5px 16px;
-  border: 1px solid #FCDD80;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-giftcard .input-container .btn-group .btn-8 {
-  background-color: #FFFFFF;
-  padding: 7px 16px 5px 16px;
-  border: 1px solid #FCDD80;
-  border-radius: 0 4px 4px 0;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-giftcard .input-container .btn-group .btn-9 {
-  background-color: #FFFFFF;
-  padding: 7px 16px 5px 16px;
-  border: 1px solid #FCDD80;
-  border-radius: 0 4px 4px 0;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-giftcard .input-container .btn-group .btn-5:hover {
-  background-color: #FCDD80;
-}
-.sect-1-giftcard .input-container .btn-group .btn-6:hover {
-  background-color: #FCDD80;
-}
-.sect-1-giftcard .input-container .btn-group .btn-7:hover {
-  background-color: #FCDD80;
-}
-.sect-1-giftcard .input-container .btn-group .btn-8:hover {
-  background-color: #FCDD80;
-}
-.sect-1-giftcard .input-container .btn-group .btn-9:hover {
-  background-color: #FCDD80;
-}
-.sect-1-giftcard .details-input {
-  max-width: 395px;
-  max-height: 35px;
-  border-radius: 4px;
-  border: 1px solid #171A1f;
-  padding: 7px 12px 6px 12px;
-}
-.sect-1-giftcard textarea {
-  max-width: 395px;
-  max-height: 94px;
-  border-radius: 4px;
-  border: 1px solid #171A1f;
-  padding: 7px 17px 7px 12px;
-}
-.sect-1-giftcard .form-check-input {
-  background-color: #1DD75B;
-  border: 1px solid #1DD75B;
-  width: 40px;
-  height: 24px;
-}
-.sect-1-giftcard .btn-div {
-  max-width: 369px;
-}
-.sect-1-giftcard .btn-div .checkout-btn {
-  background-color: #F96540;
-  width: 100%;
-  max-height: 44px;
-  border-radius: 22px;
-  border: none;
-  color: #FFFFFF;
-}
-.sect-1-giftcard .btn-div .checkout-btn:hover {
-  background-color: #FFFFFF;
-  color: #F96540;
-  border: 1px solid #F96540;
-}
-.sect-1-giftcard .container-giftcard-boxes {
-  overflow: hidden;
-}
+  //margin-left: 132px ;
 
+  .checkout-card {
+    h1 {
+      font-family: $catamaran;
+      font-size: 28px;
+      font-weight: 500;
+      color: $black100;
+      text-align: center;
+     // margin-top: 71px;
+    }
+    h2 {
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: $black100;
+      text-align: center;
+    }
+    p {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: $black100;
+      text-align: center;
+    }
+    .box-container-1 {
+      .box-1 {
+        max-width: 280px;
+        height: 102px;
+        border-radius: 8px;
+        border: 1px solid $lightgrey100;
+        // padding: 20px 16px 45px 16px;
+        cursor: pointer;
+        img {
+          width: 36px;
+          height: 36px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .text-1 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: $black100;
+          margin-bottom: 0;
+        }
+        .text-2 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          color: $black100;
+        }
+      }
+
+      .box-1:hover {
+        max-width: 280px;
+        height: 102px;
+        border-radius: 8px;
+        border: 1px solid $orange100;
+        // padding: 20px 16px 45px 16px;
+        cursor: pointer;
+        img {
+          width: 36px;
+          height: 36px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .text-1 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: $orange100;
+          margin-bottom: 0;
+        }
+        .text-2 {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          color: $orange100;
+        }
+      }
+    }
+    .promo {
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 26px;
+      color: $blue100;
+    }
+  }
+  .icon-container {
+    margin-top: 52px;
+
+    img {
+      margin-right: 24px;
+      min-width: 44px;
+      min-height: 44px;
+    }
+  }
+
+  .input-container {
+    min-width: 385px;
+    border-radius: 4px 4px 4px 4px;
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      .btn-4 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid $yellow100;
+        color: $darkgreen100;
+        cursor: pointer;
+      }
+      .btn-5 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        color: $darkgreen100;
+        cursor: pointer;
+      }
+      .btn-6 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        color: $darkgreen100;
+        cursor: pointer;
+      }
+      .btn-7 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        color: $darkgreen100;
+        cursor: pointer;
+      }
+      .btn-8 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        border-radius: 0 4px 4px 0;
+        color: $darkgreen100;
+        cursor: pointer;
+      }
+      .btn-9 {
+        background-color: $white100;
+        padding: 7px 16px 5px 16px;
+        border: 1px solid $yellow100;
+        border-radius: 0 4px 4px 0;
+        color: $darkgreen100;
+        cursor: pointer;
+      }
+      .btn-5:hover {
+        background-color: $yellow100;
+      }
+      .btn-6:hover {
+        background-color: $yellow100;
+      }
+      .btn-7:hover {
+        background-color: $yellow100;
+      }
+      .btn-8:hover {
+        background-color: $yellow100;
+      }
+      .btn-9:hover {
+        background-color: $yellow100;
+      }
+    }
+  }
+  .details-input {
+    max-width: 395px;
+    max-height: 35px;
+    border-radius: 4px;
+    border: 1px solid $black100;
+    padding: 7px 12px 6px 12px;
+  }
+  textarea {
+    max-width: 395px;
+    max-height: 94px;
+    border-radius: 4px;
+    border: 1px solid $black100;
+    padding: 7px 17px 7px 12px;
+  }
+
+  .form-check-input {
+    background-color: $lightgreen;
+    border: 1px solid $lightgreen;
+    width: 40px;
+    height: 24px;
+  }
+
+  .btn-div {
+    max-width: 369px;
+    .checkout-btn {
+      background-color: $orange100;
+      width: 100%;
+      max-height: 44px;
+      border-radius: 22px;
+      border: none;
+      color: $white100;
+    }
+    .checkout-btn:hover {
+      background-color: $white100;
+      color: $orange100;
+      border: 1px solid $orange100;
+    }
+  }
+
+  .container-giftcard-boxes {
+    overflow: hidden;
+  }
+}
+*/
 .icon-nav-text {
   font-size: 18px;
   font-weight: bold;
