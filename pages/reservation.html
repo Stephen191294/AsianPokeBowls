@@ -60,17 +60,18 @@
               your table is <br />
               ready upon your arrival.
             </p>
-            <label for="name">Your Name</label>
+            <label class="name-label" for="name">Your Name</label>
             <form action="/submit-reservation" method="POST">
               <input
+              class="input-1"
                 id="nameInput"
                 type="text"
                 placeholder="Your name"
                 required
               />
             </form>
-            <div class="d-flex">
-              <div>
+            <div class="guest-restaurant-div">
+              <div class="guest-div">
                 <label for="guest">Guest</label>
                 <div class="options-div">
                   <select id="guest" class="" name="guest">
@@ -84,7 +85,7 @@
                 </div>
               </div>
 
-              <div>
+              <div class="restaurant-div">
                 <label for="restaurant">Restaurant</label>
                 <div class="options-div">
                   <select id="restaurant" name="restaurant">

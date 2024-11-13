@@ -866,14 +866,52 @@
       margin-bottom: 20px;
       margin-left: 48px;
     }
+    input {
+      height: 43px;
+      padding: 7px;
+    }
+    select {
+      height: 43px;
+      border-radius: 4px;
+      padding: 7px;
+      margin-bottom: 16px;
+    }
+    .input-1 {
+      height: 43px !important;
+      width: 541px !important;
+      border-radius: 4px;
+      margin-left: 48px;
+      margin-bottom: 16px;
+     
+    }
+
+    .guest-restaurant-div {
+      display: flex;
+      gap: 25px;
+      .restaurant-div {
+        display: flex;
+        flex-direction: column;
+        width: 258px;
+      }
+      .guest-div {
+        display: flex;
+        flex-direction: column;
+        width: 258px;
+        margin-left: 48px;
+      }
+    }
     label {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start !important;
       margin-bottom: 5px;
     }
+    .name-label {
+      margin-left: 48px;
+    }
+
     form {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start !important;
       align-items: center;
       margin-bottom: 5px;
     }
@@ -887,6 +925,7 @@
       display: flex;
       justify-content: center;
       margin-top: 40px;
+      margin-left: 48px;
       .btn-1 {
         background-color: $orange100;
         color: $white100;
