@@ -4,84 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="../assets/sass/main.css" />
 
     <title>Reservation</title>
   </head>
-  <body class=" position-relative" id="fadeElement">
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
-      <div class="container">
-        <div class="logo-container">
-          <a class="navbar-brand" href="./index.html">
-            <img
-              src="../assets/images/Image20.png"
-              alt="logo"
-              class="img-fluid"
-            />
-          </a>
+  <body class="position-relative wow animate__animated animate__fadeIn">
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </li>
+        <li><a href="../pages/menu.html">Menu</a></li>
+        <li><a href="../pages/about.html">Our story</a></li>
+        <li><a href="../pages/location.html">Location</a></li>
+        <li><a href="../pages/giftcard.html">Gift card</a></li>
+      </ul>
+      <ul>
+        <li>
+          <img src="../assets/images/Image20.png" alt="logo" />
           <a class="index" href="../index.html">POKE NOW.</a>
-        </div>
+        </li>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse item-links"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav mx-auto mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/about.html">Our story </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/location.html">Location</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/giftcard.html">Gift card</a>
-            </li>
-          </ul>
-          <div class="d-flex align-items-center gap-3 items-btns">
-            <a href="../pages/menu-pickup.html">
-              <button class="btn">Order Online</button>
-            </a>
-            <a href="../pages/reservation.html">
-              <button class="btn-1">Book a Table</button>
-            </a>
-          </div>
-        </div>
-      </div>
+        <li class="hideOnMobile">
+          <a href="../pages/menu.html">Menu</a>
+          <a href="../pages/about.html">Our story</a>
+          <a href="../pages/location.html">Location</a>
+          <a href="../pages/giftcard.html">Gift card</a>
+        </li>
+
+        <li class="hamburger" onclick="showSidebar()">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </li>
+        <li>
+          <a href="#"><button class="quote-btn">Order Online</button></a>
+        </li>
+        <li>
+          <a href="#"><button class="quote-btn-2">Book a Table</button></a>
+        </li>
+      </ul>
     </nav>
 
-    <div class=" reservation card bg-white d-flex flex-row container-fluid p-0">
-      <div class=" card-1 card-body container-fluid">
+    <div class="reservation-card">
+      <div class="card-1">
         <div>
           <div>
             <h1>Reservation</h1>
             <p>
               We provide a convenient online reservation system. Simply select
-              your <br> desired date, time, and party size, and we will make sure
-              that your table is <br> ready upon your arrival.
+              your <br />
+              desired date, time, and party size, and we will make sure that
+              your table is <br />
+              ready upon your arrival.
             </p>
-            <label class="d-flex justify-content-start" for="name">Your Name</label>
+            <label for="name">Your Name</label>
             <form action="/submit-reservation" method="POST">
-              <input id="nameInput"
+              <input
+                id="nameInput"
                 type="text"
                 placeholder="Your name"
                 required
@@ -90,46 +72,45 @@
             <div class="d-flex">
               <div>
                 <label for="guest">Guest</label>
-                <div class="d-flex flex-column">
+                <div class="options-div">
                   <select id="guest" class="" name="guest">
                     <option value="1">1 Guest</option>
                     <option value="2">2 Guests</option>
                     <option value="3">3 Guests</option>
                     <option value="4">4 Guests</option>
                   </select>
-                  <label class="mt-3"  for="date">Date</label>
+                  <label for="date">Date</label>
                   <input id="date" class="date" type="date" name="date" />
                 </div>
               </div>
 
               <div>
-                <label class="ms-4" for="restaurant">Restaurant</label>
-                <div class="d-flex flex-column">
-                  <select id="restaurant"  name="restaurant">
+                <label for="restaurant">Restaurant</label>
+                <div class="options-div">
+                  <select id="restaurant" name="restaurant">
                     <option value="1">Your favorite place</option>
                     <option value="2">Option 2</option>
                     <option value="3">Option 3</option>
                   </select>
-                  <label class="ms-4 mt-3" for="time">Time</label>
+                  <label for="time">Time</label>
                   <input id="time" type="time" name="time" />
                 </div>
               </div>
             </div>
             <div class="btn-div">
-              <button class="btn mt-4" type="submit">Book a table</button>
+              <button class="btn-1" type="submit">Book a table</button>
             </div>
-           
-            
           </div>
         </div>
       </div>
-      <div>
-        <div style="width: 490px;" class="position-absolute z-1  d-flex justify-content-end mt-2">
-          <button type="button" class="btn-close d-none d-sm-none d-md-block" aria-label="Close"></button>
+      <div class="card-2">
+        <div>
+          <button type="button" class="btn-close" aria-label="Close">
+            <i class="fa-solid fa-x"></i>
+          </button>
         </div>
         <img
-          style="max-width: 501px; max-height: 624px;"
-          class="img-fluid d-none d-sm-none d-md-block position-relative"
+          class="card-img-1"
           src="../assets/images/Image 183.png"
           alt="bowl"
         />
@@ -137,15 +118,15 @@
     </div>
 
     <section class="sect1-reservation">
-      <div class="sect1-img w-100">
-        <img class="w-100" src="../assets/images/Image 21[1].png" alt="bowl" />
+      <div class="sect1-img">
+        <img src="../assets/images/Image 21[1].png" alt="bowl" />
       </div>
     </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="../assets/js/script.js"></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      src="https://kit.fontawesome.com/4b0c65d0fd.js"
       crossorigin="anonymous"
     ></script>
   </body>
