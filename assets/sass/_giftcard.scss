@@ -23,12 +23,20 @@ body {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+    font-family: $nunito;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  p{
+    text-align: center;
   }
   .section-1-box-div {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+    gap: 24px;
+   
     .box-1,
     .box-2 {
       border: 1px solid $lightgrey100;
@@ -36,6 +44,7 @@ body {
       height: 102px;
       font-size: 12px;
       padding: 3px;
+      border-radius: 8px;
     }
   }
   .btn-div {
@@ -56,11 +65,17 @@ body {
   }
   input{
     height: 35px;
+    border-radius: 4px;
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 10px;
+    
   }
   textarea{
     width: 100%;
     height: 195px;
-    margin-top: 10px;
+    border-radius: 4px;
+    padding: 7px;
   }
   .btn-div-2 {
     display: flex;
@@ -76,6 +91,15 @@ body {
       cursor: pointer;
     }
   }
+
+  .btn-div button:first-child{
+    border-radius: 4px 0 0 4px;
+  }
+
+  .btn-div button:last-child{
+    border-radius: 0 4px 4px 0;
+  }
+
 .promo{
   color: #379AE6;
   text-align: center;
@@ -85,6 +109,11 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 24px;
+    p{
+      font-weight: 400;
+      font-family: $nunito;
+      font-size: 16px;
+    }
     /* The switch - the box around the slider */
     .switch {
       position: relative;
@@ -147,6 +176,10 @@ body {
     .slider.round:before {
       border-radius: 50%;
     }
+  }
+  .giftcard-boxes-container{
+    display: none;
+
   }
 }
 

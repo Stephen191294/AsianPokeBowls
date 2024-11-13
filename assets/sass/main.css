@@ -1039,6 +1039,203 @@ body {
   .all-cards-div-2 .drinks-card .btn-div p {
     margin-top: 17px;
   }
+  .section-1-giftcard {
+    height: 967px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden !important;
+    position: relative;
+  }
+  .section-1-giftcard .div-1 h1 {
+    text-align: left !important;
+    margin-top: 71px !important;
+    font-size: 48px !important;
+  }
+  .section-1-giftcard .div-1 h2 {
+    text-align: left !important;
+    margin-top: 12px !important;
+  }
+  .section-1-giftcard .div-1 P {
+    text-align: left !important;
+  }
+  .section-1-giftcard .div-1 .section-1-box-div {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    margin-bottom: 40px;
+    gap: 24px !important;
+  }
+  .section-1-giftcard .div-1 .section-1-box-div .box-1,
+  .section-1-giftcard .div-1 .section-1-box-div .box-2 {
+    border: 1px solid #BCC1CA;
+    width: 280px;
+    height: 102px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px;
+    border-radius: 8px !important;
+    display: flex;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 25px;
+    cursor: pointer;
+  }
+  .section-1-giftcard .div-1 .section-1-box-div .box-1 img,
+  .section-1-giftcard .div-1 .section-1-box-div .box-2 img {
+    width: 36px;
+    height: 36px;
+  }
+  .section-1-giftcard .div-1 .section-1-box-div .box-1 .inner-box-div,
+  .section-1-giftcard .div-1 .section-1-box-div .box-2 .inner-box-div {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .section-1-giftcard .div-1 .section-1-box-div .box-1 .inner-box-div .text-1,
+  .section-1-giftcard .div-1 .section-1-box-div .box-2 .inner-box-div .text-1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .section-1-giftcard .div-1 .section-1-box-div .box-1:hover {
+    border: 1px solid #F96540;
+  }
+  .section-1-giftcard .div-1 .section-1-box-div .box-2:hover {
+    border: 1px solid #F96540;
+  }
+  .section-1-giftcard .div-1 .btn-div {
+    display: flex;
+    justify-content: flex-start !important;
+    margin-bottom: 40px;
+  }
+  .section-1-giftcard .div-1 .btn-div button {
+    background-color: #FFFFFF;
+    color: #765903;
+    border: 1px solid #FCDD80;
+    width: 78px;
+    height: 34px;
+    cursor: pointer;
+  }
+  .section-1-giftcard .div-1 .btn-div button:hover {
+    background-color: #FCDD80;
+  }
+  .section-1-giftcard .div-1 .form-div {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .section-1-giftcard .div-1 input {
+    height: 35px;
+    width: 395px;
+    margin-bottom: 13px;
+  }
+  .section-1-giftcard .div-1 textarea {
+    width: 395px !important;
+    height: 94px !important;
+    margin-top: 0;
+    margin-bottom: 25px !important;
+  }
+  .section-1-giftcard .div-1 .btn-div-2 {
+    display: flex;
+    justify-content: flex-start !important;
+    margin-bottom: 40px;
+  }
+  .section-1-giftcard .div-1 .btn-div-2 .checkout-btn {
+    width: 300px;
+    height: 36px;
+    border-radius: 22px;
+    background-color: #F96540;
+    color: #FFFFFF;
+    border: transparent;
+    cursor: pointer;
+  }
+  .section-1-giftcard .div-1 .promo {
+    color: #379ae6;
+    text-align: left !important;
+  }
+  .section-1-giftcard .div-1 .switch-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start !important;
+    margin-bottom: 24px;
+    /* The switch - the box around the slider */
+    /* Hide default HTML checkbox */
+    /* The slider */
+    /* Rounded sliders */
+  }
+  .section-1-giftcard .div-1 .switch-div p {
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+  }
+  .section-1-giftcard .div-1 .switch-div .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 183px;
+  }
+  .section-1-giftcard .div-1 .switch-div .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .section-1-giftcard .div-1 .switch-div .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+  }
+  .section-1-giftcard .div-1 .switch-div .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  .section-1-giftcard .div-1 .switch-div input:checked + .slider {
+    background-color: #1dd75b;
+  }
+  .section-1-giftcard .div-1 .switch-div input:focus + .slider {
+    box-shadow: 0 0 1px #1dd75b;
+  }
+  .section-1-giftcard .div-1 .switch-div input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  .section-1-giftcard .div-1 .switch-div .slider.round {
+    border-radius: 34px;
+  }
+  .section-1-giftcard .div-1 .switch-div .slider.round:before {
+    border-radius: 50%;
+  }
+  .section-1-giftcard .giftcard-boxes-container {
+    margin-left: auto !important;
+    display: block !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 24px !important;
+    row-gap: 24px !important;
+    overflow: hidden !important;
+    margin-right: -120px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+  }
+  .section-1-giftcard .giftcard-boxes-container img {
+    width: 238px !important;
+    height: 238px !important;
+    border-radius: 8px;
+  }
+  .section-1-giftcard .giftcard-boxes-container .middle {
+    margin-top: -60px;
+  }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -1701,12 +1898,19 @@ body {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+}
+.section-1-giftcard p {
+  text-align: center;
 }
 .section-1-giftcard .section-1-box-div {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  gap: 24px;
 }
 .section-1-giftcard .section-1-box-div .box-1,
 .section-1-giftcard .section-1-box-div .box-2 {
@@ -1715,6 +1919,7 @@ body {
   height: 102px;
   font-size: 12px;
   padding: 3px;
+  border-radius: 8px;
 }
 .section-1-giftcard .btn-div {
   display: flex;
@@ -1734,11 +1939,16 @@ body {
 }
 .section-1-giftcard input {
   height: 35px;
+  border-radius: 4px;
+  padding: 7px;
+  width: 100%;
+  margin-bottom: 10px;
 }
 .section-1-giftcard textarea {
   width: 100%;
   height: 195px;
-  margin-top: 10px;
+  border-radius: 4px;
+  padding: 7px;
 }
 .section-1-giftcard .btn-div-2 {
   display: flex;
@@ -1754,6 +1964,12 @@ body {
   border: transparent;
   cursor: pointer;
 }
+.section-1-giftcard .btn-div button:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.section-1-giftcard .btn-div button:last-child {
+  border-radius: 0 4px 4px 0;
+}
 .section-1-giftcard .promo {
   color: #379AE6;
   text-align: center;
@@ -1767,6 +1983,11 @@ body {
   /* Hide default HTML checkbox */
   /* The slider */
   /* Rounded sliders */
+}
+.section-1-giftcard .switch-div p {
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
 }
 .section-1-giftcard .switch-div .switch {
   position: relative;
@@ -1813,6 +2034,9 @@ body {
 }
 .section-1-giftcard .switch-div .slider.round:before {
   border-radius: 50%;
+}
+.section-1-giftcard .giftcard-boxes-container {
+  display: none;
 }
 
 /*
