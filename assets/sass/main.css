@@ -3210,6 +3210,7 @@ body {
   border-radius: 8px;
   position: fixed;
   z-index: 2;
+  /*display: none;*/
 }
 .build-bowl .div-1 {
   display: flex;
@@ -3281,8 +3282,9 @@ body {
 @media (min-width: 992px) {
   .build-bowl {
     padding-top: 20px;
+    padding-bottom: 16px;
     width: 816px;
-    height: 684px;
+    height: auto;
     border: 1px solid black;
     background-color: #FFFFFF;
     position: fixed;
