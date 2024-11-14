@@ -1474,6 +1474,11 @@ footer .social-div {
   cursor: pointer;
 }
 
+@media (min-width: 344px) and (max-width: 882px) {
+  footer p {
+    text-align: center;
+  }
+}
 @media (min-width: 992px) {
   footer {
     display: flex;
@@ -3190,12 +3195,13 @@ body {
   overflow-x: hidden;
 }
 
-.section-1-bold-build {
+.section-1-bowl-build {
   width: 100vw;
 }
-.section-1-bold-build img {
+.section-1-bowl-build img {
   width: 100%;
   height: auto;
+  filter: brightness(40%);
 }
 
 /*
