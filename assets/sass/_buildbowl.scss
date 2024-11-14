@@ -1,5 +1,36 @@
 @import "./variables";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+
+
+.section-1-bold-build{
+  width: 100vw;
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/*
 .build-bowl-body {
   margin-bottom: 500px;
 }
@@ -163,3 +194,4 @@
     color: $black100;
   }
 }
+*/

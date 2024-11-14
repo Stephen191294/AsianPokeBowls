@@ -3173,156 +3173,196 @@ body {
     width: 512px;
   }
 }*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.section-1-bold-build {
+  width: 100vw;
+}
+.section-1-bold-build img {
+  width: 100%;
+  height: auto;
+}
+
+/*
 .build-bowl-body {
   margin-bottom: 500px;
 }
 
 .build-bowl-box {
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: $white100;
+  // width: 816px;
+ // height: 684px;
   z-index: 1;
   margin-top: 40px;
+  //margin-left: 10%;
   border-radius: 8px;
   box-shadow: 0 0 4px 0;
   padding-left: 36px;
   padding-top: 30px;
   padding-right: 30px;
-}
-.build-bowl-box .build-bowl-add-cart {
-  background-color: #97DB32;
-  color: #354F0E;
-  border: none;
-  width: 145px;
-  height: 44px;
-  border-radius: 22px;
-}
-.build-bowl-box .build-bowl-add-cart:hover {
-  background-color: #354F0E;
-  color: #97DB32;
-}
-.build-bowl-box .list-group {
-  height: 343px;
-}
-.build-bowl-box .list-group-item {
-  border: none;
-}
-.build-bowl-box .form-check-input {
-  background-color: #F96540;
-  border: none;
-  width: 20px;
-  height: 20px;
-}
-.build-bowl-box .btn {
-  background-color: #F96540;
-  border: none;
+  .build-bowl-add-cart {
+    background-color: $lightgreen100;
+    color: $darkgreen200;
+    border: none;
+    width: 145px;
+    height: 44px;
+    border-radius: 22px;
+  }
+  .build-bowl-add-cart:hover {
+    background-color: $darkgreen200;
+    color: $lightgreen100;
+  }
+  .list-group {
+    height: 343px;
+  }
+  .list-group-item {
+    border: none;
+  }
+  .form-check-input {
+    background-color: $orange100;
+    border: none;
+    width: 20px;
+    height: 20px;
+  }
+  .btn {
+    background-color: $orange100;
+    border: none;
+  }
 }
 
 .sect-1-menu-pickup-build {
   filter: blur(10px);
+  h1 {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: $black100;
+  }
   width: 100%;
-}
-.sect-1-menu-pickup-build h1 {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 48px;
-  color: #171A1f;
-}
-.sect-1-menu-pickup-build .img-blur {
-  width: 100%;
-  filter: blur(10px);
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-1 {
-  border: 1px solid #FCDD80;
-  width: 77px;
-  height: 34px;
-  border-radius: 4px 0 0 4px;
-  padding: 7px 12px 5px 12px;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-1 .box-1:hover {
-  background-color: #FCDD80;
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-2 {
-  border: 1px solid #FCDD80;
-  width: 77px;
-  height: 34px;
-  border-radius: 0 4px 4px 0;
-  padding: 7px 12px 5px 12px;
-  color: #765903;
-  cursor: pointer;
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-1:hover {
-  background-color: #FCDD80;
-}
-.sect-1-menu-pickup-build .container-fluid-menu-pickup .box-2:hover {
-  background-color: #FCDD80;
-}
-.sect-1-menu-pickup-build .times {
-  white-space: nowrap;
+  .img-blur {
+    width: 100%;
+    filter: blur(10px);
+  }
+
+  .container-fluid-menu-pickup {
+    .box-1 {
+      border: 1px solid $yellow100;
+      width: 77px;
+      height: 34px;
+      border-radius: 4px 0 0 4px;
+      padding: 7px 12px 5px 12px;
+      color: $darkgreen100;
+      cursor: pointer;
+
+      .box-1:hover {
+        background-color: $yellow100;
+      }
+    }
+
+    .box-2 {
+      border: 1px solid $yellow100;
+      width: 77px;
+      height: 34px;
+      border-radius: 0 4px 4px 0;
+      padding: 7px 12px 5px 12px;
+      color: $darkgreen100;
+      cursor: pointer;
+    }
+    .box-1:hover {
+      background-color: $yellow100;
+    }
+    .box-2:hover {
+      background-color: $yellow100;
+    }
+  }
+
+  .times {
+    white-space: nowrap;
+  }
 }
 
 .sect2-menu-pickup-build {
   filter: blur(10px);
+  //width: 100%;
+  // height: 100px;
   padding: 72px 156px 84px 148px;
   margin-top: 0;
-  background-color: #FAFAFB;
+  background-color: $lightgrey200;
+  .sect2-header-menu-pickup {
+    text-align: center;
+    font-family: $catamaran;
+  }
+  .container-menu-pickup {
+    .box-menu-pickup {
+      background-color: $white100;
+      padding: 10px;
+      width: 267px;
+      border-radius: 8px;
+      //height: 292px;
+      .image-container-menu-pickup {
+        width: 219px;
+        height: 219px;
+        img {
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+      button {
+        background-color: $orange200;
+        color: $orange100;
+        width: 94px;
+        height: 36px;
+        border-radius: 18px;
+        border: none;
+        white-space: nowrap;
+      }
+      p {
+        width: 235px;
+        height: 60px;
+        font-size: 12px;
+      }
+      h2 {
+        white-space: nowrap;
+        font-family: $catamaran;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+  .menu-txt {
+    font-family: $catamaran;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: $black100;
+  }
+  .price {
+    font-family: $nunito;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: $black100;
+  }
 }
-.sect2-menu-pickup-build .sect2-header-menu-pickup {
-  text-align: center;
-  font-family: "Catamaran", sans-serif;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup {
-  background-color: #FFFFFF;
-  padding: 10px;
-  width: 267px;
-  border-radius: 8px;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup .image-container-menu-pickup {
-  width: 219px;
-  height: 219px;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup .image-container-menu-pickup img {
-  width: 100%;
-  margin-left: 10px;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup button {
-  background-color: #FFF3F0;
-  color: #F96540;
-  width: 94px;
-  height: 36px;
-  border-radius: 18px;
-  border: none;
-  white-space: nowrap;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup p {
-  width: 235px;
-  height: 60px;
-  font-size: 12px;
-}
-.sect2-menu-pickup-build .container-menu-pickup .box-menu-pickup h2 {
-  white-space: nowrap;
-  font-family: "Catamaran", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-}
-.sect2-menu-pickup-build .menu-txt {
-  font-family: "Catamaran", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  color: #171A1f;
-}
-.sect2-menu-pickup-build .price {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-  color: #171A1f;
-}
-
+*/
 .login-box-1 .login-card-1 {
   border-radius: 8px;
   background-color: #FFFFFF;
