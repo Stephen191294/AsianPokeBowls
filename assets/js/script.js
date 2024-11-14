@@ -17,13 +17,6 @@ function hideSidebar(){
 
 
 
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
   const hoverBox = document.querySelector('.box-1');
   const icon = document.getElementById('icon');
