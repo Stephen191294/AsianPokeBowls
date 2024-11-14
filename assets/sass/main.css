@@ -3202,7 +3202,7 @@ body {
   padding-top: 20px;
   width: 100%;
   height: 684px;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 .build-bowl .div-1 {
   display: flex;
@@ -3600,85 +3600,4 @@ body {
 .sect1-reservation {
   filter: brightness(40%);
   display: none;
-}
-
-/*
-.reservation {
-  min-width: 400px;
-  .card-1 {
-    h1 {
-      font-size: 28px;
-       text-align: center;
-      font-family: $catamaran;
-      font-weight: 700;
-      // font-size: 32px;
-      line-height: 48px;
-      color: $black100;
-    }
-    p {
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
-      color: #323842;
-      text-align: center;
-    }
-    label {
-      //text-align: center;
-      font-family: $nunito;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 26px;
-      color: #424955;
-    }
-    .btn-div{
-      display: flex;
-      justify-content: center;
-      button {
-        background-color: $orange100;
-        color: $white100;
-        border-radius: 22px;
-        border: none;
-      }
-      button:hover {
-        background-color: $white100;
-        border: 1px solid $orange100;
-        color: $orange100;
-      }
-    }
-
-
-    #nameInput {
-      border-radius: 4px;
-      margin-bottom: 21px;
-      padding: 9px 140px 8px 16px;
-
-
-    }
-    #guest {
-      border-radius: 4px;
-      padding: 9px 0 8px 16px;
-    }
-    #restaurant {
-      margin-left: 20px;
-      border-radius: 4px;
-      padding: 9px 17px 8px 16px;
-
-    }
-    #date {
-      border-radius: 4px;
-      padding: 9px 17px 8px 16px;
-    }
-    #time {
-      margin-left: 20px;
-      border-radius: 4px;
-      padding: 9px 17px 8px 16px;
-    }
-  }
-}
-
-.sect1-reservation {
-  filter: brightness(40%);
-  display: none;
-}
-*//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

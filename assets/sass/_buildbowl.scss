@@ -19,11 +19,12 @@ body {
 }
 
 
+
 .build-bowl {
   padding-top: 20px;
   width: 100%;
   height: 684px;
-  background-color: white;
+  background-color: $white100;
   .div-1 {
     display: flex;
     justify-content: flex-end;
@@ -91,3 +92,7 @@ body {
     border: transparent;
   }
 }
+
+
+
+
