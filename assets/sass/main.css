@@ -1437,6 +1437,9 @@ footer ul li a {
   color: #FFFFFF;
   text-decoration: none;
 }
+footer ul li a:hover {
+  color: #F96540;
+}
 footer p {
   color: #FFFFFF;
   margin-bottom: 1.25rem;
