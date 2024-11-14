@@ -2543,79 +2543,6 @@ body {
   padding-right: 1.25rem;
 }
 
-.build-bowl {
-  padding-top: 20px;
-  width: 100%;
-  height: 684px;
-  background-color: #FFFFFF;
-}
-.build-bowl .div-1 {
-  display: flex;
-  justify-content: flex-end;
-}
-.build-bowl .div-1 button {
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-}
-.build-bowl .div-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.build-bowl .div-2 img {
-  width: 98px;
-  height: 98px;
-}
-.build-bowl .div-4 {
-  text-align: center;
-  margin-top: 20px;
-}
-.build-bowl .div-5 {
-  text-align: center;
-  margin-top: 20px;
-}
-.build-bowl .div-5 ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.build-bowl .div-6 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 40px;
-}
-.build-bowl .div-6 .btn-2 {
-  background-color: #97DB32;
-  color: #354F0E;
-  width: 145px;
-  height: 44px;
-  border-radius: 22px;
-  font-size: 16px;
-  font-family: "Nunito Sans", sans-serif;
-  line-height: 16px;
-  border: transparent;
-}
-.build-bowl .div-7 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-}
-.build-bowl .btn-1 {
-  background-color: #F96540;
-  color: #FFFFFF;
-  width: 32px;
-  height: 32px;
-  border-radius: 4px;
-  border: transparent;
-}
-
 .section-1-menu-pickup {
   width: 100%;
   display: flex;
@@ -3257,6 +3184,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 *,
@@ -3270,180 +3198,79 @@ body {
   overflow-x: hidden;
 }
 
-.section-1-bowl-build {
-  width: 100vw;
-}
-.section-1-bowl-build img {
+.build-bowl {
+  padding-top: 20px;
   width: 100%;
-  height: auto;
-  filter: brightness(40%);
+  height: 684px;
+  background-color: white;
 }
-
-/*
-.build-bowl-body {
-  margin-bottom: 500px;
+.build-bowl .div-1 {
+  display: flex;
+  justify-content: flex-end;
 }
-
-.build-bowl-box {
-  position: absolute;
-  background-color: $white100;
-  // width: 816px;
- // height: 684px;
-  z-index: 1;
+.build-bowl .div-1 button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.build-bowl .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.build-bowl .div-2 img {
+  width: 98px;
+  height: 98px;
+}
+.build-bowl .div-4 {
+  text-align: center;
+  margin-top: 20px;
+}
+.build-bowl .div-5 {
+  text-align: center;
+  margin-top: 20px;
+}
+.build-bowl .div-5 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.build-bowl .div-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
   margin-top: 40px;
-  //margin-left: 10%;
-  border-radius: 8px;
-  box-shadow: 0 0 4px 0;
-  padding-left: 36px;
-  padding-top: 30px;
-  padding-right: 30px;
-  .build-bowl-add-cart {
-    background-color: $lightgreen100;
-    color: $darkgreen200;
-    border: none;
-    width: 145px;
-    height: 44px;
-    border-radius: 22px;
-  }
-  .build-bowl-add-cart:hover {
-    background-color: $darkgreen200;
-    color: $lightgreen100;
-  }
-  .list-group {
-    height: 343px;
-  }
-  .list-group-item {
-    border: none;
-  }
-  .form-check-input {
-    background-color: $orange100;
-    border: none;
-    width: 20px;
-    height: 20px;
-  }
-  .btn {
-    background-color: $orange100;
-    border: none;
-  }
+}
+.build-bowl .div-6 .btn-2 {
+  background-color: #97DB32;
+  color: #354F0E;
+  width: 145px;
+  height: 44px;
+  border-radius: 22px;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 16px;
+  border: transparent;
+}
+.build-bowl .div-7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.build-bowl .btn-1 {
+  background-color: #F96540;
+  color: #FFFFFF;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  border: transparent;
 }
 
-.sect-1-menu-pickup-build {
-  filter: blur(10px);
-  h1 {
-    font-family: $catamaran;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 48px;
-    color: $black100;
-  }
-  width: 100%;
-  .img-blur {
-    width: 100%;
-    filter: blur(10px);
-  }
-
-  .container-fluid-menu-pickup {
-    .box-1 {
-      border: 1px solid $yellow100;
-      width: 77px;
-      height: 34px;
-      border-radius: 4px 0 0 4px;
-      padding: 7px 12px 5px 12px;
-      color: $darkgreen100;
-      cursor: pointer;
-
-      .box-1:hover {
-        background-color: $yellow100;
-      }
-    }
-
-    .box-2 {
-      border: 1px solid $yellow100;
-      width: 77px;
-      height: 34px;
-      border-radius: 0 4px 4px 0;
-      padding: 7px 12px 5px 12px;
-      color: $darkgreen100;
-      cursor: pointer;
-    }
-    .box-1:hover {
-      background-color: $yellow100;
-    }
-    .box-2:hover {
-      background-color: $yellow100;
-    }
-  }
-
-  .times {
-    white-space: nowrap;
-  }
-}
-
-.sect2-menu-pickup-build {
-  filter: blur(10px);
-  //width: 100%;
-  // height: 100px;
-  padding: 72px 156px 84px 148px;
-  margin-top: 0;
-  background-color: $lightgrey200;
-  .sect2-header-menu-pickup {
-    text-align: center;
-    font-family: $catamaran;
-  }
-  .container-menu-pickup {
-    .box-menu-pickup {
-      background-color: $white100;
-      padding: 10px;
-      width: 267px;
-      border-radius: 8px;
-      //height: 292px;
-      .image-container-menu-pickup {
-        width: 219px;
-        height: 219px;
-        img {
-          width: 100%;
-          margin-left: 10px;
-        }
-      }
-      button {
-        background-color: $orange200;
-        color: $orange100;
-        width: 94px;
-        height: 36px;
-        border-radius: 18px;
-        border: none;
-        white-space: nowrap;
-      }
-      p {
-        width: 235px;
-        height: 60px;
-        font-size: 12px;
-      }
-      h2 {
-        white-space: nowrap;
-        font-family: $catamaran;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
-      }
-    }
-  }
-  .menu-txt {
-    font-family: $catamaran;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    color: $black100;
-  }
-  .price {
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    color: $black100;
-  }
-}
-*/
 .login-box-1 .login-card-1 {
   border-radius: 8px;
   background-color: #FFFFFF;
