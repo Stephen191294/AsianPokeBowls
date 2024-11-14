@@ -2536,6 +2536,7 @@ body {
 body {
   width: 100%;
   overflow-x: hidden;
+  position: relative;
 }
 
 .container {
@@ -3201,8 +3202,14 @@ body {
 .build-bowl {
   padding-top: 20px;
   width: 100%;
-  height: 684px;
+  height: 100vh;
+  padding-left: 36px;
+  padding-right: 30px;
   background-color: #FFFFFF;
+  margin: auto;
+  border-radius: 8px;
+  position: fixed;
+  z-index: 2;
 }
 .build-bowl .div-1 {
   display: flex;
@@ -3242,7 +3249,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 500px !important;
   margin-top: 40px;
 }
 .build-bowl .div-6 .btn-2 {
@@ -3271,6 +3278,91 @@ body {
   border: transparent;
 }
 
+@media (min-width: 992px) {
+  .build-bowl {
+    padding-top: 20px;
+    width: 816px;
+    height: 684px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 2;
+    top: 108px;
+    left: 312px;
+  }
+  .build-bowl .div-1 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .build-bowl .div-1 button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+  .build-bowl .div-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .build-bowl .div-2 img {
+    width: 98px;
+    height: 98px;
+  }
+  .build-bowl .div-4 {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .build-bowl .div-5 {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .build-bowl .div-5 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .build-bowl .div-5 ul li {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 28px;
+  }
+  .build-bowl .div-6 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  .build-bowl .div-6 .btn-2 {
+    background-color: #97DB32;
+    color: #354F0E;
+    width: 145px;
+    height: 44px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 16px;
+    border: transparent;
+  }
+  .build-bowl .div-7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .build-bowl .btn-1 {
+    background-color: #F96540;
+    color: #FFFFFF;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    border: transparent;
+  }
+}
 .login-box-1 .login-card-1 {
   border-radius: 8px;
   background-color: #FFFFFF;
