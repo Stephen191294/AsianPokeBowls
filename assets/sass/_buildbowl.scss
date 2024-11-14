@@ -94,6 +94,11 @@ body {
       font-family: $nunito;
       line-height: 16px;
       border: transparent;
+      cursor: pointer;
+    }
+    .btn-2:hover{
+      background-color: #354F0E;
+      color:#97DB32;
     }
   }
   .div-7{

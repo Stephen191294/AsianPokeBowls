@@ -1,6 +1,5 @@
 @import "./variables";
 
-
 nav {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -13,7 +12,6 @@ nav {
   height: 80px;
   padding-top: 18px;
   padding-bottom: 18px;
-
 }
 
 nav ul {
@@ -28,7 +26,6 @@ nav li {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 nav a {
@@ -41,24 +38,22 @@ nav a {
 }
 
 nav a:hover {
-  color: #F96540;
+  color: #f96540;
 }
 
 nav li:first-child {
   margin-right: auto;
-  display: flex; justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-
-nav .index{
+nav .index {
   color: $black100;
   font-family: $catamaran;
   font-weight: 800;
   font-size: 18px;
   line-height: 28px;
 }
-
-
 
 .sidebar {
   position: fixed;
@@ -102,7 +97,7 @@ nav .index{
   background-color: #191a23;
 }
 
-.quote-btn-2{
+.quote-btn-2 {
   background-color: $black100;
   color: $white100;
   width: 125px;
@@ -112,14 +107,14 @@ nav .index{
   font-size: 16px;
   display: none;
 }
-.quote-btn-2:hover{
+.quote-btn-2:hover {
   background-color: $white100;
   color: $black100;
 }
 
-.cart-btn{
+.cart-btn {
   height: 44px;
-  width: 113px ;
+  width: 113px;
   border-radius: 22px;
   color: $white100;
   background-color: $black100;
@@ -127,42 +122,54 @@ nav .index{
   display: none;
 }
 
-.hideOnMobile{
-  margin-right: auto;
-  display: flex;
-  gap: 20px
- 
+.sign-in-btn {
+  width: 117px;
+  height: 26px;
+  color: $black100;
+  background-color: $white100;
+  border: none;
+  cursor: pointer;
+  font-weight: 16px;
+  font-family: $nunito;
+  line-height: 26px;
+  margin-right: 23px;
+  display: none;
+}
+.sign-in-btn:hover {
+  font-weight: bold;
 }
 
+.hideOnMobile {
+  margin-right: auto;
+  display: flex;
+  gap: 20px;
+}
 
-
-
-
-@media (min-width: 992px){
-  .hamburger{
+@media (min-width: 992px) {
+  .hamburger {
     display: none;
   }
 
-  .quote-btn{
+  .quote-btn {
     display: block;
   }
- .quote-btn-2{
-  display: block;
- }
- nav{
-  padding-left: 132px;
-  padding-right: 132px;
- }
- .cart-btn{
-  height: 44px;
-  width: 113px ;
-  border-radius: 22px;
-  color: $white100;
-  background-color: $black100;
-  border: transparent;
-  display: block;
+  .quote-btn-2 {
+    display: block;
+  }
+  nav {
+    padding-left: 132px;
+    padding-right: 132px;
+  }
+  .cart-btn {
+    height: 44px;
+    width: 113px;
+    border-radius: 22px;
+    color: $white100;
+    background-color: $black100;
+    border: transparent;
+    display: block;
+  }
+  .sign-in-btn{
+    display: block;
+  }
 }
-}
-
-
-

@@ -41,6 +41,12 @@
         <li class="hamburger" onclick="showSidebar()">
           <a href="#"><i class="fa-solid fa-bars"></i></a>
         </li>
+        <button
+          class="sign-in-btn"
+          onclick="location.href='../pages/login.html'"
+        >
+          Sign in / Sign up
+        </button>
 
         <button
           type="submit"
@@ -54,9 +60,74 @@
     </nav>
 
     <div class="container">
+      <div class="login-box-1">
+        <div class="login-card-1">
+          <div class="header-div">
+            <h1>Login</h1>
+
+            <button
+              id="loginCloseBtn"
+              type="button"
+              class="btn-close"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-x"></i>
+            </button>
+          </div>
+         <div class="div-1">
+          <p>Enter your email to log in.</p>
+          <form action="">
+            <div class="inner-div">
+              <input type="text" placeholder="Enter your email" />
+            </form>
+            <button>Continue</button>
+            </div>
+           
+         </div>
+          
+           <div class="div-2">
+            <div class="line-1"></div>
+            <p>OR</p>
+            <div class="line-2"></div>
+          </div>
+
+
+          <p class="login-txt">
+            By continuing, you agree to the updated
+            <span class="login-txt-1">Terms of Sale, Terms of Service,</span>
+            and <span class="login-txt-1">Privacy <br /> </span
+            ><span class="login-txt-2">Policy</span>
+          </p>
+
+          <div class="div-3">
+            <button class="button-1">
+              <img src="../assets/images/Google.png" alt="google" />
+              Continue with Google
+            </button>
+            <button class="button-2">
+              <img src="../assets/images/Logo fb simple.png" alt="facebook" />
+              Continue with Facebook
+            </button>
+            <button class="button-3">
+              <img src="../assets/images/Apple.png" alt="apple" />
+              Continue with Apple
+            </button>
+          </div>
+        </div>
+          <div class="card-img">
+            <img src="../assets/images/Image 167.png" alt="bowls" />
+          </div>
+        
+      </div>
+
       <div id="BuildBowlBox" class="build-bowl">
         <div class="div-1">
-          <button id="closeBtn" type="button" class="btn-close" aria-label="Close">
+          <button
+            id="closeBtn"
+            type="button"
+            class="btn-close"
+            aria-label="Close"
+          >
             <i class="fa-solid fa-x"></i>
           </button>
         </div>
@@ -577,7 +648,7 @@
       </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-   <script
+    <script
       src="https://kit.fontawesome.com/4b0c65d0fd.js"
       crossorigin="anonymous"
     ></script>

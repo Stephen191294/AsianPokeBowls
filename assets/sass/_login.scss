@@ -1,8 +1,209 @@
 @import "./variables";
 
+.login-box-1 {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  background-color: $white100;
+  .login-card-1 {
+    .header-div {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      .btn-close {
+        margin-left: auto;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  .div-1 {
+    p{
+      text-align: center;
+    }
+    .inner-div{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      input{
+        background-color: #f1f4fe;
+        border: transparent;
+        height: 45px;
+        border-radius: 22px;
+        margin-top: 20px;
+        padding: 7px;
+      }
+      button{
+        background-color: $orange100;
+        color: $white100;
+        height: 45px;
+        border-radius: 22px;
+        border: transparent;
+      }
+    }
+   
+  }
+  .div-2 {
+    display: none;
+  }
+  .login-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 28px;
+    font-family: $nunito;
+  }
+  .div-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    button {
+      background-color: #f1f4fe;
+      border: transparent;
+      height: 44px;
+      cursor: pointer;
+      border-radius: 22px;
+    }
+  }
+  .card-img {
+    display: none;
+  }
+}
 
+@media (min-width: 992px) {
+  .login-box-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: fixed;
+    height: 624px;
+    width: 1139px;
+    border: 1px solid black;
+    z-index: 2;
+    background-color: $white100;
+    .login-card-1 {
+      padding: 24px 32px;
+      .header-div {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        .btn-close {
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .div-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+     text-align: left;
+      gap: 20px;
+      p{
+        text-align: left;
+      }
+      input{
+        width: 582px;
+        height: 45px;
+        border-radius: 23px;
+        background-color: #f1f4fe;
+        border: transparent;
+        padding: 7px;
+      }
+      button{
+        background-color: $orange100;
+        color: $white100;
+        height: 45px;
+        width: 582px;
+        border-radius: 22px;
+        border: transparent;
+      }
+    }
+    .div-2 {
+      display: block;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 56px;
+      .line-1{
+        border: 1px solid #DEE1E6;
+        width: 282px;
+      }
 
+      .line-2{
+        border: 1px solid #DEE1E6;
+        width: 282px;
+      }
 
+    }
+    .login-txt {
+      display: block;
+      line-height: 28px;
+      font-family: $nunito;
+      .login-txt-2{
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .div-3 {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 40px;
+      margin-top: 24px;
+      button {
+        background-color: #f1f4fe;
+        border: transparent;
+        height: 44px;
+        width: 582px;
+        cursor: pointer;
+        border-radius: 22px;
+      }
+      .button-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: #EA4336;
+      }
+      .button-1:hover{
+        border: 1px solid #EA4336;
+      }
+      .button-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: #3F5893;
+      }
+      .button-2:hover{
+        border: 1px solid #3F5893
+      }
+      .button-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: #000000;
+      }
+      .button-3:hover{
+        border: 1px solid #000000;
+      }
+    }
+    .card-img {
+      display: block;
+    }
+  }
+}
+
+/*
 .login-box-1 {
   
   .login-card-1 {
@@ -238,11 +439,3 @@
     border: 1px solid #dee1e6;
   }
 }*/
-
-.sect-1-menu-pickup-build {
-  width: 100%;
-  .img-blur {
-    width: 100%;
-    filter: blur(10px);
-  }
-}
