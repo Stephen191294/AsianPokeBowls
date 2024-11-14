@@ -1964,6 +1964,9 @@ body {
   text-align: center;
   margin-top: 40px;
   font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
 }
 .section-1-location .card-div {
   margin-top: 40px;
@@ -1973,12 +1976,14 @@ body {
   margin-top: 20px;
   line-height: 28px;
   font-family: "Catamaran", sans-serif;
+  font-size: 16px;
 }
 .section-1-location .card-div p {
   text-align: center;
   margin-top: 20px;
   line-height: 28px;
   font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
 }
 .section-1-location .card-div .info-div {
   margin-top: 20px;
