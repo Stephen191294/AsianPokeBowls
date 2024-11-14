@@ -8,6 +8,8 @@
   width: 100vw;
   z-index: 2;
   background-color: $white100;
+  display: none;
+
   .login-card-1 {
     .header-div {
       display: flex;
@@ -23,30 +25,36 @@
     }
   }
   .div-1 {
-    p{
+    p {
       text-align: center;
     }
-    .inner-div{
+    .inner-div {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      input{
+      input {
         background-color: #f1f4fe;
         border: transparent;
         height: 45px;
         border-radius: 22px;
         margin-top: 20px;
         padding: 7px;
+        width: 100%;
       }
-      button{
+      button {
         background-color: $orange100;
         color: $white100;
         height: 45px;
         border-radius: 22px;
         border: transparent;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: $white100;
+        border: 1px solid $orange100;
+        color: $orange100;
       }
     }
-   
   }
   .div-2 {
     display: none;
@@ -85,8 +93,13 @@
     height: 624px;
     width: 1139px;
     border: 1px solid black;
+    border-radius: 8px;
+    position: fixed;
+    top: 90px;
+    left: 151px;
     z-index: 2;
     background-color: $white100;
+    display: none;
     .login-card-1 {
       padding: 24px 32px;
       .header-div {
@@ -104,12 +117,12 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-     text-align: left;
+      text-align: left;
       gap: 20px;
-      p{
+      p {
         text-align: left;
       }
-      input{
+      input {
         width: 582px;
         height: 45px;
         border-radius: 23px;
@@ -117,13 +130,19 @@
         border: transparent;
         padding: 7px;
       }
-      button{
+      button {
         background-color: $orange100;
         color: $white100;
         height: 45px;
         width: 582px;
         border-radius: 22px;
         border: transparent;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: $white100;
+        border: 1px solid $orange100;
+        color: $orange100;
       }
     }
     .div-2 {
@@ -132,22 +151,21 @@
       align-items: center;
       gap: 5px;
       margin-top: 56px;
-      .line-1{
-        border: 1px solid #DEE1E6;
+      .line-1 {
+        border: 1px solid #dee1e6;
         width: 282px;
       }
 
-      .line-2{
-        border: 1px solid #DEE1E6;
+      .line-2 {
+        border: 1px solid #dee1e6;
         width: 282px;
       }
-
     }
     .login-txt {
       display: block;
       line-height: 28px;
       font-family: $nunito;
-      .login-txt-2{
+      .login-txt-2 {
         display: flex;
         justify-content: center;
       }
@@ -166,39 +184,43 @@
         cursor: pointer;
         border-radius: 22px;
       }
-      .button-1{
+      .button-1 {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 5px;
-        color: #EA4336;
+        color: #ea4336;
       }
-      .button-1:hover{
-        border: 1px solid #EA4336;
+      .button-1:hover {
+        border: 1px solid #ea4336;
       }
-      .button-2{
+      .button-2 {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 5px;
-        color: #3F5893;
+        color: #3f5893;
       }
-      .button-2:hover{
-        border: 1px solid #3F5893
+      .button-2:hover {
+        border: 1px solid #3f5893;
       }
-      .button-3{
+      .button-3 {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 5px;
         color: #000000;
       }
-      .button-3:hover{
+      .button-3:hover {
         border: 1px solid #000000;
       }
     }
     .card-img {
       display: block;
+
+      img {
+        border-radius: 8px 0 0 8px;
+      }
     }
   }
 }

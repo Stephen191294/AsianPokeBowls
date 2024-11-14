@@ -3415,6 +3415,7 @@ body {
   width: 100vw;
   z-index: 2;
   background-color: #FFFFFF;
+  display: none;
 }
 .login-box-1 .login-card-1 .header-div {
   display: flex;
@@ -3443,6 +3444,7 @@ body {
   border-radius: 22px;
   margin-top: 20px;
   padding: 7px;
+  width: 100%;
 }
 .login-box-1 .div-1 .inner-div button {
   background-color: #F96540;
@@ -3450,6 +3452,12 @@ body {
   height: 45px;
   border-radius: 22px;
   border: transparent;
+  cursor: pointer;
+}
+.login-box-1 .div-1 .inner-div button:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #F96540;
+  color: #F96540;
 }
 .login-box-1 .div-2 {
   display: none;
@@ -3487,8 +3495,13 @@ body {
     height: 624px;
     width: 1139px;
     border: 1px solid black;
+    border-radius: 8px;
+    position: fixed;
+    top: 90px;
+    left: 151px;
     z-index: 2;
     background-color: #FFFFFF;
+    display: none;
   }
   .login-box-1 .login-card-1 {
     padding: 24px 32px;
@@ -3528,6 +3541,12 @@ body {
     width: 582px;
     border-radius: 22px;
     border: transparent;
+    cursor: pointer;
+  }
+  .login-box-1 .div-1 button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #F96540;
+    color: #F96540;
   }
   .login-box-1 .div-2 {
     display: block;
@@ -3537,11 +3556,11 @@ body {
     margin-top: 56px;
   }
   .login-box-1 .div-2 .line-1 {
-    border: 1px solid #DEE1E6;
+    border: 1px solid #dee1e6;
     width: 282px;
   }
   .login-box-1 .div-2 .line-2 {
-    border: 1px solid #DEE1E6;
+    border: 1px solid #dee1e6;
     width: 282px;
   }
   .login-box-1 .login-txt {
@@ -3573,20 +3592,20 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    color: #EA4336;
+    color: #ea4336;
   }
   .login-box-1 .div-3 .button-1:hover {
-    border: 1px solid #EA4336;
+    border: 1px solid #ea4336;
   }
   .login-box-1 .div-3 .button-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    color: #3F5893;
+    color: #3f5893;
   }
   .login-box-1 .div-3 .button-2:hover {
-    border: 1px solid #3F5893;
+    border: 1px solid #3f5893;
   }
   .login-box-1 .div-3 .button-3 {
     display: flex;
@@ -3600,6 +3619,9 @@ body {
   }
   .login-box-1 .card-img {
     display: block;
+  }
+  .login-box-1 .card-img img {
+    border-radius: 8px 0 0 8px;
   }
 }
 /*
