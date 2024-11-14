@@ -91,22 +91,13 @@ footer {
   }
 }
 
-
-
-
-@media (min-width: 344px) and (max-width: 882px){
+@media (min-width: 344px) and (max-width: 882px) {
   footer {
-    
-    p{
+    p {
       text-align: center;
     }
   }
 }
-
-
-
-
-
 
 @media (min-width: 992px) {
   footer {
@@ -144,12 +135,12 @@ footer {
 
     .left-footer {
       text-align: right;
-      .social-div-2{
+      .social-div-2 {
         display: flex;
         justify-content: end;
         gap: 16px;
       }
-      .btn-container{
+      .btn-container {
         margin-bottom: 25px;
       }
     }
