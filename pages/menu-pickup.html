@@ -14,7 +14,7 @@
     <title>Menu-Pickup</title>
   </head>
 
-  <body class="wow animate__animated animate__fadeIn">
+  <body id="menuPickUpBody" class="wow animate__animated animate__fadeIn">
     <nav>
       <ul class="sidebar">
         <li onclick="hideSidebar()">
@@ -54,9 +54,9 @@
     </nav>
 
     <div class="container">
-      <div class="build-bowl">
+      <div id="BuildBowlBox" class="build-bowl">
         <div class="div-1">
-          <button type="button" class="btn-close" aria-label="Close">
+          <button id="closeBtn" type="button" class="btn-close" aria-label="Close">
             <i class="fa-solid fa-x"></i>
           </button>
         </div>
@@ -156,8 +156,6 @@
         </div>
       </div>
       <section class="section-1-menu-pickup">
-
-       
         <img src="../assets/images/Image 123.png" alt="bowl" />
 
         <div class="info-div">
@@ -215,9 +213,7 @@
               <div class="btn-div">
                 <p>$20</p>
 
-                <button onclick="location.href='./pages/menu-pickup.html '">
-                  Order Now
-                </button>
+                <button id="buildBowl">Build bowl</button>
               </div>
             </div>
           </div>
@@ -581,10 +577,10 @@
       </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="../assets/js/script.js"></script>
-    <script
+   <script
       src="https://kit.fontawesome.com/4b0c65d0fd.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../assets/js/script.js"></script>
   </body>
 </html>

@@ -31,7 +31,9 @@ body {
   border-radius: 8px;
   position: fixed;
   z-index: 2;
-  /*display: none;*/
+  display: none;
+/*  backdrop-filter: brightness(40%) blur(5px);
+    transition: all 0.3s ease;*/
   .div-1 {
     display: flex;
     justify-content: flex-end;
@@ -50,6 +52,16 @@ body {
     img {
       width: 98px;
       height: 98px;
+    }
+  }
+  .div-3{
+    h1{
+      font-weight: 400;
+      font-size: 32px;
+      font-family: $catamaran;
+    }
+    p{
+      text-align: center;
     }
   }
   .div-4 {
@@ -117,6 +129,8 @@ body {
     z-index: 2;
     top: 108px;
     left: 312px;
+    backdrop-filter: brightness(40%) blur(5px);
+    transition: all 0.3s ease;
     .div-1 {
       display: flex;
       justify-content: flex-end;
@@ -135,6 +149,12 @@ body {
       img {
         width: 98px;
         height: 98px;
+      }
+    }
+    .div-3{
+     
+      p{
+        text-align: left;
       }
     }
     .div-4 {

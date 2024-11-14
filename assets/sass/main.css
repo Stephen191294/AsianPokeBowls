@@ -3210,7 +3210,7 @@ body {
   border-radius: 8px;
   position: fixed;
   z-index: 2;
-  /*display: none;*/
+  display: none;
 }
 .build-bowl .div-1 {
   display: flex;
@@ -3231,6 +3231,14 @@ body {
 .build-bowl .div-2 img {
   width: 98px;
   height: 98px;
+}
+.build-bowl .div-3 h1 {
+  font-weight: 400;
+  font-size: 32px;
+  font-family: "Catamaran", sans-serif;
+}
+.build-bowl .div-3 p {
+  text-align: center;
 }
 .build-bowl .div-4 {
   text-align: center;
@@ -3311,6 +3319,9 @@ body {
   .build-bowl .div-2 img {
     width: 98px;
     height: 98px;
+  }
+  .build-bowl .div-3 p {
+    text-align: left;
   }
   .build-bowl .div-4 {
     text-align: left;
