@@ -3096,120 +3096,74 @@ body {
   line-height: 28px;
 }
 
-.img-1 {
-  margin-top: 36px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.square-check {
-  top: 270px;
-  left: 210px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-/*
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .section-1-purchase-info {
-  h1 {
-    font-family: $catamaran;
-    font-weight: 700px;
-    font-size: 32px;
-    line-height: 48px;
-    color: $black100;
-  }
-  p {
-    color: $grey400;
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-  }
+  margin-top: 40px;
+}
+.section-1-purchase-info .div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.section-1-purchase-info .div-1 .check {
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  z-index: 2;
+}
+.section-1-purchase-info .div-1 h1 {
+  margin-top: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 25px;
+  font-family: "Catamaran", sans-serif;
 }
 
 .section-2-purchase-info {
-  margin-bottom: 100px;
-  .purchase-info {
-    width: 560px;
-    .left-txt {
-      display: inline-block;
-      p {
-        font-family: $nunito;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: $grey400;
-      }
-    }
-    .right-txt {
-      color: $black100;
-      font-family: $nunito;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px;
-    }
-    .right-txt-1 {
-      color: $black100;
-      font-family: $catamaran;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 26px;
-    }
-    .right-txt-2 {
-      color: $black100;
-      font-family: $nunito;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 22px;
-    }
-  }
+  margin-top: 40px;
+}
+.section-2-purchase-info .div-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.section-2-purchase-info .div-1 .right-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.section-2-purchase-info .line {
+  border: 1px solid #DEE1E6;
+  width: 512px;
+}
 
-  h2 {
-    color: $black100;
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: left;
-  }
-  h3 {
-    color: #323842;
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: left;
-  }
-  .purchased-item {
-    display: inline-block;
-  }
-  .order-line {
-    width: 560px;
-  }
-  .order-line-img {
-    width: 94px;
-    height: 94px;
-  }
-  .order-line-txt-1 {
-    text-align: left;
-  }
-  .order-line-txt-2 {
-    text-align: left;
-  }
-  .back-home {
-    background-color: $orange100;
-    border: none;
-    width: 130px;
-    height: 44px;
-    color: $white100;
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    border-radius: 22px;
-  }
-  .line {
-    border: 1px solid #dee1e6;
-    height: 1px;
-    width: 512px;
-  }
-}*/
 * {
   margin: 0;
   padding: 0;
