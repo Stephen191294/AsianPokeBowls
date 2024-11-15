@@ -23,23 +23,21 @@ body {
   padding-right: 1.25rem;
 }
 
-
-
-.section-1-purchase-info{
+.section-1-purchase-info {
   margin-top: 40px;
-  .div-1{
+  .div-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    .check{
+    .check {
       position: absolute;
-      bottom:80px;
-      right:80px;
+      bottom: 100px;
+      right: 80px;
       z-index: 2;
     }
-    h1{
+    h1 {
       margin-top: 40px;
       font-weight: 700;
       line-height: 48px;
@@ -49,23 +47,193 @@ body {
   }
 }
 
-.section-2-purchase-info{
+.section-2-purchase-info {
   margin-top: 40px;
-  .div-1{
+  margin-bottom: 40px;
+
+  .div-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    .right-div{
+    .right-div {
       display: flex;
       flex-direction: row;
       align-items: center;
       gap: 5px;
     }
   }
-  .line{
-    border: 1px solid #DEE1E6;
-    width: 512px;
+  .line {
+    border: 1px solid #dee1e6;
+    width: 300px;
+    margin: auto;
+  }
+  .div-2 {
+    margin-top: 20px;
+    h2 {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+  }
+  .purchase-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 21px;
+    margin-top: 10px;
+    .purchased-item {
+      .quantity {
+        background-color: #f3f4f6;
+        width: 36px;
+        height: 28px;
+        border-radius: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      P {
+        font-size: 11px;
+        line-height: 18px;
+        color: #9095a0;
+        font-family: $nunito;
+      }
+    }
+  }
+  .div-1 {
+    .price {
+      text-align: center;
+    }
+  }
+  .div-2 {
+    .price {
+      text-align: center;
+    }
+  }
+  .home-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    button {
+      background-color: $orange100;
+      color: $white100;
+      width: 130px;
+      height: 44px;
+      border-radius: 22px;
+      border: transparent;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: $white100;
+      color: $orange100;
+      border: 1px solid $orange100;
+    }
+  }
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .section-1-purchase-info {
+    margin-top: 40px;
+    .div-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      .check {
+        position: absolute;
+        bottom: 100px;
+        right: 80px;
+        z-index: 2;
+      }
+      h1 {
+        margin-top: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        font-size: 25px;
+        font-family: $catamaran;
+      }
+    }
+  }
+
+  .section-2-purchase-info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 560px;
+    height: auto;
+    margin: auto;
+    .div-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      .right-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+    .line {
+      border: 1px solid #dee1e6;
+      width: 512px;
+      margin: auto;
+    }
+    .div-2 {
+      margin-top: 20px;
+      h2 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+      }
+    }
+    .purchase-info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 21px;
+      margin-top: 10px;
+      .purchased-item {
+        .quantity {
+          background-color: #f3f4f6;
+          width: 36px;
+          height: 28px;
+          border-radius: 14px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        P {
+          font-size: 11px;
+          line-height: 18px;
+          color: #9095a0;
+          font-family: $nunito;
+        }
+      }
+    }
+    .div-1 {
+      .price {
+        text-align: center;
+      }
+    }
+    .div-2 {
+      .price {
+        text-align: center;
+      }
+    }
   }
 }
