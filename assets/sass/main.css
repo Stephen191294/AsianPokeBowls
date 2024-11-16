@@ -3704,7 +3704,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     gap: 500px !important;
-    margin-top: 40px;
+    margin-top: 22px !important;
   }
   .build-bowl .div-6 .btn-2 {
     background-color: #97DB32;
@@ -3730,6 +3730,11 @@ body {
     height: 32px;
     border-radius: 4px;
     border: transparent;
+  }
+  .build-bowl .line {
+    border: 1px solid #DEE1E6;
+    width: 100%;
+    margin-top: 20px;
   }
 }
 .login-box-1 {
