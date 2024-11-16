@@ -117,21 +117,24 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 2.5rem;
+  
     button {
       background-color: $orange100;
       color: $white100;
-      width: 130px;
-      height: 44px;
-      border-radius: 22px;
+      width: 8.125rem;
+      height: 2.75rem; 
+      border-radius: 1.375rem; 
       border: transparent;
       cursor: pointer;
     }
+  
     button:hover {
       background-color: $white100;
       color: $orange100;
-      border: 1px solid $orange100;
+      border: 0.0625rem solid $orange100; 
     }
   }
+  
 }
 
 .rating {
@@ -346,27 +349,28 @@ body {
       display: flex;
       flex-direction: row;
       align-items: center;
-      gap: 21px;
-      margin-top: 10px;
+      gap: 1.3125rem; 
+      margin-top: 0.625rem; 
+    
       .purchased-item {
         .quantity {
           background-color: #f3f4f6;
-          width: 36px;
-          height: 28px;
-          border-radius: 14px;
-          display: flex;
+          width: 2.25rem; 
+          height: 1.75rem; 
+          border-radius: 0.875rem; 
           justify-content: center;
           align-items: center;
         }
-        P {
-          font-size: 11px;
-          line-height: 18px;
+    
+        p {
+          font-size: 0.6875rem; 
+          line-height: 1.125;
           color: #9095a0;
           font-family: $nunito;
         }
-        
       }
     }
+    
     .div-1 {
       .price {
         text-align: center;

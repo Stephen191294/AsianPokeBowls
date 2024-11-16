@@ -3209,16 +3209,16 @@ body {
 .section-2-purchase-info .home-btn button {
   background-color: #F96540;
   color: #FFFFFF;
-  width: 130px;
-  height: 44px;
-  border-radius: 22px;
+  width: 8.125rem;
+  height: 2.75rem;
+  border-radius: 1.375rem;
   border: transparent;
   cursor: pointer;
 }
 .section-2-purchase-info .home-btn button:hover {
   background-color: #FFFFFF;
   color: #F96540;
-  border: 1px solid #F96540;
+  border: 0.0625rem solid #F96540;
 }
 
 .rating {
@@ -3402,21 +3402,20 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 21px;
-    margin-top: 10px;
+    gap: 1.3125rem;
+    margin-top: 0.625rem;
   }
   .section-2-purchase-info .purchase-info .purchased-item .quantity {
     background-color: #f3f4f6;
-    width: 36px;
-    height: 28px;
-    border-radius: 14px;
-    display: flex;
+    width: 2.25rem;
+    height: 1.75rem;
+    border-radius: 0.875rem;
     justify-content: center;
     align-items: center;
   }
-  .section-2-purchase-info .purchase-info .purchased-item P {
-    font-size: 11px;
-    line-height: 18px;
+  .section-2-purchase-info .purchase-info .purchased-item p {
+    font-size: 0.6875rem;
+    line-height: 1.125;
     color: #9095a0;
     font-family: "Nunito Sans", sans-serif;
   }
