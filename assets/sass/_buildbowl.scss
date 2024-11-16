@@ -23,7 +23,7 @@ body {
 .build-bowl {
   padding-top: 20px;
   width: 100%;
-  height: 100vh;
+  height: auto;
   padding-left: 36px;
   padding-right: 30px;
   background-color: $white100;
@@ -35,7 +35,7 @@ body {
 /*  backdrop-filter: brightness(40%) blur(5px);
     transition: all 0.3s ease;*/
   .div-1 {
-    display: flex;
+   display: flex;
     justify-content: flex-end;
     button {
       cursor: pointer;
