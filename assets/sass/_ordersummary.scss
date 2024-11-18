@@ -85,6 +85,14 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 20px;
+    .voucher{
+      text-align: center;
+      font-size: 16px;
+      line-height: 26px;
+      font-family: $nunito;
+      font-weight: 400;
+      color: $black100;
+    }
     .freeship {
       background-color: #fcdd80;
       border: transparent;
@@ -210,6 +218,14 @@ body {
       box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
       border-radius: 4px;
       padding: 24px;
+      .voucher{
+        text-align: left;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: $nunito;
+        font-weight: 400;
+        color: $black100;
+      }
       .freeship {
         background-color: #fcdd80;
         border: transparent;
@@ -229,6 +245,12 @@ body {
         border-radius: 22px;
         font-family: $nunito;
         font-size: 12px;
+        cursor: pointer;
+      }
+      .payment-btn:hover{
+        background-color: $white100;
+        border: 1px solid $orange100;
+        color: $orange100;
       }
       .payment-txt-1{
         display: flex;

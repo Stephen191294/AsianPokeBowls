@@ -3045,6 +3045,14 @@ body {
   text-align: center;
   gap: 20px;
 }
+.section-1-order-summary .payment .voucher {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  color: #171A1f;
+}
 .section-1-order-summary .payment .freeship {
   background-color: #fcdd80;
   border: transparent;
@@ -3166,6 +3174,14 @@ body {
     border-radius: 4px;
     padding: 24px;
   }
+  .section-1-order-summary .payment .voucher {
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: #171A1f;
+  }
   .section-1-order-summary .payment .freeship {
     background-color: #fcdd80;
     border: transparent;
@@ -3185,6 +3201,12 @@ body {
     border-radius: 22px;
     font-family: "Nunito Sans", sans-serif;
     font-size: 12px;
+    cursor: pointer;
+  }
+  .section-1-order-summary .payment .payment-btn:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #F96540;
+    color: #F96540;
   }
   .section-1-order-summary .payment .payment-txt-1 {
     display: flex;
