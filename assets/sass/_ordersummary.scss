@@ -83,6 +83,25 @@ body {
     align-items: center;
     gap: 20px;
   }
+  .apply {
+    background-color: #fef9eb;
+    color: #765903;
+    border: transparent;
+    width: 73px;
+    height: 36px;
+    padding: 7px;
+    font-weight: 400;
+    font-family: $nunito;
+    font-size: 14px;
+    line-height: 22px;
+    cursor: pointer;
+  }
+  input {
+    width: 220px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 7px;
+  }
   .payment {
     margin-top: 40px;
     display: flex;
@@ -101,6 +120,8 @@ body {
       background-color: #fcdd80;
       border: transparent;
       height: 28px;
+      width: 60px;
+      margin: auto;
       border-radius: 14px;
       color: #765903;
       font-family: $nunito;
@@ -111,9 +132,16 @@ body {
       color: $white100;
       border: transparent;
       height: 28px;
+      width: 200px;
       border-radius: 14px;
       font-family: $nunito;
       font-size: 12px;
+      cursor: pointer;
+    }
+    .payment-btn:hover{
+      background-color: $white100;
+      color: $orange100;
+      border: 1px solid $orange100;
     }
   }
 }
@@ -140,6 +168,12 @@ body {
     border-radius: 18px;
     border: transparent;
   }
+  .box-order-summary{
+    .text-div{
+      width: 300px;
+    }
+  }
+ 
 }
 
 @media (min-width: 600px) {
@@ -247,7 +281,7 @@ body {
     }
     .payment {
       margin-top: 40px;
-      height: 571px;
+      height: 600px;
       width: 348px;
       display: flex;
       flex-direction: column;

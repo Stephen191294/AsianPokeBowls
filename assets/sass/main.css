@@ -3038,6 +3038,25 @@ body {
   align-items: center;
   gap: 20px;
 }
+.section-1-order-summary .apply {
+  background-color: #fef9eb;
+  color: #765903;
+  border: transparent;
+  width: 73px;
+  height: 36px;
+  padding: 7px;
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.section-1-order-summary input {
+  width: 220px;
+  height: 35px;
+  border-radius: 4px;
+  padding: 7px;
+}
 .section-1-order-summary .payment {
   margin-top: 40px;
   display: flex;
@@ -3057,6 +3076,8 @@ body {
   background-color: #fcdd80;
   border: transparent;
   height: 28px;
+  width: 60px;
+  margin: auto;
   border-radius: 14px;
   color: #765903;
   font-family: "Nunito Sans", sans-serif;
@@ -3067,9 +3088,16 @@ body {
   color: #FFFFFF;
   border: transparent;
   height: 28px;
+  width: 200px;
   border-radius: 14px;
   font-family: "Nunito Sans", sans-serif;
   font-size: 12px;
+  cursor: pointer;
+}
+.section-1-order-summary .payment .payment-btn:hover {
+  background-color: #FFFFFF;
+  color: #F96540;
+  border: 1px solid #F96540;
 }
 
 .section-2-order-summary {
@@ -3094,6 +3122,9 @@ body {
   width: 94px;
   border-radius: 18px;
   border: transparent;
+}
+.section-2-order-summary .box-order-summary .text-div {
+  width: 300px;
 }
 
 @media (min-width: 992px) {
@@ -3197,7 +3228,7 @@ body {
   }
   .section-1-order-summary .payment {
     margin-top: 40px;
-    height: 571px;
+    height: 600px;
     width: 348px;
     display: flex;
     flex-direction: column;
