@@ -1,143 +1,109 @@
 @import "./variables";
 
-.section-1-order-summary {
-  margin-right: 123px;
-  margin-left: 130px;
-  //box-shadow: 0 0 1px 0;
-  .summary-container {
-    width: 796px;
-    height: 282px;
-    margin-top: 36px;
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-bottom: 25px;
-    box-shadow: 0 0 1px 0;
-    border-radius: 4px;
-    .summary-box {
-      border: 1px solid gray;
-      border-left: none;
-      border-right: none;
-    }
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
 
-  h1 {
-    font-family: $catamaran;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+
+.section-1-order-summary{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  h1{
+    text-align: center;
     font-weight: 700;
+    font-family: $catamaran;
+  }
+  h2{
+    font-weight: 400;
+    font-family: $nunito;
     font-size: 16px;
     line-height: 26px;
     color: $black100;
+    text-align: center;
   }
-  .bowl-img {
-    width: 62px;
-    height: 62px;
+  p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #565E6C;
   }
-  .pen {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
+  .summary-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
-
-  .trash {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-  }
-  .payment-container {
-    box-shadow: 0 3px 6px 0 $black100;
-    width: 348px;
-    height: 571px;
-    margin-top: 36px;
-    padding: 24px;
-    border-radius: 4px;
-    .apply {
-      width: 73px;
-      height: 36px;
-      border-radius: 4px;
-      background-color: #fef9eb;
-      border: none;
-      color: $darkgreen100;
-      cursor: pointer;
-    }
-    .freeship {
-      width: 60px;
-      height: 28px;
+  .payment{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    .freeship{
+      background-color: #FCDD80 ;
+      border: transparent;
+      height: 28px ;
       border-radius: 14px;
-      background-color: $yellow100;
+      color: #765903;
       font-family: $nunito;
       font-size: 12px;
-      line-height: 20px;
-      font-weight: 400;
-      border: none;
-      color: $darkgreen100;
-      cursor: pointer;
     }
-    .payment {
-      width: 300px;
-      height: 44px;
-      border-radius: 22px;
+    .payment-btn{
       background-color: $orange100;
       color: $white100;
-      border: none;
-    }
-    .price {
-      color: $black100;
+      border: transparent;
+      height: 28px;
+      border-radius: 14px;
       font-family: $nunito;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 22px;
+      font-size: 12px;
     }
-  }
-  .orange-price {
-    color: $orange100;
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-  }
-  .payment-txt {
-    color: $black100;
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-  }
-  .payment-txt-1 {
-    color: $black100;
-    font-family: $nunito;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-  }
-  .payment-txt-2 {
-    color: $black100;
-    font-family: $nunito;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 20px;
   }
 }
 
-.section-2-order-summary {
-  margin-bottom: 72px;
-  .box-order-summary {
-    width: 267px;
-  // background-color: aqua;
-    .add-cart {
-      background-color: $orange200;
-      color: $orange100;
-      width: 94px;
-      height: 36px;
-      border-radius: 18px;
-      border: none;
-      white-space: nowrap;
-    }
-    .price {
-      color: $black100;
-      font-family: $nunito;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 28px;
-    }
+.section-2-order-summary{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  h4{
+    margin-top: 20px;
+  }
+  p{
+    margin-top: 20px;
+  }
+  button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF3F0 ;
+    color: $orange100;
+    height: 36px;
+    width: 94px;
+    border-radius: 18px;
+    border: transparent;
   }
 }

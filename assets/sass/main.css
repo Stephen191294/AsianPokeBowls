@@ -2958,142 +2958,111 @@ body {
    color: $black100;
   }
 }*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .section-1-order-summary {
-  margin-right: 123px;
-  margin-left: 130px;
-}
-.section-1-order-summary .summary-container {
-  width: 796px;
-  height: 282px;
-  margin-top: 36px;
-  padding-top: 25px;
-  padding-right: 25px;
-  padding-left: 25px;
-  padding-bottom: 25px;
-  box-shadow: 0 0 1px 0;
-  border-radius: 4px;
-}
-.section-1-order-summary .summary-container .summary-box {
-  border: 1px solid gray;
-  border-left: none;
-  border-right: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .section-1-order-summary h1 {
-  font-family: "Catamaran", sans-serif;
+  text-align: center;
   font-weight: 700;
+  font-family: "Catamaran", sans-serif;
+}
+.section-1-order-summary h2 {
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
   line-height: 26px;
   color: #171A1f;
+  text-align: center;
 }
-.section-1-order-summary .bowl-img {
-  width: 62px;
-  height: 62px;
+.section-1-order-summary p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #565E6C;
 }
-.section-1-order-summary .pen {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
+.section-1-order-summary .summary-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-.section-1-order-summary .trash {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
+.section-1-order-summary .payment {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
 }
-.section-1-order-summary .payment-container {
-  box-shadow: 0 3px 6px 0 #171A1f;
-  width: 348px;
-  height: 571px;
-  margin-top: 36px;
-  padding: 24px;
-  border-radius: 4px;
-}
-.section-1-order-summary .payment-container .apply {
-  width: 73px;
-  height: 36px;
-  border-radius: 4px;
-  background-color: #fef9eb;
-  border: none;
-  color: #765903;
-  cursor: pointer;
-}
-.section-1-order-summary .payment-container .freeship {
-  width: 60px;
+.section-1-order-summary .payment .freeship {
+  background-color: #FCDD80;
+  border: transparent;
   height: 28px;
   border-radius: 14px;
-  background-color: #FCDD80;
+  color: #765903;
   font-family: "Nunito Sans", sans-serif;
   font-size: 12px;
-  line-height: 20px;
-  font-weight: 400;
-  border: none;
-  color: #765903;
-  cursor: pointer;
 }
-.section-1-order-summary .payment-container .payment {
-  width: 300px;
-  height: 44px;
-  border-radius: 22px;
+.section-1-order-summary .payment .payment-btn {
   background-color: #F96540;
   color: #FFFFFF;
-  border: none;
-}
-.section-1-order-summary .payment-container .price {
-  color: #171A1f;
+  border: transparent;
+  height: 28px;
+  border-radius: 14px;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 22px;
-}
-.section-1-order-summary .orange-price {
-  color: #F96540;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-}
-.section-1-order-summary .payment-txt {
-  color: #171A1f;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-}
-.section-1-order-summary .payment-txt-1 {
-  color: #171A1f;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 20px;
-}
-.section-1-order-summary .payment-txt-2 {
-  color: #171A1f;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 20px;
 }
 
 .section-2-order-summary {
-  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.section-2-order-summary .box-order-summary {
-  width: 267px;
+.section-2-order-summary h4 {
+  margin-top: 20px;
 }
-.section-2-order-summary .box-order-summary .add-cart {
+.section-2-order-summary p {
+  margin-top: 20px;
+}
+.section-2-order-summary button {
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-color: #FFF3F0;
   color: #F96540;
-  width: 94px;
   height: 36px;
+  width: 94px;
   border-radius: 18px;
-  border: none;
-  white-space: nowrap;
-}
-.section-2-order-summary .box-order-summary .price {
-  color: #171A1f;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
+  border: transparent;
 }
 
 * {
