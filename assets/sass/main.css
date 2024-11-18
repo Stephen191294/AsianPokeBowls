@@ -1612,8 +1612,9 @@ body {
 
 .section-2-about {
   background-color: #FAFAFB;
-  height: 200px;
+  height: 150px;
   padding: 36px;
+  margin-bottom: 200px;
 }
 .section-2-about h3 {
   text-align: center;
