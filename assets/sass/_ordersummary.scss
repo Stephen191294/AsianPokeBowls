@@ -23,20 +23,41 @@ body {
   padding-right: 1.25rem;
 }
 
-
-.section-1-order-summary{
+.section-1-order-summary {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
   margin-bottom: 40px;
-  h1{
+  .div-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px;
+    margin-top: 40px;
+    border-radius: 4px;
+  }
+  .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .div-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+  }
+  h1 {
     text-align: center;
     font-weight: 700;
     font-family: $catamaran;
+    font-size: 16px;
   }
-  h2{
+  h2 {
     font-weight: 400;
     font-family: $nunito;
     font-size: 16px;
@@ -44,35 +65,36 @@ body {
     color: $black100;
     text-align: center;
   }
-  p{
+  p {
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-    color: #565E6C;
+    color: #565e6c;
   }
-  .summary-box{
+
+  .summary-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  .payment{
+  .payment {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 20px;
-    .freeship{
-      background-color: #FCDD80 ;
+    .freeship {
+      background-color: #fcdd80;
       border: transparent;
-      height: 28px ;
+      height: 28px;
       border-radius: 14px;
       color: #765903;
       font-family: $nunito;
       font-size: 12px;
     }
-    .payment-btn{
+    .payment-btn {
       background-color: $orange100;
       color: $white100;
       border: transparent;
@@ -84,26 +106,202 @@ body {
   }
 }
 
-.section-2-order-summary{
+.section-2-order-summary {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  h4{
+  h4 {
     margin-top: 20px;
   }
-  p{
+  p {
     margin-top: 20px;
   }
-  button{
+  button {
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #FFF3F0 ;
+    background-color: #fff3f0;
     color: $orange100;
     height: 36px;
     width: 94px;
     border-radius: 18px;
     border: transparent;
+  }
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 992px) {
+  .section-1-order-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 34px;
+
+    .div-1 {
+      display: flex;
+      flex-direction: column;
+      box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+      width: 796px;
+      padding: 24px;
+      margin-top: 40px;
+      border-radius: 4px;
+    }
+    .div-2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 16px;
+    }
+    .div-3 {
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-between !important;
+      align-items: center;
+      gap: 31px;
+      margin-left: auto;
+    }
+    h1 {
+      text-align: left !important;
+      font-weight: 700;
+      font-family: $catamaran;
+      font-size: 16px;
+      line-height: 26px;
+    }
+    h2 {
+      font-weight: 400;
+      font-family: $nunito;
+      font-size: 16px;
+      line-height: 26px;
+      color: $black100;
+      text-align: center;
+    }
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #565e6c;
+    }
+    .summary-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .payment {
+      margin-top: 40px;
+      height: 571px;
+      width: 348px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+      box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+      border-radius: 4px;
+      padding: 24px;
+      .freeship {
+        background-color: #fcdd80;
+        border: transparent;
+        height: 28px;
+        width: 60px;
+        border-radius: 14px;
+        color: #765903;
+        font-family: $nunito;
+        font-size: 12px;
+      }
+      .payment-btn {
+        background-color: $orange100;
+        color: $white100;
+        border: transparent;
+        height: 44px;
+        width: 300px;
+        border-radius: 22px;
+        font-family: $nunito;
+        font-size: 12px;
+      }
+      .payment-txt-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .orange-price{
+          color: $orange100;
+        }
+      }
+      .apply{
+        background-color: #FEF9EB;
+        color: #765903;
+        border: transparent;
+        width: 73px;
+        height: 36px;
+        padding: 7px;
+        font-weight: 400;
+        font-family: $nunito;
+        font-size: 14px;
+        line-height: 22px;
+      }
+      input{
+        width: 220px;
+        height: 35px;
+        border-radius: 4px;
+        padding: 7px;
+      }
+    }
+  }
+
+  .section-2-order-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    h3 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 24px;
+      margin-left: 130px;
+     
+      text-align: left;
+    }
+    p {
+      margin-top: 20px;
+    }
+    button {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: #fff3f0;
+      color: $orange100;
+      height: 36px;
+      width: 94px;
+      border-radius: 18px;
+      border: transparent;
+    }
+    .div-1 {
+      display: flex;
+      flex-direction: row !important;
+      justify-content: center !important;
+      align-items: center;
+      gap: 84px;
+      margin: auto;
+      margin-bottom: 200px;
+    }
+    .box-order-summary{
+      display: flex;
+      flex-direction: column;
+      .text-div{
+        text-align: left;
+        width: 235px;
+        height: 60px;
+      }
+      .price-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: baseline;
+      }
+    }
   }
 }

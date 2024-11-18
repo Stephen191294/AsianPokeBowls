@@ -1,87 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="stylesheet" href="../assets/sass/main.css" />
-<title>Oder Summary</title>
-</head>
-<body>
-  <nav>
-    <ul class="sidebar">
-      <li onclick="hideSidebar()">
-        <a href="#"><i class="fa-solid fa-xmark"></i></a>
-      </li>
-      <li><a href="../pages/menu.html">Menu</a></li>
-      <li><a href="../pages/about.html">Our story</a></li>
-      <li><a href="../pages/location.html">Location</a></li>
-      <li><a href="../pages/giftcard.html">Gift card</a></li>
-    </ul>
-    <ul>
-      <li>
-        <img src="../assets/images/Image20.png" alt="logo" />
-        <a class="index" href="../index.html">POKE NOW.</a>
-      </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="../assets/sass/main.css" />
+    <title>Oder Summary</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </li>
+        <li><a href="../pages/menu.html">Menu</a></li>
+        <li><a href="../pages/about.html">Our story</a></li>
+        <li><a href="../pages/location.html">Location</a></li>
+        <li><a href="../pages/giftcard.html">Gift card</a></li>
+      </ul>
+      <ul>
+        <li>
+          <img src="../assets/images/Image20.png" alt="logo" />
+          <a class="index" href="../index.html">POKE NOW.</a>
+        </li>
 
-      <li class="hideOnMobile">
-        <a href="../pages/menu.html">Menu</a>
-        <a href="../pages/about.html">Our story</a>
-        <a href="../pages/location.html">Location</a>
-        <a href="../pages/giftcard.html">Gift card</a>
-      </li>
+        <li class="hideOnMobile">
+          <a href="../pages/menu.html">Menu</a>
+          <a href="../pages/about.html">Our story</a>
+          <a href="../pages/location.html">Location</a>
+          <a href="../pages/giftcard.html">Gift card</a>
+        </li>
 
-      <li class="hamburger" onclick="showSidebar()">
-        <a href="#"><i class="fa-solid fa-bars"></i></a>
-      </li>
-      <li>
-        <a href="../pages/menu-pickup.html"><button class="quote-btn">Order Online</button></a>
-      </li>
-      <li>
-        <a href="../pages/reservation.html"><button class="quote-btn-2">Book a Table</button></a>
-      </li>
-    </ul>
-  </nav>
-<div>
-  <section class="section-1-order-summary ">
-    <div class="summary-container me-5">
-      <div>
-        <div>
+        <li class="hamburger" onclick="showSidebar()">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </li>
+        <li>
+          <a href="../pages/menu-pickup.html"
+            ><button class="quote-btn">Order Online</button></a
+          >
+        </li>
+        <li>
+          <a href="../pages/reservation.html"
+            ><button class="quote-btn-2">Book a Table</button></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <section class="section-1-order-summary">
+        <div class="div-1">
           <h1>Order summary</h1>
-          <div class="summary-box">
-            <img
-              class="bowl-img"
-              src="../assets/images/Image.png"
-              alt="bowl"
-            />
+          <div class="div-2">
+            <img class="bowl-img" src="../assets/images/Image.png" alt="bowl" />
             <div>
-              <h2 class="mt-2">Build Your Own Poke Bowl</h2>
+              <h2>Build Your Own Poke Bowl</h2>
               <p>Tuna* &bull; Ground Spicy Tuna* &bull; Advocado...</p>
             </div>
-            <div class="d-flex">
-              <p class="me-5 mt-2">$25</p>
-              <img
-                class="pen me-5 mt-2"
-                src="../assets/images/pen.png"
-                alt="pen"
-              />
-              <img
-                class="trash mt-2"
-                src="../assets/images/trash.png"
-                alt="trash"
-              />
+            <div class="div-3">
+              <p>$25</p>
+              <img class="pen" src="../assets/images/pen.png" alt="pen" />
+              <img class="trash" src="../assets/images/trash.png" alt="trash" />
             </div>
           </div>
 
           <div>
-            <div class="summary-box">
+            <div class="div-2">
               <img
-                class="bowl-img mt-2"
+                class="bowl-img"
                 src="../assets/images/Image (1).png"
                 alt="bowl"
               />
@@ -89,13 +79,9 @@
                 <h2>California Crunch Bowl</h2>
                 <p>Shrimp &bull; Crab &bull; Green Onion...</p>
               </div>
-              <div>
-                <p class="me-5">$25</p>
-                <img
-                  class="pen"
-                  src="../assets/images/pen.png"
-                  alt="pen"
-                />
+              <div class="div-3">
+                <p>$25</p>
+                <img class="pen" src="../assets/images/pen.png" alt="pen" />
                 <img
                   class="trash"
                   src="../assets/images/trash.png"
@@ -105,123 +91,215 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="payment">
-      
+
+        <div class="payment">
           <h3>Payment method</h3>
           <p>Change payment methods</p>
-          <img
-            src="../assets/images/Container 165.png"
-            alt="payment method"
-          />
+          <img src="../assets/images/Container 165.png" alt="payment method" />
           <p>Voucher</p>
           <form action="">
             <input type="text" placeholder="freeship" />
             <button class="apply">Apply</button>
           </form>
           <button class="freeship">freeship</button>
+
           <div class="payment-txt">Summary</div>
-          <div class=" payment-txt-1">Subtotal<span class="price">$34</span></div>
-          <div class=" payment-txt-1">Ship<span class="price">$0</span></div>
-          <div class=" payment-txt-1">Fee<span class="price">$0</span></div>
-          <div class=" payment-txt-2">Total<span class="orange-price">$34</span></div>
+          <div class="payment-txt-1">Subtotal<spa class="price">$34</spa></div>
+          <div class="payment-txt-1">Ship<span class="price">$0</span></div>
+          <div class="payment-txt-1">Fee<span class="price">$0</span></div>
+          <div class="payment-txt-1">
+            Total<span class="orange-price">$34</span>
+          </div>
+
           <button class="payment-btn">Proceed to payment</button>
-       
-    </div>
-  </section>
-  <section class="section-2-order-summary">
-    <h4>You might also like</h4>
-    <div class="container-order-summary">
-      <div>
-        <div>
+        </div>
+      </section>
+      <section class="section-2-order-summary">
+        <h3>You might also like</h3>
+        <div class="div-1">
           <div class="box-order-summary">
             <div class="image-container-menu-pickup">
               <img src="../assets/images/Image 47.png" alt="bowl" />
             </div>
-            <h4>Dynamite Bowl</h4>
-            <p>
-              Tuna* &bull; Shrimp &bull; Carrot &bull; Mango &bull;Jalapeno
-              &bull; Cucumber &bull; Chili Flakes &bull; Sesame Seeds
-            </p>
-            <div>
-              <p class="price">$20</p>
-              <button class="add-cart">Add to cart</button>
+
+            <div class="text-div">
+              <h4>Dynamite Bowl</h4>
+              <p>
+                Tuna* • Shrimp • Carrot • Mango • Jalapeno • Cucumber • Chili
+                Flakes • Sesame Seeds
+              </p>
+
+              <div class="price-div">
+                <p class="price">$20</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div>
+
           <div class="box-order-summary">
-            <div class="image-container-order-summary">
+            <div class="image-container-menu-pickup">
               <img src="../assets/images/Image 48 (1).png" alt="bowl" />
             </div>
-            <h4 class="mt-3">The Duke Bowl</h4>
-            <p>
-              Tuna* &bull; Salmon &bull; Shrimp &bull; Seaweed &bull; Salad
-              &bull; Jalapeno &bull; Sweet Onion &bull; Edamame • Cucumber
-            </p>
-            <div>
-              <p class="price">$16</p>
-              <button class="add-cart" >Add to cart</button>
+
+            <div class="text-div">
+              <h4>The Duke Bowl</h4>
+              <p>
+                Tuna* • Salmon • Shrimp • Seaweed • Salad • Jalapeno • Sweet
+                Onion • Edamame • Cucumber
+              </p>
+
+              <div class="price-div">
+                <p class="price">$20</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div>
+
           <div class="box-order-summary">
-            <div class="image-container-order-summary">
+            <div class="image-container-menu-pickup">
               <img src="../assets/images/Image 49 (1).png" alt="bowl" />
             </div>
-            <h4>Volcano Bowl</h4>
-            <p>
-              Tofu &bull; Avocado &bull; Carrot &bull; Cabbage &bull; Edamame
-              &bull; Watermelon Radish &bull; Red Onion &bull; Ginger
-            </p>
-            <div class="d-flex justify-content-between">
-              <p class="price mt-2">$20</p>
-              <button class="add-cart" >Add to cart</button>
+
+            <div class="text-div">
+              <h4>Volcano Bowl</h4>
+              <p>
+                Spicy Salmon* • Spicy Tuna* • Green Onion • Cabbage • Cucumber •
+                Carrot • Jalapeno • Ginger
+              </p>
+
+              <div class="price-div">
+                <p class="price">$20</p>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-order-summary">
+            <div class="image-container-menu-pickup">
+              <img src="../assets/images/Image 50 (1).png" alt="bowl" />
+            </div>
+
+            <div class="text-div">
+              <h4>Salmon Bowl</h4>
+              <p>
+                Spicy Salmon* • Green Onion • Avocado • Cucumber • Ginger •
+                House Sauce mixed with light sriracha • Furikake • Lemon
+              </p>
+
+              <div class="price-div">
+                <p class="price">$20</p>
+                <button>Add to cart</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="box-order-summary">
-            <div class="image-container-order-summary">
-              <img src="../assets/images/Image 50 (1).png" alt="bowl" />
-            </div>
-            <h4 class="mt-3">Salmon Bowl</h4>
-            <p>
-              Tofu &bull; Avocado &bull; Carrot &bull; Cabbage &bull; Edamame
-              &bull; Watermelon Radish &bull; Red Onion &bull; Ginger
-            </p>
-            <div class="d-flex justify-content-between">
-              <p class="price mt-2">$15</p>
-              <button class="add-cart" >Add to cart</button>
-            </div>
+      </section>
+    </div>
+    <footer style="margin-top: 40px" class="footer">
+      <div class="primary-footer">
+        <div class="logo-div wow animate__animated animate__flip">
+          <img src="../assets/images/Image22(1).png" alt="logo" />
+          <h6>POKE NOW.</h6>
+        </div>
+        <ul>
+          <li>
+            <a class="footer-link" href="../pages/menu.html">Menu</a>
+          </li>
+          <li>
+            <a class="footer-link" href="../pages/about.html">Our Story</a>
+          </li>
+          <li>
+            <a class="footer-link" href="../pages/location.html">Location</a>
+          </li>
+          <li>
+            <a class="footer-link" href="../pages/giftcard.html">Giftcard</a>
+          </li>
+        </ul>
+
+        <div class="btn-container">
+          <button
+            onclick="location.href='../pages/menu-pickup.html '"
+            class="btn-1"
+          >
+            Order Online
+          </button>
+
+          <button
+            onclick="location.href='./pages/reservation.html '"
+            class="btn-2"
+          >
+            Book a Table
+          </button>
+        </div>
+        <p style="text-align: center">info@pokebar.com</p>
+        <p>848 King Street, Mesa, AZ 85201, Boston, USA.</p>
+        <p>
+          &copy; 2022 Brand, Inc. &bull; Privacy &bull; Terms &bull; Sitemap
+        </p>
+        <div class="social-div">
+          <img src="../assets/images/Twitter1(1).png" alt="icon" />
+          <img src="../assets/images/Facebook1(1).png" alt="icon" />
+          <img src="../assets/images/LinkedIn1(1).png" alt="icon" />
+          <img src="../assets/images/YouTube1(1).png" alt="icon" />
+        </div>
+      </div>
+      <div class="secondary-footer">
+        <div>
+          <div class="logo-div-2 wow animate__animated animate__flip">
+            <img src="../assets/images/Image22(1).png" alt="logo" />
+            <h6>POKE NOW.</h6>
+          </div>
+          <ul>
+            <li>
+              <a class="footer-link" href="../pages/menu.html">Menu</a>
+            </li>
+            <li>
+              <a class="footer-link" href="../pages/about.html">Our Story</a>
+            </li>
+            <li>
+              <a class="footer-link" href="../pages/location.html">Location</a>
+            </li>
+            <li>
+              <a class="footer-link" href="../pages/giftcard.html">Giftcard</a>
+            </li>
+          </ul>
+          <p>
+            &copy; 2022 Brand, Inc. &bull; Privacy &bull; Terms &bull; Sitemap
+          </p>
+        </div>
+        <div class="left-footer">
+          <div class="btn-container">
+            <button
+              onclick="location.href='../pages/menu-pickup.html '"
+              class="btn-1"
+            >
+              Order Online
+            </button>
+
+            <button
+              onclick="location.href='../pages/reservation.html '"
+              class="btn-2"
+            >
+              Book a Table
+            </button>
+          </div>
+          <p>848 King Street, Mesa, AZ 85201, Boston, USA.</p>
+          <p>info@pokebar.com</p>
+          <div class="social-div-2">
+            <img src="../assets/images/Twitter1(1).png" alt="icon" />
+            <img src="../assets/images/Facebook1(1).png" alt="icon" />
+            <img src="../assets/images/LinkedIn1(1).png" alt="icon" />
+            <img src="../assets/images/YouTube1(1).png" alt="icon" />
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <script src="../assets/js/script.js"></script>
-  <script
-    src="https://kit.fontawesome.com/4b0c65d0fd.js"
-    crossorigin="anonymous"
-  ></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4b0c65d0fd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

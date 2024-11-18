@@ -2989,10 +2989,32 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.section-1-order-summary .div-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+.section-1-order-summary .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.section-1-order-summary .div-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+}
 .section-1-order-summary h1 {
   text-align: center;
   font-weight: 700;
   font-family: "Catamaran", sans-serif;
+  font-size: 16px;
 }
 .section-1-order-summary h2 {
   font-weight: 400;
@@ -3006,7 +3028,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
-  color: #565E6C;
+  color: #565e6c;
 }
 .section-1-order-summary .summary-box {
   display: flex;
@@ -3023,7 +3045,7 @@ body {
   gap: 20px;
 }
 .section-1-order-summary .payment .freeship {
-  background-color: #FCDD80;
+  background-color: #fcdd80;
   border: transparent;
   height: 28px;
   border-radius: 14px;
@@ -3057,7 +3079,7 @@ body {
 .section-2-order-summary button {
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #FFF3F0;
+  background-color: #fff3f0;
   color: #F96540;
   height: 36px;
   width: 94px;
@@ -3065,6 +3087,174 @@ body {
   border: transparent;
 }
 
+@media (min-width: 992px) {
+  .section-1-order-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 34px;
+  }
+  .section-1-order-summary .div-1 {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+    width: 796px;
+    padding: 24px;
+    margin-top: 40px;
+    border-radius: 4px;
+  }
+  .section-1-order-summary .div-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+  .section-1-order-summary .div-3 {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center;
+    gap: 31px;
+    margin-left: auto;
+  }
+  .section-1-order-summary h1 {
+    text-align: left !important;
+    font-weight: 700;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .section-1-order-summary h2 {
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #171A1f;
+    text-align: center;
+  }
+  .section-1-order-summary p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #565e6c;
+  }
+  .section-1-order-summary .summary-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .section-1-order-summary .payment {
+    margin-top: 40px;
+    height: 571px;
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 24px;
+  }
+  .section-1-order-summary .payment .freeship {
+    background-color: #fcdd80;
+    border: transparent;
+    height: 28px;
+    width: 60px;
+    border-radius: 14px;
+    color: #765903;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 12px;
+  }
+  .section-1-order-summary .payment .payment-btn {
+    background-color: #F96540;
+    color: #FFFFFF;
+    border: transparent;
+    height: 44px;
+    width: 300px;
+    border-radius: 22px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 12px;
+  }
+  .section-1-order-summary .payment .payment-txt-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .section-1-order-summary .payment .payment-txt-1 .orange-price {
+    color: #F96540;
+  }
+  .section-1-order-summary .payment .apply {
+    background-color: #FEF9EB;
+    color: #765903;
+    border: transparent;
+    width: 73px;
+    height: 36px;
+    padding: 7px;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .section-1-order-summary .payment input {
+    width: 220px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 7px;
+  }
+  .section-2-order-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .section-2-order-summary h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-left: 130px;
+    text-align: left;
+  }
+  .section-2-order-summary p {
+    margin-top: 20px;
+  }
+  .section-2-order-summary button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff3f0;
+    color: #F96540;
+    height: 36px;
+    width: 94px;
+    border-radius: 18px;
+    border: transparent;
+  }
+  .section-2-order-summary .div-1 {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center;
+    gap: 84px;
+    margin: auto;
+    margin-bottom: 200px;
+  }
+  .section-2-order-summary .box-order-summary {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2-order-summary .box-order-summary .text-div {
+    text-align: left;
+    width: 235px;
+    height: 60px;
+  }
+  .section-2-order-summary .box-order-summary .price-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: baseline;
+  }
+}
 * {
   margin: 0;
   padding: 0;
