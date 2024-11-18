@@ -3062,6 +3062,13 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-size: 12px;
 }
+.section-1-order-summary .line {
+  border: 1px solid #DEE1E6;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
 
 .section-2-order-summary {
   display: flex;
@@ -3204,6 +3211,13 @@ body {
     border-radius: 4px;
     padding: 7px;
   }
+  .section-1-order-summary .line {
+    border: 1px solid #DEE1E6;
+    width: 748px;
+    margin: auto;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
   .section-2-order-summary {
     display: flex;
     flex-direction: column;
@@ -3252,7 +3266,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: baseline;
   }
 }
 * {

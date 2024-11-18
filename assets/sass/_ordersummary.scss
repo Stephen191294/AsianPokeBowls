@@ -104,6 +104,13 @@ body {
       font-size: 12px;
     }
   }
+  .line{
+    border: 1px solid #DEE1E6;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
 }
 
 .section-2-order-summary {
@@ -250,6 +257,13 @@ body {
         padding: 7px;
       }
     }
+    .line{
+      border: 1px solid #DEE1E6;
+      width: 748px;
+      margin: auto;
+      margin-bottom: 12px;
+      margin-top: 12px;
+    }
   }
 
   .section-2-order-summary {
@@ -300,7 +314,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-content: baseline;
+        
       }
     }
   }
