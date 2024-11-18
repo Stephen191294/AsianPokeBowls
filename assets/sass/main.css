@@ -3004,12 +3004,12 @@ body {
   align-items: center;
   gap: 16px;
 }
-.section-1-order-summary .div-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 31px;
+.section-1-order-summary .div-2 .box-3 P {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #171A1f;
 }
 .section-1-order-summary h1 {
   text-align: center;
@@ -3071,13 +3071,6 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-size: 12px;
 }
-.section-1-order-summary .line {
-  border: 1px solid #DEE1E6;
-  width: 300px;
-  margin: auto;
-  margin-bottom: 12px;
-  margin-top: 12px;
-}
 
 .section-2-order-summary {
   display: flex;
@@ -3124,15 +3117,55 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 16px;
+    gap: 0;
   }
-  .section-1-order-summary .div-3 {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-between !important;
+  .section-1-order-summary .div-2 .box-1 {
+    border: 1px solid #DEE1E6;
+    width: 135px;
+    height: 86px;
+    padding: 12px 36px;
+    border-left: transparent;
+    border-right: transparent;
+  }
+  .section-1-order-summary .div-2 .box-2 {
+    border: 1px solid #DEE1E6;
+    border-left: transparent;
+    border-right: transparent;
+    height: 86px;
+    padding: 19px 18px;
+  }
+  .section-1-order-summary .div-2 .box-2 h2 {
+    width: 270px;
+    text-align: left;
+  }
+  .section-1-order-summary .div-2 .box-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
     gap: 31px;
-    margin-left: auto;
+    border: 1px solid #DEE1E6;
+    border-left: transparent;
+    border-right: transparent;
+    width: 162px;
+    height: 86px;
+    padding: 30px 16px;
+  }
+  .section-1-order-summary .div-2 .box-4 {
+    width: 74px;
+    height: 86px;
+    border: 1px solid #DEE1E6;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 37px 31px;
+  }
+  .section-1-order-summary .div-2 .box-5 {
+    width: 73px;
+    height: 86px;
+    border: 1px solid #DEE1E6;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 37px 34px;
   }
   .section-1-order-summary h1 {
     text-align: left !important;
@@ -3213,11 +3246,17 @@ body {
     flex-direction: row;
     justify-content: space-between;
   }
+  .section-1-order-summary .payment .payment-txt-1 .price {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Nunito Sans", sans-serif;
+  }
   .section-1-order-summary .payment .payment-txt-1 .orange-price {
     color: #F96540;
   }
   .section-1-order-summary .payment .apply {
-    background-color: #FEF9EB;
+    background-color: #fef9eb;
     color: #765903;
     border: transparent;
     width: 73px;
@@ -3233,13 +3272,6 @@ body {
     height: 35px;
     border-radius: 4px;
     padding: 7px;
-  }
-  .section-1-order-summary .line {
-    border: 1px solid #DEE1E6;
-    width: 748px;
-    margin: auto;
-    margin-bottom: 12px;
-    margin-top: 12px;
   }
   .section-2-order-summary {
     display: flex;

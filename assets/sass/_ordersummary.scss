@@ -43,14 +43,18 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+
+    .box-3 {
+      P {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: $nunito;
+        color: $black100;
+      }
+    }
   }
-  .div-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 31px;
-  }
+
   h1 {
     text-align: center;
     font-weight: 700;
@@ -85,7 +89,7 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 20px;
-    .voucher{
+    .voucher {
       text-align: center;
       font-size: 16px;
       line-height: 26px;
@@ -111,13 +115,6 @@ body {
       font-family: $nunito;
       font-size: 12px;
     }
-  }
-  .line{
-    border: 1px solid #DEE1E6;
-    width: 300px;
-    margin: auto;
-    margin-bottom: 12px;
-    margin-top: 12px;
   }
 }
 
@@ -169,16 +166,57 @@ body {
       display: flex;
       flex-direction: row;
       align-items: center;
-      gap: 16px;
+      gap: 0;
+      .box-1 {
+        border: 1px solid #DEE1E6;
+        width: 135px;
+        height: 86px;
+        padding: 12px 36px;
+        border-left: transparent;
+        border-right: transparent;
+      }
+      .box-2 {
+        border: 1px solid #DEE1E6;
+        border-left: transparent;
+        border-right: transparent;
+        height: 86px;
+        padding: 19px 18px;
+        h2 {
+          width: 270px;
+          text-align: left;
+        }
+      }
+      .box-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 31px;
+        border: 1px solid #DEE1E6;
+        border-left: transparent;
+        border-right: transparent;
+        width: 162px;
+        height: 86px;
+        padding: 30px 16px;
+      }
+      .box-4 {
+        width: 74px;
+        height: 86px;
+        border: 1px solid #DEE1E6;
+        border-left: transparent;
+        border-right: transparent;
+        padding: 37px 31px;
+      }
+      .box-5 {
+        width: 73px;
+        height: 86px;
+        border: 1px solid #DEE1E6;
+        border-left: transparent;
+        border-right: transparent;
+        padding: 37px 34px;
+      }
     }
-    .div-3 {
-      display: flex !important;
-      flex-direction: row !important;
-      justify-content: space-between !important;
-      align-items: center;
-      gap: 31px;
-      margin-left: auto;
-    }
+
     h1 {
       text-align: left !important;
       font-weight: 700;
@@ -218,7 +256,7 @@ body {
       box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
       border-radius: 4px;
       padding: 24px;
-      .voucher{
+      .voucher {
         text-align: left;
         font-size: 16px;
         line-height: 26px;
@@ -247,21 +285,27 @@ body {
         font-size: 12px;
         cursor: pointer;
       }
-      .payment-btn:hover{
+      .payment-btn:hover {
         background-color: $white100;
         border: 1px solid $orange100;
         color: $orange100;
       }
-      .payment-txt-1{
+      .payment-txt-1 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        .orange-price{
+        .price {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: $nunito;
+        }
+        .orange-price {
           color: $orange100;
         }
       }
-      .apply{
-        background-color: #FEF9EB;
+      .apply {
+        background-color: #fef9eb;
         color: #765903;
         border: transparent;
         width: 73px;
@@ -272,19 +316,12 @@ body {
         font-size: 14px;
         line-height: 22px;
       }
-      input{
+      input {
         width: 220px;
         height: 35px;
         border-radius: 4px;
         padding: 7px;
       }
-    }
-    .line{
-      border: 1px solid #DEE1E6;
-      width: 748px;
-      margin: auto;
-      margin-bottom: 12px;
-      margin-top: 12px;
     }
   }
 
@@ -299,7 +336,7 @@ body {
       margin-bottom: 20px;
       font-size: 24px;
       margin-left: 130px;
-     
+
       text-align: left;
     }
     p {
@@ -324,19 +361,18 @@ body {
       margin: auto;
       margin-bottom: 200px;
     }
-    .box-order-summary{
+    .box-order-summary {
       display: flex;
       flex-direction: column;
-      .text-div{
+      .text-div {
         text-align: left;
         width: 235px;
         height: 60px;
       }
-      .price-div{
+      .price-div {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        
       }
     }
   }
