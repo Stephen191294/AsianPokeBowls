@@ -138,7 +138,7 @@ body {
       font-size: 12px;
       cursor: pointer;
     }
-    .payment-btn:hover{
+    .payment-btn:hover {
       background-color: $white100;
       color: $orange100;
       border: 1px solid $orange100;
@@ -168,12 +168,11 @@ body {
     border-radius: 18px;
     border: transparent;
   }
-  .box-order-summary{
-    .text-div{
+  .box-order-summary {
+    .text-div {
       width: 300px;
     }
   }
- 
 }
 
 @media (min-width: 600px) {
@@ -202,7 +201,7 @@ body {
       align-items: center;
       gap: 0;
       .box-1 {
-        border: 1px solid #DEE1E6;
+        border: 1px solid #dee1e6;
         width: 135px;
         height: 86px;
         padding: 12px 36px;
@@ -210,7 +209,7 @@ body {
         border-right: transparent;
       }
       .box-2 {
-        border: 1px solid #DEE1E6;
+        border: 1px solid #dee1e6;
         border-left: transparent;
         border-right: transparent;
         height: 86px;
@@ -226,7 +225,7 @@ body {
         justify-content: flex-end;
         align-items: center;
         gap: 31px;
-        border: 1px solid #DEE1E6;
+        border: 1px solid #dee1e6;
         border-left: transparent;
         border-right: transparent;
         width: 162px;
@@ -236,7 +235,7 @@ body {
       .box-4 {
         width: 74px;
         height: 86px;
-        border: 1px solid #DEE1E6;
+        border: 1px solid #dee1e6;
         border-left: transparent;
         border-right: transparent;
         padding: 37px 31px;
@@ -244,7 +243,7 @@ body {
       .box-5 {
         width: 73px;
         height: 86px;
-        border: 1px solid #DEE1E6;
+        border: 1px solid #dee1e6;
         border-left: transparent;
         border-right: transparent;
         padding: 37px 34px;
