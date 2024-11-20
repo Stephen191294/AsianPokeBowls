@@ -96,6 +96,7 @@ body {
       height: auto;
       border-radius: 8px;
       background-color: $white100;
+      border: 1px solid black;
       box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
       padding: 16px 16px 16px 21px;
       .btn-div {
@@ -126,7 +127,39 @@ body {
 }
 
 .map {
-  display: none;
+  display: block;
+  position: relative;
+  .map-img{
+    width: 100%;
+  }
+  .btn-68{
+    position: absolute;
+    top: 132px;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .btn-71{
+    position: absolute;
+    top: 301px;
+    left: 200px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .btn-67{
+    position: absolute;
+    top: 419px;
+    left: 300px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .btn-66{
+    position: absolute;
+    top: 207px;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+  }
 }
 
 
@@ -218,6 +251,7 @@ body {
          height: auto;
          border-radius: 8px;
          background-color: $white100;
+         border: 1px solid black;
          box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
          padding: 16px 16px 16px 21px;
          .btn-div {
@@ -371,15 +405,17 @@ body {
       margin-bottom: 40px;
       cursor: pointer;
       overflow: scroll;
-      padding: 8px;
+      padding: 20px;
       height: 563px;
       .box {
         width: 100%;
         height: auto;
         border-radius: 8px;
         background-color: $white100;
+        border: 1px solid black;
         box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
         padding: 16px 16px 16px 21px;
+        
         .btn-div {
           display: flex;
           align-items: center;

@@ -2521,6 +2521,7 @@ body {
   height: auto;
   border-radius: 8px;
   background-color: #FFFFFF;
+  border: 1px solid black;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
   padding: 16px 16px 16px 21px;
 }
@@ -2548,7 +2549,39 @@ body {
 }
 
 .map {
-  display: none;
+  display: block;
+  position: relative;
+}
+.map .map-img {
+  width: 100%;
+}
+.map .btn-68 {
+  position: absolute;
+  top: 132px;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+.map .btn-71 {
+  position: absolute;
+  top: 301px;
+  left: 200px;
+  z-index: 1;
+  cursor: pointer;
+}
+.map .btn-67 {
+  position: absolute;
+  top: 419px;
+  left: 300px;
+  z-index: 1;
+  cursor: pointer;
+}
+.map .btn-66 {
+  position: absolute;
+  top: 207px;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
 }
 
 @media (min-width: 600px) {
@@ -2633,6 +2666,7 @@ body {
     height: auto;
     border-radius: 8px;
     background-color: #FFFFFF;
+    border: 1px solid black;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
     padding: 16px 16px 16px 21px;
   }
@@ -2766,7 +2800,7 @@ body {
     margin-bottom: 40px;
     cursor: pointer;
     overflow: scroll;
-    padding: 8px;
+    padding: 20px;
     height: 563px;
   }
   .section-1-pickup .boxes .box {
@@ -2774,6 +2808,7 @@ body {
     height: auto;
     border-radius: 8px;
     background-color: #FFFFFF;
+    border: 1px solid black;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
     padding: 16px 16px 16px 21px;
   }
