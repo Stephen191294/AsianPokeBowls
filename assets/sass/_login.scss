@@ -84,6 +84,131 @@
   }
 }
 
+
+@media (min-width: 600px) {
+
+
+
+  .login-box-1 {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    background-color: $white100;
+    display: none;
+  
+    .login-card-1 {
+      .header-div {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        .btn-close {
+          margin-left: auto;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .div-1 {
+      p {
+        text-align: center;
+      }
+      .inner-div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        input {
+          background-color: #f1f4fe;
+          border: transparent;
+          height: 45px;
+          border-radius: 22px;
+          margin-top: 20px;
+          padding: 7px;
+          width: 500px;
+        }
+        button {
+          background-color: $orange100;
+          color: $white100;
+          height: 45px;
+          width: 500px;
+          border-radius: 22px;
+          border: transparent;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: $white100;
+          border: 1px solid $orange100;
+          color: $orange100;
+        }
+      }
+    }
+    .div-2 {
+      display: none;
+    }
+    .login-txt {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 28px;
+      font-family: $nunito;
+    }
+    .div-3 {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      button {
+        background-color: #f1f4fe;
+        border: transparent;
+        height: 44px;
+        cursor: pointer;
+        border-radius: 22px;
+        
+      }
+      .button-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: #ea4336;
+      }
+      .button-1:hover {
+        border: 1px solid #ea4336;
+      }
+      .button-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: #3f5893;
+      }
+      .button-2:hover {
+        border: 1px solid #3f5893;
+      }
+      .button-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: #000000;
+      }
+      .button-3:hover {
+        border: 1px solid #000000;
+      }
+    }
+    .card-img {
+      display: none;
+    }
+  }
+  
+
+  
+}
+
 @media (min-width: 992px) {
   .login-box-1 {
     display: flex;
