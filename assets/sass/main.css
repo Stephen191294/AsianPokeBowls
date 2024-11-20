@@ -4552,7 +4552,7 @@ body {
     background-color: #F96540;
     color: #FFFFFF;
     height: 45px;
-    width: 582px;
+    min-width: 582px;
     border-radius: 22px;
     border: transparent;
     cursor: pointer;
