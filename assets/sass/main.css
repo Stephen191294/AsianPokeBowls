@@ -4223,7 +4223,7 @@ body {
     position: fixed;
     z-index: 2;
     top: 108px;
-    left: 550px;
+    left: 350px;
     -webkit-backdrop-filter: brightness(40%) blur(5px);
             backdrop-filter: brightness(40%) blur(5px);
     transition: all 0.3s ease;
